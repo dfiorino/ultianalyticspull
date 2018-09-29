@@ -1,7 +1,7 @@
 # audl-pull
 **Description**
 
-Use audl-pull.py to all of the available raw UltiAnalytics data
+Use *audl-pull* grab to all of the available raw UltiAnalytics data for AUDL seasons 2014 to 2018.
 
 **Usage**
 
