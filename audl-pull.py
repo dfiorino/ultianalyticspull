@@ -26,5 +26,9 @@ def main():
             outfn = "output/{}_{}.csv".format(year,teamname).replace(' ','')
             print(year,teamname)
             urllib.request.urlretrieve(url, outfn)
+            df = pd.read_csv(outfn)
+            df['Teamname'] = teamname
+            df['Tournament'] = year
+            df.to_csv(outfn,sep=',')
 main()
 
