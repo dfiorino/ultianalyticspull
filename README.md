@@ -4,7 +4,7 @@ Use *audl-pull* to grab all of the available UltiAnalytics data for AUDL seasons
 
 **Description**
 
-This project gets the AUDL data from a pre-webscraped list of file paths. It then returns data for each team and year separately. The data have minor enhancements and regularization of columns from the raw CSV provided by UltiAnalytics. The command-line interface allows for the latest year of data to be pulled instead of all years.
+This project grabs AUDL data from the UltiAnalytics website using a pre-webscraped list of file paths. Data for each team and year are returned separately. Enhancements and regularizations are performed on the raw CSV to make them "analysis ready." The command-line interface allows for the latest year of data to be pulled instead of all years.
 
 **Usage**
 
