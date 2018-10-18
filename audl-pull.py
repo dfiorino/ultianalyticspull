@@ -1,5 +1,6 @@
 import urllib
 import pandas as pd
+import numpy as np
 from glob import glob
 import argparse
 import csv
@@ -13,7 +14,7 @@ def ParseArgs():
     return  parser.parse_args()
 
 def CSV2DataFrame(filename):
-    """Read CSV but deal with inconsistent use of commas in CSV"""
+    """Read CSV as Pandas DataFrame but deal with inconsistent use of commas in CSV"""
     teamlog = []
     with open(filename, 'r') as csvfile:
         reader = csv.reader(csvfile, delimiter=',', quotechar='|')
@@ -23,8 +24,62 @@ def CSV2DataFrame(filename):
     ncols = len(header)
     teamlog = [e[:ncols] if len(e) > ncols else e+['']*(ncols-len(e)) for e in teamlog]
 
-
     return pd.DataFrame(teamlog,columns=header)
+
+def AddExtraCols(df_in, teamname, year):
+    """Add extra useful columns"""
+    df_in['Teamname'] = teamname
+    df_in['Tournament'] = year
+    df_in = df_in.drop('Tournamemnt',axis=1) # Remove misspelled, useless column
+    return df_in
+
+def MakeGameOverLine(df_in):
+    gameoverline = df_in.copy()
+    gameoverline['Action'] = 'GameOver'
+    gameoverline['Event Type'] = 'Cessation'
+    gameoverline['Passer'] = ''
+    gameoverline['Receiver'] = ''
+    gameoverline['Defender'] = ''
+    gameoverline['Hang Time (secs)'] = np.nan
+    gameoverline['Begin Area']              =np.nan                       
+    gameoverline['Begin X']                 =np.nan                       
+    gameoverline['Begin Y']                 =np.nan                       
+    gameoverline['End Area']                =np.nan                       
+    gameoverline['End X']                   =np.nan                       
+    gameoverline['End Y']                   =np.nan                       
+    gameoverline['Distance Unit of Measure']=np.nan                       
+    gameoverline['Absolute Distance']       =np.nan                       
+    gameoverline['Lateral Distance']        =np.nan                       
+    gameoverline['Toward Our Goal Distance']=np.nan
+    return gameoverline.to_frame().T
+
+def FixGameOvers(df_in):
+    """Fix missed and redundant GameOver entries"""
+    
+    # Remove double GameOvers: Consecutive Action's can't both be GameOver
+    df_in = df_in[ (~df_in.Action.eq(df_in.Action.shift())) | (df_in.Action.shift()!='GameOver') ].reset_index(drop=True)  
+    
+    # Add missing GameOvers: Date/Time changes require GameOver, Get indicies where previous Action should be GameOver but isn't
+    idx = df_in[ ~(df_in['Date/Time'].eq(df_in['Date/Time'].shift())) & (df_in.Action.shift()!='GameOver') & (df_in.index>0)].index
+    if len(idx)>1:
+        dflist = []
+        previ=0
+        #iterate through indicies, create gameover instance using previous row as template, append previous rows then gameover row to a list
+        for i in idx.values:
+
+            dflist.append( df_in.iloc[previ:i] )
+            dflist.append( MakeGameOverLine(df_in.iloc[i-1]) )
+
+            previ=i
+        dflist.append( df_in.iloc[i:] )
+        if df_in.iloc[-1].Action!='GameOver':
+            dflist.append( MakeGameOverLine(df_in.iloc[-1]) )
+            
+        df_in = pd.concat(dflist).reset_index(drop=True)
+        #foop = dffixed[~(dffixed['Date/Time'].eq(dffixed['Date/Time'].shift()))][['Date/Time','Action']].index
+        #print(dffixed[dffixed.index.isin(list(foop.values) +[i-1 for i in foop.values])][['Date/Time','Action']])
+        
+    return df_in
 
 def main():
 
@@ -49,9 +104,9 @@ def main():
             urllib.request.urlretrieve(url, outfn)
             
             df_teamdata = CSV2DataFrame(outfn)
-            df_teamdata['Teamname'] = teamname
-            df_teamdata['Tournament'] = year
-            df_teamdata= df_teamdata.drop('Tournamemnt',axis=1)
-            df_teamdata[df_teamdata.columns].to_csv(outfn,sep=',')
+            df_teamdata = AddExtraCols(df_teamdata, teamname, year)
+            df_teamdata = FixGameOvers(df_teamdata)
+            
+            df_teamdata.to_csv(outfn,sep=',')
 main()
 
