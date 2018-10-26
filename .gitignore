@@ -1,4 +1,5 @@
 .DS_Store
 data/.DS_Store
 output/*csv
-.ipynb_checkpoints/audl-pull-checkpoint.py
+.ipynb_checkpoints/*
+examples/.ipynb_checkpoints/*
