@@ -4,6 +4,7 @@ import numpy as np
 from glob import glob
 import argparse
 import csv
+import opponents
 
 def ParseArgs():
     """Setup command-line interface"""
@@ -82,6 +83,10 @@ def FixGameOvers(df_in):
         
     return df_in
 
+def RemoveTestGames(df_in):
+    """Remove test games from log"""
+    return df_in[~(df_in.Opponent=='Test')]
+
 def main():
 
     args = ParseArgs()
@@ -107,7 +112,10 @@ def main():
             df_teamdata = CSV2DataFrame(outfn)
             df_teamdata = AddExtraCols(df_teamdata, teamname, year)
             df_teamdata = FixGameOvers(df_teamdata)
-            
+            df_teamdata = RemoveTestGames(df_teamdata)
+            df_teamdata = opponents.Standardize(df_teamdata)
+
             df_teamdata.to_csv(outfn,sep=',')
+
 main()
 
