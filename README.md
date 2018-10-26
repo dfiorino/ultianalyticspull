@@ -17,4 +17,4 @@ The only optional input is the flag `updatecurrent` which will only re-pull the 
 **Requirements**
 - Python >= 3.0
 - Internet connection ;)
-- Python libraries: glob,urllib,argparse,pandas
+- Python libraries: glob,urllib,argparse,pandas,numpy,csv,argparse (pretty standard stuff)

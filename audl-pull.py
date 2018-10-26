@@ -31,6 +31,7 @@ def AddExtraCols(df_in, teamname, year):
     df_in['Teamname'] = teamname
     df_in['Tournament'] = year
     df_in = df_in.drop('Tournamemnt',axis=1) # Remove misspelled, useless column
+    
     return df_in
 
 def MakeGameOverLine(df_in):
