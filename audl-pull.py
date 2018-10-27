@@ -63,7 +63,7 @@ def FixGameOvers(df_in):
     
     # Add missing GameOvers: Date/Time changes require GameOver, Get indicies where previous Action should be GameOver but isn't
     idx = df_in[ ~(df_in['Date/Time'].eq(df_in['Date/Time'].shift())) & (df_in.Action.shift()!='GameOver') & (df_in.index>0)].index
-    if len(idx)>1:
+    if len(idx)>0:
         dflist = []
         previ=0
         #iterate through indicies, create gameover instance using previous row as template, append previous rows then gameover row to a list
@@ -78,8 +78,6 @@ def FixGameOvers(df_in):
             dflist.append( MakeGameOverLine(df_in.iloc[-1]) )
             
         df_in = pd.concat(dflist).reset_index(drop=True)
-        #foop = dffixed[~(dffixed['Date/Time'].eq(dffixed['Date/Time'].shift()))][['Date/Time','Action']].index
-        #print(dffixed[dffixed.index.isin(list(foop.values) +[i-1 for i in foop.values])][['Date/Time','Action']])
         
     return df_in
 
@@ -112,6 +110,11 @@ def main():
             df_teamdata = CSV2DataFrame(outfn)
             df_teamdata = AddExtraCols(df_teamdata, teamname, year)
             df_teamdata = FixGameOvers(df_teamdata)
+            if len(df_teamdata[~(df_teamdata['Date/Time'].eq(df_teamdata['Date/Time'].shift(-1))) &(df_teamdata.Action!='GameOver')]) > 0:
+                print('Missing GameOvers')
+            if len(df_teamdata[ (df_teamdata.Action.eq(df_teamdata.Action.shift())) & (df_teamdata.Action.shift()=='GameOver') ]) > 0:
+                print('Double GameOvers')
+
             df_teamdata = RemoveTestGames(df_teamdata)
             df_teamdata = opponents.Standardize(df_teamdata)
 
