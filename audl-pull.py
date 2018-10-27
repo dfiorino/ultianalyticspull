@@ -59,25 +59,27 @@ def FixGameOvers(df_in):
     """Fix missed and redundant GameOver entries"""
     
     # Remove double GameOvers: Consecutive Action's can't both be GameOver
-    df_in = df_in[ (~df_in.Action.eq(df_in.Action.shift())) | (df_in.Action.shift()!='GameOver') ].reset_index(drop=True)  
+    df_in = df_in[ (~df_in.Action.eq(df_in.Action.shift(-1))) | (df_in.Action!='GameOver') ].reset_index(drop=True)  
     
     # Add missing GameOvers: Date/Time changes require GameOver, Get indicies where previous Action should be GameOver but isn't
-    idx = df_in[ ~(df_in['Date/Time'].eq(df_in['Date/Time'].shift())) & (df_in.Action.shift()!='GameOver') & (df_in.index>0)].index
+    idx = df_in[ ~(df_in['Date/Time'].eq(df_in['Date/Time'].shift())) & (df_in.Action.shift()!='GameOver') & (df_in.index>0)].index.values
+
     if len(idx)>0:
         dflist = []
         previ=0
         #iterate through indicies, create gameover instance using previous row as template, append previous rows then gameover row to a list
-        for i in idx.values:
-
+        for i in idx:
             dflist.append( df_in.iloc[previ:i] )
             dflist.append( MakeGameOverLine(df_in.iloc[i-1]) )
 
             previ=i
         dflist.append( df_in.iloc[i:] )
-        if df_in.iloc[-1].Action!='GameOver':
-            dflist.append( MakeGameOverLine(df_in.iloc[-1]) )
             
         df_in = pd.concat(dflist).reset_index(drop=True)
+
+    # Add missing GameOver to last line
+    if df_in.iloc[-1].Action!='GameOver':
+       df_in = pd.concat( [df_in, MakeGameOverLine(df_in.iloc[-1]) ] ).reset_index(drop=True) 
         
     return df_in
 
