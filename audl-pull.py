@@ -87,6 +87,12 @@ def RemoveTestGames(df_in):
     """Remove test games from log"""
     return df_in[~(df_in.Opponent=='Test')]
 
+def TimeEventSort(df_in):
+    """Sort by Date/Time and orignal index"""
+    df_in['OrigIndex'] = df_in.index
+    df_in = df_in.sort_values(['Date/Time','OrigIndex'])
+    return df_in.drop('OrigIndex',axis=1).reset_index(drop=True)
+
 def main():
 
     args = ParseArgs()
@@ -119,6 +125,7 @@ def main():
 
             df_teamdata = RemoveTestGames(df_teamdata)
             df_teamdata = opponents.Standardize(df_teamdata)
+            df_teamdata = TimeEventSort(df_teamdata)
 
             df_teamdata.to_csv(outfn,sep=',')
 

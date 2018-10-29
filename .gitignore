@@ -3,3 +3,4 @@ data/.DS_Store
 output/*csv
 .ipynb_checkpoints/*
 examples/.ipynb_checkpoints/*
+*.pyc
