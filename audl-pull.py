@@ -79,7 +79,7 @@ def FixGameOvers(df_in):
 
     # Add missing GameOver to last line
     if df_in.iloc[-1].Action!='GameOver':
-       df_in = pd.concat( [df_in, MakeGameOverLine(df_in.iloc[-1]) ] ).reset_index(drop=True) 
+        df_in = pd.concat( [df_in, MakeGameOverLine(df_in.iloc[-1]) ] ).reset_index(drop=True) 
         
     return df_in
 
