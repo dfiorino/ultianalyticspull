@@ -1,0 +1,817 @@
+,team,PlayerName,Tournament,Teamname
+0,radicals,Adam Drews,AUDL 2018,Madison Radicals
+1,radicals,Andrew Meshnick,AUDL 2018,Madison Radicals
+2,radicals,Seth Meyer,AUDL 2018,Madison Radicals
+3,radicals,Pat Shriwise,AUDL 2018,Madison Radicals
+4,radicals,Avery Johnson,AUDL 2018,Madison Radicals
+5,radicals,Tom Annen,AUDL 2018,Madison Radicals
+6,radicals,Benjy Keren,AUDL 2018,Madison Radicals
+7,radicals,Joshua Wilson,AUDL 2018,Madison Radicals
+8,radicals,David Meinecke,AUDL 2018,Madison Radicals
+9,radicals,Andrew Brown,AUDL 2018,Madison Radicals
+10,radicals,Scott Richgels,AUDL 2018,Madison Radicals
+11,radicals,Logan Pruess,AUDL 2018,Madison Radicals
+12,radicals,Matt Weber,AUDL 2018,Madison Radicals
+13,radicals,Chris Wilen,AUDL 2018,Madison Radicals
+14,radicals,Nate Bosscher,AUDL 2018,Madison Radicals
+15,radicals,Sterling Knoche,AUDL 2018,Madison Radicals
+16,radicals,Glenn Poole,AUDL 2018,Madison Radicals
+17,radicals,Dave Wiseman,AUDL 2018,Madison Radicals
+18,radicals,Sef van Kan,AUDL 2018,Madison Radicals
+19,radicals,Kyle Weigand,AUDL 2018,Madison Radicals
+20,radicals,Ryan Tucker,AUDL 2018,Madison Radicals
+21,radicals,Peter Graffy,AUDL 2018,Madison Radicals
+22,radicals,Anson Reppermund,AUDL 2018,Madison Radicals
+23,radicals,Colin Camp,AUDL 2018,Madison Radicals
+24,radicals,Jacob Spiro,AUDL 2018,Madison Radicals
+25,radicals,Jeff Maskalunas,AUDL 2018,Madison Radicals
+26,radicals,Marquis Mason,AUDL 2018,Madison Radicals
+27,radicals,Victor Luo,AUDL 2018,Madison Radicals
+28,radicals,Chase Marty,AUDL 2018,Madison Radicals
+29,radicals,Robyn Wiseman,AUDL 2018,Madison Radicals
+30,radicals,Thomas Coolidge,AUDL 2018,Madison Radicals
+31,radicals,Tarik Akyuz,AUDL 2018,Madison Radicals
+32,radicals,Ben Nelson,AUDL 2018,Madison Radicals
+33,radicals,Elliot Mawby,AUDL 2018,Madison Radicals
+34,radicals,Colin Grandon,AUDL 2018,Madison Radicals
+35,radicals,Jack Kelly,AUDL 2018,Madison Radicals
+36,radicals,Kevin Pettit-Scantling,AUDL 2018,Madison Radicals
+37,radicals,Kevin Brown,AUDL 2018,Madison Radicals
+38,aviators,Ted Barnett,AUDL 2018,Los Angeles Aviators
+39,aviators,Michael Kiyoi,AUDL 2018,Los Angeles Aviators
+40,aviators,Josiah Mort,AUDL 2018,Los Angeles Aviators
+41,aviators,Brent George,AUDL 2018,Los Angeles Aviators
+42,aviators,Ryan Lepore,AUDL 2018,Los Angeles Aviators
+43,aviators,Steven Brooks,AUDL 2018,Los Angeles Aviators
+44,aviators,Andrew Padula,AUDL 2018,Los Angeles Aviators
+45,aviators,Mark Elbogen,AUDL 2018,Los Angeles Aviators
+46,aviators,Tom Doi,AUDL 2018,Los Angeles Aviators
+47,aviators,Sean McDougall,AUDL 2018,Los Angeles Aviators
+48,aviators,Alex Drum,AUDL 2018,Los Angeles Aviators
+49,aviators,Andrew McRae,AUDL 2018,Los Angeles Aviators
+50,aviators,Mitchell Steiner,AUDL 2018,Los Angeles Aviators
+51,aviators,Zach Theodore,AUDL 2018,Los Angeles Aviators
+52,aviators,Aaron Weaver,AUDL 2018,Los Angeles Aviators
+53,aviators,Jeffrey Silverman,AUDL 2018,Los Angeles Aviators
+54,aviators,Caleb Ferguson,AUDL 2018,Los Angeles Aviators
+55,aviators,Zac Schakner,AUDL 2018,Los Angeles Aviators
+56,aviators,Matt Theologidy,AUDL 2018,Los Angeles Aviators
+57,aviators,Timothy Beatty,AUDL 2018,Los Angeles Aviators
+58,aviators,Nate Ransom,AUDL 2018,Los Angeles Aviators
+59,aviators,Sam Plasman,AUDL 2018,Los Angeles Aviators
+60,aviators,Stephanie Pritchard,AUDL 2018,Los Angeles Aviators
+61,aviators,Jacob Bartholomew,AUDL 2018,Los Angeles Aviators
+62,aviators,Chris Mazur,AUDL 2018,Los Angeles Aviators
+63,aviators,Eric Lissner,AUDL 2018,Los Angeles Aviators
+64,aviators,Eli Friedman,AUDL 2018,Los Angeles Aviators
+65,aviators,Tyler Bacon,AUDL 2018,Los Angeles Aviators
+66,aviators,Allen Lai,AUDL 2018,Los Angeles Aviators
+67,aviators,Brandon Severson,AUDL 2018,Los Angeles Aviators
+68,aviators,Jesse Cohen,AUDL 2018,Los Angeles Aviators
+69,aviators,Ronnie Eder,AUDL 2018,Los Angeles Aviators
+70,wildfire,Kurt Gibson,AUDL 2018,Chicago Wildfire
+71,wildfire,Karl Kingma,AUDL 2018,Chicago Wildfire
+72,wildfire,Michael Egan,AUDL 2018,Chicago Wildfire
+73,wildfire,Matt LeMaitre,AUDL 2018,Chicago Wildfire
+74,wildfire,David Woods,AUDL 2018,Chicago Wildfire
+75,wildfire,Jeff Weis,AUDL 2018,Chicago Wildfire
+76,wildfire,Jeff Zhao,AUDL 2018,Chicago Wildfire
+77,wildfire,Nate Goff,AUDL 2018,Chicago Wildfire
+78,wildfire,Jeremy Burril,AUDL 2018,Chicago Wildfire
+79,wildfire,Judah Newman,AUDL 2018,Chicago Wildfire
+80,wildfire,Bill Kluender,AUDL 2018,Chicago Wildfire
+81,wildfire,Grant Zukowski,AUDL 2018,Chicago Wildfire
+82,wildfire,Tommy Gallagher,AUDL 2018,Chicago Wildfire
+83,wildfire,Jack Shey,AUDL 2018,Chicago Wildfire
+84,wildfire,Nick Zeman,AUDL 2018,Chicago Wildfire
+85,wildfire,Ben Macalalad,AUDL 2018,Chicago Wildfire
+86,wildfire,Rodrigo Arcibar,AUDL 2018,Chicago Wildfire
+87,wildfire,Alex Rummelhart,AUDL 2018,Chicago Wildfire
+88,wildfire,Michael Pardo,AUDL 2018,Chicago Wildfire
+89,wildfire,Ross Barker,AUDL 2018,Chicago Wildfire
+90,wildfire,Simon Johansen,AUDL 2018,Chicago Wildfire
+91,wildfire,Dan Miller,AUDL 2018,Chicago Wildfire
+92,wildfire,Matt Finley,AUDL 2018,Chicago Wildfire
+93,wildfire,Andrew Goldstein,AUDL 2018,Chicago Wildfire
+94,wildfire,Drew Levorsen,AUDL 2018,Chicago Wildfire
+95,wildfire,James Sykora,AUDL 2018,Chicago Wildfire
+96,wildfire,Nick Myhre,AUDL 2018,Chicago Wildfire
+97,wildfire,Max Trotter,AUDL 2018,Chicago Wildfire
+98,wildfire,Pawel Janas,AUDL 2018,Chicago Wildfire
+99,wildfire,Nicky Golini,AUDL 2018,Chicago Wildfire
+100,wildfire,Neal Phelps,AUDL 2018,Chicago Wildfire
+101,wildfire,Dylan Power,AUDL 2018,Chicago Wildfire
+102,wildfire,Aiden Frank,AUDL 2018,Chicago Wildfire
+103,wildfire,CJ O'Brien,AUDL 2018,Chicago Wildfire
+104,wildfire,Dan Vockeroth,AUDL 2018,Chicago Wildfire
+105,wildfire,Jason Vallee,AUDL 2018,Chicago Wildfire
+106,growlers,Justin Goodman,AUDL 2018,San Diego Growlers
+107,growlers,Nathan Bridges,AUDL 2018,San Diego Growlers
+108,growlers,Sean Ham,AUDL 2018,San Diego Growlers
+109,growlers,Zeke Ivers,AUDL 2018,San Diego Growlers
+110,growlers,Will Griffin,AUDL 2018,San Diego Growlers
+111,growlers,Josh Kohl,AUDL 2018,San Diego Growlers
+112,growlers,Maxwell Hume,AUDL 2018,San Diego Growlers
+113,growlers,Steven Milardovich,AUDL 2018,San Diego Growlers
+114,growlers,Dominic Leggio,AUDL 2018,San Diego Growlers
+115,growlers,Will Turner,AUDL 2018,San Diego Growlers
+116,growlers,Joey Huppert,AUDL 2018,San Diego Growlers
+117,growlers,Kyle Rubin,AUDL 2018,San Diego Growlers
+118,growlers,Marcel Osborne,AUDL 2018,San Diego Growlers
+119,growlers,Michael Tran,AUDL 2018,San Diego Growlers
+120,growlers,Wes Groth,AUDL 2018,San Diego Growlers
+121,growlers,Dave Ritchie,AUDL 2018,San Diego Growlers
+122,growlers,Eric Hytönen,AUDL 2018,San Diego Growlers
+123,growlers,Jake Gutkowski,AUDL 2018,San Diego Growlers
+124,growlers,Ryan Slaughter,AUDL 2018,San Diego Growlers
+125,growlers,Aidan Hall,AUDL 2018,San Diego Growlers
+126,growlers,Ryan Lacy,AUDL 2018,San Diego Growlers
+127,growlers,Mark Slader,AUDL 2018,San Diego Growlers
+128,growlers,Tim Okita,AUDL 2018,San Diego Growlers
+129,growlers,Matt Parisi,AUDL 2018,San Diego Growlers
+130,growlers,Nate Page,AUDL 2018,San Diego Growlers
+131,growlers,Trevor Purdy,AUDL 2018,San Diego Growlers
+132,growlers,Travis Dunn,AUDL 2018,San Diego Growlers
+133,growlers,Kyle Smith,AUDL 2018,San Diego Growlers
+134,growlers,Sam Fontaine,AUDL 2018,San Diego Growlers
+135,growlers,Scott Radlauer,AUDL 2018,San Diego Growlers
+136,mechanix,David Zickus,AUDL 2018,Detroit Mechanix
+137,mechanix,Troy Roberts,AUDL 2018,Detroit Mechanix
+138,mechanix,Tom Duellman,AUDL 2018,Detroit Mechanix
+139,mechanix,Daniel Hunt,AUDL 2018,Detroit Mechanix
+140,mechanix,Drew Chapman,AUDL 2018,Detroit Mechanix
+141,mechanix,Ryan Sutter,AUDL 2018,Detroit Mechanix
+142,mechanix,Tim Posl,AUDL 2018,Detroit Mechanix
+143,mechanix,Zach Kieffer,AUDL 2018,Detroit Mechanix
+144,mechanix,Xavier Klena,AUDL 2018,Detroit Mechanix
+145,mechanix,Josh Lyder,AUDL 2018,Detroit Mechanix
+146,mechanix,Justin Perticone,AUDL 2018,Detroit Mechanix
+147,mechanix,Nicholas Calucci,AUDL 2018,Detroit Mechanix
+148,mechanix,Michael Burke,AUDL 2018,Detroit Mechanix
+149,mechanix,Nolan Howard,AUDL 2018,Detroit Mechanix
+150,mechanix,Trey Taliaferro,AUDL 2018,Detroit Mechanix
+151,mechanix,Parker Howard,AUDL 2018,Detroit Mechanix
+152,mechanix,Wesley Chen,AUDL 2018,Detroit Mechanix
+153,mechanix,Andrew Sjogren,AUDL 2018,Detroit Mechanix
+154,mechanix,Jay Kinzel,AUDL 2018,Detroit Mechanix
+155,mechanix,Brendan McCann,AUDL 2018,Detroit Mechanix
+156,mechanix,Andy Yu,AUDL 2018,Detroit Mechanix
+157,mechanix,Karl Fauerbach,AUDL 2018,Detroit Mechanix
+158,mechanix,Austin Johnson,AUDL 2018,Detroit Mechanix
+159,mechanix,Travis Compo,AUDL 2018,Detroit Mechanix
+160,mechanix,Basten de Jongh,AUDL 2018,Detroit Mechanix
+161,mechanix,Alex Kapiamba,AUDL 2018,Detroit Mechanix
+162,mechanix,Luis Alejandro Royo Romero,AUDL 2018,Detroit Mechanix
+163,mechanix,Ryan Yergin,AUDL 2018,Detroit Mechanix
+164,mechanix,Billy Mainwaring,AUDL 2018,Detroit Mechanix
+165,mechanix,Jake Pruitt,AUDL 2018,Detroit Mechanix
+166,mechanix,Channing Watson,AUDL 2018,Detroit Mechanix
+167,mechanix,Ryan Mariouw,AUDL 2018,Detroit Mechanix
+168,mechanix,Noah Fisher,AUDL 2018,Detroit Mechanix
+169,mechanix,Joseph Besser,AUDL 2018,Detroit Mechanix
+170,mechanix,Evan Parizot,AUDL 2018,Detroit Mechanix
+171,mechanix,Kevin Nicholl,AUDL 2018,Detroit Mechanix
+172,mechanix,Tate Halberg,AUDL 2018,Detroit Mechanix
+173,mechanix,Mark Whitton,AUDL 2018,Detroit Mechanix
+174,royal,Francis Breton,AUDL 2018,Montreal Royal
+175,royal,Morgan Hibbert,AUDL 2018,Montreal Royal
+176,royal,Vincent Gamache,AUDL 2018,Montreal Royal
+177,royal,Vincent Lemieux,AUDL 2018,Montreal Royal
+178,royal,Stève Bonneau,AUDL 2018,Montreal Royal
+179,royal,Mike Voelpel,AUDL 2018,Montreal Royal
+180,royal,Ben Krumpelman,AUDL 2018,Montreal Royal
+181,royal,Jacob Saunders,AUDL 2018,Montreal Royal
+182,royal,André Arsenault,AUDL 2018,Montreal Royal
+183,royal,Antoine Genest,AUDL 2018,Montreal Royal
+184,royal,Gabriel Monfette,AUDL 2018,Montreal Royal
+185,royal,Christophe Tremblay-Joncas,AUDL 2018,Montreal Royal
+186,royal,Miguel Goderre,AUDL 2018,Montreal Royal
+187,royal,Nasser Mbae Vogel,AUDL 2018,Montreal Royal
+188,royal,Yoland Cabot,AUDL 2018,Montreal Royal
+189,royal,Quentin Bonnaud,AUDL 2018,Montreal Royal
+190,royal,Simon Charette,AUDL 2018,Montreal Royal
+191,royal,Malik Auger-Semmar,AUDL 2018,Montreal Royal
+192,royal,Kevin Groulx,AUDL 2018,Montreal Royal
+193,royal,Kevin Quinlan,AUDL 2018,Montreal Royal
+194,royal,Estéban Ceballos,AUDL 2018,Montreal Royal
+195,royal,Francis Vallée,AUDL 2018,Montreal Royal
+196,royal,Cam Burden,AUDL 2018,Montreal Royal
+197,sol,Mitchell Bennett,AUDL 2018,Austin Sol
+198,sol,John Cecil,AUDL 2018,Austin Sol
+199,sol,Matt Bennett,AUDL 2018,Austin Sol
+200,sol,Michael Matthis,AUDL 2018,Austin Sol
+201,sol,Max Cook,AUDL 2018,Austin Sol
+202,sol,Jeff Loskorn,AUDL 2018,Austin Sol
+203,sol,Carlos Vargas,AUDL 2018,Austin Sol
+204,sol,Jason Holleran,AUDL 2018,Austin Sol
+205,sol,Matthew Bierschenk,AUDL 2018,Austin Sol
+206,sol,Joshua Zdrodowski,AUDL 2018,Austin Sol
+207,sol,Alex Brouwer,AUDL 2018,Austin Sol
+208,sol,Andrew Walch,AUDL 2018,Austin Sol
+209,sol,Aubrey Davis,AUDL 2018,Austin Sol
+210,sol,Nash Mock,AUDL 2018,Austin Sol
+211,sol,Jerrod Wolfe,AUDL 2018,Austin Sol
+212,sol,Chris Brooks,AUDL 2018,Austin Sol
+213,sol,Kiran Thomas,AUDL 2018,Austin Sol
+214,sol,Brett Gramann,AUDL 2018,Austin Sol
+215,sol,Ethan Pollack,AUDL 2018,Austin Sol
+216,sol,Chase Cunningham,AUDL 2018,Austin Sol
+217,sol,Elliott Moore,AUDL 2018,Austin Sol
+218,sol,Ryan Bigley,AUDL 2018,Austin Sol
+219,sol,Kyle Henke,AUDL 2018,Austin Sol
+220,sol,Rory Orloff,AUDL 2018,Austin Sol
+221,sol,Brian Gfroerer,AUDL 2018,Austin Sol
+222,sol,Mick Walter,AUDL 2018,Austin Sol
+223,sol,Brendan Adams,AUDL 2018,Austin Sol
+224,sol,Paul Starkel,AUDL 2018,Austin Sol
+225,sol,Ryan Purcell,AUDL 2018,Austin Sol
+226,sol,Doug Richardson,AUDL 2018,Austin Sol
+227,sol,Robert Lewis,AUDL 2018,Austin Sol
+228,sol,Steven Naji,AUDL 2018,Austin Sol
+229,sol,Michael Natenberg,AUDL 2018,Austin Sol
+230,sol,Tyler Chiu,AUDL 2018,Austin Sol
+231,sol,Kamron Daftari,AUDL 2018,Austin Sol
+232,sol,Kevin Halprin,AUDL 2018,Austin Sol
+233,sol,Nicholas Whale,AUDL 2018,Austin Sol
+234,sol,Valley Renshaw,AUDL 2018,Austin Sol
+235,sol,Christopher Grimm,AUDL 2018,Austin Sol
+236,sol,Ferdia Rogers,AUDL 2018,Austin Sol
+237,sol,Sam Murphy,AUDL 2018,Austin Sol
+238,sol,Corey Mika,AUDL 2018,Austin Sol
+239,thunderbirds,Justin Kinkead,AUDL 2018,Pittsburgh Thunderbirds
+240,thunderbirds,Max Sheppard,AUDL 2018,Pittsburgh Thunderbirds
+241,thunderbirds,Jonathan Mast,AUDL 2018,Pittsburgh Thunderbirds
+242,thunderbirds,David Vatz,AUDL 2018,Pittsburgh Thunderbirds
+243,thunderbirds,Jesse Evans,AUDL 2018,Pittsburgh Thunderbirds
+244,thunderbirds,Shayna Reppermund,AUDL 2018,Pittsburgh Thunderbirds
+245,thunderbirds,Mark Fedorenko,AUDL 2018,Pittsburgh Thunderbirds
+246,thunderbirds,Patrick McMullen,AUDL 2018,Pittsburgh Thunderbirds
+247,thunderbirds,Ryan Cicioni,AUDL 2018,Pittsburgh Thunderbirds
+248,thunderbirds,Kenny Furdella,AUDL 2018,Pittsburgh Thunderbirds
+249,thunderbirds,Scott Trimble,AUDL 2018,Pittsburgh Thunderbirds
+250,thunderbirds,Adnan Raslan,AUDL 2018,Pittsburgh Thunderbirds
+251,thunderbirds,Jordan Robarge,AUDL 2018,Pittsburgh Thunderbirds
+252,thunderbirds,Anthony Kahn,AUDL 2018,Pittsburgh Thunderbirds
+253,thunderbirds,Owen Watt,AUDL 2018,Pittsburgh Thunderbirds
+254,thunderbirds,Eddie Peters,AUDL 2018,Pittsburgh Thunderbirds
+255,thunderbirds,Alex Thomas,AUDL 2018,Pittsburgh Thunderbirds
+256,thunderbirds,Felipe Delgado,AUDL 2018,Pittsburgh Thunderbirds
+257,thunderbirds,Ethan Beardsley,AUDL 2018,Pittsburgh Thunderbirds
+258,thunderbirds,Pat Hammonds,AUDL 2018,Pittsburgh Thunderbirds
+259,thunderbirds,Andrew Gardner,AUDL 2018,Pittsburgh Thunderbirds
+260,thunderbirds,Jimmy Towle,AUDL 2018,Pittsburgh Thunderbirds
+261,thunderbirds,Zac Byrnes,AUDL 2018,Pittsburgh Thunderbirds
+262,thunderbirds,Jon DeAmicis,AUDL 2018,Pittsburgh Thunderbirds
+263,thunderbirds,Chris Graber,AUDL 2018,Pittsburgh Thunderbirds
+264,thunderbirds,Myles Cooper,AUDL 2018,Pittsburgh Thunderbirds
+265,thunderbirds,Vince Tranquillo,AUDL 2018,Pittsburgh Thunderbirds
+266,thunderbirds,Liam Rosen,AUDL 2018,Pittsburgh Thunderbirds
+267,thunderbirds,Dillon Tranquillo,AUDL 2018,Pittsburgh Thunderbirds
+268,thunderbirds,Mohamadou Diatta,AUDL 2018,Pittsburgh Thunderbirds
+269,thunderbirds,Steve May,AUDL 2018,Pittsburgh Thunderbirds
+270,thunderbirds,David Angeletti,AUDL 2018,Pittsburgh Thunderbirds
+271,thunderbirds,Jack Hefferon,AUDL 2018,Pittsburgh Thunderbirds
+272,thunderbirds,Noah Robinson,AUDL 2018,Pittsburgh Thunderbirds
+273,thunderbirds,Sam VanDusen,AUDL 2018,Pittsburgh Thunderbirds
+274,thunderbirds,John Buss,AUDL 2018,Pittsburgh Thunderbirds
+275,nightwatch,Chase Hammond,AUDL 2018,Nashville NightWatch
+276,nightwatch,Zack Avello,AUDL 2018,Nashville NightWatch
+277,nightwatch,Peter Barry,AUDL 2018,Nashville NightWatch
+278,nightwatch,Jesse Dahms,AUDL 2018,Nashville NightWatch
+279,nightwatch,Matt Russnogle,AUDL 2018,Nashville NightWatch
+280,nightwatch,Justin Schroeder,AUDL 2018,Nashville NightWatch
+281,nightwatch,Javier Ortiz,AUDL 2018,Nashville NightWatch
+282,nightwatch,Tyler Conger,AUDL 2018,Nashville NightWatch
+283,nightwatch,Jake Wright,AUDL 2018,Nashville NightWatch
+284,nightwatch,Phil Dougherty,AUDL 2018,Nashville NightWatch
+285,nightwatch,Stephen Poulos,AUDL 2018,Nashville NightWatch
+286,nightwatch,Ryan Seay,AUDL 2018,Nashville NightWatch
+287,nightwatch,Evan Caldwell,AUDL 2018,Nashville NightWatch
+288,nightwatch,Jacob Flowers,AUDL 2018,Nashville NightWatch
+289,nightwatch,Zac Petty,AUDL 2018,Nashville NightWatch
+290,nightwatch,Chris Calhoun,AUDL 2018,Nashville NightWatch
+291,nightwatch,Paul Lally,AUDL 2018,Nashville NightWatch
+292,nightwatch,Xavier Payne,AUDL 2018,Nashville NightWatch
+293,nightwatch,Michael Dayton,AUDL 2018,Nashville NightWatch
+294,nightwatch,Robert Bradham,AUDL 2018,Nashville NightWatch
+295,nightwatch,Garrett Wilson,AUDL 2018,Nashville NightWatch
+296,nightwatch,Cameron Snook,AUDL 2018,Nashville NightWatch
+297,nightwatch,Robert Alongi,AUDL 2018,Nashville NightWatch
+298,nightwatch,Benjamin Parris,AUDL 2018,Nashville NightWatch
+299,nightwatch,Dan Cunningham,AUDL 2018,Nashville NightWatch
+300,nightwatch,John Carden,AUDL 2018,Nashville NightWatch
+301,nightwatch,Devin Cox,AUDL 2018,Nashville NightWatch
+302,nightwatch,Ford Heacock,AUDL 2018,Nashville NightWatch
+303,nightwatch,Sullivan Wilkes,AUDL 2018,Nashville NightWatch
+304,nightwatch,Josh Moore,AUDL 2018,Nashville NightWatch
+305,nightwatch,Eli Jaime,AUDL 2018,Nashville NightWatch
+306,nightwatch,Corey Hardesty,AUDL 2018,Nashville NightWatch
+307,nightwatch,Justin Badgett,AUDL 2018,Nashville NightWatch
+308,nightwatch,Mac McClellan,AUDL 2018,Nashville NightWatch
+309,hustle,Alex Trautman,AUDL 2018,Atlanta Hustle
+310,hustle,Daniel Sperling,AUDL 2018,Atlanta Hustle
+311,hustle,Will Lindquist,AUDL 2018,Atlanta Hustle
+312,hustle,Austin Taylor,AUDL 2018,Atlanta Hustle
+313,hustle,Matthew Knowles,AUDL 2018,Atlanta Hustle
+314,hustle,Player Pierce,AUDL 2018,Atlanta Hustle
+315,hustle,Tyler French,AUDL 2018,Atlanta Hustle
+316,hustle,Parker Bray,AUDL 2018,Atlanta Hustle
+317,hustle,Christian Olsen,AUDL 2018,Atlanta Hustle
+318,hustle,Kyle Stapleton,AUDL 2018,Atlanta Hustle
+319,hustle,Danny On,AUDL 2018,Atlanta Hustle
+320,hustle,Kelvin Williams,AUDL 2018,Atlanta Hustle
+321,hustle,Matt Smith,AUDL 2018,Atlanta Hustle
+322,hustle,Yusuf Abdullah,AUDL 2018,Atlanta Hustle
+323,hustle,John Langstaff,AUDL 2018,Atlanta Hustle
+324,hustle,Anders Olsen,AUDL 2018,Atlanta Hustle
+325,hustle,Adam Burgess,AUDL 2018,Atlanta Hustle
+326,hustle,Karl Ekwurtzel,AUDL 2018,Atlanta Hustle
+327,hustle,Josh Bush,AUDL 2018,Atlanta Hustle
+328,hustle,Jacques Perivier,AUDL 2018,Atlanta Hustle
+329,hustle,Taylor Minch,AUDL 2018,Atlanta Hustle
+330,hustle,Sun Choi,AUDL 2018,Atlanta Hustle
+331,hustle,Patrick Dougherty,AUDL 2018,Atlanta Hustle
+332,hustle,Mason Cary,AUDL 2018,Atlanta Hustle
+333,hustle,Sam Gainer,AUDL 2018,Atlanta Hustle
+334,hustle,Martin Newman,AUDL 2018,Atlanta Hustle
+335,hustle,Josh Turner,AUDL 2018,Atlanta Hustle
+336,hustle,Devon Rogers,AUDL 2018,Atlanta Hustle
+337,hustle,Carter Rae,AUDL 2018,Atlanta Hustle
+338,hustle,Hunter Cutts,AUDL 2018,Atlanta Hustle
+339,hustle,Andrell Caldwell,AUDL 2018,Atlanta Hustle
+340,hustle,Mike Tillotson,AUDL 2018,Atlanta Hustle
+341,hustle,JP Burns,AUDL 2018,Atlanta Hustle
+342,hustle,Sam Batson,AUDL 2018,Atlanta Hustle
+343,hustle,Jason Crowe,AUDL 2018,Atlanta Hustle
+344,hustle,Allan Laviolette,AUDL 2018,Atlanta Hustle
+345,hustle,Trenton Spinks,AUDL 2018,Atlanta Hustle
+346,hustle,Jaime Perez,AUDL 2018,Atlanta Hustle
+347,outlaws,Karl Loiseau,AUDL 2018,Ottawa Outlaws
+348,outlaws,Derek Alexander,AUDL 2018,Ottawa Outlaws
+349,outlaws,Ken Alexander,AUDL 2018,Ottawa Outlaws
+350,outlaws,Matt O'Brien,AUDL 2018,Ottawa Outlaws
+351,outlaws,Aidan Hayter,AUDL 2018,Ottawa Outlaws
+352,outlaws,Mike Lee,AUDL 2018,Ottawa Outlaws
+353,outlaws,Laurent Loiseau,AUDL 2018,Ottawa Outlaws
+354,outlaws,Geoff Bevan,AUDL 2018,Ottawa Outlaws
+355,outlaws,Bryce Ring,AUDL 2018,Ottawa Outlaws
+356,outlaws,Paul Renaud,AUDL 2018,Ottawa Outlaws
+357,outlaws,Colin Froats,AUDL 2018,Ottawa Outlaws
+358,outlaws,Alec Arsenault,AUDL 2018,Ottawa Outlaws
+359,outlaws,Lance Blackstock,AUDL 2018,Ottawa Outlaws
+360,outlaws,Erik Hunter,AUDL 2018,Ottawa Outlaws
+361,outlaws,Carson Turner,AUDL 2018,Ottawa Outlaws
+362,outlaws,Greg Ellis,AUDL 2018,Ottawa Outlaws
+363,outlaws,Patrick Mapp,AUDL 2018,Ottawa Outlaws
+364,outlaws,Paul Mensah,AUDL 2018,Ottawa Outlaws
+365,outlaws,David Colic,AUDL 2018,Ottawa Outlaws
+366,outlaws,Scott Graham,AUDL 2018,Ottawa Outlaws
+367,outlaws,Andrew Ouchterlony,AUDL 2018,Ottawa Outlaws
+368,outlaws,Patrick Keenan,AUDL 2018,Ottawa Outlaws
+369,outlaws,Kinley Gee,AUDL 2018,Ottawa Outlaws
+370,outlaws,Adam O'Donnell,AUDL 2018,Ottawa Outlaws
+371,outlaws,Tait Becke,AUDL 2018,Ottawa Outlaws
+372,outlaws,Tyler Sadler,AUDL 2018,Ottawa Outlaws
+373,outlaws,Khalid Al-Zahrani,AUDL 2018,Ottawa Outlaws
+374,outlaws,Russ Nicolls,AUDL 2018,Ottawa Outlaws
+375,outlaws,Etienne Blaszkewycz,AUDL 2018,Ottawa Outlaws
+376,outlaws,Kyle Cantal,AUDL 2018,Ottawa Outlaws
+377,outlaws,Nick Boucher,AUDL 2018,Ottawa Outlaws
+378,outlaws,Ryan Wallace,AUDL 2018,Ottawa Outlaws
+379,outlaws,Jeremy Hill,AUDL 2018,Ottawa Outlaws
+380,cascades,Kodi Smart,AUDL 2018,Seattle Cascades
+381,cascades,Pádraig Sweeney,AUDL 2018,Seattle Cascades
+382,cascades,Henry Schneider,AUDL 2018,Seattle Cascades
+383,cascades,Dennis Casio,AUDL 2018,Seattle Cascades
+384,cascades,John Randolph,AUDL 2018,Seattle Cascades
+385,cascades,Qxhna Titcomb,AUDL 2018,Seattle Cascades
+386,cascades,Marc Munoz,AUDL 2018,Seattle Cascades
+387,cascades,Eddie Harmoush,AUDL 2018,Seattle Cascades
+388,cascades,John Doherty,AUDL 2018,Seattle Cascades
+389,cascades,Adam Jemal,AUDL 2018,Seattle Cascades
+390,cascades,William Anderst,AUDL 2018,Seattle Cascades
+391,cascades,Niall McCarthy,AUDL 2018,Seattle Cascades
+392,cascades,Hai Trang,AUDL 2018,Seattle Cascades
+393,cascades,Reed Hendrickson,AUDL 2018,Seattle Cascades
+394,cascades,Charlie Eide,AUDL 2018,Seattle Cascades
+395,cascades,Peter Geertz-Larson,AUDL 2018,Seattle Cascades
+396,cascades,William Coffin,AUDL 2018,Seattle Cascades
+397,cascades,Xtehn Titcomb,AUDL 2018,Seattle Cascades
+398,cascades,John Quandt,AUDL 2018,Seattle Cascades
+399,cascades,Sam Cook,AUDL 2018,Seattle Cascades
+400,cascades,Mark Burton,AUDL 2018,Seattle Cascades
+401,cascades,Stephanie Lim,AUDL 2018,Seattle Cascades
+402,cascades,Alex Duffel,AUDL 2018,Seattle Cascades
+403,cascades,Nick Roberts,AUDL 2018,Seattle Cascades
+404,cascades,Victor Taggart,AUDL 2018,Seattle Cascades
+405,cascades,Adam Choi,AUDL 2018,Seattle Cascades
+406,cascades,Cam Bailey,AUDL 2018,Seattle Cascades
+407,cascades,Ryan Segal,AUDL 2018,Seattle Cascades
+408,cascades,Cameron Baker,AUDL 2018,Seattle Cascades
+409,cascades,Derek Mourad,AUDL 2018,Seattle Cascades
+410,cascades,Morgan Higgins,AUDL 2018,Seattle Cascades
+411,cascades,Brad Houser,AUDL 2018,Seattle Cascades
+412,cascades,Nick Mahan,AUDL 2018,Seattle Cascades
+413,cascades,Manuel Eckert,AUDL 2018,Seattle Cascades
+414,cascades,Ben Miller,AUDL 2018,Seattle Cascades
+415,cascades,Chackgarin Brown,AUDL 2018,Seattle Cascades
+416,cascades,Shane Worthington,AUDL 2018,Seattle Cascades
+417,cascades,Aldous Root,AUDL 2018,Seattle Cascades
+418,flamethrowers,Lexa Stambaugh,AUDL 2018,San Francisco FlameThrowers
+419,flamethrowers,Ellen Rim,AUDL 2018,San Francisco FlameThrowers
+420,flamethrowers,Lior Givol,AUDL 2018,San Francisco FlameThrowers
+421,flamethrowers,John David Liboon,AUDL 2018,San Francisco FlameThrowers
+422,flamethrowers,Jordan Jeffery,AUDL 2018,San Francisco FlameThrowers
+423,flamethrowers,Ben Scharfstein,AUDL 2018,San Francisco FlameThrowers
+424,flamethrowers,Andrew Berry,AUDL 2018,San Francisco FlameThrowers
+425,flamethrowers,Elliott Chartock,AUDL 2018,San Francisco FlameThrowers
+426,flamethrowers,Hunter Corbett,AUDL 2018,San Francisco FlameThrowers
+427,flamethrowers,Alexander Max,AUDL 2018,San Francisco FlameThrowers
+428,flamethrowers,Greg Cohen,AUDL 2018,San Francisco FlameThrowers
+429,flamethrowers,Skylohr Taylor,AUDL 2018,San Francisco FlameThrowers
+430,flamethrowers,Sam Swink,AUDL 2018,San Francisco FlameThrowers
+431,flamethrowers,Byron Liu,AUDL 2018,San Francisco FlameThrowers
+432,flamethrowers,Marcelo Sanchez,AUDL 2018,San Francisco FlameThrowers
+433,flamethrowers,Antoine Davis,AUDL 2018,San Francisco FlameThrowers
+434,flamethrowers,Eli Kerns,AUDL 2018,San Francisco FlameThrowers
+435,flamethrowers,Daniel Naruo,AUDL 2018,San Francisco FlameThrowers
+436,flamethrowers,Jackelyne Nguyen,AUDL 2018,San Francisco FlameThrowers
+437,flamethrowers,Nolan Walsh,AUDL 2018,San Francisco FlameThrowers
+438,flamethrowers,Jacob Greenberg,AUDL 2018,San Francisco FlameThrowers
+439,flamethrowers,Cullen Coyne,AUDL 2018,San Francisco FlameThrowers
+440,flamethrowers,Alex Pan,AUDL 2018,San Francisco FlameThrowers
+441,flamethrowers,Alex Grande,AUDL 2018,San Francisco FlameThrowers
+442,flamethrowers,Cameron Beck,AUDL 2018,San Francisco FlameThrowers
+443,flamethrowers,Natasha Won,AUDL 2018,San Francisco FlameThrowers
+444,flamethrowers,Phil Chang,AUDL 2018,San Francisco FlameThrowers
+445,flamethrowers,Gina Schumacher,AUDL 2018,San Francisco FlameThrowers
+446,flamethrowers,Cody Kirkland,AUDL 2018,San Francisco FlameThrowers
+447,flamethrowers,Vincenzo Vitiello,AUDL 2018,San Francisco FlameThrowers
+448,flamethrowers,Tommy Lin,AUDL 2018,San Francisco FlameThrowers
+449,flamethrowers,Devon Williams,AUDL 2018,San Francisco FlameThrowers
+450,flamethrowers,Raj Maitra,AUDL 2018,San Francisco FlameThrowers
+451,flamethrowers,Brandon Canonizado,AUDL 2018,San Francisco FlameThrowers
+452,flamethrowers,Joshua Yuan,AUDL 2018,San Francisco FlameThrowers
+453,flamethrowers,Jack Hamner,AUDL 2018,San Francisco FlameThrowers
+454,flamethrowers,Ryo Kawaoka,AUDL 2018,San Francisco FlameThrowers
+455,flamethrowers,Eric Greenwood,AUDL 2018,San Francisco FlameThrowers
+456,flamethrowers,Max Perham,AUDL 2018,San Francisco FlameThrowers
+457,flamethrowers,Nick Schlag,AUDL 2018,San Francisco FlameThrowers
+458,rush,Hugh Knapp,AUDL 2018,Toronto Rush
+459,rush,Andrew Carroll,AUDL 2018,Toronto Rush
+460,rush,Jaret Meron,AUDL 2018,Toronto Rush
+461,rush,Mike Mackenzie,AUDL 2018,Toronto Rush
+462,rush,Benjamin Oort,AUDL 2018,Toronto Rush
+463,rush,Nicholas Dacquisto,AUDL 2018,Toronto Rush
+464,rush,Jonathan Edwards,AUDL 2018,Toronto Rush
+465,rush,Remi Ojo,AUDL 2018,Toronto Rush
+466,rush,Jonathan Martin,AUDL 2018,Toronto Rush
+467,rush,Marijo Zlatic,AUDL 2018,Toronto Rush
+468,rush,Jacky Hau,AUDL 2018,Toronto Rush
+469,rush,Ben Pries,AUDL 2018,Toronto Rush
+470,rush,Isaiah Masek-Kelly,AUDL 2018,Toronto Rush
+471,rush,Anatoly Vasilyev,AUDL 2018,Toronto Rush
+472,rush,Thomson McKnight,AUDL 2018,Toronto Rush
+473,rush,Jeff Lindquist,AUDL 2018,Toronto Rush
+474,rush,Geoff Powell,AUDL 2018,Toronto Rush
+475,rush,Jeremy Norden,AUDL 2018,Toronto Rush
+476,rush,Jay Boychuk,AUDL 2018,Toronto Rush
+477,rush,Nathan Hirst,AUDL 2018,Toronto Rush
+478,rush,Justin Foord,AUDL 2018,Toronto Rush
+479,rush,Phil Turner,AUDL 2018,Toronto Rush
+480,rush,Gord Harrison,AUDL 2018,Toronto Rush
+481,rush,Iain Mackenzie,AUDL 2018,Toronto Rush
+482,rush,Benjamin Burelle,AUDL 2018,Toronto Rush
+483,rush,Drew Wilson,AUDL 2018,Toronto Rush
+484,rush,Connor Armstrong,AUDL 2018,Toronto Rush
+485,rush,Adrian Yearwood,AUDL 2018,Toronto Rush
+486,rush,Jason Huynh,AUDL 2018,Toronto Rush
+487,rush,Dan LaFrance,AUDL 2018,Toronto Rush
+488,rush,Bretton Tan,AUDL 2018,Toronto Rush
+489,rush,Mark Lloyd,AUDL 2018,Toronto Rush
+490,rush,Cameron Harris,AUDL 2018,Toronto Rush
+491,breeze,Alexandre Fall,AUDL 2018,DC Breeze
+492,breeze,Christian Boxley,AUDL 2018,DC Breeze
+493,breeze,Delrico Johnson,AUDL 2018,DC Breeze
+494,breeze,Houston Parks,AUDL 2018,DC Breeze
+495,breeze,Brad Scott,AUDL 2018,DC Breeze
+496,breeze,John Walden,AUDL 2018,DC Breeze
+497,breeze,Kyle Khalifa,AUDL 2018,DC Breeze
+498,breeze,Zach Norrbom,AUDL 2018,DC Breeze
+499,breeze,Joe Richards,AUDL 2018,DC Breeze
+500,breeze,Christopher Bernard,AUDL 2018,DC Breeze
+501,breeze,Benjamin Preiss,AUDL 2018,DC Breeze
+502,breeze,Lloyd Blake,AUDL 2018,DC Breeze
+503,breeze,Nate Castine,AUDL 2018,DC Breeze
+504,breeze,Alex Liu,AUDL 2018,DC Breeze
+505,breeze,Eric Miner,AUDL 2018,DC Breeze
+506,breeze,Matt Neeley,AUDL 2018,DC Breeze
+507,breeze,Aaron Langley,AUDL 2018,DC Breeze
+508,breeze,Cory Broyles,AUDL 2018,DC Breeze
+509,breeze,Rhys Bergeron,AUDL 2018,DC Breeze
+510,breeze,Max Cassell,AUDL 2018,DC Breeze
+511,breeze,Gabe Webster,AUDL 2018,DC Breeze
+512,breeze,Ryan Swift,AUDL 2018,DC Breeze
+513,breeze,Austin Bartenstein,AUDL 2018,DC Breeze
+514,breeze,Matthew McDonnell,AUDL 2018,DC Breeze
+515,breeze,Peter Mancini,AUDL 2018,DC Breeze
+516,breeze,David Bloodgood,AUDL 2018,DC Breeze
+517,breeze,Quinn Bergeron,AUDL 2018,DC Breeze
+518,breeze,David Shields,AUDL 2018,DC Breeze
+519,breeze,David Cranston,AUDL 2018,DC Breeze
+520,breeze,Nathan Prior,AUDL 2018,DC Breeze
+521,breeze,Jeff Wodatch,AUDL 2018,DC Breeze
+522,breeze,Jonny Malks,AUDL 2018,DC Breeze
+523,breeze,Marcus Thaw,AUDL 2018,DC Breeze
+524,breeze,Leo Pierson,AUDL 2018,DC Breeze
+525,breeze,Troy Holland,AUDL 2018,DC Breeze
+526,breeze,Matt Kerrigan,AUDL 2018,DC Breeze
+527,breeze,Xavier Maxstadt,AUDL 2018,DC Breeze
+528,roughnecks,Brandon Malecek,AUDL 2018,Dallas Roughnecks
+529,roughnecks,Griffin Miller,AUDL 2018,Dallas Roughnecks
+530,roughnecks,Kaplan Maurer,AUDL 2018,Dallas Roughnecks
+531,roughnecks,Matt Jackson,AUDL 2018,Dallas Roughnecks
+532,roughnecks,Zach Marbach,AUDL 2018,Dallas Roughnecks
+533,roughnecks,Jay Froude,AUDL 2018,Dallas Roughnecks
+534,roughnecks,Ben Lewis,AUDL 2018,Dallas Roughnecks
+535,roughnecks,Abe Coffin,AUDL 2018,Dallas Roughnecks
+536,roughnecks,Joel Clutton,AUDL 2018,Dallas Roughnecks
+537,roughnecks,Chris LaRocque,AUDL 2018,Dallas Roughnecks
+538,roughnecks,Dillon Larberg,AUDL 2018,Dallas Roughnecks
+539,roughnecks,Kevin Christian,AUDL 2018,Dallas Roughnecks
+540,roughnecks,Jack Wooldridge,AUDL 2018,Dallas Roughnecks
+541,roughnecks,Dalton Smith,AUDL 2018,Dallas Roughnecks
+542,roughnecks,Carter Hollo,AUDL 2018,Dallas Roughnecks
+543,roughnecks,Reid Bacon,AUDL 2018,Dallas Roughnecks
+544,roughnecks,Chris Larberg,AUDL 2018,Dallas Roughnecks
+545,roughnecks,Daniel Emmons,AUDL 2018,Dallas Roughnecks
+546,roughnecks,Kevin Richardson,AUDL 2018,Dallas Roughnecks
+547,roughnecks,Casey Hogg,AUDL 2018,Dallas Roughnecks
+548,roughnecks,Zach Riggins,AUDL 2018,Dallas Roughnecks
+549,roughnecks,Sam Ward,AUDL 2018,Dallas Roughnecks
+550,roughnecks,Connor Ughetta,AUDL 2018,Dallas Roughnecks
+551,roughnecks,Carson Wilder,AUDL 2018,Dallas Roughnecks
+552,roughnecks,Noah Chambers,AUDL 2018,Dallas Roughnecks
+553,roughnecks,Thomas Slack,AUDL 2018,Dallas Roughnecks
+554,roughnecks,Kai Marshall,AUDL 2018,Dallas Roughnecks
+555,roughnecks,Steven Borik,AUDL 2018,Dallas Roughnecks
+556,roughnecks,Henry Furuta,AUDL 2018,Dallas Roughnecks
+557,roughnecks,Matthew Armour,AUDL 2018,Dallas Roughnecks
+558,roughnecks,Ben Rogers,AUDL 2018,Dallas Roughnecks
+559,roughnecks,Joe Tylutki,AUDL 2018,Dallas Roughnecks
+560,roughnecks,Connor Olson,AUDL 2018,Dallas Roughnecks
+561,spiders,Aaron Shi,AUDL 2018,San Jose Spiders
+562,spiders,Justin Norden,AUDL 2018,San Jose Spiders
+563,spiders,Shane Earley,AUDL 2018,San Jose Spiders
+564,spiders,Matthew Crawford,AUDL 2018,San Jose Spiders
+565,spiders,Andrew Moore,AUDL 2018,San Jose Spiders
+566,spiders,Brandon Fein,AUDL 2018,San Jose Spiders
+567,spiders,Tommy Adams,AUDL 2018,San Jose Spiders
+568,spiders,Sonny Zaccaro,AUDL 2018,San Jose Spiders
+569,spiders,Sean Newlin,AUDL 2018,San Jose Spiders
+570,spiders,Steven Chang,AUDL 2018,San Jose Spiders
+571,spiders,Sam Kunz,AUDL 2018,San Jose Spiders
+572,spiders,Jordan Richmond,AUDL 2018,San Jose Spiders
+573,spiders,Lucas Young,AUDL 2018,San Jose Spiders
+574,spiders,James Yeager,AUDL 2018,San Jose Spiders
+575,spiders,Brian Roach,AUDL 2018,San Jose Spiders
+576,spiders,Alexander Morris,AUDL 2018,San Jose Spiders
+577,spiders,Jackson Stearns,AUDL 2018,San Jose Spiders
+578,spiders,Thomas Lassetter,AUDL 2018,San Jose Spiders
+579,spiders,Gabriel Hernandez,AUDL 2018,San Jose Spiders
+580,spiders,Joe Thompson,AUDL 2018,San Jose Spiders
+581,spiders,Robert Yeagle,AUDL 2018,San Jose Spiders
+582,spiders,Nicholas Hirning,AUDL 2018,San Jose Spiders
+583,spiders,Jeremy Kharrazi,AUDL 2018,San Jose Spiders
+584,spiders,Ethan Falat,AUDL 2018,San Jose Spiders
+585,spiders,Joshuah Kapilivsky,AUDL 2018,San Jose Spiders
+586,spiders,Mark Lin,AUDL 2018,San Jose Spiders
+587,spiders,Zach Sabin,AUDL 2018,San Jose Spiders
+588,spiders,Tyler Condit,AUDL 2018,San Jose Spiders
+589,spiders,Stephen Guerin,AUDL 2018,San Jose Spiders
+590,spiders,Matt Jaffe,AUDL 2018,San Jose Spiders
+591,spiders,Sergio Perdomo,AUDL 2018,San Jose Spiders
+592,spiders,Jake Tozer,AUDL 2018,San Jose Spiders
+593,spiders,Alec Surmani,AUDL 2018,San Jose Spiders
+594,spiders,David Hammer,AUDL 2018,San Jose Spiders
+595,spiders,Nick Murphy,AUDL 2018,San Jose Spiders
+596,spiders,Ben Levinsky,AUDL 2018,San Jose Spiders
+597,cannons,Jacob Larsen,AUDL 2018,Tampa Bay Cannons
+598,cannons,Robert Dennis,AUDL 2018,Tampa Bay Cannons
+599,cannons,Bennett Wachob,AUDL 2018,Tampa Bay Cannons
+600,cannons,Andrew Roney,AUDL 2018,Tampa Bay Cannons
+601,cannons,Bradley Seuntjens,AUDL 2018,Tampa Bay Cannons
+602,cannons,Brandon Perales,AUDL 2018,Tampa Bay Cannons
+603,cannons,John Paul Taylor,AUDL 2018,Tampa Bay Cannons
+604,cannons,Tyler Kunsa,AUDL 2018,Tampa Bay Cannons
+605,cannons,Bobby Ley,AUDL 2018,Tampa Bay Cannons
+606,cannons,Adam Vinson,AUDL 2018,Tampa Bay Cannons
+607,cannons,Cole Sullivan,AUDL 2018,Tampa Bay Cannons
+608,cannons,Dustin Travaglini,AUDL 2018,Tampa Bay Cannons
+609,cannons,Tanner Repasky,AUDL 2018,Tampa Bay Cannons
+610,cannons,Ryan Hiser,AUDL 2018,Tampa Bay Cannons
+611,cannons,Hayden Wachob,AUDL 2018,Tampa Bay Cannons
+612,cannons,Jack Barrow,AUDL 2018,Tampa Bay Cannons
+613,cannons,Michael Fairley,AUDL 2018,Tampa Bay Cannons
+614,cannons,Adam Lapikas,AUDL 2018,Tampa Bay Cannons
+615,cannons,Michael Fioramonti,AUDL 2018,Tampa Bay Cannons
+616,cannons,Tron Bass,AUDL 2018,Tampa Bay Cannons
+617,cannons,Peter Van Brussel,AUDL 2018,Tampa Bay Cannons
+618,cannons,Billy O'Bryan,AUDL 2018,Tampa Bay Cannons
+619,cannons,Hamilton Wasnick,AUDL 2018,Tampa Bay Cannons
+620,cannons,Nathan Vickroy,AUDL 2018,Tampa Bay Cannons
+621,cannons,Josh McKisic,AUDL 2018,Tampa Bay Cannons
+622,cannons,Chris Gibson,AUDL 2018,Tampa Bay Cannons
+623,cannons,AJ Jacoski,AUDL 2018,Tampa Bay Cannons
+624,cannons,Jordan Huston,AUDL 2018,Tampa Bay Cannons
+625,cannons,Vikrant Pendharkar,AUDL 2018,Tampa Bay Cannons
+626,cannons,Austin Koffarnus,AUDL 2018,Tampa Bay Cannons
+627,cannons,Scott Phillip Main,AUDL 2018,Tampa Bay Cannons
+628,cannons,Jacob Lane,AUDL 2018,Tampa Bay Cannons
+629,cannons,Marquis Chapman,AUDL 2018,Tampa Bay Cannons
+630,cannons,Ryan Chard,AUDL 2018,Tampa Bay Cannons
+631,cannons,Adam Carr,AUDL 2018,Tampa Bay Cannons
+632,cannons,Mark Mendelevitz,AUDL 2018,Tampa Bay Cannons
+633,cannons,Joshua Layton,AUDL 2018,Tampa Bay Cannons
+634,cannons,Mark Schimmel,AUDL 2018,Tampa Bay Cannons
+635,cannons,Tim Lootens,AUDL 2018,Tampa Bay Cannons
+636,cannons,Jacob Clary,AUDL 2018,Tampa Bay Cannons
+637,cannons,Hudson Cogswell,AUDL 2018,Tampa Bay Cannons
+638,empire,Frank Weng,AUDL 2018,New York Empire
+639,empire,Noriaki To,AUDL 2018,New York Empire
+640,empire,Shashank Alladi,AUDL 2018,New York Empire
+641,empire,Elliot Lee,AUDL 2018,New York Empire
+642,empire,Matt Auletta,AUDL 2018,New York Empire
+643,empire,Josh Alorro,AUDL 2018,New York Empire
+644,empire,Benjamin Sokolowsky,AUDL 2018,New York Empire
+645,empire,TJ Stanton,AUDL 2018,New York Empire
+646,empire,Conor Kline,AUDL 2018,New York Empire
+647,empire,Tim Kominos,AUDL 2018,New York Empire
+648,empire,Matt LeMar,AUDL 2018,New York Empire
+649,empire,Joe Ouellette,AUDL 2018,New York Empire
+650,empire,Alexander Isik,AUDL 2018,New York Empire
+651,empire,Mike Drost,AUDL 2018,New York Empire
+652,empire,Matt Stevens,AUDL 2018,New York Empire
+653,empire,Peter Kalmakis,AUDL 2018,New York Empire
+654,empire,Ross Ward,AUDL 2018,New York Empire
+655,empire,Alexi Zalk,AUDL 2018,New York Empire
+656,empire,Ryan Holmes,AUDL 2018,New York Empire
+657,empire,Harper Garvey,AUDL 2018,New York Empire
+658,empire,Ryan Saffa,AUDL 2018,New York Empire
+659,empire,Ben Katz,AUDL 2018,New York Empire
+660,empire,Lauren Doyle,AUDL 2018,New York Empire
+661,empire,Jimmy O'Connell,AUDL 2018,New York Empire
+662,empire,Jacob Price,AUDL 2018,New York Empire
+663,empire,Benjamin Spielman,AUDL 2018,New York Empire
+664,empire,Anthony Coppola,AUDL 2018,New York Empire
+665,empire,Ruo Ye,AUDL 2018,New York Empire
+666,empire,Beau Kittredge,AUDL 2018,New York Empire
+667,empire,Matt Weintraub,AUDL 2018,New York Empire
+668,empire,Jibran Mieser,AUDL 2018,New York Empire
+669,empire,Ben Jagt,AUDL 2018,New York Empire
+670,empire,Ryan Drost,AUDL 2018,New York Empire
+671,empire,Marques Brownlee,AUDL 2018,New York Empire
+672,empire,Jeff Babbitt,AUDL 2018,New York Empire
+673,alleycats,Jesse Jenkins,AUDL 2018,Indianapolis AlleyCats
+674,alleycats,Alex Henderson,AUDL 2018,Indianapolis AlleyCats
+675,alleycats,Keenan Plew,AUDL 2018,Indianapolis AlleyCats
+676,alleycats,Rick Gross,AUDL 2018,Indianapolis AlleyCats
+677,alleycats,Cameron Brock,AUDL 2018,Indianapolis AlleyCats
+678,alleycats,Aaron Schwartz,AUDL 2018,Indianapolis AlleyCats
+679,alleycats,Joey Cari,AUDL 2018,Indianapolis AlleyCats
+680,alleycats,Levi Jacobs,AUDL 2018,Indianapolis AlleyCats
+681,alleycats,Kip Curtis,AUDL 2018,Indianapolis AlleyCats
+682,alleycats,Terry Gaither,AUDL 2018,Indianapolis AlleyCats
+683,alleycats,Nathan Bussberg,AUDL 2018,Indianapolis AlleyCats
+684,alleycats,Colton Steiner,AUDL 2018,Indianapolis AlleyCats
+685,alleycats,Colin Ringwood,AUDL 2018,Indianapolis AlleyCats
+686,alleycats,Keegan North,AUDL 2018,Indianapolis AlleyCats
+687,alleycats,Conner Henderson,AUDL 2018,Indianapolis AlleyCats
+688,alleycats,Robbie Craven,AUDL 2018,Indianapolis AlleyCats
+689,alleycats,Heath Kalaba,AUDL 2018,Indianapolis AlleyCats
+690,alleycats,Connor Lukas,AUDL 2018,Indianapolis AlleyCats
+691,alleycats,Spencer Loscar,AUDL 2018,Indianapolis AlleyCats
+692,alleycats,Nick Hutton,AUDL 2018,Indianapolis AlleyCats
+693,alleycats,Peter Carleton,AUDL 2018,Indianapolis AlleyCats
+694,alleycats,Kyle Cox,AUDL 2018,Indianapolis AlleyCats
+695,alleycats,Zach Zebarth,AUDL 2018,Indianapolis AlleyCats
+696,alleycats,Jon Wenger,AUDL 2018,Indianapolis AlleyCats
+697,alleycats,Sam Sohn,AUDL 2018,Indianapolis AlleyCats
+698,alleycats,Travis Carpenter,AUDL 2018,Indianapolis AlleyCats
+699,alleycats,Donovan Triplett,AUDL 2018,Indianapolis AlleyCats
+700,alleycats,Austin Ambrose,AUDL 2018,Indianapolis AlleyCats
+701,alleycats,Jacob Fella,AUDL 2018,Indianapolis AlleyCats
+702,alleycats,Michael Ames,AUDL 2018,Indianapolis AlleyCats
+703,alleycats,John Jones,AUDL 2018,Indianapolis AlleyCats
+704,alleycats,Dan Clement,AUDL 2018,Indianapolis AlleyCats
+705,alleycats,Josh Duncan,AUDL 2018,Indianapolis AlleyCats
+706,alleycats,Alex Hamilton,AUDL 2018,Indianapolis AlleyCats
+707,alleycats,Stephen Schott,AUDL 2018,Indianapolis AlleyCats
+708,windchill,Josh Kautz,AUDL 2018,Minnesota Wind Chill
+709,windchill,Ryan Osgar,AUDL 2018,Minnesota Wind Chill
+710,windchill,Ben Feldman,AUDL 2018,Minnesota Wind Chill
+711,windchill,Bryan Vohnoutka,AUDL 2018,Minnesota Wind Chill
+712,windchill,Greg Cousins,AUDL 2018,Minnesota Wind Chill
+713,windchill,Charlie McCutcheon,AUDL 2018,Minnesota Wind Chill
+714,windchill,Cole Jurek,AUDL 2018,Minnesota Wind Chill
+715,windchill,Eric EJ Johnson,AUDL 2018,Minnesota Wind Chill
+716,windchill,Charles Weinberg,AUDL 2018,Minnesota Wind Chill
+717,windchill,Tristan Grovender,AUDL 2018,Minnesota Wind Chill
+718,windchill,Josh Klane,AUDL 2018,Minnesota Wind Chill
+719,windchill,Jordan Taylor,AUDL 2018,Minnesota Wind Chill
+720,windchill,Grayson Pangburn,AUDL 2018,Minnesota Wind Chill
+721,windchill,Colin Berry,AUDL 2018,Minnesota Wind Chill
+722,windchill,Kristian Johnson,AUDL 2018,Minnesota Wind Chill
+723,windchill,Cole Wallin,AUDL 2018,Minnesota Wind Chill
+724,windchill,Isaac Leonard,AUDL 2018,Minnesota Wind Chill
+725,windchill,Beau Hawkinson,AUDL 2018,Minnesota Wind Chill
+726,windchill,Thomas Echols,AUDL 2018,Minnesota Wind Chill
+727,windchill,C Wood,AUDL 2018,Minnesota Wind Chill
+728,windchill,Nick Ladas,AUDL 2018,Minnesota Wind Chill
+729,windchill,Michael Jordan,AUDL 2018,Minnesota Wind Chill
+730,windchill,Connor Anderson,AUDL 2018,Minnesota Wind Chill
+731,windchill,James Kittlesen,AUDL 2018,Minnesota Wind Chill
+732,windchill,Sam Bumsted,AUDL 2018,Minnesota Wind Chill
+733,windchill,Matt Burkhardt,AUDL 2018,Minnesota Wind Chill
+734,windchill,Wyatt Mekler,AUDL 2018,Minnesota Wind Chill
+735,windchill,Joe Simonelli,AUDL 2018,Minnesota Wind Chill
+736,windchill,Dylan DeClerck,AUDL 2018,Minnesota Wind Chill
+737,windchill,Brandon Matis,AUDL 2018,Minnesota Wind Chill
+738,windchill,Jason Tschida,AUDL 2018,Minnesota Wind Chill
+739,windchill,Elliot Trotter,AUDL 2018,Minnesota Wind Chill
+740,windchill,Tony Poletto,AUDL 2018,Minnesota Wind Chill
+741,flyers,Jonathan Helton,AUDL 2018,Raleigh Flyers
+742,flyers,Justin Allen,AUDL 2018,Raleigh Flyers
+743,flyers,Hunter Taylor,AUDL 2018,Raleigh Flyers
+744,flyers,Jakeem Polk,AUDL 2018,Raleigh Flyers
+745,flyers,Ryan Werkmeister,AUDL 2018,Raleigh Flyers
+746,flyers,Charlie Muniz,AUDL 2018,Raleigh Flyers
+747,flyers,Ben Dieter,AUDL 2018,Raleigh Flyers
+748,flyers,Jonathan Nethercutt,AUDL 2018,Raleigh Flyers
+749,flyers,Terrence Mitchell,AUDL 2018,Raleigh Flyers
+750,flyers,Bob Liu,AUDL 2018,Raleigh Flyers
+751,flyers,Mischa Freystaetter,AUDL 2018,Raleigh Flyers
+752,flyers,Joey Cretella,AUDL 2018,Raleigh Flyers
+753,flyers,Shane Sisco,AUDL 2018,Raleigh Flyers
+754,flyers,Kiron Allen,AUDL 2018,Raleigh Flyers
+755,flyers,Vikram Sethuraman,AUDL 2018,Raleigh Flyers
+756,flyers,David Snoke,AUDL 2018,Raleigh Flyers
+757,flyers,Jacob Mouw,AUDL 2018,Raleigh Flyers
+758,flyers,Jacob Fairfax,AUDL 2018,Raleigh Flyers
+759,flyers,Johnnie Lynch,AUDL 2018,Raleigh Flyers
+760,flyers,Jeff Nordgren,AUDL 2018,Raleigh Flyers
+761,flyers,Noah Saul,AUDL 2018,Raleigh Flyers
+762,flyers,Mike Pannone,AUDL 2018,Raleigh Flyers
+763,flyers,Alexander Taylor,AUDL 2018,Raleigh Flyers
+764,flyers,Jack Williams,AUDL 2018,Raleigh Flyers
+765,flyers,Josh Smith,AUDL 2018,Raleigh Flyers
+766,flyers,Jesse Lieberman,AUDL 2018,Raleigh Flyers
+767,flyers,Andrew McKelvey,AUDL 2018,Raleigh Flyers
+768,flyers,Tristan Green,AUDL 2018,Raleigh Flyers
+769,flyers,Jordan Perry,AUDL 2018,Raleigh Flyers
+770,flyers,Matthew Wilson,AUDL 2018,Raleigh Flyers
+771,flyers,Brett Matzuka,AUDL 2018,Raleigh Flyers
+772,flyers,Clint McSherry,AUDL 2018,Raleigh Flyers
+773,flyers,Matt Bode,AUDL 2018,Raleigh Flyers
+774,flyers,Mike Ball,AUDL 2018,Raleigh Flyers
+775,flyers,David Richardson,AUDL 2018,Raleigh Flyers
+776,flyers,Allan Laviolette,AUDL 2018,Raleigh Flyers
+777,flyers,Matt Ellis,AUDL 2018,Raleigh Flyers
+778,flyers,Josh Hartzog,AUDL 2018,Raleigh Flyers
+779,phoenix,Dustin Damiano,AUDL 2018,Philadelphia Phoenix
+780,phoenix,Brandon Pastor,AUDL 2018,Philadelphia Phoenix
+781,phoenix,Dylan Smith,AUDL 2018,Philadelphia Phoenix
+782,phoenix,Brandon  Lamberty,AUDL 2018,Philadelphia Phoenix
+783,phoenix,Greg Martin,AUDL 2018,Philadelphia Phoenix
+784,phoenix,Brian Magerr,AUDL 2018,Philadelphia Phoenix
+785,phoenix,Dmitry Suvorov,AUDL 2018,Philadelphia Phoenix
+786,phoenix,Nick Patel,AUDL 2018,Philadelphia Phoenix
+787,phoenix,Ethan Fortin,AUDL 2018,Philadelphia Phoenix
+788,phoenix,Himalaya Mehta,AUDL 2018,Philadelphia Phoenix
+789,phoenix,Matt Esser,AUDL 2018,Philadelphia Phoenix
+790,phoenix,Scott Xu,AUDL 2018,Philadelphia Phoenix
+791,phoenix,Greg Strouse,AUDL 2018,Philadelphia Phoenix
+792,phoenix,Dustin Becker,AUDL 2018,Philadelphia Phoenix
+793,phoenix,Jordan Ciccarone,AUDL 2018,Philadelphia Phoenix
+794,phoenix,James Pollard,AUDL 2018,Philadelphia Phoenix
+795,phoenix,Matt Lefebvre,AUDL 2018,Philadelphia Phoenix
+796,phoenix,Ben Davies,AUDL 2018,Philadelphia Phoenix
+797,phoenix,Mike Arcata,AUDL 2018,Philadelphia Phoenix
+798,phoenix,Allan Michel,AUDL 2018,Philadelphia Phoenix
+799,phoenix,Ethan Peck,AUDL 2018,Philadelphia Phoenix
+800,phoenix,Trey Katzenbach,AUDL 2018,Philadelphia Phoenix
+801,phoenix,Colin Masino,AUDL 2018,Philadelphia Phoenix
+802,phoenix,Igor Smola,AUDL 2018,Philadelphia Phoenix
+803,phoenix,Brice Dunn,AUDL 2018,Philadelphia Phoenix
+804,phoenix,Miles Eckardt,AUDL 2018,Philadelphia Phoenix
+805,phoenix,David Baer,AUDL 2018,Philadelphia Phoenix
+806,phoenix,Nicholas DiGiorgio,AUDL 2018,Philadelphia Phoenix
+807,phoenix,Ryan Weaver,AUDL 2018,Philadelphia Phoenix
+808,phoenix,Nick Nugent,AUDL 2018,Philadelphia Phoenix
+809,phoenix,Ryan Brown,AUDL 2018,Philadelphia Phoenix
+810,phoenix,Sean Mott,AUDL 2018,Philadelphia Phoenix
+811,phoenix,Mike Campanella,AUDL 2018,Philadelphia Phoenix
+812,phoenix,David Wenzel,AUDL 2018,Philadelphia Phoenix
+813,phoenix,Vince Reydams,AUDL 2018,Philadelphia Phoenix
+814,phoenix,Casey Vaughn,AUDL 2018,Philadelphia Phoenix
+815,phoenix,Eric Nardelli,AUDL 2018,Philadelphia Phoenix
