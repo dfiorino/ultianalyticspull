@@ -7,3 +7,5 @@
 07 - Manually approved fuzzy-search matched player names
 08 - Webscrape list of all AUDL Rosters from audl stats page. Re-fill suggested player names from that list using fuzzy search
 09 - Manually tweak entries for obvious failures
+10 - Add Similarity score
+11 - Tweak entries found by too high/low of similarity score
