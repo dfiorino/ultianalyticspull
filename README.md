@@ -1,6 +1,6 @@
 # audl-pull
 
-Use *audl-pull* to grab all of the available UltiAnalytics data for AUDL seasons 2014 to 2018. 
+Use *audl-pull* to grab all of the available UltiAnalytics data for AUDL seasons 2014 to 2018. It comes with *individual-stats* which will tabulate player stats like goals, assists, blocks, and over 20 others!
 
 **Description**
 
@@ -13,10 +13,17 @@ This project grabs AUDL data from the UltiAnalytics website using a pre-webscrap
 - Standardized team names!
 - Names for 97% of the 4,000+ usernames associated with players!
 - Extra columns to distinguish games, quarters, points, and even possessions! ***coming soon***
+- Home/Away ***coming soon***
+- Playoff/Regular season ***coming soon***
+- Merged game stats ***coming soon***
 
 **Usage**
 
 `python audl-pull.py [--updatecurrent]`
+
+then 
+
+`python individual-stats.py`
 
 That's it! 
 
