@@ -1,5 +1,4 @@
 .DS_Store
 data/.DS_Store
-output/*csv
 **/.ipynb_checkpoints/*
 *.pyc
