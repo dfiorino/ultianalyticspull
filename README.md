@@ -13,6 +13,9 @@ This project grabs AUDL data from the UltiAnalytics website using a pre-webscrap
 - Standardized team names!
 - Names for 97% of the 4,000+ usernames associated with players!
 - Extra columns to distinguish games, quarters, points, and even possessions! ***coming soon***
+- Home/Away ***coming soon***
+- Playoff/Regular season ***coming soon***
+- Merged game stats ***coming soon***
 
 **Usage**
 
