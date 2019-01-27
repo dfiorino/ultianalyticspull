@@ -97,7 +97,8 @@ def InsertPlayerNames(df_in):
     """Insert player names by replacing usernames,
        given the Tournament and Teamname"""
     upr = pd.read_csv('player-names/11_username_playername_relation.csv',encoding = "ISO-8859-1")
-
+    upr['PlayerName'] = upr['PlayerName'].fillna(upr.Username)
+    
     numbered_player_fields = [f'Player {i}' for i in range(0,28)]
     player_fields = ['Passer', 'Receiver', 'Defender'] + numbered_player_fields
 
@@ -146,7 +147,7 @@ def AddGameplayIDs(df_in):
                         'EndOfFourthQuarter',
                         'EndOfOvertime']
 
-    poss_groups =df_in.groupby('GameID').apply(lambda x : range(1,len(x[x.Action.isin(poss_change_list)])+1 ) )
+    poss_groups =df_in.groupby(['GameID','PointID']).apply(lambda x : range(1,len(x[x.Action.isin(poss_change_list)])+1 ) )
     df_in.loc[df_in.Action.isin(poss_change_list),'PossessionID']= [j for i in poss_groups for j in i]
     df_in['PossessionID'] = df_in['PossessionID'].bfill()                                    
                                             
