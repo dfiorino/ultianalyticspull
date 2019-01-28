@@ -145,7 +145,7 @@ def PlayStatsByPlayer(df_in):
                           'Points Lost (Defense)': GetDPointsLost(df_in,p),
                          } for p in plyrs])
 
-gameplay_stats = audl.groupby(['Teamname','Tournament']).apply(PlayStatsByPlayer).reset_index().rename(columns={'Tournament':'Year'})#.drop('level_2',axis=1)
+gameplay_stats = audl.groupby(['Teamname','Tournament']).apply(PlayStatsByPlayer).reset_index().rename(columns={'Tournament':'Year'}).drop('level_2',axis=1)
 
 stats_out = pd.merge(gameplay_stats,stats_out,on=['Teamname','Year','Name'],how='outer')
 
