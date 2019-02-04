@@ -20,15 +20,13 @@ This project grabs AUDL data from the UltiAnalytics website using a pre-webscrap
 
 **Usage**
 
-`python audl-pull.py [--updatecurrent]`
+`python audl-pull.py`
 
 then 
 
 `python individual-stats.py`
 
 That's it! 
-
-The only optional input is the flag `updatecurrent` which will only re-pull the latest season's data. The 2018 season is over though, so there's no need to use it!
 
 **Requirements**
 - Python >= 3.0
