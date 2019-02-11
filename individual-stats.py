@@ -25,11 +25,26 @@ def SafeDivide(x,y):
     
 count_stat_list= [
                         # Catching
-                        [(audl.Action=='Goal'), 'Receiver','Goals'],
-                        [(audl.Action.isin(['Goal','Catch'])), 'Receiver','Catches'],
+                        [(audl.Action=='Goal')&(audl['Event Type']=='Offense'), 'Receiver','Goals'],
+                        [(audl.Action=='Goal')&(audl.Line=='O')&(audl['Event Type']=='Offense'), 'Receiver','Goals (Offense)'],
+                        [(audl.Action=='Goal')&(audl.Line=='D')&(audl['Event Type']=='Offense'), 'Receiver','Goals (Defense)'],
+                        [(audl.Action.isin(['Goal','Catch']))&(audl['Event Type']=='Offense'), 'Receiver','Catches'],
                         [(audl.Action=='Drop'), 'Receiver','Drops'],
                         # Throwing
-                        [(audl.Action=='Goal'), 'Passer','Assists'],
+                        [(audl.Action=='Goal')&(audl['Event Type']=='Offense'), 'Passer','Assists'],
+                        [(audl.Action=='Goal')&(audl.Line=='O'), 'Passer','Assists (Offense)'],
+                        [(audl.Action=='Goal')&(audl.Line=='D'), 'Passer','Assists (Defense)'],
+                        [(audl.Action.shift(-1)=='Goal')
+                          &(audl['Event Type']=='Offense')
+                          &(audl['Event Type'].shift(-1)=='Offense'),'Passer','Hockey Assists'],
+                        [(audl.Line.shift(1)=='O')
+                           &(audl.Action.shift(-1)=='Goal')
+                           &(audl['Event Type']=='Offense')
+                           &(audl['Event Type'].shift(-1)=='Offense'),'Passer','Hockey Assists (Offense)'],
+                        [(audl.Line.shift(1)=='D')
+                           &(audl['Event Type']=='Offense')
+                           &(audl.Action.shift(-1)=='Goal')
+                           &(audl['Event Type'].shift(-1)=='Offense'),'Passer','Hockey Assists (Defense)'],
                         [([True]*len(audl)), 'Passer','Throws'],
                         [(audl.Action.isin(['Goal','Catch'])), 'Passer','Completions'],
                         [(audl.Action.isin(['Throwaway','Callahan'])),'Passer','Throwaways'],
@@ -39,7 +54,9 @@ count_stat_list= [
                         [(audl.Action=='MiscPenalty'),'Passer','Fouls Drawn'],
                         [(audl.Action=='Stall'),'Passer','Stalls'],
                         # Defense
-                        [(audl.Action.isin(['D','Callahan'])), 'Defender', 'Blocks'],
+                        [(audl.Action.isin(['D','Callahan']))&(audl['Event Type']=='Defense'), 'Defender', 'Blocks'],
+                        [(audl.Action.isin(['D','Callahan']))&(audl['Event Type']=='Defense')&(audl.Line=='O'), 'Defender', 'Blocks (Offense)'],
+                        [(audl.Action.isin(['D','Callahan']))&(audl['Event Type']=='Defense')&(audl.Line=='D'), 'Defender', 'Blocks (Defense)'],
                         [(audl.Action=='Callahan'), 'Defender','Callahans'],
                         [audl.Action.isin(['Pull','PullOb']), 'Defender', 'Pulls'],
                         [(audl.Action=='PullOb'), 'Defender', 'Pulls (Out-of-bounds)'],
