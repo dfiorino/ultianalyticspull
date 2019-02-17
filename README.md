@@ -1,4 +1,4 @@
-# audl-pull
+# audl-pull ![Alt text](images/logo.png?raw=true "SOTG Stats")
 
 Use *audl-pull* to grab, clean, and enhance all of the available UltiAnalytics data for AUDL seasons 2014 to 2018. It comes with *individual-stats* which will tabulate player stats like goals, assists, blocks, and over 20 others!
 
@@ -32,3 +32,8 @@ That's it!
 - Python >= 3.0
 - Internet connection ;)
 - Python libraries: glob,urllib,argparse,pandas,numpy,csv,argparse (pretty standard stuff)
+
+## Credit
+
+Doing something with *audl-pull*? gi
+
