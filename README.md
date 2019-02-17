@@ -39,5 +39,5 @@ That's it!
 
 ## Credit
 
-Doing something with *audl-pull*? gi
+Doing something cool with *audl-pull*? Let me know!
 
