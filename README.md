@@ -1,4 +1,4 @@
-# audl-pull
+# audl-pull <img align="right" width="100" height="100" src="images/logo.png">
 
 Use *audl-pull* to grab, clean, and enhance all of the available UltiAnalytics data for AUDL seasons 2014 to 2018. It comes with *individual-stats* which will tabulate player stats like goals, assists, blocks, and over 20 others!
 
@@ -20,11 +20,15 @@ This project grabs AUDL data from the UltiAnalytics website using a pre-webscrap
 
 ## Usage
 
-`python audl-pull.py`
+```bash
+python audl-pull.py
+```
 
 then 
 
-`python individual-stats.py`
+```bash
+python individual-stats.py
+```
 
 That's it! 
 
@@ -32,3 +36,8 @@ That's it!
 - Python >= 3.0
 - Internet connection ;)
 - Python libraries: glob,urllib,argparse,pandas,numpy,csv,argparse (pretty standard stuff)
+
+## Credit
+
+Doing something cool with *audl-pull*? Let me know!
+
