@@ -4,7 +4,7 @@ import numpy as np
 from glob import glob
 import argparse
 import csv
-import opponents
+from lib import opponents
 
 def ParseArgs():
     """Setup command-line interface"""
@@ -157,7 +157,7 @@ def main():
 
     args = ParseArgs()
     
-    allfiles = sorted(glob('data/teams*.csv'))
+    allfiles = sorted(glob('data/page-links/teams*.csv'))
     filestoget = allfiles if not args.updatecurrent else [allfiles[-1]]
     
     for f in filestoget:
