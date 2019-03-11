@@ -96,7 +96,7 @@ def TimeEventSort(df_in):
 def InsertPlayerNames(df_in):
     """Insert player names by replacing usernames,
        given the Tournament and Teamname"""
-    upr = pd.read_csv('player-names/11_username_playername_relation.csv',encoding = "ISO-8859-1")
+    upr = pd.read_csv('data/players/username_playername_relation',encoding = "ISO-8859-1")
     upr['PlayerName'] = upr['PlayerName'].fillna(upr.Username)
     
     numbered_player_fields = [f'Player {i}' for i in range(0,28)]
@@ -157,7 +157,7 @@ def main():
 
     args = ParseArgs()
     
-    allfiles = sorted(glob('data/page-links/teams*.csv'))
+    allfiles = sorted(glob('data/page-links/ultianalytics_pages*.csv'))
     filestoget = allfiles if not args.updatecurrent else [allfiles[-1]]
     
     for f in filestoget:
