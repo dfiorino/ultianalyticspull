@@ -21,4 +21,4 @@ for i in webscraped_players['team-href'].values:
         
 audldotcom_rosters = pd.DataFrame(somelist,columns=['Teamname','Name'])
 
-audldotcom_rosters.to_csv('../../data/rosters/current_rosters.csv')
+audldotcom_rosters.to_csv('../../data/players/current_rosters.csv')
