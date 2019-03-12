@@ -172,7 +172,7 @@ def main():
             print(year,teamname)
           
             url = 'http://www.ultianalytics.com/rest/view/team/{}/stats/export'.format(teamno)
-            outfn = "output/{}_{}.csv".format(year,teamname).replace(' ','')
+            outfn = "data/processed/{}_{}.csv".format(year,teamname).replace(' ','')
             urllib.request.urlretrieve(url, outfn)
             
             df_teamdata = CSV2DataFrame(outfn)

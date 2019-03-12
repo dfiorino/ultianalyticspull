@@ -2,7 +2,7 @@ import pandas as pd
 import glob
 from functools import reduce
 
-audl = pd.concat([pd.read_csv(dfteam, index_col=0) for dfteam in glob.glob('output/*.csv')])
+audl = pd.concat([pd.read_csv(dfteam, index_col=0) for dfteam in glob.glob('data/processed/*.csv')])
 
 
 def GetStat(df_slice, player_field,stat_name,aggfunc):
@@ -183,4 +183,4 @@ secondary_stats = [
 for sec_stat,aggfunc in secondary_stats:
     stats_out[sec_stat] = stats_out.apply(aggfunc,axis=1)
         
-stats_out.to_csv('output/IndividualStats.csv',sep=',',index=False)
+stats_out.to_csv('data/processed/IndividualStats.csv',sep=',',index=False)
