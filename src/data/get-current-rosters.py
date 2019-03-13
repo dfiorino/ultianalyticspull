@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 import os
 import difflib
 
-webscraped_players = pd.read_csv('/Users/fiorino/Desktop/audl-pull/player-names/01_webscraped_audlplayers2019.csv')
-team_info = pd.read_csv('/Users/fiorino/Desktop/audl-pull/data/teams/audlteaminfo.csv')
+webscraped_players = pd.read_csv('../../data/page-links/players_pages_2019.csv')
+team_info = pd.read_csv('../../data/teams/audlteaminfo.csv')
 
 
 somelist=[]
