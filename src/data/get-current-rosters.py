@@ -4,8 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-team_info = pd.read_csv('/Users/fiorino/Desktop/audl-pull/data/teams/audlteaminfo.csv')
-
+team_info = pd.read_csv('../../data/teams/audlteaminfo.csv')
 
 somelist=[]
 for i,row in team_info[team_info.Active].iterrows():
