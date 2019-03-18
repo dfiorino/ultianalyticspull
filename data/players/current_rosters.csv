@@ -1,0 +1,630 @@
+,Teamname,Name,FirstName,LastName
+0,Atlanta Hustle,Daniel Sperling,Daniel,Sperling
+1,Atlanta Hustle,Will Lindquist,Will,Lindquist
+2,Atlanta Hustle,Austin Taylor,Austin,Taylor
+3,Atlanta Hustle,Matthew Knowles,Matthew,Knowles
+4,Atlanta Hustle,Player Pierce,Player,Pierce
+5,Atlanta Hustle,Brett Hulsmeyer,Brett,Hulsmeyer
+6,Atlanta Hustle,Zack Avello,Zack,Avello
+7,Atlanta Hustle,Christian Olsen,Christian,Olsen
+8,Atlanta Hustle,Javier Ortiz,Javier,Ortiz
+9,Atlanta Hustle,Kelvin Williams,Kelvin,Williams
+10,Atlanta Hustle,Matt Smith,Matt,Smith
+11,Atlanta Hustle,Carter Rae,Carter,Rae
+12,Atlanta Hustle,Taylor Minch,Taylor,Minch
+13,Atlanta Hustle,Hayden Austin-Knab,Hayden,Austin-Knab
+14,Atlanta Hustle,Josh Bush,Josh,Bush
+15,Atlanta Hustle,Paul Lally,Paul,Lally
+16,Atlanta Hustle,Sun Choi,Sun,Choi
+17,Atlanta Hustle,Joel Wooten,Joel,Wooten
+18,Atlanta Hustle,Josh Turner,Josh,Turner
+19,Atlanta Hustle,Devon Rogers,Devon,Rogers
+20,Atlanta Hustle,Eli Jaime,Eli,Jaime
+21,Atlanta Hustle,David Petmecky,David,Petmecky
+22,Atlanta Hustle,Sam Batson,Sam,Batson
+23,Atlanta Hustle,Trenton Spinks,Trenton,Spinks
+24,Atlanta Hustle,Mac McClellan,Mac,McClellan
+25,Austin Sol,Mitchell Bennett,Mitchell,Bennett
+26,Austin Sol,John Cecil,John,Cecil
+27,Austin Sol,Matt Bennett,Matt,Bennett
+28,Austin Sol,Michael Matthis,Michael,Matthis
+29,Austin Sol,Reese Bowman,Reese,Bowman
+30,Austin Sol,Jeff Loskorn,Jeff,Loskorn
+31,Austin Sol,Eric Brodbeck,Eric,Brodbeck
+32,Austin Sol,Jason Holleran,Jason,Holleran
+33,Austin Sol,Matthew Bierschenk,Matthew,Bierschenk
+34,Austin Sol,Joshua Zdrodowski,Joshua,Zdrodowski
+35,Austin Sol,Corey Mika,Corey,Mika
+36,Austin Sol,Jimmy Zuraw,Jimmy,Zuraw
+37,Austin Sol,Andrew Walch,Andrew,Walch
+38,Austin Sol,Carter Hollo,Carter,Hollo
+39,Austin Sol,Jerrod Wolfe,Jerrod,Wolfe
+40,Austin Sol,Mason Wuensch,Mason,Wuensch
+41,Austin Sol,Derek Fan,Derek,Fan
+42,Austin Sol,Mutahir Ahmad,Mutahir,Ahmad
+43,Austin Sol,Ethan Pollack,Ethan,Pollack
+44,Austin Sol,Chase Cunningham,Chase,Cunningham
+45,Austin Sol,Elliott Moore,Elliott,Moore
+46,Austin Sol,Keivaun Waugh,Keivaun,Waugh
+47,Austin Sol,Kyle Henke,Kyle,Henke
+48,Austin Sol,Rory Orloff,Rory,Orloff
+49,Austin Sol,Brian Gfroerer,Brian,Gfroerer
+50,Austin Sol,Mick Walter,Mick,Walter
+51,Austin Sol,Brandon Dial,Brandon,Dial
+52,Austin Sol,Mike Cramer,Mike,Cramer
+53,Austin Sol,Austin Walker,Austin,Walker
+54,Austin Sol,Zachary Cotter,Zachary,Cotter
+55,Austin Sol,Paul Starkel,Paul,Starkel
+56,Austin Sol,Ryan Purcell,Ryan,Purcell
+57,Austin Sol,Doug Richardson,Doug,Richardson
+58,Austin Sol,Robert Lewis,Robert,Lewis
+59,Chicago Wildfire,Jesse Johnson,Jesse,Johnson
+60,Chicago Wildfire,Kurt Gibson,Kurt,Gibson
+61,Chicago Wildfire,Michael Egan,Michael,Egan
+62,Chicago Wildfire,Seth Weaver,Seth,Weaver
+63,Chicago Wildfire,Brad Bolliger,Brad,Bolliger
+64,Chicago Wildfire,Matt Rehder,Matt,Rehder
+65,Chicago Wildfire,David Woods,David,Woods
+66,Chicago Wildfire,Jesse White,Jesse,White
+67,Chicago Wildfire,Jeff Weis,Jeff,Weis
+68,Chicago Wildfire,Von Alanguilan,Von,Alanguilan
+69,Chicago Wildfire,Nate Goff,Nate,Goff
+70,Chicago Wildfire,Jeremy Burril,Jeremy,Burril
+71,Chicago Wildfire,Judah Newman,Judah,Newman
+72,Chicago Wildfire,Drew Swanson,Drew,Swanson
+73,Chicago Wildfire,Tommy Gallagher,Tommy,Gallagher
+74,Chicago Wildfire,Jack Shanahan,Jack,Shanahan
+75,Chicago Wildfire,Joey Kennedy,Joey,Kennedy
+76,Chicago Wildfire,Nick Zeman,Nick,Zeman
+77,Chicago Wildfire,Cal Tornabene,Cal,Tornabene
+78,Chicago Wildfire,David Meinecke,David,Meinecke
+79,Chicago Wildfire,Alex Rummelhart,Alex,Rummelhart
+80,Chicago Wildfire,Michael Pardo,Michael,Pardo
+81,Chicago Wildfire,Ross Barker,Ross,Barker
+82,Chicago Wildfire,Zane Rankin,Zane,Rankin
+83,Chicago Wildfire,Karl Kingma,Karl,Kingma
+84,Chicago Wildfire,Dan Miller,Dan,Miller
+85,Chicago Wildfire,Tim Fergus,Tim,Fergus
+86,Chicago Wildfire,James Sykora,James,Sykora
+87,Chicago Wildfire,Brenton Hard,Brenton,Hard
+88,Chicago Wildfire,Pawel Janas,Pawel,Janas
+89,Chicago Wildfire,Jason Vallee,Jason,Vallee
+90,Chicago Wildfire,Zubair Abdulla,Zubair,Abdulla
+91,Chicago Wildfire,CJ O'Brien,CJ,O'Brien
+92,Chicago Wildfire,Charlie Furse,Charlie,Furse
+93,Dallas Roughnecks,Brandon Malecek,Brandon,Malecek
+94,Dallas Roughnecks,Griffin Miller,Griffin,Miller
+95,Dallas Roughnecks,Kaplan Maurer,Kaplan,Maurer
+96,Dallas Roughnecks,Matt Jackson,Matt,Jackson
+97,Dallas Roughnecks,Sam Ward,Sam,Ward
+98,Dallas Roughnecks,Jay Froude,Jay,Froude
+99,Dallas Roughnecks,Jake Reinhardt,Jake,Reinhardt
+100,Dallas Roughnecks,Ben Lewis,Ben,Lewis
+101,Dallas Roughnecks,Abe Coffin,Abe,Coffin
+102,Dallas Roughnecks,Joel Clutton,Joel,Clutton
+103,Dallas Roughnecks,Alex Brouwer,Alex,Brouwer
+104,Dallas Roughnecks,Dillon Larberg,Dillon,Larberg
+105,Dallas Roughnecks,Dalton Smith,Dalton,Smith
+106,Dallas Roughnecks,Stephen Poulos,Stephen,Poulos
+107,Dallas Roughnecks,Abe Gambert,Abe,Gambert
+108,Dallas Roughnecks,Chris Larberg,Chris,Larberg
+109,Dallas Roughnecks,Daniel Emmons,Daniel,Emmons
+110,Dallas Roughnecks,Kevin Richardson,Kevin,Richardson
+111,Dallas Roughnecks,Casey Hogg,Casey,Hogg
+112,Dallas Roughnecks,Zach Riggins,Zach,Riggins
+113,Dallas Roughnecks,Connor Olson,Connor,Olson
+114,Dallas Roughnecks,Wesley Miaw,Wesley,Miaw
+115,Dallas Roughnecks,Connor Ughetta,Connor,Ughetta
+116,Dallas Roughnecks,Carson Wilder,Carson,Wilder
+117,Dallas Roughnecks,Noah Chambers,Noah,Chambers
+118,Dallas Roughnecks,Thomas Slack,Thomas,Slack
+119,Dallas Roughnecks,Kai Marshall,Kai,Marshall
+120,Dallas Roughnecks,Henry Furuta,Henry,Furuta
+121,Dallas Roughnecks,Brian Street,Brian,Street
+122,Dallas Roughnecks,Jonathan Costello,Jonathan,Costello
+123,Dallas Roughnecks,Matthew Armour,Matthew,Armour
+124,Dallas Roughnecks,Zach Marbach,Zach,Marbach
+125,Dallas Roughnecks,Ben Rogers,Ben,Rogers
+126,Dallas Roughnecks,David Hammer,David,Hammer
+127,DC Breeze,Jarrod Banks,Jarrod,Banks
+128,DC Breeze,Alexandre Fall,Alexandre,Fall
+129,DC Breeze,Kris Harrison,Kris,Harrison
+130,DC Breeze,Houston Parks,Houston,Parks
+131,DC Breeze,AJ Merriman,AJ,Merriman
+132,DC Breeze,Dane Warner,Dane,Warner
+133,DC Breeze,Matt Collum,Matt,Collum
+134,DC Breeze,John Walden,John,Walden
+135,DC Breeze,Kenta Kawaguchi,Kenta,Kawaguchi
+136,DC Breeze,Zach Norrbom,Zach,Norrbom
+137,DC Breeze,Joe Richards,Joe,Richards
+138,DC Breeze,Garrett Braun,Garrett,Braun
+139,DC Breeze,Dennis Maclaine,Dennis,Maclaine
+140,DC Breeze,Cole Sullivan,Cole,Sullivan
+141,DC Breeze,Kyle Vezina,Kyle,Vezina
+142,DC Breeze,Alex Liu,Alex,Liu
+143,DC Breeze,Matt Neeley,Matt,Neeley
+144,DC Breeze,Sam Brecker,Sam,Brecker
+145,DC Breeze,Rowan McDonnell,Rowan,McDonnell
+146,DC Breeze,Peter Mancini,Peter,Mancini
+147,DC Breeze,Max Cassell,Max,Cassell
+148,DC Breeze,Danny Krug,Danny,Krug
+149,DC Breeze,Jeremy Knopf,Jeremy,Knopf
+150,DC Breeze,Cody Johnston,Cody,Johnston
+151,DC Breeze,David Bloodgood,David,Bloodgood
+152,DC Breeze,Anthony McLean,Anthony,McLean
+153,DC Breeze,Quinn Bergeron,Quinn,Bergeron
+154,DC Breeze,Jeremy Hess,Jeremy,Hess
+155,DC Breeze,David Shields,David,Shields
+156,DC Breeze,Nathan Prior,Nathan,Prior
+157,DC Breeze,Jeff Wodatch,Jeff,Wodatch
+158,DC Breeze,Jay Boyle,Jay,Boyle
+159,DC Breeze,Kevin Versteeg,Kevin,Versteeg
+160,DC Breeze,Ray Mendoza,Ray,Mendoza
+161,DC Breeze,Leo Pierson,Leo,Pierson
+162,DC Breeze,Xavier Maxstadt,Xavier,Maxstadt
+163,Detroit Mechanix,Stephen Becker,Stephen,Becker
+164,Detroit Mechanix,Joseph Cubitt,Joseph,Cubitt
+165,Detroit Mechanix,Austin Riegel,Austin,Riegel
+166,Detroit Mechanix,Josh Beaulieu,Josh,Beaulieu
+167,Detroit Mechanix,James Baker Jr,James,Baker Jr
+168,Detroit Mechanix,Alex Bertoia,Alex,Bertoia
+169,Detroit Mechanix,Wasdi Grimaldo,Wasdi,Grimaldo
+170,Detroit Mechanix,Karl Fauerbach,Karl,Fauerbach
+171,Detroit Mechanix,Christopher Sackmann,Christopher,Sackmann
+172,Detroit Mechanix,Mitchell DeNooyer,Mitchell,DeNooyer
+173,Detroit Mechanix,Andrew Everts,Andrew,Everts
+174,Detroit Mechanix,Joe Rogers,Joe,Rogers
+175,Detroit Mechanix,Kevin Anthony,Kevin,Anthony
+176,Detroit Mechanix,Kevin Nicholl,Kevin,Nicholl
+177,Detroit Mechanix,Jordan Kinde,Jordan,Kinde
+178,Detroit Mechanix,Mark Whitton,Mark,Whitton
+179,Detroit Mechanix,Austin Johnson,Austin,Johnson
+180,Detroit Mechanix,Troy Roberts,Troy,Roberts
+181,Indianapolis AlleyCats,Alex Henderson,Alex,Henderson
+182,Indianapolis AlleyCats,Jesse Jenkins,Jesse,Jenkins
+183,Indianapolis AlleyCats,Keenan Plew,Keenan,Plew
+184,Indianapolis AlleyCats,Rick Gross,Rick,Gross
+185,Indianapolis AlleyCats,Cameron Brock,Cameron,Brock
+186,Indianapolis AlleyCats,Joey Cari,Joey,Cari
+187,Indianapolis AlleyCats,Levi Jacobs,Levi,Jacobs
+188,Indianapolis AlleyCats,David Hortemiller,David,Hortemiller
+189,Indianapolis AlleyCats,Colton Steiner,Colton,Steiner
+190,Indianapolis AlleyCats,Colin Ringwood,Colin,Ringwood
+191,Indianapolis AlleyCats,Keegan North,Keegan,North
+192,Indianapolis AlleyCats,Conner Henderson,Conner,Henderson
+193,Indianapolis AlleyCats,Dustin Baird,Dustin,Baird
+194,Indianapolis AlleyCats,Heath Kalaba,Heath,Kalaba
+195,Indianapolis AlleyCats,AJ Humbert,AJ,Humbert
+196,Indianapolis AlleyCats,Spencer Loscar,Spencer,Loscar
+197,Indianapolis AlleyCats,Nick Hutton,Nick,Hutton
+198,Indianapolis AlleyCats,Peter Carleton,Peter,Carleton
+199,Indianapolis AlleyCats,Kyle Cox,Kyle,Cox
+200,Indianapolis AlleyCats,Zach Zebarth,Zach,Zebarth
+201,Indianapolis AlleyCats,Sam Ellison,Sam,Ellison
+202,Indianapolis AlleyCats,Jeremy Keusch,Jeremy,Keusch
+203,Indianapolis AlleyCats,Travis Carpenter,Travis,Carpenter
+204,Indianapolis AlleyCats,Christopher Miller,Christopher,Miller
+205,Indianapolis AlleyCats,Donovan Triplett,Donovan,Triplett
+206,Indianapolis AlleyCats,Brett Matzuka,Brett,Matzuka
+207,Indianapolis AlleyCats,Jacob Fella,Jacob,Fella
+208,Indianapolis AlleyCats,John Jones,John,Jones
+209,Indianapolis AlleyCats,Dustin Hughes,Dustin,Hughes
+210,Los Angeles Aviators,Xavier Charles,Xavier,Charles
+211,Los Angeles Aviators,Michael Kiyoi,Michael,Kiyoi
+212,Los Angeles Aviators,Evan Valdes,Evan,Valdes
+213,Los Angeles Aviators,Ryan Lepore,Ryan,Lepore
+214,Los Angeles Aviators,Andrew Padula,Andrew,Padula
+215,Los Angeles Aviators,Danny Landesman,Danny,Landesman
+216,Los Angeles Aviators,Sean McDougall,Sean,McDougall
+217,Los Angeles Aviators,Alex Drum,Alex,Drum
+218,Los Angeles Aviators,Mitchell Steiner,Mitchell,Steiner
+219,Los Angeles Aviators,Kyle Conniff,Kyle,Conniff
+220,Los Angeles Aviators,Zach Theodore,Zach,Theodore
+221,Los Angeles Aviators,KJ Koo,KJ,Koo
+222,Los Angeles Aviators,Aaron Weaver,Aaron,Weaver
+223,Los Angeles Aviators,Jeffrey Silverman,Jeffrey,Silverman
+224,Los Angeles Aviators,Ryan Smith,Ryan,Smith
+225,Los Angeles Aviators,Ian Ladner,Ian,Ladner
+226,Los Angeles Aviators,Zac Schakner,Zac,Schakner
+227,Los Angeles Aviators,Matt Theologidy,Matt,Theologidy
+228,Los Angeles Aviators,Timothy Beatty,Timothy,Beatty
+229,Los Angeles Aviators,Nate Ransom,Nate,Ransom
+230,Los Angeles Aviators,Sam Plasman,Sam,Plasman
+231,Los Angeles Aviators,Collin Gall,Collin,Gall
+232,Los Angeles Aviators,Joc Jimenez,Joc,Jimenez
+233,Los Angeles Aviators,Nate Kirchhofer,Nate,Kirchhofer
+234,Los Angeles Aviators,Jake Baumer,Jake,Baumer
+235,Los Angeles Aviators,Eric Lissner,Eric,Lissner
+236,Los Angeles Aviators,Wayne Lu,Wayne,Lu
+237,Los Angeles Aviators,Tyler Bacon,Tyler,Bacon
+238,Los Angeles Aviators,Garrett Santi,Garrett,Santi
+239,Los Angeles Aviators,Calvin Brown,Calvin,Brown
+240,Madison Radicals,Adam Drews,Adam,Drews
+241,Madison Radicals,Andrew Meshnick,Andrew,Meshnick
+242,Madison Radicals,Seth Meyer,Seth,Meyer
+243,Madison Radicals,Pat Shriwise,Pat,Shriwise
+244,Madison Radicals,Sean Treacy,Sean,Treacy
+245,Madison Radicals,Avery Johnson,Avery,Johnson
+246,Madison Radicals,Tom Annen,Tom,Annen
+247,Madison Radicals,Benjy Keren,Benjy,Keren
+248,Madison Radicals,Joshua Wilson,Joshua,Wilson
+249,Madison Radicals,Victor Luo,Victor,Luo
+250,Madison Radicals,Andrew Brown,Andrew,Brown
+251,Madison Radicals,David Nester,David,Nester
+252,Madison Radicals,Logan Pruess,Logan,Pruess
+253,Madison Radicals,Chris Wilen,Chris,Wilen
+254,Madison Radicals,Nate Bosscher,Nate,Bosscher
+255,Madison Radicals,Sterling Knoche,Sterling,Knoche
+256,Madison Radicals,Glenn Poole,Glenn,Poole
+257,Madison Radicals,Dave Wiseman,Dave,Wiseman
+258,Madison Radicals,Rami Paust,Rami,Paust
+259,Madison Radicals,Kyle Weigand,Kyle,Weigand
+260,Madison Radicals,Ryan Tucker,Ryan,Tucker
+261,Madison Radicals,Peter Graffy,Peter,Graffy
+262,Madison Radicals,Colin Camp,Colin,Camp
+263,Madison Radicals,Jeff Maskalunas,Jeff,Maskalunas
+264,Madison Radicals,Chase Marty,Chase,Marty
+265,Madison Radicals,Mike Kobyra,Mike,Kobyra
+266,Madison Radicals,Thomas Coolidge,Thomas,Coolidge
+267,Madison Radicals,Tarik Akyuz,Tarik,Akyuz
+268,Madison Radicals,Ben Nelson,Ben,Nelson
+269,Madison Radicals,Dylan Power,Dylan,Power
+270,Madison Radicals,Luke Marks,Luke,Marks
+271,Madison Radicals,Colin Grandon,Colin,Grandon
+272,Madison Radicals,Jack Kelly,Jack,Kelly
+273,Madison Radicals,Kevin Pettit-Scantling,Kevin,Pettit-Scantling
+274,Madison Radicals,Dan Vockeroth,Dan,Vockeroth
+275,Madison Radicals,Kyle Dreger,Kyle,Dreger
+276,Madison Radicals,Kevin Brown,Kevin,Brown
+277,Minnesota Wind Chill,Zac Merie,Zac,Merie
+278,Minnesota Wind Chill,Alex Jirele,Alex,Jirele
+279,Minnesota Wind Chill,Bryan Vohnoutka,Bryan,Vohnoutka
+280,Minnesota Wind Chill,Jesse Greenberg,Jesse,Greenberg
+281,Minnesota Wind Chill,Mathew Ladyman,Mathew,Ladyman
+282,Minnesota Wind Chill,Cole Jurek,Cole,Jurek
+283,Minnesota Wind Chill,Tony Poletto,Tony,Poletto
+284,Minnesota Wind Chill,Jordan Taylor,Jordan,Taylor
+285,Minnesota Wind Chill,Grayson Pangburn,Grayson,Pangburn
+286,Minnesota Wind Chill,Brendan McCann,Brendan,McCann
+287,Minnesota Wind Chill,Mitchell McCarthy,Mitchell,McCarthy
+288,Minnesota Wind Chill,Kristian Johnson,Kristian,Johnson
+289,Minnesota Wind Chill,Ethan Rasmussen,Ethan,Rasmussen
+290,Minnesota Wind Chill,Ben Pavelka,Ben,Pavelka
+291,Minnesota Wind Chill,Cam Burden,Cam,Burden
+292,Minnesota Wind Chill,Michael Jordan,Michael,Jordan
+293,Minnesota Wind Chill,Ryan Welch,Ryan,Welch
+294,Minnesota Wind Chill,Daniel Bates,Daniel,Bates
+295,Minnesota Wind Chill,Josh Klane,Josh,Klane
+296,Minnesota Wind Chill,Saurav Dubey,Saurav,Dubey
+297,Minnesota Wind Chill,Jimmy Kittlesen,Jimmy,Kittlesen
+298,Minnesota Wind Chill,Alan Scarth,Alan,Scarth
+299,Minnesota Wind Chill,Dylan DeClerck,Dylan,DeClerck
+300,Minnesota Wind Chill,Brandon Matis,Brandon,Matis
+301,Minnesota Wind Chill,Jason Tschida,Jason,Tschida
+302,Minnesota Wind Chill,Drew Otterlei,Drew,Otterlei
+303,Minnesota Wind Chill,Tate Halberg,Tate,Halberg
+304,Minnesota Wind Chill,Isaac Leonard,Isaac,Leonard
+305,Minnesota Wind Chill,Pat Cashman,Pat,Cashman
+306,Minnesota Wind Chill,Quinn Snider,Quinn,Snider
+307,Montreal Royal,Vincent Gamache,Vincent,Gamache
+308,Montreal Royal,Philippe Bisson,Philippe,Bisson
+309,Montreal Royal,Vincent Lemieux,Vincent,Lemieux
+310,Montreal Royal,Steve Bonneau,Steve,Bonneau
+311,Montreal Royal,Nabil Chaouch,Nabil,Chaouch
+312,Montreal Royal,Jacob Saunders,Jacob,Saunders
+313,Montreal Royal,Andre Arsenault,Andre,Arsenault
+314,Montreal Royal,Jordan Faries,Jordan,Faries
+315,Montreal Royal,Gabriel Monfette,Gabriel,Monfette
+316,Montreal Royal,Christophe Tremblay-Joncas,Christophe,Tremblay-Joncas
+317,Montreal Royal,Mathieu Bosser,Mathieu,Bosser
+318,Montreal Royal,Quentin Roger,Quentin,Roger
+319,Montreal Royal,Miguel Goderre,Miguel,Goderre
+320,Montreal Royal,Sacha Poitte-Sokolsky,Sacha,Poitte-Sokolsky
+321,Montreal Royal,Eliott Heloir,Eliott,Heloir
+322,Montreal Royal,Brian Howard,Brian,Howard
+323,Montreal Royal,Henry Rodriguez,Henry,Rodriguez
+324,Montreal Royal,Quentin Bonnaud,Quentin,Bonnaud
+325,Montreal Royal,Mohamed Chrouh,Mohamed,Chrouh
+326,Montreal Royal,Dylan Lacombe-Burgoyne,Dylan,Lacombe-Burgoyne
+327,Montreal Royal,Simon Charette,Simon,Charette
+328,Montreal Royal,Laurent Faye,Laurent,Faye
+329,Montreal Royal,Malik Auger-Semmar,Malik,Auger-Semmar
+330,Montreal Royal,Kevin Groulx,Kevin,Groulx
+331,Montreal Royal,Kevin Quinlan,Kevin,Quinlan
+332,Montreal Royal,Basile Limoges,Basile,Limoges
+333,Montreal Royal,Jakob Brissette,Jakob,Brissette
+334,Montreal Royal,Esteban Ceballos,Esteban,Ceballos
+335,Montreal Royal,Zakarie Massi,Zakarie,Massi
+336,New York Empire,Evan Padget,Evan,Padget
+337,New York Empire,Noriaki To,Noriaki,To
+338,New York Empire,Josh Alorro,Josh,Alorro
+339,New York Empire,Matt Auletta,Matt,Auletta
+340,New York Empire,Grant Lindsley,Grant,Lindsley
+341,New York Empire,TJ Stanton,TJ,Stanton
+342,New York Empire,Elliot Lee,Elliot,Lee
+343,New York Empire,Conor Kline,Conor,Kline
+344,New York Empire,Jack Williams,Jack,Williams
+345,New York Empire,Matt LeMar,Matt,LeMar
+346,New York Empire,Albert Alarcon,Albert,Alarcon
+347,New York Empire,Mike Drost,Mike,Drost
+348,New York Empire,Matt Stevens,Matt,Stevens
+349,New York Empire,Ryan Holmes,Ryan,Holmes
+350,New York Empire,Ben Katz,Ben,Katz
+351,New York Empire,Sam Feder,Sam,Feder
+352,New York Empire,Tristan Yarter,Tristan,Yarter
+353,New York Empire,Beau Kittredge,Beau,Kittredge
+354,New York Empire,Matt Weintraub,Matt,Weintraub
+355,New York Empire,Jibran Mieser,Jibran,Mieser
+356,New York Empire,Ben Jagt,Ben,Jagt
+357,New York Empire,Ryan Brown,Ryan,Brown
+358,New York Empire,Ryan Drost,Ryan,Drost
+359,New York Empire,Marques Brownlee,Marques,Brownlee
+360,New York Empire,Jeff Babbitt,Jeff,Babbitt
+361,New York Empire,Kyle Dew,Kyle,Dew
+362,Ottawa Outlaws,Erich Phang-Lynn,Erich,Phang-Lynn
+363,Ottawa Outlaws,Paul Mensah,Paul,Mensah
+364,Ottawa Outlaws,Karl Loiseau,Karl,Loiseau
+365,Ottawa Outlaws,Derek Alexander,Derek,Alexander
+366,Ottawa Outlaws,Ken Alexander,Ken,Alexander
+367,Ottawa Outlaws,Matt O'Brien,Matt,O'Brien
+368,Ottawa Outlaws,Shintaro Tsukamoto,Shintaro,Tsukamoto
+369,Ottawa Outlaws,Ryan Wallace,Ryan,Wallace
+370,Ottawa Outlaws,Chad McCausland,Chad,McCausland
+371,Ottawa Outlaws,Paul Renaud,Paul,Renaud
+372,Ottawa Outlaws,Colin Froats,Colin,Froats
+373,Ottawa Outlaws,Alec Arsenault,Alec,Arsenault
+374,Ottawa Outlaws,Braedan Robinson,Braedan,Robinson
+375,Ottawa Outlaws,Erik Hunter,Erik,Hunter
+376,Ottawa Outlaws,Carson Turner,Carson,Turner
+377,Ottawa Outlaws,Greg Ellis,Greg,Ellis
+378,Ottawa Outlaws,Jon Hallett,Jon,Hallett
+379,Ottawa Outlaws,David Colic,David,Colic
+380,Ottawa Outlaws,Andrew Ouchterlony,Andrew,Ouchterlony
+381,Ottawa Outlaws,Adam O'Donnell,Adam,O'Donnell
+382,Ottawa Outlaws,Geoff Bevan,Geoff,Bevan
+383,Ottawa Outlaws,Kyle Cantal,Kyle,Cantal
+384,Ottawa Outlaws,Nick Boucher,Nick,Boucher
+385,Ottawa Outlaws,Jeremy Hill,Jeremy,Hill
+386,Philadelphia Phoenix,Dustin Damiano,Dustin,Damiano
+387,Philadelphia Phoenix,Brandon Pastor,Brandon,Pastor
+388,Philadelphia Phoenix,Shashank Alladi,Shashank,Alladi
+389,Philadelphia Phoenix,Austin Lillis,Austin,Lillis
+390,Philadelphia Phoenix,Greg Martin,Greg,Martin
+391,Philadelphia Phoenix,Mike Campanella,Mike,Campanella
+392,Philadelphia Phoenix,Nick Patel,Nick,Patel
+393,Philadelphia Phoenix,Ethan Fortin,Ethan,Fortin
+394,Philadelphia Phoenix,Himalaya Mehta,Himalaya,Mehta
+395,Philadelphia Phoenix,Matt Esser,Matt,Esser
+396,Philadelphia Phoenix,Scott Xu,Scott,Xu
+397,Philadelphia Phoenix,Zac Sands,Zac,Sands
+398,Philadelphia Phoenix,Stuart Hean,Stuart,Hean
+399,Philadelphia Phoenix,Jordan Ciccarone,Jordan,Ciccarone
+400,Philadelphia Phoenix,James Pollard,James,Pollard
+401,Philadelphia Phoenix,Billy Sickles,Billy,Sickles
+402,Philadelphia Phoenix,David Baer,David,Baer
+403,Philadelphia Phoenix,Francisco Gomez,Francisco,Gomez
+404,Philadelphia Phoenix,Mike Arcata,Mike,Arcata
+405,Philadelphia Phoenix,Allan Michel,Allan,Michel
+406,Philadelphia Phoenix,Ethan Peck,Ethan,Peck
+407,Philadelphia Phoenix,Trey Katzenbach,Trey,Katzenbach
+408,Philadelphia Phoenix,Colin Masino,Colin,Masino
+409,Philadelphia Phoenix,Brice Dunn,Brice,Dunn
+410,Philadelphia Phoenix,Marc Sands,Marc,Sands
+411,Philadelphia Phoenix,Ryan Weaver,Ryan,Weaver
+412,Philadelphia Phoenix,Evan Karson,Evan,Karson
+413,Philadelphia Phoenix,Peter Burt,Peter,Burt
+414,Philadelphia Phoenix,Sean Mott,Sean,Mott
+415,Philadelphia Phoenix,Eric Nardelli,Eric,Nardelli
+416,Pittsburgh Thunderbirds,Max Sheppard,Max,Sheppard
+417,Pittsburgh Thunderbirds,Jon Mast,Jon,Mast
+418,Pittsburgh Thunderbirds,Dayne Meyer,Dayne,Meyer
+419,Pittsburgh Thunderbirds,David Vatz,David,Vatz
+420,Pittsburgh Thunderbirds,Anson Reppermund,Anson,Reppermund
+421,Pittsburgh Thunderbirds,Mark Fedorenko,Mark,Fedorenko
+422,Pittsburgh Thunderbirds,Thomas Edmonds,Thomas,Edmonds
+423,Pittsburgh Thunderbirds,Patrick McMullen,Patrick,McMullen
+424,Pittsburgh Thunderbirds,Adam Burgess,Adam,Burgess
+425,Pittsburgh Thunderbirds,Kenny Furdella,Kenny,Furdella
+426,Pittsburgh Thunderbirds,Dylan Best,Dylan,Best
+427,Pittsburgh Thunderbirds,Kevin Hartley,Kevin,Hartley
+428,Pittsburgh Thunderbirds,Jordan Robarge,Jordan,Robarge
+429,Pittsburgh Thunderbirds,Noah Robinson,Noah,Robinson
+430,Pittsburgh Thunderbirds,Owen Watt,Owen,Watt
+431,Pittsburgh Thunderbirds,Jack Hefferon,Jack,Hefferon
+432,Pittsburgh Thunderbirds,Alex Thomas,Alex,Thomas
+433,Pittsburgh Thunderbirds,Steve Mogielski,Steve,Mogielski
+434,Pittsburgh Thunderbirds,Jimmy Towle,Jimmy,Towle
+435,Pittsburgh Thunderbirds,Myles Cooper,Myles,Cooper
+436,Pittsburgh Thunderbirds,Chris Graber,Chris,Graber
+437,Pittsburgh Thunderbirds,Nick Gigliotti,Nick,Gigliotti
+438,Pittsburgh Thunderbirds,Robert Halvorsen,Robert,Halvorsen
+439,Pittsburgh Thunderbirds,Mohamadou Diatta,Mohamadou,Diatta
+440,Pittsburgh Thunderbirds,Steve May,Steve,May
+441,Pittsburgh Thunderbirds,Sam VanDusen,Sam,VanDusen
+442,Pittsburgh Thunderbirds,John Buss,John,Buss
+443,Raleigh Flyers,Vikram Sethuraman,Vikram,Sethuraman
+444,Raleigh Flyers,Justin Allen,Justin,Allen
+445,Raleigh Flyers,Sol Yanuck,Sol,Yanuck
+446,Raleigh Flyers,Jakeem Polk,Jakeem,Polk
+447,Raleigh Flyers,J.D. Hastings,J.D.,Hastings
+448,Raleigh Flyers,Charlie Muniz,Charlie,Muniz
+449,Raleigh Flyers,Chuck Cantone,Chuck,Cantone
+450,Raleigh Flyers,Jonathan Nethercutt,Jonathan,Nethercutt
+451,Raleigh Flyers,Terrence Mitchell,Terrence,Mitchell
+452,Raleigh Flyers,Jacob Mouw,Jacob,Mouw
+453,Raleigh Flyers,Henry Fisher,Henry,Fisher
+454,Raleigh Flyers,Mischa Freystaetter,Mischa,Freystaetter
+455,Raleigh Flyers,Joey Cretella,Joey,Cretella
+456,Raleigh Flyers,Shane Sisco,Shane,Sisco
+457,Raleigh Flyers,Kiron Allen,Kiron,Allen
+458,Raleigh Flyers,Eric Taylor,Eric,Taylor
+459,Raleigh Flyers,Evan Howey,Evan,Howey
+460,Raleigh Flyers,Jacob Fairfax,Jacob,Fairfax
+461,Raleigh Flyers,Ross Ward,Ross,Ward
+462,Raleigh Flyers,Johnnie Lynch,Johnnie,Lynch
+463,Raleigh Flyers,Jeff Nordgren,Jeff,Nordgren
+464,Raleigh Flyers,Noah Saul,Noah,Saul
+465,Raleigh Flyers,Mike Pannone,Mike,Pannone
+466,Raleigh Flyers,Allan Laviolette,Allan,Laviolette
+467,Raleigh Flyers,Andrew McKelvey,Andrew,McKelvey
+468,Raleigh Flyers,Tristan Green,Tristan,Green
+469,Raleigh Flyers,Jordan Perry,Jordan,Perry
+470,Raleigh Flyers,Tim McAllister,Tim,McAllister
+471,Raleigh Flyers,Kamron Daftari,Kamron,Daftari
+472,Raleigh Flyers,Andrew Cohen,Andrew,Cohen
+473,Raleigh Flyers,Sam Gabrielson,Sam,Gabrielson
+474,Raleigh Flyers,David Richardson,David,Richardson
+475,Raleigh Flyers,Josh Hartzog,Josh,Hartzog
+476,San Diego Growlers,Goose Helton,Goose,Helton
+477,San Diego Growlers,Nate Bridges,Nate,Bridges
+478,San Diego Growlers,Sean Ham,Sean,Ham
+479,San Diego Growlers,Scott Radlauer,Scott,Radlauer
+480,San Diego Growlers,Bryce Lozinski,Bryce,Lozinski
+481,San Diego Growlers,Andrew Kohl,Andrew,Kohl
+482,San Diego Growlers,Josh Kohl,Josh,Kohl
+483,San Diego Growlers,Maxwell Hume,Maxwell,Hume
+484,San Diego Growlers,Steven Milardovich,Steven,Milardovich
+485,San Diego Growlers,Reggie Sung,Reggie,Sung
+486,San Diego Growlers,Dom Leggio,Dom,Leggio
+487,San Diego Growlers,Will Turner,Will,Turner
+488,San Diego Growlers,Joey Huppert,Joey,Huppert
+489,San Diego Growlers,Michael Dehnbostel,Michael,Dehnbostel
+490,San Diego Growlers,Kyle Rubin,Kyle,Rubin
+491,San Diego Growlers,Marcel Osborne,Marcel,Osborne
+492,San Diego Growlers,Michael Tran,Michael,Tran
+493,San Diego Growlers,Wes Groth,Wes,Groth
+494,San Diego Growlers,Dave Ritchie,Dave,Ritchie
+495,San Diego Growlers,Eric Hytönen,Eric,Hytönen
+496,San Diego Growlers,Jake Gutkowski,Jake,Gutkowski
+497,San Diego Growlers,Bailey Wu,Bailey,Wu
+498,San Diego Growlers,Aidan Hall,Aidan,Hall
+499,San Diego Growlers,Ryan Lacy,Ryan,Lacy
+500,San Diego Growlers,Mark Slader,Mark,Slader
+501,San Diego Growlers,Tim Okita,Tim,Okita
+502,San Diego Growlers,Trevor Purdy,Trevor,Purdy
+503,San Diego Growlers,Travis Dunn,Travis,Dunn
+504,San Diego Growlers,Kyle Smith,Kyle,Smith
+505,San Diego Growlers,Jesse Cohen,Jesse,Cohen
+506,San Diego Growlers,Sam Fontaine,Sam,Fontaine
+507,San Diego Growlers,Ryo Senda,Ryo,Senda
+508,San Jose Spiders,Alex Pan,Alex,Pan
+509,San Jose Spiders,Aaron Shi,Aaron,Shi
+510,San Jose Spiders,Justin Norden,Justin,Norden
+511,San Jose Spiders,Matthew Crawford,Matthew,Crawford
+512,San Jose Spiders,Chuck Cao,Chuck,Cao
+513,San Jose Spiders,Munis Thahir,Munis,Thahir
+514,San Jose Spiders,Brandon Fein,Brandon,Fein
+515,San Jose Spiders,Lior Givol,Lior,Givol
+516,San Jose Spiders,Kevin Tien,Kevin,Tien
+517,San Jose Spiders,Steven Chang,Steven,Chang
+518,San Jose Spiders,Nicholas Hirning,Nicholas,Hirning
+519,San Jose Spiders,Mike Becich,Mike,Becich
+520,San Jose Spiders,Brian Roach,Brian,Roach
+521,San Jose Spiders,Brandon Canonizado,Brandon,Canonizado
+522,San Jose Spiders,Alexander Morris,Alexander,Morris
+523,San Jose Spiders,Jackson Stearns,Jackson,Stearns
+524,San Jose Spiders,Antoine Davis,Antoine,Davis
+525,San Jose Spiders,Joe Thompson,Joe,Thompson
+526,San Jose Spiders,Robert Yeagle,Robert,Yeagle
+527,San Jose Spiders,Phil Chang,Phil,Chang
+528,San Jose Spiders,Ethan Falat,Ethan,Falat
+529,San Jose Spiders,Marcelo Sanchez,Marcelo,Sanchez
+530,San Jose Spiders,Mark Lin,Mark,Lin
+531,San Jose Spiders,Mark Philipson,Mark,Philipson
+532,San Jose Spiders,Gabe Taylor,Gabe,Taylor
+533,San Jose Spiders,Alex Canonizado,Alex,Canonizado
+534,San Jose Spiders,Keenan Laurence,Keenan,Laurence
+535,San Jose Spiders,Jacob Greenberg,Jacob,Greenberg
+536,San Jose Spiders,Ben Levinsky,Ben,Levinsky
+537,Seattle Cascades,Kodi Smart,Kodi,Smart
+538,Seattle Cascades,Henry Schneider,Henry,Schneider
+539,Seattle Cascades,Dennis Casio,Dennis,Casio
+540,Seattle Cascades,Qxhna Titcomb,Qxhna,Titcomb
+541,Seattle Cascades,Marc Munoz,Marc,Munoz
+542,Seattle Cascades,Thomas Lassetter,Thomas,Lassetter
+543,Seattle Cascades,June Rapisura,June,Rapisura
+544,Seattle Cascades,Bryson Simon-Fox,Bryson,Simon-Fox
+545,Seattle Cascades,Charlie Eide,Charlie,Eide
+546,Seattle Cascades,Peter Geertz-Larson,Peter,Geertz-Larson
+547,Seattle Cascades,Adam Choi,Adam,Choi
+548,Seattle Cascades,William Coffin,William,Coffin
+549,Seattle Cascades,Xtehn Titcomb,Xtehn,Titcomb
+550,Seattle Cascades,John Quandt,John,Quandt
+551,Seattle Cascades,Sam Cook,Sam,Cook
+552,Seattle Cascades,Mark Burton,Mark,Burton
+553,Seattle Cascades,Stephanie Lim,Stephanie,Lim
+554,Seattle Cascades,Alex Duffel,Alex,Duffel
+555,Seattle Cascades,Zach Sabin,Zach,Sabin
+556,Seattle Cascades,Victor Taggart,Victor,Taggart
+557,Seattle Cascades,Ryan Segal,Ryan,Segal
+558,Seattle Cascades,Charlie Mercer,Charlie,Mercer
+559,Seattle Cascades,Kayhee Fong,Kayhee,Fong
+560,Seattle Cascades,Brad Houser,Brad,Houser
+561,Seattle Cascades,Nick Mahan,Nick,Mahan
+562,Seattle Cascades,William Kasprzycki,William,Kasprzycki
+563,Seattle Cascades,Zhi Chen,Zhi,Chen
+564,Seattle Cascades,Henry Phan,Henry,Phan
+565,Seattle Cascades,Jack Brown,Jack,Brown
+566,Seattle Cascades,Jay Boychuk,Jay,Boychuk
+567,Seattle Cascades,Shane Worthington,Shane,Worthington
+568,Seattle Cascades,Jesse Bolton,Jesse,Bolton
+569,Seattle Cascades,Khalif El-Salaam,Khalif,El-Salaam
+570,Tampa Bay Cannons,Robert Dennis,Robert,Dennis
+571,Tampa Bay Cannons,Bennett Wachob,Bennett,Wachob
+572,Tampa Bay Cannons,Andrew Roney,Andrew,Roney
+573,Tampa Bay Cannons,Bradley Seuntjens,Bradley,Seuntjens
+574,Tampa Bay Cannons,Brandon Perales,Brandon,Perales
+575,Tampa Bay Cannons,John Paul Taylor,John,Paul Taylor
+576,Tampa Bay Cannons,Tyler Kunsa,Tyler,Kunsa
+577,Tampa Bay Cannons,Bobby Ley,Bobby,Ley
+578,Tampa Bay Cannons,Adam Carr,Adam,Carr
+579,Tampa Bay Cannons,Adam Vinson,Adam,Vinson
+580,Tampa Bay Cannons,Dustin Travaglini,Dustin,Travaglini
+581,Tampa Bay Cannons,Tanner Repasky,Tanner,Repasky
+582,Tampa Bay Cannons,Ryan Hiser,Ryan,Hiser
+583,Tampa Bay Cannons,Hayden Wachob,Hayden,Wachob
+584,Tampa Bay Cannons,Jack Barrow,Jack,Barrow
+585,Tampa Bay Cannons,Billy O'Bryan,Billy,O'Bryan
+586,Tampa Bay Cannons,Peter Van Brussel,Peter,Van Brussel
+587,Tampa Bay Cannons,Nathan Vickroy,Nathan,Vickroy
+588,Tampa Bay Cannons,Josh McKisic,Josh,McKisic
+589,Tampa Bay Cannons,Chris Gibson,Chris,Gibson
+590,Tampa Bay Cannons,AJ Jacoski,AJ,Jacoski
+591,Tampa Bay Cannons,Jordan Huston,Jordan,Huston
+592,Tampa Bay Cannons,Austin Koffarnus,Austin,Koffarnus
+593,Tampa Bay Cannons,Jacob Lane,Jacob,Lane
+594,Tampa Bay Cannons,Marquis Chapman,Marquis,Chapman
+595,Tampa Bay Cannons,Ryan Chard,Ryan,Chard
+596,Tampa Bay Cannons,Mark Mendelevitz,Mark,Mendelevitz
+597,Tampa Bay Cannons,Joshua Layton,Joshua,Layton
+598,Tampa Bay Cannons,Jacob Clary,Jacob,Clary
+599,Toronto Rush,Akifumi Muraoka,Akifumi,Muraoka
+600,Toronto Rush,Andrew Carroll,Andrew,Carroll
+601,Toronto Rush,Kevin Jay,Kevin,Jay
+602,Toronto Rush,Luc Comire,Luc,Comire
+603,Toronto Rush,Jaret Meron,Jaret,Meron
+604,Toronto Rush,Mike Mackenzie,Mike,Mackenzie
+605,Toronto Rush,Bryan Yue,Bryan,Yue
+606,Toronto Rush,Remi Ojo,Remi,Ojo
+607,Toronto Rush,Iain Mackenzie,Iain,Mackenzie
+608,Toronto Rush,Marijo Zlatic,Marijo,Zlatic
+609,Toronto Rush,Jacky Hau,Jacky,Hau
+610,Toronto Rush,Ben Pries,Ben,Pries
+611,Toronto Rush,Isaiah Masek-Kelly,Isaiah,Masek-Kelly
+612,Toronto Rush,Jason Lam,Jason,Lam
+613,Toronto Rush,Thomson McKnight,Thomson,McKnight
+614,Toronto Rush,Geoff Powell,Geoff,Powell
+615,Toronto Rush,Kieran Charnock,Kieran,Charnock
+616,Toronto Rush,Jeremy Norden,Jeremy,Norden
+617,Toronto Rush,Bryan Kuo,Bryan,Kuo
+618,Toronto Rush,Nathan Hirst,Nathan,Hirst
+619,Toronto Rush,Phil Turner,Phil,Turner
+620,Toronto Rush,Scott Graham,Scott,Graham
+621,Toronto Rush,Drew Wilson,Drew,Wilson
+622,Toronto Rush,Barrett Wachholz,Barrett,Wachholz
+623,Toronto Rush,Connor Armstrong,Connor,Armstrong
+624,Toronto Rush,Adrian Yearwood,Adrian,Yearwood
+625,Toronto Rush,Jason Huynh,Jason,Huynh
+626,Toronto Rush,Dan LaFrance,Dan,LaFrance
+627,Toronto Rush,Wilkie Lewis,Wilkie,Lewis
+628,Toronto Rush,Cameron Harris,Cameron,Harris
