@@ -103,7 +103,7 @@ def GetGamesPlayed(df_in,plyr):
 def GetQuartersPlayed(df_in,plyr):
     return df_in[df_in['Lineup'].str.contains(plyr,na=False)].groupby(['GameID','QuarterID']).ngroups
 def GetPointsPlayed(df_in,plyr):
-    return df_in[df_in['Lineup'].str.contains(plyr,na=False)].groupby(['GameID','PointID']).ngroups
+    return df_in[(df_in['Event Type']!='Cessation') & df_in['Lineup'].str.contains(plyr,na=False)].groupby(['GameID','PointID']).ngroups
 def GetPossessionsPlayed(df_in,plyr):
     return df_in[(df_in['Event Type']=='Offense')&df_in['Lineup'].str.contains(plyr,na=False)].groupby(['GameID','PointID','PossessionID']).ngroups
 
@@ -134,11 +134,11 @@ def GetDPointsLost(df_in,plyr):
                  &(df_in.Line=='D')].groupby(['GameID','PointID']).ngroups
 
 def GetOPointsPlayed(df_in,plyr):
-    return df_in[(df_in.Line=='O')&df_in['Lineup'].str.contains(plyr,na=False)].groupby(['GameID','PointID']).ngroups
+    return df_in[(df_in['Event Type']!='Cessation') & (df_in.Line=='O')&df_in['Lineup'].str.contains(plyr,na=False)].groupby(['GameID','PointID']).ngroups
 def GetOPossessionsPlayed(df_in,plyr):
     return df_in[(df_in.Line=='O')&(df_in['Event Type']=='Offense')&df_in['Lineup'].str.contains(plyr,na=False)].groupby(['GameID','PointID','PossessionID']).ngroups
 def GetDPointsPlayed(df_in,plyr):
-    return df_in[(df_in.Line=='D')&df_in['Lineup'].str.contains(plyr,na=False)].groupby(['GameID','PointID']).ngroups
+    return df_in[(df_in['Event Type']!='Cessation') & (df_in.Line=='D')&df_in['Lineup'].str.contains(plyr,na=False)].groupby(['GameID','PointID']).ngroups
 def GetDPossessionsPlayed(df_in,plyr):
     return df_in[(df_in.Line=='D')&(df_in['Event Type']=='Offense')&df_in['Lineup'].str.contains(plyr,na=False)].groupby(['GameID','PointID','PossessionID']).ngroups
 
