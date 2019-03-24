@@ -122,6 +122,7 @@ def GetOPointsLost(df_in,plyr):
                  &(df_in['Event Type']=='Defense')
                  &(df_in.Action=='Goal')
                  &(df_in.Line=='O')].groupby(['GameID','PointID']).ngroups
+
 def GetDPointsWon(df_in,plyr):
     return df_in[df_in['Lineup'].str.contains(plyr,na=False)
                  &(df_in['Event Type']=='Offense')
@@ -137,10 +138,15 @@ def GetOPointsPlayed(df_in,plyr):
     return df_in[(df_in['Event Type']!='Cessation') & (df_in.Line=='O')&df_in['Lineup'].str.contains(plyr,na=False)].groupby(['GameID','PointID']).ngroups
 def GetOPossessionsPlayed(df_in,plyr):
     return df_in[(df_in.Line=='O')&(df_in['Event Type']=='Offense')&df_in['Lineup'].str.contains(plyr,na=False)].groupby(['GameID','PointID','PossessionID']).ngroups
+def GetOppOPossessionsPlayed(df_in,plyr):
+    return df_in[(df_in.Line=='O')&(df_in['Event Type']=='Defense')&df_in['Lineup'].str.contains(plyr,na=False)].groupby(['GameID','PointID','PossessionID']).ngroups
+
 def GetDPointsPlayed(df_in,plyr):
     return df_in[(df_in['Event Type']!='Cessation') & (df_in.Line=='D')&df_in['Lineup'].str.contains(plyr,na=False)].groupby(['GameID','PointID']).ngroups
 def GetDPossessionsPlayed(df_in,plyr):
     return df_in[(df_in.Line=='D')&(df_in['Event Type']=='Offense')&df_in['Lineup'].str.contains(plyr,na=False)].groupby(['GameID','PointID','PossessionID']).ngroups
+def GetOppDPossessionsPlayed(df_in,plyr):
+    return df_in[(df_in.Line=='D')&(df_in['Event Type']=='Defense')&df_in['Lineup'].str.contains(plyr,na=False)].groupby(['GameID','PointID','PossessionID']).ngroups
 
 
 def PlayStatsByPlayer(df_in):
@@ -152,8 +158,10 @@ def PlayStatsByPlayer(df_in):
                           'Possessions Played': GetPossessionsPlayed(df_in,p),
                           'Points Played (Offense)': GetOPointsPlayed(df_in,p),
                           'Possessions Played (Offense)': GetOPossessionsPlayed(df_in,p),
+                          'Opp Possessions Played (Offense)': GetOppOPossessionsPlayed(df_in,p),
                           'Points Played (Defense)': GetDPointsPlayed(df_in,p),
-                          'Possessions Played (Defense)': GetDPossessionsPlayed(df_in,p),
+                          'Possessions Played (Defense)': GetOPossessionsPlayed(df_in,p),
+                          'Opp Possessions Played (Defense)': GetOppDPossessionsPlayed(df_in,p),
                           'Points Won': GetPointsWon(df_in,p),
                           'Points Lost': GetPointsLost(df_in,p),
                           'Points Won (Offense)': GetOPointsWon(df_in,p),
