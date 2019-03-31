@@ -108,7 +108,7 @@ def InsertPlayerNames(df_in):
                                          right_on=['Tournament','Teamname','Username'],
                                          how='left')['PlayerName'].values
         
-    df_in['Lineup'] = df_in.fillna('').apply( lambda x : ', '.join([ x[i] for i in numbered_player_fields if x[i] !='']), axis=1).values
+    df_in['Lineup'] = df_in.fillna('').apply( lambda x : ', '.join(sorted([ x[i] for i in numbered_player_fields if x[i] !=''])), axis=1).values
     
     return df_in
 
