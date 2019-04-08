@@ -4,6 +4,7 @@ import numpy as np
 from glob import glob
 import argparse
 import csv
+import os
 from lib import opponents
 
 def ParseArgs():
@@ -30,7 +31,7 @@ def CSV2DataFrame(filename):
 def AddExtraCols(df_in, teamname, year):
     """Add extra useful columns"""
     df_in['Teamname'] = teamname
-    df_in['Tournament'] = year
+    df_in['Year'] = year
     df_in = df_in.drop('Tournamemnt',axis=1) # Remove misspelled, useless column
     
     return df_in
@@ -95,7 +96,7 @@ def TimeEventSort(df_in):
 
 def InsertPlayerNames(df_in):
     """Insert player names by replacing usernames,
-       given the Tournament and Teamname"""
+       given the Year and Teamname"""
     upr = pd.read_csv('data/players/username_playername_relation.csv',encoding = "ISO-8859-1")
     upr['PlayerName'] = upr['PlayerName'].fillna(upr.Username)
     
@@ -103,10 +104,11 @@ def InsertPlayerNames(df_in):
     player_fields = ['Passer', 'Receiver', 'Defender'] + numbered_player_fields
 
     for p_field in player_fields:
-        df_in[p_field] = pd.merge(df_in[['Tournament','Teamname',p_field]],upr,
-                                         left_on=['Tournament','Teamname',p_field],
-                                         right_on=['Tournament','Teamname','Username'],
-                                         how='left')['PlayerName'].values
+        df_in[p_field] = pd.merge(df_in[['Year','Teamname',p_field]],upr,
+                                         left_on=['Year','Teamname',p_field],
+                                         right_on=['Year','Teamname','Username'],
+                                         how='left')['PlayerName'].fillna(df_in[p_field])
+        
         
     df_in['Lineup'] = df_in.fillna('').apply( lambda x : ', '.join(sorted([ x[i] for i in numbered_player_fields if x[i] !=''])), axis=1).values
     
@@ -157,7 +159,7 @@ def main():
 
     args = ParseArgs()
     
-    allfiles = sorted(glob('data/page-links/ultianalytics_pages*.csv'))
+    allfiles = sorted(glob('data/page-links/ultianalytics_*.csv'))
     filestoget = allfiles if not args.updatecurrent else [allfiles[-1]]
     
     for f in filestoget:
@@ -166,30 +168,43 @@ def main():
         
         for i,row in df_filepaths.iterrows():
             
-            teamno = row['teams-href'].split("/")[5]
+            teamno = row['id']
             year = row['year']
             teamname = row['teams']
-            print(year,teamname)
           
             url = 'http://www.ultianalytics.com/rest/view/team/{}/stats/export'.format(teamno)
-            outfn = "data/processed/{}_{}.csv".format(year,teamname).replace(' ','')
+            
+            out_dir = f'data/processed/{year}/'
+            if not os.path.isdir(out_dir):
+                os.mkdir(out_dir)
+                
+            out_dir_raw =  f'data/raw/{year}/'
+            if not os.path.isdir(out_dir_raw):
+                os.mkdir(out_dir_raw)
+                
+            outfn = f"{out_dir}/{year}_{teamname}.csv".replace(' ','')
             urllib.request.urlretrieve(url, outfn)
             
-            df_teamdata = CSV2DataFrame(outfn)
-            df_teamdata = AddExtraCols(df_teamdata, teamname, year)
-            df_teamdata = FixGameOvers(df_teamdata)
-            if len(df_teamdata[~(df_teamdata['Date/Time'].eq(df_teamdata['Date/Time'].shift(-1))) &(df_teamdata.Action!='GameOver')]) > 0:
-                print('Missing GameOvers')
-            if len(df_teamdata[ (df_teamdata.Action.eq(df_teamdata.Action.shift())) & (df_teamdata.Action.shift()=='GameOver') ]) > 0:
-                print('Double GameOvers')
+            try:
+                print(year,teamname)
+                df_teamdata = CSV2DataFrame(outfn)
+                df_teamdata.to_csv(f"{out_dir_raw}/{year}_{teamname}.csv".replace(' ',''),sep=',')
+                df_teamdata = AddExtraCols(df_teamdata, teamname, year)
+                df_teamdata = FixGameOvers(df_teamdata)
+                if len(df_teamdata[~(df_teamdata['Date/Time'].eq(df_teamdata['Date/Time'].shift(-1))) &(df_teamdata.Action!='GameOver')]) > 0:
+                    print('Missing GameOvers')
+                if len(df_teamdata[ (df_teamdata.Action.eq(df_teamdata.Action.shift())) & (df_teamdata.Action.shift()=='GameOver') ]) > 0:
+                    print('Double GameOvers')
 
-            df_teamdata = RemoveTestGames(df_teamdata)
-            df_teamdata = opponents.Standardize(df_teamdata)
-            df_teamdata = TimeEventSort(df_teamdata)
-            df_teamdata = InsertPlayerNames(df_teamdata)
-            df_teamdata = AddGameplayIDs(df_teamdata)
-            
-            df_teamdata.to_csv(outfn,sep=',')
+                df_teamdata = RemoveTestGames(df_teamdata)
+                df_teamdata = opponents.Standardize(df_teamdata)
+                df_teamdata = TimeEventSort(df_teamdata)
+                df_teamdata = InsertPlayerNames(df_teamdata)
+                df_teamdata = AddGameplayIDs(df_teamdata)
+
+                df_teamdata.to_csv(outfn,sep=',')
+            except:
+                print('Skipped')
 
 main()
 
