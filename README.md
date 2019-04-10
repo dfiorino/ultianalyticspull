@@ -1,6 +1,6 @@
 # audl-pull <img align="right" width="100" height="100" src="images/logo.png">
 
-Use *audl-pull* to grab, clean, and enhance all of the available UltiAnalytics data for AUDL seasons 2014 to 2018. It comes with *individual-stats* which will tabulate player stats like goals, assists, blocks, and over 20 others!
+Use *audl-pull* to grab, clean, and enhance all of the available UltiAnalytics data for AUDL seasons 2014 to 2019. It comes with *individual-stats* which will tabulate player stats like goals, assists, blocks, and over 20 others!
 
 ## Description
 
