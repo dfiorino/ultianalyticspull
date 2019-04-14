@@ -1,22 +1,1 @@
-year,teams,id,teams-href
-2019,Montreal Royal,5798954679664640,https://www.ultianalytics.com/app/#/5798954679664640/players
-2019,San Diego Growlers,6026025574072320,https://www.ultianalytics.com/app/#/6026025574072320/players
-2019,Tampa Bay Cannons,5775526035718144,https://www.ultianalytics.com/app/#/5775526035718144/players
-2019,Detroit Mechanix,6466345621258240,https://www.ultianalytics.com/app/#/6466345621258240/players
-2019,San Jose Spiders,5661186758541312,https://www.ultianalytics.com/app/#/5661186758541312/players
-2019,Atlanta Hustle,4597087672991744,https://www.ultianalytics.com/app/#/4597087672991744/players
-2019,Ottawa Outlaws,5340445714415616,https://www.ultianalytics.com/app/#/5340445714415616/players
-2019,Pittsburgh Thunderbirds,5131989745139712,https://www.ultianalytics.com/app/#/5131989745139712/players
-2019,Seattle Cascades,5405478582484992,https://www.ultianalytics.com/app/#/5405478582484992/players
-2019,Minnesota Wind Chill,5223179500912640,https://www.ultianalytics.com/app/#/5223179500912640/players
-2019,Toronto Rush,4558192449159168,https://www.ultianalytics.com/app/#/4558192449159168/players
-2019,Dallas Roughnecks,5501394781995008,https://www.ultianalytics.com/app/#/5501394781995008/players
-2019,Madison Radicals,5335870970265600,https://www.ultianalytics.com/app/#/5335870970265600/players
-2019,Indianapolis AlleyCats,6099543552688128,https://www.ultianalytics.com/app/#/6099543552688128/players
-2019,Los Angeles Aviators,6417832975794170,https://www.ultianalytics.com/app/#/6417832975794170/players
-2019,Austin Sol,6637781254144000,https://www.ultianalytics.com/app/#/6637781254144000/players
-2019,Philadelphia Phoenix,6369964004999168,https://www.ultianalytics.com/app/#/6369964004999168/players
-2019,Raleigh Flyers,5225326984560640,https://www.ultianalytics.com/app/#/5225326984560640/players
-2019,New York Empire,6080525840154624,https://www.ultianalytics.com/app/#/6080525840154624/players
-2019,DC Breeze,4848353275805696,https://www.ultianalytics.com/app/#/4848353275805696/players
-2019,Chicago Wildfire,5684092356001792,https://www.ultianalytics.com/app/#/5684092356001792/players
+year,teams,teams-href2019,Montreal Royal,https://www.ultianalytics.com/app/#/5798954679664640/players2019,San Diego Growlers,https://www.ultianalytics.com/app/#/6026025574072320/players2019,Tampa Bay Cannons,https://www.ultianalytics.com/app/#/5775526035718144/players2019,Detroit Mechanix,https://www.ultianalytics.com/app/#/6466345621258240/players2019,San Jose Spiders,https://www.ultianalytics.com/app/#/5661186758541312/players2019,Atlanta Hustle,https://www.ultianalytics.com/app/#/4597087672991744/players2019,Ottawa Outlaws,https://www.ultianalytics.com/app/#/5340445714415616/players2019,Pittsburgh Thunderbirds,https://www.ultianalytics.com/app/#/5131989745139712/players2019,Seattle Cascades,https://www.ultianalytics.com/app/#/5405478582484992/players2019,Minnesota Wind Chill,https://www.ultianalytics.com/app/#/5223179500912640/players2019,Toronto Rush,https://www.ultianalytics.com/app/#/4558192449159168/players2019,Dallas Roughnecks,https://www.ultianalytics.com/app/#/5501394781995008/players2019,Madison Radicals,https://www.ultianalytics.com/app/#/5335870970265600/players2019,Indianapolis AlleyCats,https://www.ultianalytics.com/app/#/6099543552688128/players2019,Los Angeles Aviators,https://www.ultianalytics.com/app/#/6417832975794176/players2019,Austin Sol,https://www.ultianalytics.com/app/#/6637781254144000/players2019,Philadelphia Phoenix,https://www.ultianalytics.com/app/#/6369964004999168/players2019,Raleigh Flyers,https://www.ultianalytics.com/app/#/5225326984560640/players2019,New York Empire,https://www.ultianalytics.com/app/#/6080525840154624/players2019,DC Breeze,https://www.ultianalytics.com/app/#/4848353275805696/players2019,Chicago Wildfire,https://www.ultianalytics.com/app/#/5684092356001792/players

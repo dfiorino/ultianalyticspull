@@ -168,7 +168,7 @@ def main():
         
         for i,row in df_filepaths.iterrows():
             
-            teamno = row['id']
+            teamno = row['teams-href'].split('/')[5]
             year = row['year']
             teamname = row['teams']
           
@@ -183,12 +183,12 @@ def main():
                 os.mkdir(out_dir_raw)
                 
             outfn = f"{out_dir}/{year}_{teamname}.csv".replace(' ','')
-            urllib.request.urlretrieve(url, outfn)
+            outfn_raw = f"{out_dir_raw}/{year}_{teamname}.csv".replace(' ','')
+            urllib.request.urlretrieve(url, outfn_raw)
             
-            try:
-                print(year,teamname)
-                df_teamdata = CSV2DataFrame(outfn)
-                df_teamdata.to_csv(f"{out_dir_raw}/{year}_{teamname}.csv".replace(' ',''),sep=',')
+            print(year,teamname)
+            df_teamdata = CSV2DataFrame(outfn_raw)
+            if len(df_teamdata)>0:
                 df_teamdata = AddExtraCols(df_teamdata, teamname, year)
                 df_teamdata = FixGameOvers(df_teamdata)
                 if len(df_teamdata[~(df_teamdata['Date/Time'].eq(df_teamdata['Date/Time'].shift(-1))) &(df_teamdata.Action!='GameOver')]) > 0:
@@ -203,7 +203,7 @@ def main():
                 df_teamdata = AddGameplayIDs(df_teamdata)
 
                 df_teamdata.to_csv(outfn,sep=',')
-            except:
+            else:
                 print('Skipped')
 
 main()
