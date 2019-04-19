@@ -3,9 +3,9 @@ import pandas as pd
 import numpy as np
 from glob import glob
 import argparse
-import csv
 import os
 from lib import opponents
+from lib import audlutils
 
 def ParseArgs():
     """Setup command-line interface"""
@@ -15,18 +15,6 @@ def ParseArgs():
                         help='Only get latest year.')
     return  parser.parse_args()
 
-def CSV2DataFrame(filename):
-    """Read CSV as Pandas DataFrame but deal with inconsistent use of commas in CSV"""
-    teamlog = []
-    with open(filename, 'r') as csvfile:
-        reader = csv.reader(csvfile, delimiter=',', quotechar='|')
-        header = next(reader)
-        teamlog = list(reader)
-    # Deal with sticky situation of rows with more or less CSV's than the header
-    ncols = len(header)
-    teamlog = [e[:ncols] if len(e) > ncols else e+['']*(ncols-len(e)) for e in teamlog]
-
-    return pd.DataFrame(teamlog,columns=header)
 
 def AddExtraCols(df_in, teamname, year):
     """Add extra useful columns"""
@@ -187,7 +175,7 @@ def main():
             urllib.request.urlretrieve(url, outfn_raw)
             
             print(year,teamname)
-            df_teamdata = CSV2DataFrame(outfn_raw)
+            df_teamdata = audlutils.CSV2DataFrame(outfn_raw)
             if len(df_teamdata)>0:
                 df_teamdata = AddExtraCols(df_teamdata, teamname, year)
                 df_teamdata = FixGameOvers(df_teamdata)
