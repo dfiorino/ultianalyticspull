@@ -2,12 +2,12 @@ import pandas as pd
 import glob
 from functools import reduce
 
-audl = pd.concat([pd.read_csv(dfteam, index_col=0) for dfteam in glob.glob('data/processed/*.csv')])
+audl = pd.concat([pd.read_csv(dfteam, index_col=0) for dfteam in glob.glob('data/processed/*/*.csv')])
 
 
 def GetStat(df_slice, player_field,stat_name,aggfunc):
-    stat = audl[df_slice].groupby(['Tournament',player_field,'Teamname']).apply(aggfunc)
-    stat = stat.reset_index().rename(columns={'Tournament':'Year',player_field:'Name',0:stat_name})
+    stat = audl[df_slice].groupby(['Year',player_field,'Teamname']).apply(aggfunc)
+    stat = stat.reset_index().rename(columns={player_field:'Name',0:stat_name})
     return stat
 
 def GetCountStat(df_slice, player_field,stat_name):
@@ -170,7 +170,7 @@ def PlayStatsByPlayer(df_in):
                           'Points Lost (Defense)': GetDPointsLost(df_in,p),
                          } for p in plyrs])
 
-gameplay_stats = audl.groupby(['Teamname','Tournament']).apply(PlayStatsByPlayer).reset_index().rename(columns={'Tournament':'Year'}).drop('level_2',axis=1)
+gameplay_stats = audl.groupby(['Teamname','Year']).apply(PlayStatsByPlayer).reset_index().drop('level_2',axis=1)
 
 stats_out = pd.merge(gameplay_stats,stats_out,on=['Teamname','Year','Name'],how='outer')
 
