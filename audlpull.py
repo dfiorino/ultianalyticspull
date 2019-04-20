@@ -85,7 +85,7 @@ def TimeEventSort(df_in):
 def InsertPlayerNames(df_in):
     """Insert player names by replacing usernames,
        given the Year and Teamname"""
-    upr = pd.read_csv('data/players/username_playername_relation.csv',encoding = "ISO-8859-1")
+    upr = pd.read_csv('data/supplemental/username_playername_relation.csv',encoding = "ISO-8859-1")
     upr['PlayerName'] = upr['PlayerName'].fillna(upr.Username)
     
     numbered_player_fields = [f'Player {i}' for i in range(0,28)]
