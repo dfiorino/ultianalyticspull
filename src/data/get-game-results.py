@@ -84,7 +84,7 @@ def main():
     games['Date'] = games['Matchup Link'].apply(lambda x : '/'.join(x.split('/')[3].split('-')[:3]) )
     games['Date'] = pd.to_datetime(games['Date'],format='%Y/%m/%d')
     games['Time'] = games['Date Location'].apply(lambda x : ' '.join(x.split(' ')[2:5]) )
-    games['Time'] = games['Date Location'].apply(lambda x : ' '.join(x.split(' ')[6:]) )
+    games['City'] = games['Date Location'].apply(lambda x : ' '.join(x.split(' ')[5:]) )
     games['Week'] = games['Date'].dt.strftime('%W').astype(int)
     games['Week'] = games.apply(lambda x : x.Week - games[games.Year==x.Year].Week.min() + 1,axis=1)
 
