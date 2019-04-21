@@ -1,6 +1,6 @@
 # AUDL Pull <img align="right" width="100" height="100" src="images/logo.png">
 
-Use *AUDL Pull* to grab, clean, and enhance all of the available UltiAnalytics data for AUDL seasons 2014 to 2019. It comes with *individual-stats* which will tabulate player stats like goals, assists, blocks, and over 20 others!
+Use *AUDL Pull* to grab, clean, and enhance all of the available UltiAnalytics data for AUDL seasons 2014 to 2019. It comes with *individual-stats* which will tabulate player stats like goals, assists, blocks, and over 20 others! 
 
 ## Description
 
@@ -19,7 +19,7 @@ This project grabs AUDL data from the UltiAnalytics website using a pre-webscrap
 - Grab Current Rosters!
 - Grab Reported Active Rosters!
 - Playoff/Regular season ***coming soon***
-- Merged game stats ***coming soon***
+- Merged Game Stats ***coming soon***
 
 ## Usage
 
@@ -40,7 +40,17 @@ That's it!
 - Internet connection ;)
 - Python libraries: glob,urllib,argparse,pandas,numpy,csv (pretty standard stuff)
 
-## Credit
+## Citations
 
 Doing something cool with *AUDL Pull*? Let me know!
 
+Here's a list of work 
+
+- Articles in Ultiworld 
+ - [Predicting Breakout Stars of 2019](https://ultiworld.com/2019/03/29/predicting-audls-breakout-stars-stats/)
+ - [Accessing MVP Candidates of 2018](https://ultiworld.com/2017/10/03/assessing-audl-mvp-candidates/)
+- SOTG Stats social media posts
+ - [Twitter](https://twitter.com/sotgstats), [Instagram](https://instagram.com/statsofthegame/), [Facebook](https://www.facebook.com/sotgstats/)
+- AUDL Stats App under development
+- Other Works
+ - [Overlooked Stars of 2018](https://afbcary.github.io/audl-stats/)
