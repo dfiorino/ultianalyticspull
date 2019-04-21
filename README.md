@@ -9,12 +9,15 @@ This project grabs AUDL data from the UltiAnalytics website using a pre-webscrap
 ## Features
 
 - Formatted for use with super fast and awesome Python Pandas!
-- Auto-matches player names for 97% of the 4,000+ usernames associated with players!
-- Fixes to data entry errors (e.g. missing GameOver)!
+- Auto-matched player names for over 4,000 usernames!
+- Fixes to data entry errors!
 - Standardized team names!
 - Extra columns to distinguish games, quarters, points, and even possessions!
-- Individual player stats
-- Home/Away ***coming soon***
+- Individual player stats!
+- All Game Scores Ever Played!
+- All AUDL Team info and logos!
+- Grab Current Rosters!
+- Grab Reported Active Rosters!
 - Playoff/Regular season ***coming soon***
 - Merged game stats ***coming soon***
 
@@ -35,7 +38,7 @@ That's it!
 ## Requirements
 - Python >= 3.0
 - Internet connection ;)
-- Python libraries: glob,urllib,argparse,pandas,numpy,csv,argparse (pretty standard stuff)
+- Python libraries: glob,urllib,argparse,pandas,numpy,csv (pretty standard stuff)
 
 ## Credit
 
