@@ -51,6 +51,21 @@ Here's a list of work
  - [Accessing MVP Candidates of 2018](https://ultiworld.com/2017/10/03/assessing-audl-mvp-candidates/)
 - SOTG Stats social media posts
  - [Twitter](https://twitter.com/sotgstats), [Instagram](https://instagram.com/statsofthegame/), [Facebook](https://www.facebook.com/sotgstats/)
+ - Advancing Analytics in Ultimate. See, for example: 
+  - Net Stats - https://twitter.com/sotgstats/status/1111381496789504002
+  - Handler Number - https://twitter.com/sotgstats/status/885529847623274496
+  - Individual Efficiency Boost - https://twitter.com/sotgstats/status/870357352725315584
+  - Individual Efficiency Decrease/Drain - https://twitter.com/sotgstats/status/871448880323473410
+  - Possession Conversion - https://twitter.com/sotgstats/status/870008776748695554
+ - Performing Predicative Analysis
+  - https://twitter.com/sotgstats/status/935987429747675141
+  - https://twitter.com/sotgstats/status/900458814528528384
+ - Novel Visualizations
+  - https://twitter.com/sotgstats/status/919763130561024000
+  - https://twitter.com/sotgstats/status/918887852024500225
+  - https://twitter.com/sotgstats/status/910299788922511361
+  - https://twitter.com/sotgstats/status/895377402255355904
+  - https://twitter.com/sotgstats/status/885894880874172418
 - AUDL Stats App under development
 - Other Works
  - [Overlooked Stars of 2018](https://afbcary.github.io/audl-stats/)
