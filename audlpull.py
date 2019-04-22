@@ -15,7 +15,6 @@ def ParseArgs():
                         help='Only get latest year.')
     return  parser.parse_args()
 
-
 def AddExtraCols(df_in, teamname, year):
     """Add extra useful columns"""
     df_in['Teamname'] = teamname

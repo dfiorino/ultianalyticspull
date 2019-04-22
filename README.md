@@ -60,12 +60,18 @@ Here's a list of work
  - Performing Predicative Analysis
   - https://twitter.com/sotgstats/status/935987429747675141
   - https://twitter.com/sotgstats/status/900458814528528384
+  - https://twitter.com/sotgstats/status/1013669331874516992
  - Novel Visualizations
+  - https://twitter.com/sotgstats/status/1116326922500345856
+  - https://twitter.com/sotgstats/status/1115600848694829057
+  - https://twitter.com/sotgstats/status/962909472590041096
   - https://twitter.com/sotgstats/status/919763130561024000
   - https://twitter.com/sotgstats/status/918887852024500225
   - https://twitter.com/sotgstats/status/910299788922511361
   - https://twitter.com/sotgstats/status/895377402255355904
   - https://twitter.com/sotgstats/status/885894880874172418
+  - https://twitter.com/sotgstats/status/1000192420460531712
+  - https://twitter.com/sotgstats/status/1089294636089294848
 - AUDL Stats App under development
 - Other Works
  - [Overlooked Stars of 2018](https://afbcary.github.io/audl-stats/)
