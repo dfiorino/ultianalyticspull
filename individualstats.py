@@ -11,7 +11,7 @@ def GetStat(df_slice, player_field,stat_name,aggfunc):
     return stat
 
 def GetCountStat(df_slice, player_field,stat_name):
-    return GetStat(df_slice, player_field,stat_name,lambda x : len(x))
+    return GetStat(df_slice, player_field,stat_name,len)
 
 def GetSumStat(df_slice, player_field,stat_name,sum_stat):
     return GetStat(df_slice, player_field,stat_name,lambda x : sum(x[sum_stat]))
@@ -160,7 +160,7 @@ def PlayStatsByPlayer(df_in):
                           'Possessions Played (Offense)': GetOPossessionsPlayed(df_in,p),
                           'Opp Possessions Played (Offense)': GetOppOPossessionsPlayed(df_in,p),
                           'Points Played (Defense)': GetDPointsPlayed(df_in,p),
-                          'Possessions Played (Defense)': GetOPossessionsPlayed(df_in,p),
+                          'Possessions Played (Defense)': GetDPossessionsPlayed(df_in,p),
                           'Opp Possessions Played (Defense)': GetOppDPossessionsPlayed(df_in,p),
                           'Points Won': GetPointsWon(df_in,p),
                           'Points Lost': GetPointsLost(df_in,p),
