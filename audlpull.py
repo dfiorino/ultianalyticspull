@@ -151,7 +151,7 @@ def main():
     
     for f in filestoget:
         
-        df_filepaths =pd.read_csv(f).sort_values(['year','teams'])
+        df_filepaths = pd.read_csv(f).sort_values(['year','teams'])
         
         for i,row in df_filepaths.iterrows():
             
