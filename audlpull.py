@@ -15,7 +15,6 @@ def ParseArgs():
                         help='Only get latest year.')
     return  parser.parse_args()
 
-
 def AddExtraCols(df_in, teamname, year):
     """Add extra useful columns"""
     df_in['Teamname'] = teamname
@@ -85,7 +84,7 @@ def TimeEventSort(df_in):
 def InsertPlayerNames(df_in):
     """Insert player names by replacing usernames,
        given the Year and Teamname"""
-    upr = pd.read_csv('data/players/username_playername_relation.csv',encoding = "ISO-8859-1")
+    upr = pd.read_csv('data/supplemental/username_playername_relation.csv',encoding = "ISO-8859-1")
     upr['PlayerName'] = upr['PlayerName'].fillna(upr.Username)
     
     numbered_player_fields = [f'Player {i}' for i in range(0,28)]
@@ -152,7 +151,7 @@ def main():
     
     for f in filestoget:
         
-        df_filepaths =pd.read_csv(f).sort_values(['year','teams'])
+        df_filepaths = pd.read_csv(f).sort_values(['year','teams'])
         
         for i,row in df_filepaths.iterrows():
             

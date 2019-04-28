@@ -5,13 +5,14 @@ from bs4 import BeautifulSoup
 
 somelist = []
 page_start=0
-page_max=107
+page_max=116
 for page_num in range(page_start,page_max+1):
     
     result = requests.get(f"https://theaudl.com/league/players?page={page_num:d}")
     soup = BeautifulSoup(result.text,'lxml')
     
     player_tables = soup.find_all('tbody')[0].find_all('tr')
+    
     
     for plr_i, player_table in enumerate(player_tables):
         player_url = player_table.find_all('a',href=True)[0]['href']
@@ -61,6 +62,10 @@ team_abbrev_dict = {'CIN': 'Cincinnati Revolution',
                     'MTL':'Montreal Royal', 
                     'COL':'Columbus Cranes', 
                     'CON':'Connecticut Consitution'}
+
+
+audlstats_players = pd.DataFrame(somelist,columns=['PlayerName','Tournament','TeamAbbrev'])
+
 team_abbrev_dict = { (tourney,abbrev): fullname for abbrev,fullname in team_abbrev_dict.items() for tourney in audlstats_players.Tournament.unique()}
 for tourney in ['2015','2016','2017']:
     team_abbrev_dict[ (tourney,'TB') ] = 'Jacksonville Cannons'
@@ -70,8 +75,8 @@ for tourney in ['2012','2013','2014']:
     team_abbrev_dict[ (tourney,'SEA') ] = 'Seattle Raptors'
 for tourney in ['2015','2016','2017','2018']:
     team_abbrev_dict[ (tourney,'SEA') ] = 'Seattle Cascades'
-
-audlstats_players = pd.DataFrame(somelist,columns=['PlayerName','Tournament','TeamAbbrev'])
+    
 audlstats_players['Teamname'] = audlstats_players.apply(lambda x:team_abbrev_dict[(x.Tournament,x.TeamAbbrev)], 
                                                         axis=1)
-audlstats_players.to_csv('../../data/players/players_from_stats_page.csv')
+    
+audlstats_players.to_csv('../../data/supplemental/players_from_stats_page.csv')

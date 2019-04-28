@@ -1,5 +1,9 @@
 import pandas as pd
+import glob
 import csv
+import os
+
+__this_dir__ = os.path.basename(os.path.realpath(__file__))
 
 def CSV2DataFrame(filename):
     """Read CSV as Pandas DataFrame but deal with inconsistent use of commas in CSV"""
@@ -13,3 +17,9 @@ def CSV2DataFrame(filename):
     teamlog = [e[:ncols] if len(e) > ncols else e+['']*(ncols-len(e)) for e in teamlog]
 
     return pd.DataFrame(teamlog,columns=header)
+
+
+def AUDLData(years= [2014,2015,2016,2017,2018,2019] ):
+    
+    file_list = [file for yr in years for file in glob.glob(f'{__this_dir__}/../data/processed/{yr}/*csv')]
+    return pd.concat([pd.read_csv(i) for i in file_list])

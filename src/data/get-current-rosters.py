@@ -39,4 +39,4 @@ for no,yes in aliases.items():
 audldotcom_rosters['FirstName'] = audldotcom_rosters.Name.apply(lambda x : x.split(' ')[0])
 audldotcom_rosters['LastName'] = audldotcom_rosters.Name.apply(lambda x : ' '.join(x.split(' ')[1:]))
 
-audldotcom_rosters.to_csv('../../data/players/current_rosters.csv')
+audldotcom_rosters.to_csv('../../data/players/2019_rosters.csv')
