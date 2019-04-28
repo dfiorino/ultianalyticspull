@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-team_info = pd.read_csv('../../data/teams/audlteaminfo.csv')
+team_info = pd.read_csv('../../data/supplemental/teams.csv')
 
 somelist=[]
 for i,row in team_info[team_info.Active].iterrows():
@@ -39,4 +39,4 @@ for no,yes in aliases.items():
 audldotcom_rosters['FirstName'] = audldotcom_rosters.Name.apply(lambda x : x.split(' ')[0])
 audldotcom_rosters['LastName'] = audldotcom_rosters.Name.apply(lambda x : ' '.join(x.split(' ')[1:]))
 
-audldotcom_rosters.to_csv('../../data/players/2019_rosters.csv')
+audldotcom_rosters.to_csv('../../data/supplemental/2019_rosters.csv')
