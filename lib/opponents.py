@@ -1,4 +1,6 @@
-def Standardize(df_in):
+import pandas as pd
+
+def standardize(df_in : pd.DataFrame):
     """Max and standardize opponent names"""
     # Fix Opponent Name
     opp_list_orig = df_in.Opponent.unique()

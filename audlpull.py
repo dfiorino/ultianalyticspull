@@ -7,7 +7,7 @@ import os
 from lib import opponents
 from lib import audlutils
 
-def ParseArgs():
+def parse_args():
     """Setup command-line interface"""
     parser = argparse.ArgumentParser(description='Get all available AUDL data with minor enhancements and regularization from UltiAnalytics.')
     parser.add_argument('--updatecurrent', dest='updatecurrent', action='store_true',
@@ -15,7 +15,7 @@ def ParseArgs():
                         help='Only get latest year.')
     return  parser.parse_args()
 
-def AddExtraCols(df_in, teamname, year):
+def add_extra_cols(df_in, teamname, year):
     """Add extra useful columns"""
     df_in['Teamname'] = teamname
     df_in['Year'] = year
@@ -23,7 +23,7 @@ def AddExtraCols(df_in, teamname, year):
     
     return df_in
 
-def MakeGameOverLine(df_in):
+def make_game_over_line(df_in):
     gameoverline = df_in.copy()
     gameoverline['Action'] = 'GameOver'
     gameoverline['Event Type'] = 'Cessation'
@@ -43,7 +43,7 @@ def MakeGameOverLine(df_in):
     gameoverline['Toward Our Goal Distance']=np.nan
     return gameoverline.to_frame().T
 
-def FixGameOvers(df_in):
+def fix_game_overs(df_in):
     """Fix missed and redundant GameOver entries"""
     
     # Remove double GameOvers: Consecutive Action's can't both be GameOver
@@ -58,7 +58,7 @@ def FixGameOvers(df_in):
         #iterate through indicies, create gameover instance using previous row as template, append previous rows then gameover row to a list
         for i in idx:
             dflist.append( df_in.iloc[previ:i] )
-            dflist.append( MakeGameOverLine(df_in.iloc[i-1]) )
+            dflist.append( make_game_over_line(df_in.iloc[i-1]) )
 
             previ=i
         dflist.append( df_in.iloc[i:] )
@@ -67,21 +67,21 @@ def FixGameOvers(df_in):
 
     # Add missing GameOver to last line
     if df_in.iloc[-1].Action!='GameOver':
-        df_in = pd.concat( [df_in, MakeGameOverLine(df_in.iloc[-1]) ] ).reset_index(drop=True) 
+        df_in = pd.concat( [df_in, make_game_over_line(df_in.iloc[-1]) ] ).reset_index(drop=True) 
         
     return df_in
 
-def RemoveTestGames(df_in):
+def remove_test_games(df_in):
     """Remove test games from log"""
     return df_in[~(df_in.Opponent=='Test')]
 
-def TimeEventSort(df_in):
+def time_event_sort(df_in):
     """Sort by Date/Time and orignal index"""
     df_in['OrigIndex'] = df_in.index
     df_in = df_in.sort_values(['Date/Time','OrigIndex'])
     return df_in.drop('OrigIndex',axis=1).reset_index(drop=True)
 
-def InsertPlayerNames(df_in):
+def insert_player_names(df_in):
     """Insert player names by replacing usernames,
        given the Year and Teamname"""
     upr = pd.read_csv('data/supplemental/username_playername_relation.csv',encoding = "ISO-8859-1")
@@ -101,7 +101,7 @@ def InsertPlayerNames(df_in):
     
     return df_in
 
-def AddGameplayIDs(df_in):
+def add_gameplay_ids(df_in):
     """Add IDs for each Game and its Points and Possessions"""
     df_in['GameID'] = pd.factorize(df_in['Date/Time'].astype(str)
                                  +df_in['Opponent'].astype(str))[0] +1
@@ -144,7 +144,7 @@ def AddGameplayIDs(df_in):
 
 def main():
 
-    args = ParseArgs()
+    args = parse_args()
     
     allfiles = sorted(glob('data/page-links/ultianalytics_*.csv'))
     filestoget = allfiles if not args.updatecurrent else [allfiles[-1]]
@@ -174,20 +174,20 @@ def main():
             urllib.request.urlretrieve(url, outfn_raw)
             
             print(year,teamname)
-            df_teamdata = audlutils.CSV2DataFrame(outfn_raw)
+            df_teamdata = audlutils.csv2dataframe(outfn_raw)
             if len(df_teamdata)>0:
-                df_teamdata = AddExtraCols(df_teamdata, teamname, year)
-                df_teamdata = FixGameOvers(df_teamdata)
+                df_teamdata = add_extra_cols(df_teamdata, teamname, year)
+                df_teamdata = fix_game_overs(df_teamdata)
                 if len(df_teamdata[~(df_teamdata['Date/Time'].eq(df_teamdata['Date/Time'].shift(-1))) &(df_teamdata.Action!='GameOver')]) > 0:
                     print('Missing GameOvers')
                 if len(df_teamdata[ (df_teamdata.Action.eq(df_teamdata.Action.shift())) & (df_teamdata.Action.shift()=='GameOver') ]) > 0:
                     print('Double GameOvers')
 
-                df_teamdata = RemoveTestGames(df_teamdata)
-                df_teamdata = opponents.Standardize(df_teamdata)
-                df_teamdata = TimeEventSort(df_teamdata)
-                df_teamdata = InsertPlayerNames(df_teamdata)
-                df_teamdata = AddGameplayIDs(df_teamdata)
+                df_teamdata = remove_test_games(df_teamdata)
+                df_teamdata = opponents.standardize(df_teamdata)
+                df_teamdata = time_event_sort(df_teamdata)
+                df_teamdata = insert_player_names(df_teamdata)
+                df_teamdata = add_gameplay_ids(df_teamdata)
 
                 df_teamdata.to_csv(outfn,sep=',')
             else:
