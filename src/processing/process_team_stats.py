@@ -1,31 +1,17 @@
 import pandas as pd
-from .utils import load_data, team_index_vars, player_index_vars, list_players
-from .stats import GetOPointsPlayed, GetOPossessionsPlayed, GetDPointsPlayed, GetDPossessionsPlayed, GetOPointsWon, GetDPointsWon
+from .utils import load_data, team_index_vars, player_index_vars
 from .stats import calculate_conversion_rates, calculate_additive_stats
+from .stats import calculate_gameplay_stats, calculate_gameplay_stats_by_player
 
-
-team_count_indicators = ['Goals', 'Goals Against', 'Holds', 'Breaks', 'Blocks', 'Drops', 'Throwaways', 'Turnovers']
-
-
-def AggTeamStats(df):
-    return pd.DataFrame({'O Points Played': GetOPointsPlayed(df),
-                         'O Possessions Played': GetOPossessionsPlayed(df),
-                         'D Points Played': GetDPointsPlayed(df),
-                         'D Possessions Played': GetDPossessionsPlayed(df),
-                         }, index=[0])
+team_count_indicators = ['Goals', 'Goals Against', 'Blocks', 'Drops', 'Throwaways', 'Turnovers']
 
 
 def make_team_indicators(df):
-
     df = initialize_stats(df, ['Throwaways', 'Drops'])
 
     # Conditions
     offense = df['Event Type'] == 'Offense'
     defense = df['Event Type'] == 'Defense'
-    o_line = df['Line'] == 'O'
-    d_line = df['Line'] == 'D'
-
-    # Actions
     goal = df['Action'] == 'Goal'
     block = df['Action'] == 'D'
     drop = df['Action'] == 'Drop'
@@ -34,8 +20,6 @@ def make_team_indicators(df):
     # Make row-wise indicators
     df.loc[offense & goal, 'Goals'] = 1
     df.loc[defense & goal, 'Goals Against'] = 1
-    df.loc[o_line & offense & goal, 'Holds'] = 1
-    df.loc[d_line & offense & goal, 'Breaks'] = 1
     df.loc[defense & block, 'Blocks'] = 1
     df.loc[offense & drop, 'Drops'] = 1
     df.loc[offense & throwaway, 'Throwaways'] = 1
@@ -43,7 +27,7 @@ def make_team_indicators(df):
     df_wide1 = df.groupby(team_index_vars)[team_count_indicators].sum().reset_index()
 
     # Non row-wise indicators
-    df_wide2 = df.groupby(team_index_vars).apply(AggTeamStats).reset_index().drop(columns='level_5')
+    df_wide2 = df.groupby(team_index_vars).apply(calculate_gameplay_stats).reset_index().drop(columns='level_5')
 
     df_wide = pd.merge(df_wide1, df_wide2, on=team_index_vars)
     df_wide = calculate_conversion_rates(df_wide)
@@ -51,35 +35,6 @@ def make_team_indicators(df):
     # TODO - also sum and calculate_conversion_rates by Team/Year for EOY indicators
 
     return df_wide
-
-
-def PlayStatsByPlayer(df_raw):
-    plyrs = list_players(df_raw.Lineup)
-    dfs = []
-    for p in plyrs:
-        df = df_raw[df_raw['Lineup'].str.contains(p,na=False)]
-        df_p = pd.DataFrame({'player': p,
-                             # 'Games Played': GetGamesPlayed(df),
-                             # 'Quarters Played': GetQuartersPlayed(df),
-                             # 'Points Played': GetPointsPlayed(df),
-                             # 'Possessions Played': GetPossessionsPlayed(df),
-                             'O Points Played': GetOPointsPlayed(df),
-                             'Possessions Played (Offense)': GetOPossessionsPlayed(df),
-                             # 'Opp Possessions Played (Offense)': GetOppOPossessionsPlayed(df),
-                             'D Points Played': GetDPointsPlayed(df),
-                             'Possessions Played (Defense)': GetOPossessionsPlayed(df),
-                             # 'Opp Possessions Played (Defense)': GetOppDPossessionsPlayed(df),
-                             # 'Points Won': GetPointsWon(df),
-                             # 'Points Lost': GetPointsLost(df),
-                             'Holds': GetOPointsWon(df),
-                             # 'Points Lost (Offense)': GetOPointsLost(df),
-                             'Breaks': GetDPointsWon(df),
-                             # 'Points Lost (Defense)': GetDPointsLost(df),
-                             }, index=[0])
-        # print(len(df_p))
-        dfs.append(df_p)
-
-    return pd.concat(dfs, ignore_index=True)
 
 
 # TODO - clean up all lists of stat names
@@ -94,7 +49,6 @@ def initialize_stats(df, stats: list):
 
 
 def make_player_indicators(df):
-
     df = initialize_stats(df, PLAYER_SUM_INDICATORS)
 
     # Actions
@@ -128,7 +82,8 @@ def make_player_indicators(df):
     df_wide1 = calculate_additive_stats(df_wide1, entity='player')
 
     # Non row-wise indicators
-    df_wide2 = df.groupby(player_index_vars[:-1]).apply(PlayStatsByPlayer).reset_index().drop('level_2', axis=1)
+    df_wide2 = df.groupby(player_index_vars[:-1]).apply(calculate_gameplay_stats_by_player).reset_index().drop(
+        'level_2', axis=1)
 
     df_wide = pd.merge(df_wide1, df_wide2, on=player_index_vars)
     df_wide = calculate_conversion_rates(df_wide)

@@ -3,7 +3,7 @@ import pandas as pd
 from pathlib import Path
 
 DATA_DIR = str(Path(__file__).parent.parent.parent/'data')
-YEARS = [2014, 2015, 2016, 2017, 2018]  # [2014]
+YEARS = [2014]  # [2014, 2015, 2016, 2017, 2018]  # [2014]
 
 team_index_vars = ['year', 'team', 'opponent', 'date', 'game']
 # NOTE - the current player functions get prohibitively slow if indexed on game
