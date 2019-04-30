@@ -37,7 +37,7 @@ def make_team_indicators(df, index_vars=team_index_vars):
 
 
 # TODO - clean up all lists of stat names
-PLAYER_SUM_INDICATORS = ['Completions', 'Assists', 'Throwaways', 'Receptions', 'Goals', 'Drops', 'Blocks']
+PLAYER_SUM_INDICATORS = ['Completions', 'Assists', 'Hockey Assists', 'Throwaways', 'Receptions', 'Goals', 'Drops', 'Blocks']
 
 
 def make_player_indicators(df):
@@ -55,6 +55,8 @@ def make_player_indicators(df):
     df_p['player'] = df['Passer']
     df_p.loc[completion, 'Completions'] = 1
     df_p.loc[goal, 'Assists'] = 1
+    df_p.loc[(df_p.Action.shift(-1) == 'Goal') & (df_p['Event Type'] == 'Offense') &
+             (df_p['Event Type'].shift(-1) == 'Offense'), 'Hockey Assists'] = 1
     df_p.loc[throwaway, 'Throwaways'] = 1
 
     # Make receiving row-wise indicators
