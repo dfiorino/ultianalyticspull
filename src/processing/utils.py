@@ -43,3 +43,9 @@ def list_players(lineup: pd.Series):
     :return: np.array of unique players
     """
     return lineup.str.split(', ').apply(pd.Series).stack().unique()
+
+
+def initialize_stats(df, stats: list):
+    for s in stats:
+        df[s] = 0
+    return df
