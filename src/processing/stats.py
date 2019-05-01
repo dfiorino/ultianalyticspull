@@ -1,33 +1,33 @@
 import pandas as pd
-from .utils import list_players
+from .utils import list_players, count_points, count_possessions, count_games, subset_gameplay
 
 
-def calculate_conversion_rates(df):
-    df['Hold Rate'] = df['Holds'] / df['O Points Played']
-    df['Break Rate'] = df['Breaks'] / df['D Points Played']
-    df['Scoring Efficiency'] = df['Points Won'] / df['Possessions Played']
-    df['O-line Scoring Efficiency'] = df['Holds'] / df['O Possessions Played']
-    df['D-line Scoring Efficiency'] = df['Breaks'] / df['D Possessions Played']
-    df['O-line Takeaway Efficiency'] = 1 - (df['O Points Lost'] / df['Opponent Possessions Played (O-Line)'])
-    df['D-line Takeaway Efficiency'] = 1 - (df['D Points Lost'] / df['Opponent Possessions Played (D-Line)'])
+def calculate_additive_stats(df, entity='team'):
+    df['Turnovers'] = df['Drops'] + df['Throwaways']
+    if entity == 'player':
+        df['Plus_Minus'] = df.Goals + df.Assists + df.Blocks - df.Turnovers
     return df
 
 
 def calculate_gameplay_stats(df):
-    return pd.DataFrame({'O Points Played': count_o_points(df),
-                         'O Possessions Played': count_o_possessions(df),
-                         'D Points Played': count_d_points(df),
-                         'D Possessions Played': count_d_possessions(df),
-                         'Holds': count_holds(df),
-                         'Breaks': count_breaks(df),
-                         'Points Won': count_points_won(df),  # TODO - could sum O and D points scored
+
+    df_o = subset_gameplay(df, line="O", remove_cessation=True)
+    df_d = subset_gameplay(df, line="D", remove_cessation=True)
+
+    return pd.DataFrame({'O Points Played': count_points(df_o),
+                         'O Possessions Played': count_possessions(df_o),
+                         'D Points Played': count_points(df_d),
+                         'D Possessions Played': count_possessions(df_d),
+                         'Holds': count_points(subset_gameplay(df_o, event_type='Offense', action='Goal')),
+                         'Breaks': count_points(subset_gameplay(df_d, event_type='Offense', action='Goal')),
+                         'Points Won': count_points(subset_gameplay(df, event_type='Offense', action='Goal')),  # TODO - could sum O and D points scored
                          'Games Played': count_games(df),
                          'Points Played': count_points(df),  # TODO - could sum O and D points
                          'Possessions Played': count_possessions(df),  # TODO - could sum O and D possessions
-                         'Opponent Possessions Played (O-Line)': count_opponent_o_possessions(df),
-                         'Opponent Possessions Played (D-Line)': count_opponent_d_possessions(df),
-                         'O Points Lost': count_o_points_lost(df),  # TODO - could do O points - Holds
-                         'D Points Lost': count_d_points_lost(df),  # TODO - could do D points - Breaks
+                         'Opponent Possessions Played (O-Line)': count_possessions(subset_gameplay(df_o, event_type='Defense')),
+                         'Opponent Possessions Played (D-Line)': count_possessions(subset_gameplay(df_d, event_type='Defense')),
+                         'O Points Lost': count_points(subset_gameplay(df_o, event_type='Defense', action='Goal')),  # TODO - could do O points - Holds
+                         'D Points Lost': count_points(subset_gameplay(df_d, event_type='Defense', action='Goal')),  # TODO - could do D points - Breaks
                          }, index=[0])
 
 
@@ -43,74 +43,14 @@ def calculate_gameplay_stats_by_player(df_raw):
     return pd.concat(dfs, ignore_index=True)
 
 
-def count_o_points(df):
-    return df[(df['Event Type'] != 'Cessation') & (df.Line == 'O')].groupby(['GameID', 'PointID']).ngroups
-
-
-def count_o_possessions(df):
-    return df[(df.Line == 'O') & (df['Event Type'] == 'Offense')].groupby(['GameID', 'PointID', 'PossessionID']).ngroups
-
-
-def count_d_points(df):
-    return df[(df['Event Type'] != 'Cessation') & (df.Line == 'D')].groupby(['GameID', 'PointID']).ngroups
-
-
-def count_d_possessions(df):
-    return df[(df.Line == 'D') & (df['Event Type'] == 'Offense')].groupby(['GameID', 'PointID', 'PossessionID']).ngroups
-
-
-def count_holds(df):
-    return df[(df['Event Type'] == 'Offense')
-              & (df.Action == 'Goal')
-              & (df.Line == 'O')].groupby(['GameID', 'PointID']).ngroups
-
-
-def count_breaks(df):
-    return df[(df['Event Type'] == 'Offense')
-              & (df.Action == 'Goal')
-              & (df.Line == 'D')].groupby(['GameID', 'PointID']).ngroups
-
-
-def count_points_won(df):
-    return df[(df['Event Type'] == 'Offense') & (df.Action == 'Goal')].groupby(['GameID', 'PointID']).ngroups
-
-
-def count_games(df):
-    return df.groupby(['GameID']).ngroups
-
-
-def count_points(df):
-    return df[(df['Event Type'] != 'Cessation')].groupby(['GameID', 'PointID']).ngroups
-
-
-def count_possessions(df):
-    return df[(df['Event Type'] == 'Offense')].groupby(['GameID', 'PointID', 'PossessionID']).ngroups
-
-
-def count_o_points_lost(df):
-    return df[(df['Event Type'] == 'Defense')
-              & (df.Action == 'Goal')
-              & (df.Line == 'O')].groupby(['GameID', 'PointID']).ngroups
-
-
-def count_d_points_lost(df):
-    return df[(df['Event Type'] == 'Defense')
-              & (df.Action == 'Goal')
-              & (df.Line == 'D')].groupby(['GameID', 'PointID']).ngroups
-
-
-def count_opponent_o_possessions(df):
-    return df[(df.Line == 'O') & (df['Event Type'] == 'Defense')].groupby(['GameID', 'PointID', 'PossessionID']).ngroups
-
-
-def count_opponent_d_possessions(df):
-    return df[(df.Line == 'D') & (df['Event Type'] == 'Defense')].groupby(['GameID', 'PointID', 'PossessionID']).ngroups
-
-
-def calculate_additive_stats(df, entity='team'):
-    df['Turnovers'] = df['Drops'] + df['Throwaways']
-    if entity == 'player':
-        df['Plus_Minus'] = df.Goals + df.Assists + df.Blocks - df.Turnovers
+def calculate_conversion_rates(df):
+    df['Hold Rate'] = df['Holds'] / df['O Points Played']
+    df['Break Rate'] = df['Breaks'] / df['D Points Played']
+    df['Scoring Efficiency'] = df['Points Won'] / df['Possessions Played']
+    df['O-line Scoring Efficiency'] = df['Holds'] / df['O Possessions Played']
+    df['D-line Scoring Efficiency'] = df['Breaks'] / df['D Possessions Played']
+    df['O-line Takeaway Efficiency'] = 1 - (df['O Points Lost'] / df['Opponent Possessions Played (O-Line)'])
+    df['D-line Takeaway Efficiency'] = 1 - (df['D Points Lost'] / df['Opponent Possessions Played (D-Line)'])
     return df
 
 # BELOW FUNCTIONS ARE NOT CURRENTLY USED
