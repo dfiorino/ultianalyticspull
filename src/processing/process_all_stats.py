@@ -102,7 +102,7 @@ if __name__ == '__main__':
     df_team_eoy.to_csv(f'{DATA_DIR}/final/team_stats_by_year.csv', index=False)
 
     df_player = make_player_indicators(df)
-    df_team.to_csv(f'{DATA_DIR}/final/player_stats.csv', index=False)
+    df_player.to_csv(f'{DATA_DIR}/final/player_stats.csv', index=False)
 
     df_goals = clean_goals_for_sanke(df)
     df_goals.to_csv(f'{DATA_DIR}/final/all_goals.csv', index=False)
