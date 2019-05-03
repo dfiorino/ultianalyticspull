@@ -1,6 +1,9 @@
 import pandas as pd
 from .utils import list_players, count_points, count_possessions, count_games, subset_gameplay, initialize_stats
 
+TEAM_SUM_STATS = ['Assists', 'Hockey Assists', 'Throwaways', 'Turnovers', 'Completions', 'Catches', 'Goals', 'Drops', 'Blocks',
+                  'Stalls', 'Callahans', 'Callahans Thrown']
+PLAYER_SUM_STATS = TEAM_SUM_STATS + ['Plus/Minus']
 
 def make_action_booleans(df):
     # Note - for these, we are not yet evaluating whether or not a "Callahan" is a "block" - that logic is isolated in calculate_sum_stats
@@ -16,10 +19,11 @@ def make_action_booleans(df):
 
 
 def calculate_sum_stats(df, index_vars, entity='team'):
-    # TODO - figure out centralized place to put all lists of stats (we may also need it for audl-viz)
-    cols = ['Assists', 'Hockey Assists', 'Throwaways', 'Turnovers', 'Turnovers (O)', 'Completions', 'Catches', 'Goals', 'Drops', 'Blocks',
-            'Callahans', 'Stalls', 'Callahans Thrown']
 
+    if entity == 'team':
+        cols = TEAM_SUM_STATS
+    elif entity == 'player':
+        cols = PLAYER_SUM_STATS
     initialize_stats(df, cols)
 
     # TODO - could do via a melt?
@@ -61,7 +65,7 @@ def calculate_sum_stats(df, index_vars, entity='team'):
     df_long['Turnovers'] = df_long['Drops'] + df_long['Throwaways'] + df_long['Stalls']
 
     if entity == 'player':
-        df_long['Plus_Minus'] = df_long.Goals + df_long.Assists + df_long.Blocks - df_long.Turnovers
+        df_long['Plus/Minus'] = df_long.Goals + df_long.Assists + df_long.Blocks - df_long.Turnovers
 
     return df_long.groupby(index_vars)[cols].sum().reset_index()
 
@@ -111,13 +115,3 @@ def calculate_conversion_rates(df):
     df['O-line Takeaway Efficiency'] = 1 - (df['O Points Lost'] / df['Opponent Possessions Played (O-Line)'])
     df['D-line Takeaway Efficiency'] = 1 - (df['D Points Lost'] / df['Opponent Possessions Played (D-Line)'])
     return df
-
-# BELOW FUNCTIONS ARE NOT CURRENTLY USED
-# def count_quarters(df):
-#     return df.groupby(['GameID', 'QuarterID']).ngroups
-#
-#
-# def count_points_lost(df):
-#     return df[(df['Event Type'] == 'Defense') & (df.Action == 'Goal')].groupby(['GameID', 'PointID']).ngroups
-#
-#
