@@ -3,7 +3,7 @@ import pandas as pd
 from pathlib import Path
 
 DATA_DIR = str(Path(__file__).parent.parent.parent/'data')
-YEARS = [2018]  # [2014, 2015, 2016, 2017, 2018]  # [2014]
+YEARS = [2014, 2015, 2016, 2017, 2018]  # [2018] for quicker dev work
 
 
 def extract_datetime(df, colname):
