@@ -5,14 +5,6 @@ from pathlib import Path
 DATA_DIR = str(Path(__file__).parent.parent.parent/'data')
 YEARS = [2018]  # [2014, 2015, 2016, 2017, 2018]  # [2014]
 
-team_index_vars = ['year', 'team', 'opponent', 'date', 'game']
-# NOTE - the current player functions get prohibitively slow if indexed on game
-player_index_vars = ['year', 'team', 'player']
-team_indicators = ['Goals', 'Catches', 'Ds', 'Turnovers', 'Drops', 'Throwaways', 'Goals_against',
-                   'Hold_pct', 'Break_pct']
-team_eoy_indicators = team_indicators + ['Win_pct'] # ['Win_pct', 'Hold_pct', 'Break_pct']
-player_sum_indicators = ['Completions', 'Assists', 'Throwaways', 'Receptions', 'Goals', 'Drops', 'Ds']
-
 
 def extract_datetime(df, colname):
     df['datetime'] = pd.to_datetime(df[colname])

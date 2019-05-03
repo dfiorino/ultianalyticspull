@@ -1,12 +1,20 @@
 import pandas as pd
 from .utils import list_players, count_points, count_possessions, count_games, subset_gameplay, initialize_stats
 
+
 TEAM_SUM_STATS = ['Assists', 'Hockey Assists', 'Throwaways', 'Turnovers', 'Completions', 'Catches', 'Goals', 'Drops', 'Blocks',
                   'Stalls', 'Callahans', 'Callahans Thrown']
 PLAYER_SUM_STATS = TEAM_SUM_STATS + ['Plus/Minus']
 
+
 def make_action_booleans(df):
-    # Note - for these, we are not yet evaluating whether or not a "Callahan" is a "block" - that logic is isolated in calculate_sum_stats
+    """
+    Utility function to help other functions subset gameplay based on actions
+    We are NOT yet evaluating whether or not a "Callahan" is a "block" - that logic is isolated in calculate_sum_stats
+    :param df: raw data
+    :return: a list of boolean series
+    """
+
     goal = df['Action'] == 'Goal'
     block = df['Action'] == 'D'
     drop = df['Action'] == 'Drop'
@@ -19,6 +27,13 @@ def make_action_booleans(df):
 
 
 def calculate_sum_stats(df, index_vars, entity='team'):
+    """
+    Calculates all row-wise statistics (ie, action-based stats) that are summed by player or team
+    :param df: raw data
+    :param index_vars: groupby cols
+    :param entity: 'player' or 'team'
+    :return: pd.DataFrame of sum stats
+    """
 
     if entity == 'team':
         cols = TEAM_SUM_STATS
@@ -71,6 +86,11 @@ def calculate_sum_stats(df, index_vars, entity='team'):
 
 
 def calculate_gameplay_stats(df):
+    """
+    Calculates statistics that are not defined by actions
+    :param df: pd.DataFrame (note - this is generally used within a groupby(entity).apply(calculate_gameplay_stats)
+    :return: pd.DataFrame with one row (that applies to whatever entity is used in the groupby call to this function)
+    """
     df = subset_gameplay(df, remove_cessation=True)
     df_o = subset_gameplay(df, line="O", remove_cessation=True)
     df_d = subset_gameplay(df, line="D", remove_cessation=True)
@@ -95,6 +115,9 @@ def calculate_gameplay_stats(df):
 
 
 def calculate_gameplay_stats_by_player(df_raw):
+    """
+    Wrapper for calculate_gameplay_stats that facilitates applying it to each player (ie, when they're on the field)
+    """
     plyrs = list_players(df_raw.Lineup)
     dfs = []
     for p in plyrs:
@@ -107,6 +130,11 @@ def calculate_gameplay_stats_by_player(df_raw):
 
 
 def calculate_conversion_rates(df):
+    """
+    Row-wise aggregation functions of gameplay statistics calculated by calculate_gameplay_stats
+    :param df:
+    :return:
+    """
     df['Hold Rate'] = df['Holds'] / df['O Points Played']
     df['Break Rate'] = df['Breaks'] / df['D Points Played']
     df['Scoring Efficiency'] = df['Points Won'] / df['Possessions Played']
