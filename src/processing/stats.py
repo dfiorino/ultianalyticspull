@@ -2,12 +2,13 @@ import pandas as pd
 from .utils import list_players, count_points, count_possessions, count_games, subset_gameplay, initialize_stats
 
 
-def define_action_types(df):
-    goal = df['Action'].isin(['Goal', 'Callahan'])
-    block = df['Action'].isin(['D', 'Callahan'])
+def make_action_booleans(df):
+    # Note - for these, we are not yet evaluating whether or not a "Callahan" is a "block" - that logic is isolated in calculate_sum_stats
+    goal = df['Action'] == 'Goal'
+    block = df['Action'] == 'D'
     drop = df['Action'] == 'Drop'
-    throwaway = df['Action'].isin(['Throwaway', 'Callahan'])
-    catch = df['Action'].isin(['Catch', 'Goal'])
+    throwaway = df['Action'] == 'Throwaway'
+    catch = df['Action'] == 'Catch'
     callahan = df['Action'] == 'Callahan'
     stall = df['Action'] == 'Stall'
 
@@ -15,9 +16,10 @@ def define_action_types(df):
 
 
 def calculate_sum_stats(df, index_vars, entity='team'):
-    # TODO - figure out where to put lists of stats
+    # TODO - figure out centralized place to put all lists of stats (we may also need it for audl-viz)
     cols = ['Assists', 'Hockey Assists', 'Throwaways', 'Completions', 'Catches', 'Goals', 'Drops', 'Blocks',
             'Callahans', 'Stalls', 'Callahans Thrown']
+
     initialize_stats(df, cols)
 
     # TODO - could do via a melt?
@@ -30,14 +32,12 @@ def calculate_sum_stats(df, index_vars, entity='team'):
 
     df_long = pd.concat([df_t, df_r, df_d], sort=False)
 
+    offense = df_long['Event Type'] == "Offense"
+    defense = df_long['Event Type'] == "Defense"
     passer = df_long.type == 'Passer'
     receiver = df_long.type == 'Receiver'
     defender = df_long.type == 'Defender'
-
-    goal, block, drop, throwaway, catch, callahan, stall = define_action_types(df_long)
-
-    offense = df_long['Event Type'] == "Offense"
-    defense = df_long['Event Type'] == "Defense"
+    goal, block, drop, throwaway, catch, callahan, stall = make_action_booleans(df_long)
 
     # Thrower
     df_long.loc[offense & passer & goal, 'Assists'] = 1
@@ -53,7 +53,7 @@ def calculate_sum_stats(df, index_vars, entity='team'):
     df_long.loc[offense & receiver & drop, 'Drops'] = 1
 
     # Defender
-    df_long.loc[defense & defender & block, 'Blocks'] = 1
+    df_long.loc[defense & defender & (block | callahan), 'Blocks'] = 1
     df_long.loc[defense & defender & callahan, 'Callahans'] = 1
 
     # Combined
@@ -77,7 +77,7 @@ def calculate_gameplay_stats(df):
                          'Holds': count_points(subset_gameplay(df_o, event_type='Offense', action='Goal')),
                          'Breaks': count_points(subset_gameplay(df_d, event_type='Offense', action='Goal')),
                          'Points Won': count_points(subset_gameplay(df, event_type='Offense', action='Goal')),
-                         # TODO - could sum O and D points scored
+                         # TODO - 'Points Won', 'O Points Lost', 'Possessions played',   could sum O and D points scored
                          'Games Played': count_games(df),
                          'Points Played': count_points(df),  # TODO - could sum O and D points
                          'Possessions Played': count_possessions(df),  # TODO - could sum O and D possessions
