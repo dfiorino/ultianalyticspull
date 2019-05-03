@@ -1,5 +1,5 @@
 import pandas as pd
-from src.processing.utils import load_data, team_index_vars, player_index_vars, DATA_DIR, initialize_stats
+from src.processing.utils import load_data, team_index_vars, player_index_vars, DATA_DIR, initialize_stats, subset_gameplay
 from src.processing.stats import calculate_conversion_rates, calculate_additive_stats
 from src.processing.stats import calculate_gameplay_stats, calculate_gameplay_stats_by_player
 
@@ -12,17 +12,19 @@ def make_team_indicators(df, index_vars=team_index_vars):
     # Conditions
     offense = df['Event Type'] == 'Offense'
     defense = df['Event Type'] == 'Defense'
-    goal = df['Action'] == 'Goal'
-    block = df['Action'] == 'D'
+    callahan = df['Action'] == 'Callahan'
+    goal = (df['Action'] == 'Goal') | callahan
+    block = (df['Action'] == 'D') | callahan
     drop = df['Action'] == 'Drop'
-    throwaway = df['Action'] == 'Throwaway'
+    throwaway = (df['Action'] == 'Throwaway') | callahan
+
 
     # Make row-wise indicators
     df.loc[offense & goal, 'Goals'] = 1
     df.loc[defense & goal, 'Goals Against'] = 1
     df.loc[defense & block, 'Blocks'] = 1
     df.loc[offense & drop, 'Drops'] = 1
-    df.loc[offense & throwaway, 'Throwaways'] = 1
+    df.loc[offense & (throwaway | callahan), 'Throwaways'] = 1
     df = calculate_additive_stats(df)
     df_wide1 = df.groupby(index_vars)[team_count_indicators].sum().reset_index()
 
@@ -37,7 +39,7 @@ def make_team_indicators(df, index_vars=team_index_vars):
 
 
 # TODO - clean up all lists of stat names
-PLAYER_SUM_INDICATORS = ['Completions', 'Assists', 'Hockey Assists', 'Throwaways', 'Receptions', 'Goals', 'Drops', 'Blocks']
+PLAYER_SUM_INDICATORS = ['Completions', 'Assists', 'Hockey Assists', 'Throwaways', 'Receptions', 'Goals', 'Drops', 'Blocks', 'Callahans', 'Stalls', 'Callahans thrown']
 
 
 def make_player_indicators(df):
@@ -49,6 +51,8 @@ def make_player_indicators(df):
     drop = df['Action'] == 'Drop'
     throwaway = df['Action'] == 'Throwaway'
     completion = df['Action'] == 'Catch'
+    callahan = df['Action'] == 'Callahan'
+    stall = df['Action'] == 'Stall'
 
     # Make passing row-wise indicators
     df_p = df.copy()
@@ -57,7 +61,9 @@ def make_player_indicators(df):
     df_p.loc[goal, 'Assists'] = 1
     df_p.loc[(df_p.Action.shift(-1) == 'Goal') & (df_p['Event Type'] == 'Offense') &
              (df_p['Event Type'].shift(-1) == 'Offense'), 'Hockey Assists'] = 1
-    df_p.loc[throwaway, 'Throwaways'] = 1
+    df_p.loc[throwaway | callahan, 'Throwaways'] = 1
+    df_p.loc[callahan, 'Callahans thrown'] = 1
+    df_p.loc[stall, 'Stalls'] = 1
 
     # Make receiving row-wise indicators
     df_r = df.copy()
@@ -69,7 +75,8 @@ def make_player_indicators(df):
     # Make defensive row-wise indicators
     df_d = df.copy()
     df_d['player'] = df['Defender']
-    df_d.loc[block, 'Blocks'] = 1
+    df_d.loc[block | callahan, 'Blocks'] = 1
+    df_p.loc[callahan, 'Callahans'] = 1
 
     df_all = pd.concat([df_p, df_r, df_d], sort=False)
     df_wide1 = df_all.groupby(player_index_vars)[PLAYER_SUM_INDICATORS].sum().reset_index()

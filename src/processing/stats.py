@@ -3,7 +3,8 @@ from .utils import list_players, count_points, count_possessions, count_games, s
 
 
 def calculate_additive_stats(df, entity='team'):
-    df['Turnovers'] = df['Drops'] + df['Throwaways']
+    df['Turnovers'] = df['Drops'] + df['Throwaways'] + df['Stalls']
+    df['Goals'] = df['Goals'] + df['Callahans']  # TODO - how to make this more clear
     if entity == 'player':
         df['Plus_Minus'] = df.Goals + df.Assists + df.Blocks - df.Turnovers
     return df
