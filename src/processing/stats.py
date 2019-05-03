@@ -2,7 +2,7 @@ import pandas as pd
 from .utils import list_players, count_points, count_possessions, count_games, subset_gameplay, initialize_stats
 
 
-TEAM_SUM_STATS = ['Assists', 'Hockey Assists', 'Throwaways', 'Turnovers', 'Completions', 'Catches', 'Goals', 'Drops', 'Blocks',
+TEAM_SUM_STATS = ['Assists', 'Hockey Assists', 'Throws', 'Throwaways', 'Turnovers', 'Completions', 'Catches', 'Goals', 'Drops', 'Blocks',
                   'Stalls', 'Callahans', 'Callahans Thrown']
 PLAYER_SUM_STATS = TEAM_SUM_STATS + ['Plus/Minus']
 
@@ -66,6 +66,7 @@ def calculate_sum_stats(df, index_vars, entity='team'):
     df_long.loc[offense & passer & (throwaway | callahan), 'Throwaways'] = 1
     df_long.loc[offense & passer & callahan, 'Callahans Thrown'] = 1
     df_long.loc[offense & passer & stall, 'Stalls'] = 1
+    df_long.loc[offense & passer & (catch | goal | drop | throwaway | callahan), 'Throws'] = 1
 
     # Receiver
     df_long.loc[offense & receiver & (catch | goal), 'Catches'] = 1
@@ -129,12 +130,16 @@ def calculate_gameplay_stats_by_player(df_raw):
     return pd.concat(dfs, ignore_index=True)
 
 
-def calculate_conversion_rates(df):
-    """
-    Row-wise aggregation functions of gameplay statistics calculated by calculate_gameplay_stats
-    :param df:
-    :return:
-    """
+def calculate_rates(df):
+    """Aggregations of stats calculated by calculate_sum_stats and calculate_gameplay_stats"""
+
+    # Sum stats
+    df['Completion Rate'] = df['Completions'] / df['Throws']
+    df['Throwaway Rate'] = df['Throwaways'] / df['Throws']
+    df['Assist Rate'] = df['Assists'] / df['Throws']
+    df['Goal Rate'] = df['Goals'] / df['Catches']
+
+    # Gameplay stats
     df['Hold Rate'] = df['Holds'] / df['O Points Played']
     df['Break Rate'] = df['Breaks'] / df['D Points Played']
     df['Scoring Efficiency'] = df['Points Won'] / df['Possessions Played']
@@ -142,4 +147,5 @@ def calculate_conversion_rates(df):
     df['D-line Scoring Efficiency'] = df['Breaks'] / df['D Possessions Played']
     df['O-line Takeaway Efficiency'] = 1 - (df['O Points Lost'] / df['Opponent Possessions Played (O-Line)'])
     df['D-line Takeaway Efficiency'] = 1 - (df['D Points Lost'] / df['Opponent Possessions Played (D-Line)'])
+
     return df

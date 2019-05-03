@@ -1,6 +1,6 @@
 import pandas as pd
 from src.processing.utils import load_data, DATA_DIR
-from src.processing.stats import calculate_conversion_rates, calculate_sum_stats
+from src.processing.stats import calculate_rates, calculate_sum_stats
 from src.processing.stats import calculate_gameplay_stats, calculate_gameplay_stats_by_player
 
 
@@ -22,7 +22,7 @@ def make_team_indicators(df, index_vars=TEAM_INDEX_VARS):
     df_gameplay = df.groupby(index_vars).apply(calculate_gameplay_stats).reset_index().drop(columns=level_col)
 
     df_wide = pd.merge(df_sum, df_gameplay, on=index_vars)
-    df_wide = calculate_conversion_rates(df_wide)
+    df_wide = calculate_rates(df_wide)
 
     return df_wide
 
@@ -40,7 +40,7 @@ def make_player_indicators(df):
     df_gameplay = df.groupby(index_vars).apply(calculate_gameplay_stats_by_player).reset_index().drop(level_col, axis=1)
 
     df_wide = pd.merge(df_sum, df_gameplay, on=PLAYER_INDEX_VARS, how='outer')
-    df_wide = calculate_conversion_rates(df_wide)
+    df_wide = calculate_rates(df_wide)
 
     return df_wide
 
