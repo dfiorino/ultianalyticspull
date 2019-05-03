@@ -17,7 +17,7 @@ def make_action_booleans(df):
 
 def calculate_sum_stats(df, index_vars, entity='team'):
     # TODO - figure out centralized place to put all lists of stats (we may also need it for audl-viz)
-    cols = ['Assists', 'Hockey Assists', 'Throwaways', 'Completions', 'Catches', 'Goals', 'Drops', 'Blocks',
+    cols = ['Assists', 'Hockey Assists', 'Throwaways', 'Turnovers', 'Turnovers (O)', 'Completions', 'Catches', 'Goals', 'Drops', 'Blocks',
             'Callahans', 'Stalls', 'Callahans Thrown']
 
     initialize_stats(df, cols)
@@ -61,34 +61,32 @@ def calculate_sum_stats(df, index_vars, entity='team'):
     df_long['Turnovers'] = df_long['Drops'] + df_long['Throwaways'] + df_long['Stalls']
 
     if entity == 'player':
-        df['Plus_Minus'] = df.Goals + df.Assists + df.Blocks - df.Turnovers
+        df_long['Plus_Minus'] = df_long.Goals + df_long.Assists + df_long.Blocks - df_long.Turnovers
 
     return df_long.groupby(index_vars)[cols].sum().reset_index()
 
 
 def calculate_gameplay_stats(df):
+    df = subset_gameplay(df, remove_cessation=True)
     df_o = subset_gameplay(df, line="O", remove_cessation=True)
     df_d = subset_gameplay(df, line="D", remove_cessation=True)
 
     return pd.DataFrame({'O Points Played': count_points(df_o),
-                         'O Possessions Played': count_possessions(df_o),
+                         'O Possessions Played': count_possessions(subset_gameplay(df_o, event_type='Offense')),
                          'D Points Played': count_points(df_d),
-                         'D Possessions Played': count_possessions(df_d),
+                         'D Possessions Played': count_possessions(subset_gameplay(df_d, event_type='Offense')),
                          'Holds': count_points(subset_gameplay(df_o, event_type='Offense', action='Goal')),
                          'Breaks': count_points(subset_gameplay(df_d, event_type='Offense', action='Goal')),
-                         'Points Won': count_points(subset_gameplay(df, event_type='Offense', action='Goal')),
-                         # TODO - 'Points Won', 'O Points Lost', 'Possessions played',   could sum O and D points scored
                          'Games Played': count_games(df),
-                         'Points Played': count_points(df),  # TODO - could sum O and D points
-                         'Possessions Played': count_possessions(df),  # TODO - could sum O and D possessions
-                         'Opponent Possessions Played (O-Line)': count_possessions(
-                             subset_gameplay(df_o, event_type='Defense')),
-                         'Opponent Possessions Played (D-Line)': count_possessions(
-                             subset_gameplay(df_d, event_type='Defense')),
+                         'Opponent Possessions Played (O-Line)': count_possessions(subset_gameplay(df_o, event_type='Defense')),
+                         'Opponent Possessions Played (D-Line)': count_possessions(subset_gameplay(df_d, event_type='Defense')),
+                         # Note - you canNOT use e.g. O points - Holds because not all points end in a score
                          'O Points Lost': count_points(subset_gameplay(df_o, event_type='Defense', action='Goal')),
-                         # TODO - could do O points - Holds
                          'D Points Lost': count_points(subset_gameplay(df_d, event_type='Defense', action='Goal')),
-                         # TODO - could do D points - Breaks
+                         # TODO - 'Points Won', 'Points Played', and 'Possessions played' could be done row-wise
+                         'Points Won': count_points(subset_gameplay(df, event_type='Offense', action='Goal')),
+                         'Points Played': count_points(df),
+                         'Possessions Played': count_possessions(subset_gameplay(df, event_type='Offense')),
                          }, index=[0])
 
 
