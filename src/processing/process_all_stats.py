@@ -3,35 +3,27 @@ from src.processing.utils import load_data, team_index_vars, player_index_vars, 
 from src.processing.stats import calculate_conversion_rates, calculate_sum_stats
 from src.processing.stats import calculate_gameplay_stats, calculate_gameplay_stats_by_player
 
-team_count_indicators = ['Goals', 'Goals Against', 'Blocks', 'Drops', 'Throwaways', 'Turnovers']
-
 
 def make_team_indicators(df, index_vars=team_index_vars):
-    df_counts = calculate_sum_stats(df, index_vars, entity='team')
+    df_sum = calculate_sum_stats(df, index_vars, entity='team')
 
-    # Non row-wise indicators
     level_col = f'level_{len(index_vars)}'
     df_gameplay = df.groupby(index_vars).apply(calculate_gameplay_stats).reset_index().drop(columns=level_col)
 
-    df_wide = pd.merge(df_counts, df_gameplay, on=index_vars)
+    df_wide = pd.merge(df_sum, df_gameplay, on=index_vars)
     df_wide = calculate_conversion_rates(df_wide)
 
     return df_wide
 
 
-# TODO - clean up all lists of stat names
-PLAYER_SUM_INDICATORS = ['Completions', 'Assists', 'Hockey Assists', 'Throwaways', 'Receptions', 'Goals', 'Drops',
-                         'Blocks', 'Callahans', 'Stalls', 'Callahans thrown']
-
-
 def make_player_indicators(df):
-    df_counts = calculate_sum_stats(df, player_index_vars, entity='player')
+    df_sum = calculate_sum_stats(df, player_index_vars, entity='player')
 
-    # Non row-wise indicators
-    df_gameplay = df.groupby(player_index_vars[:-1]).apply(calculate_gameplay_stats_by_player).reset_index().drop(
-        'level_2', axis=1)
+    index_vars = player_index_vars[:-1]  # the aggregation by player happens within calculate_gameplay_stats_by_player
+    level_col = f'level_{len(index_vars)}'
+    df_gameplay = df.groupby(index_vars).apply(calculate_gameplay_stats_by_player).reset_index().drop(level_col, axis=1)
 
-    df_wide = pd.merge(df_counts, df_gameplay, on=player_index_vars, how='outer')
+    df_wide = pd.merge(df_sum, df_gameplay, on=player_index_vars, how='outer')
     df_wide = calculate_conversion_rates(df_wide)
 
     return df_wide
