@@ -7,7 +7,7 @@ team_count_indicators = ['Goals', 'Goals Against', 'Blocks', 'Drops', 'Throwaway
 
 
 def make_team_indicators(df, index_vars=team_index_vars):
-    df_counts = calculate_sum_stats(df, team_index_vars, entity='team')
+    df_counts = calculate_sum_stats(df, index_vars, entity='team')
 
     # Non row-wise indicators
     level_col = f'level_{len(index_vars)}'
