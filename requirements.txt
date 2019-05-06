@@ -1,0 +1,8 @@
+glob
+urllib
+argparse
+pandas
+numpy
+csv
+bs4
+requests
