@@ -10,6 +10,8 @@ from lib import audlutils
 def parse_args():
     """Setup command-line interface"""
     parser = argparse.ArgumentParser(description='Get all available AUDL data with minor enhancements and regularization from UltiAnalytics.')
+    parser.add_argument('--years','-y', nargs='+',dest='years', default=list(range(2014,2020)),
+                        help='Year(s) to pull')
     parser.add_argument('--updatecurrent', dest='updatecurrent', action='store_true',
                         default=False,
                         help='Only get latest year.')
@@ -146,8 +148,9 @@ def main():
 
     args = parse_args()
     
-    allfiles = sorted(glob('data/page-links/ultianalytics_*.csv'))
-    filestoget = allfiles if not args.updatecurrent else [allfiles[-1]]
+    years = [2019] if args.updatecurrent else args.years 
+    
+    filestoget = sorted([f'data/page-links/ultianalytics_{year}.csv' for year in years])
     
     for f in filestoget:
         
