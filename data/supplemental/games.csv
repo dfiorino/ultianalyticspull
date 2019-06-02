@@ -1047,54 +1047,54 @@
 1045,Raleigh Flyers,21,"Sat, 4/27 7:00 PM EDT Atlanta",Atlanta Hustle,15,/league/game/2019-04-27-RAL-ATL,2019,2019-04-27,7:00 PM EDT,Atlanta,4,1045
 1046,Seattle Cascades,19,"Sat, 4/27 7:30 PM PDT LA",Los Angeles Aviators,25,/league/game/2019-04-27-SEA-LA,2019,2019-04-27,7:30 PM PDT,LA,4,1046
 1047,Montreal Royal,19,"Sun, 4/28 2:00 PM EDT New York",New York Empire,23,/league/game/2019-04-28-MTL-NY,2019,2019-04-28,2:00 PM EDT,New York,4,1047
-1048,Los Angeles Aviators,0,"Sat, 5/4 7:00 PM PDT San Jose",San Jose Spiders,0,/league/game/2019-05-04-LA-SJ,2019,2019-05-04,7:00 PM PDT,San Jose,5,1054
-1049,Ottawa Outlaws,0,"Sat, 5/4 6:00 PM EDT DC",DC Breeze,0,/league/game/2019-05-04-OTT-DC,2019,2019-05-04,6:00 PM EDT,DC,5,1052
-1050,Minnesota Wind Chill,0,"Sat, 5/4 6:00 PM CDT Chicago",Chicago Wildfire,0,/league/game/2019-05-04-MIN-CHI,2019,2019-05-04,6:00 PM CDT,Chicago,5,1051
-1051,San Diego Growlers,0,"Sat, 5/4 6:30 PM PDT Seattle",Seattle Cascades,0,/league/game/2019-05-04-SD-SEA,2019,2019-05-04,6:30 PM PDT,Seattle,5,1053
-1052,Austin Sol,0,"Sat, 5/4 5:00 PM EDT Atlanta",Atlanta Hustle,0,/league/game/2019-05-04-AUS-ATL,2019,2019-05-04,5:00 PM EDT,Atlanta,5,1049
-1053,Montreal Royal,0,"Sat, 5/4 4:00 PM EDT Toronto",Toronto Rush,0,/league/game/2019-05-04-MTL-TOR,2019,2019-05-04,4:00 PM EDT,Toronto,5,1048
-1054,Indianapolis AlleyCats,0,"Sat, 5/4 6:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,0,/league/game/2019-05-04-IND-PIT,2019,2019-05-04,6:00 PM EDT,Pittsburgh,5,1050
-1055,Minnesota Wind Chill,0,"Sun, 5/5 1:00 PM EDT Detroit",Detroit Mechanix,0,/league/game/2019-05-05-MIN-DET,2019,2019-05-05,1:00 PM EDT,Detroit,5,1055
-1056,Austin Sol,0,"Sun, 5/5 1:00 PM EDT Raleigh",Raleigh Flyers,0,/league/game/2019-05-05-AUS-RAL,2019,2019-05-05,1:00 PM EDT,Raleigh,5,1056
-1057,Ottawa Outlaws,0,"Sun, 5/5 2:00 PM EDT Philadelphia",Philadelphia Phoenix,0,/league/game/2019-05-05-OTT-PHI,2019,2019-05-05,2:00 PM EDT,Philadelphia,5,1057
-1058,Raleigh Flyers,0,"Sat, 5/11 7:05 PM EDT Tampa Bay",Tampa Bay Cannons,0,/league/game/2019-05-11-RAL-TB,2019,2019-05-11,7:05 PM EDT,Tampa Bay,6,1066
-1059,Atlanta Hustle,0,"Sat, 5/11 7:00 PM EDT Indianapolis",Indianapolis AlleyCats,0,/league/game/2019-05-11-ATL-IND,2019,2019-05-11,7:00 PM EDT,Indianapolis,6,1065
-1060,Dallas Roughnecks,0,"Sat, 5/11 7:00 PM CDT Austin",Austin Sol,0,/league/game/2019-05-11-DAL-AUS,2019,2019-05-11,7:00 PM CDT,Austin,6,1064
-1061,Seattle Cascades,0,"Sat, 5/11 7:00 PM PDT San Jose",San Jose Spiders,0,/league/game/2019-05-11-SEA-SJ,2019,2019-05-11,7:00 PM PDT,San Jose,6,1063
-1062,DC Breeze,0,"Sat, 5/11 6:00 PM EDT New York",New York Empire,0,/league/game/2019-05-11-DC-NY,2019,2019-05-11,6:00 PM EDT,New York,6,1061
-1063,Minnesota Wind Chill,0,"Sat, 5/11 6:00 PM CDT Madison",Madison Radicals,0,/league/game/2019-05-11-MIN-MAD,2019,2019-05-11,6:00 PM CDT,Madison,6,1060
-1064,San Diego Growlers,0,"Sat, 5/11 5:30 PM PDT LA",Los Angeles Aviators,0,/league/game/2019-05-11-SD-LA,2019,2019-05-11,5:30 PM PDT,LA,6,1059
-1065,Ottawa Outlaws,0,"Sat, 5/11 4:00 PM EDT Toronto",Toronto Rush,0,/league/game/2019-05-11-OTT-TOR,2019,2019-05-11,4:00 PM EDT,Toronto,6,1058
-1066,Chicago Wildfire,0,"Sat, 5/11 6:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,0,/league/game/2019-05-11-CHI-PIT,2019,2019-05-11,6:00 PM EDT,Pittsburgh,6,1062
-1067,San Jose Spiders,0,"Fri, 5/17 6:45 PM PDT San Diego",San Diego Growlers,0,/league/game/2019-05-17-SJ-SD,2019,2019-05-17,6:45 PM PDT,San Diego,7,1067
-1068,Tampa Bay Cannons,0,"Sat, 5/18 7:00 PM CDT Austin",Austin Sol,0,/league/game/2019-05-18-TB-AUS,2019,2019-05-18,7:00 PM CDT,Austin,7,1073
-1069,Toronto Rush,0,"Sat, 5/18 7:00 PM EDT New York",New York Empire,0,/league/game/2019-05-18-TOR-NY,2019,2019-05-18,7:00 PM EDT,New York,7,1074
-1070,DC Breeze,0,"Sat, 5/18 7:00 PM EDT Ottawa",Ottawa Outlaws,0,/league/game/2019-05-18-DC-OTT,2019,2019-05-18,7:00 PM EDT,Ottawa,7,1072
-1071,Atlanta Hustle,0,"Sat, 5/18 7:00 PM EDT Raleigh",Raleigh Flyers,0,/league/game/2019-05-18-ATL-RAL,2019,2019-05-18,7:00 PM EDT,Raleigh,7,1075
-1072,Indianapolis AlleyCats,0,"Sat, 5/18 6:00 PM CDT Minnesota",Minnesota Wind Chill,0,/league/game/2019-05-18-IND-MIN,2019,2019-05-18,6:00 PM CDT,Minnesota,7,1070
-1073,Detroit Mechanix,0,"Sat, 5/18 6:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,0,/league/game/2019-05-18-DET-PIT,2019,2019-05-18,6:00 PM EDT,Pittsburgh,7,1069
-1074,San Jose Spiders,0,"Sat, 5/18 5:30 PM PDT LA",Los Angeles Aviators,0,/league/game/2019-05-18-SJ-LA,2019,2019-05-18,5:30 PM PDT,LA,7,1068
-1075,Madison Radicals,0,"Sat, 5/18 6:00 PM CDT Chicago",Chicago Wildfire,0,/league/game/2019-05-18-MAD-CHI,2019,2019-05-18,6:00 PM CDT,Chicago,7,1071
-1076,Tampa Bay Cannons,0,"Sun, 5/19 1:00 PM CDT Dallas",Dallas Roughnecks,0,/league/game/2019-05-19-TB-DAL,2019,2019-05-19,1:00 PM CDT,Dallas,7,1076
-1077,DC Breeze,0,"Sun, 5/19 1:00 PM EDT Montreal",Montreal Royal,0,/league/game/2019-05-19-DC-MTL,2019,2019-05-19,1:00 PM EDT,Montreal,7,1077
-1078,Toronto Rush,0,"Sun, 5/19 2:00 PM EDT Philadelphia",Philadelphia Phoenix,0,/league/game/2019-05-19-TOR-PHI,2019,2019-05-19,2:00 PM EDT,Philadelphia,7,1078
-1079,Tampa Bay Cannons,0,"Sat, 5/25 7:00 PM EDT Atlanta",Atlanta Hustle,0,/league/game/2019-05-25-TB-ATL,2019,2019-05-25,7:00 PM EDT,Atlanta,8,1085
-1080,Austin Sol,0,"Sat, 5/25 7:00 PM CDT Dallas",Dallas Roughnecks,0,/league/game/2019-05-25-AUS-DAL,2019,2019-05-25,7:00 PM CDT,Dallas,8,1084
-1081,Madison Radicals,0,"Sat, 5/25 6:00 PM EDT Toronto",Toronto Rush,0,/league/game/2019-05-25-MAD-TOR,2019,2019-05-25,6:00 PM EDT,Toronto,8,1083
-1082,Minnesota Wind Chill,0,"Sat, 5/25 6:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,0,/league/game/2019-05-25-MIN-PIT,2019,2019-05-25,6:00 PM EDT,Pittsburgh,8,1081
-1083,Indianapolis AlleyCats,0,"Sat, 5/25 6:00 PM CDT Chicago",Chicago Wildfire,0,/league/game/2019-05-25-IND-CHI,2019,2019-05-25,6:00 PM CDT,Chicago,8,1080
-1084,Ottawa Outlaws,0,"Sat, 5/25 4:00 PM EDT New York",New York Empire,0,/league/game/2019-05-25-OTT-NY,2019,2019-05-25,4:00 PM EDT,New York,8,1079
-1085,Montreal Royal,0,"Sat, 5/25 6:00 PM EDT Philadelphia",Philadelphia Phoenix,0,/league/game/2019-05-25-MTL-PHI,2019,2019-05-25,6:00 PM EDT,Philadelphia,8,1082
-1086,Montreal Royal,0,"Sun, 5/26 1:00 PM EDT DC",DC Breeze,0,/league/game/2019-05-26-MTL-DC,2019,2019-05-26,1:00 PM EDT,DC,8,1086
-1087,Madison Radicals,0,"Sun, 5/26 1:00 PM EDT Detroit",Detroit Mechanix,0,/league/game/2019-05-26-MAD-DET,2019,2019-05-26,1:00 PM EDT,Detroit,8,1087
-1088,San Jose Spiders,0,"Sat, 6/1 6:30 PM PDT Seattle",Seattle Cascades,0,/league/game/2019-06-01-SJ-SEA,2019,2019-06-01,6:30 PM PDT,Seattle,9,1093
-1089,San Diego Growlers,0,"Sat, 6/1 7:30 PM PDT LA",Los Angeles Aviators,0,/league/game/2019-06-01-SD-LA,2019,2019-06-01,7:30 PM PDT,LA,9,1095
-1090,Austin Sol,0,"Sat, 6/1 7:05 PM EDT Tampa Bay",Tampa Bay Cannons,0,/league/game/2019-06-01-AUS-TB,2019,2019-06-01,7:05 PM EDT,Tampa Bay,9,1094
-1091,Montreal Royal,0,"Sat, 6/1 6:00 PM EDT Ottawa",Ottawa Outlaws,0,/league/game/2019-06-01-MTL-OTT,2019,2019-06-01,6:00 PM EDT,Ottawa,9,1092
-1092,New York Empire,0,"Sat, 6/1 6:00 PM EDT DC",DC Breeze,0,/league/game/2019-06-01-NY-DC,2019,2019-06-01,6:00 PM EDT,DC,9,1091
-1093,Chicago Wildfire,0,"Sat, 6/1 6:00 PM CDT Minnesota",Minnesota Wind Chill,0,/league/game/2019-06-01-CHI-MIN,2019,2019-06-01,6:00 PM CDT,Minnesota,9,1090
-1094,Pittsburgh Thunderbirds,0,"Sat, 6/1 5:45 PM EDT Detroit",Detroit Mechanix,0,/league/game/2019-06-01-PIT-DET,2019,2019-06-01,5:45 PM EDT,Detroit,9,1089
-1095,Indianapolis AlleyCats,0,"Sat, 6/1 2:00 PM CDT Madison",Madison Radicals,0,/league/game/2019-06-01-IND-MAD,2019,2019-06-01,2:00 PM CDT,Madison,9,1088
+1048,Los Angeles Aviators,25,"Sat, 5/4 7:00 PM PDT San Jose",San Jose Spiders,16,/league/game/2019-05-04-LA-SJ,2019,2019-05-04,7:00 PM PDT,San Jose,5,1054
+1049,Indianapolis AlleyCats,19,"Sat, 5/4 6:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,16,/league/game/2019-05-04-IND-PIT,2019,2019-05-04,6:00 PM EDT,Pittsburgh,5,1052
+1050,Ottawa Outlaws,15,"Sat, 5/4 6:00 PM EDT DC",DC Breeze,24,/league/game/2019-05-04-OTT-DC,2019,2019-05-04,6:00 PM EDT,DC,5,1051
+1051,San Diego Growlers,21,"Sat, 5/4 6:30 PM PDT Seattle",Seattle Cascades,25,/league/game/2019-05-04-SD-SEA,2019,2019-05-04,6:30 PM PDT,Seattle,5,1053
+1052,Austin Sol,19,"Sat, 5/4 5:00 PM EDT Atlanta",Atlanta Hustle,23,/league/game/2019-05-04-AUS-ATL,2019,2019-05-04,5:00 PM EDT,Atlanta,5,1049
+1053,Montreal Royal,16,"Sat, 5/4 4:00 PM EDT Toronto",Toronto Rush,21,/league/game/2019-05-04-MTL-TOR,2019,2019-05-04,4:00 PM EDT,Toronto,5,1048
+1054,Minnesota Wind Chill,17,"Sat, 5/4 6:00 PM CDT Chicago",Chicago Wildfire,23,/league/game/2019-05-04-MIN-CHI,2019,2019-05-04,6:00 PM CDT,Chicago,5,1050
+1055,Minnesota Wind Chill,31,"Sun, 5/5 1:00 PM EDT Detroit",Detroit Mechanix,22,/league/game/2019-05-05-MIN-DET,2019,2019-05-05,1:00 PM EDT,Detroit,5,1055
+1056,Austin Sol,18,"Sun, 5/5 1:00 PM EDT Raleigh",Raleigh Flyers,23,/league/game/2019-05-05-AUS-RAL,2019,2019-05-05,1:00 PM EDT,Raleigh,5,1056
+1057,Ottawa Outlaws,16,"Sun, 5/5 2:00 PM EDT Philadelphia",Philadelphia Phoenix,21,/league/game/2019-05-05-OTT-PHI,2019,2019-05-05,2:00 PM EDT,Philadelphia,5,1057
+1058,Raleigh Flyers,24,"Sat, 5/11 7:05 PM EDT Tampa Bay",Tampa Bay Cannons,19,/league/game/2019-05-11-RAL-TB,2019,2019-05-11,7:05 PM EDT,Tampa Bay,6,1066
+1059,Dallas Roughnecks,25,"Sat, 5/11 7:00 PM CDT Austin",Austin Sol,21,/league/game/2019-05-11-DAL-AUS,2019,2019-05-11,7:00 PM CDT,Austin,6,1065
+1060,Atlanta Hustle,27,"Sat, 5/11 7:00 PM EDT Indianapolis",Indianapolis AlleyCats,22,/league/game/2019-05-11-ATL-IND,2019,2019-05-11,7:00 PM EDT,Indianapolis,6,1064
+1061,Seattle Cascades,19,"Sat, 5/11 7:00 PM PDT San Jose",San Jose Spiders,24,/league/game/2019-05-11-SEA-SJ,2019,2019-05-11,7:00 PM PDT,San Jose,6,1063
+1062,Chicago Wildfire,18,"Sat, 5/11 6:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,21,/league/game/2019-05-11-CHI-PIT,2019,2019-05-11,6:00 PM EDT,Pittsburgh,6,1061
+1063,DC Breeze,25,"Sat, 5/11 6:00 PM EDT New York",New York Empire,26,/league/game/2019-05-11-DC-NY,2019,2019-05-11,6:00 PM EDT,New York,6,1060
+1064,San Diego Growlers,27,"Sat, 5/11 5:30 PM PDT LA",Los Angeles Aviators,21,/league/game/2019-05-11-SD-LA,2019,2019-05-11,5:30 PM PDT,LA,6,1059
+1065,Ottawa Outlaws,24,"Sat, 5/11 4:00 PM EDT Toronto",Toronto Rush,25,/league/game/2019-05-11-OTT-TOR,2019,2019-05-11,4:00 PM EDT,Toronto,6,1058
+1066,Minnesota Wind Chill,20,"Sat, 5/11 6:00 PM CDT Madison",Madison Radicals,19,/league/game/2019-05-11-MIN-MAD,2019,2019-05-11,6:00 PM CDT,Madison,6,1062
+1067,San Jose Spiders,20,"Fri, 5/17 6:45 PM PDT San Diego",San Diego Growlers,32,/league/game/2019-05-17-SJ-SD,2019,2019-05-17,6:45 PM PDT,San Diego,7,1067
+1068,Atlanta Hustle,22,"Sat, 5/18 7:00 PM EDT Raleigh",Raleigh Flyers,25,/league/game/2019-05-18-ATL-RAL,2019,2019-05-18,7:00 PM EDT,Raleigh,7,1073
+1069,DC Breeze,21,"Sat, 5/18 7:00 PM EDT Ottawa",Ottawa Outlaws,22,/league/game/2019-05-18-DC-OTT,2019,2019-05-18,7:00 PM EDT,Ottawa,7,1074
+1070,Tampa Bay Cannons,19,"Sat, 5/18 7:00 PM CDT Austin",Austin Sol,17,/league/game/2019-05-18-TB-AUS,2019,2019-05-18,7:00 PM CDT,Austin,7,1072
+1071,Toronto Rush,17,"Sat, 5/18 7:00 PM EDT New York",New York Empire,22,/league/game/2019-05-18-TOR-NY,2019,2019-05-18,7:00 PM EDT,New York,7,1075
+1072,Detroit Mechanix,11,"Sat, 5/18 6:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,24,/league/game/2019-05-18-DET-PIT,2019,2019-05-18,6:00 PM EDT,Pittsburgh,7,1070
+1073,Madison Radicals,25,"Sat, 5/18 6:00 PM CDT Chicago",Chicago Wildfire,22,/league/game/2019-05-18-MAD-CHI,2019,2019-05-18,6:00 PM CDT,Chicago,7,1069
+1074,San Jose Spiders,21,"Sat, 5/18 5:30 PM PDT LA",Los Angeles Aviators,25,/league/game/2019-05-18-SJ-LA,2019,2019-05-18,5:30 PM PDT,LA,7,1068
+1075,Indianapolis AlleyCats,13,"Sat, 5/18 6:00 PM CDT Minnesota",Minnesota Wind Chill,11,/league/game/2019-05-18-IND-MIN,2019,2019-05-18,6:00 PM CDT,Minnesota,7,1071
+1076,DC Breeze,20,"Sun, 5/19 1:00 PM EDT Montreal",Montreal Royal,19,/league/game/2019-05-19-DC-MTL,2019,2019-05-19,1:00 PM EDT,Montreal,7,1076
+1077,Tampa Bay Cannons,21,"Sun, 5/19 1:00 PM CDT Dallas",Dallas Roughnecks,28,/league/game/2019-05-19-TB-DAL,2019,2019-05-19,1:00 PM CDT,Dallas,7,1077
+1078,Toronto Rush,16,"Sun, 5/19 2:00 PM EDT Philadelphia",Philadelphia Phoenix,18,/league/game/2019-05-19-TOR-PHI,2019,2019-05-19,2:00 PM EDT,Philadelphia,7,1078
+1079,Austin Sol,15,"Sat, 5/25 7:00 PM CDT Dallas",Dallas Roughnecks,20,/league/game/2019-05-25-AUS-DAL,2019,2019-05-25,7:00 PM CDT,Dallas,8,1085
+1080,Tampa Bay Cannons,14,"Sat, 5/25 7:00 PM EDT Atlanta",Atlanta Hustle,23,/league/game/2019-05-25-TB-ATL,2019,2019-05-25,7:00 PM EDT,Atlanta,8,1084
+1081,Minnesota Wind Chill,17,"Sat, 5/25 6:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,24,/league/game/2019-05-25-MIN-PIT,2019,2019-05-25,6:00 PM EDT,Pittsburgh,8,1083
+1082,Montreal Royal,25,"Sat, 5/25 6:00 PM EDT Philadelphia",Philadelphia Phoenix,15,/league/game/2019-05-25-MTL-PHI,2019,2019-05-25,6:00 PM EDT,Philadelphia,8,1081
+1083,Madison Radicals,15,"Sat, 5/25 6:00 PM EDT Toronto",Toronto Rush,22,/league/game/2019-05-25-MAD-TOR,2019,2019-05-25,6:00 PM EDT,Toronto,8,1080
+1084,Ottawa Outlaws,15,"Sat, 5/25 4:00 PM EDT New York",New York Empire,20,/league/game/2019-05-25-OTT-NY,2019,2019-05-25,4:00 PM EDT,New York,8,1079
+1085,Indianapolis AlleyCats,17,"Sat, 5/25 6:00 PM CDT Chicago",Chicago Wildfire,18,/league/game/2019-05-25-IND-CHI,2019,2019-05-25,6:00 PM CDT,Chicago,8,1082
+1086,Montreal Royal,17,"Sun, 5/26 1:00 PM EDT DC",DC Breeze,27,/league/game/2019-05-26-MTL-DC,2019,2019-05-26,1:00 PM EDT,DC,8,1086
+1087,Madison Radicals,16,"Sun, 5/26 1:00 PM EDT Detroit",Detroit Mechanix,14,/league/game/2019-05-26-MAD-DET,2019,2019-05-26,1:00 PM EDT,Detroit,8,1087
+1088,San Jose Spiders,25,"Sat, 6/1 6:30 PM PDT Seattle",Seattle Cascades,22,/league/game/2019-06-01-SJ-SEA,2019,2019-06-01,6:30 PM PDT,Seattle,9,1093
+1089,San Diego Growlers,20,"Sat, 6/1 7:30 PM PDT LA",Los Angeles Aviators,18,/league/game/2019-06-01-SD-LA,2019,2019-06-01,7:30 PM PDT,LA,9,1095
+1090,Austin Sol,16,"Sat, 6/1 7:05 PM EDT Tampa Bay",Tampa Bay Cannons,24,/league/game/2019-06-01-AUS-TB,2019,2019-06-01,7:05 PM EDT,Tampa Bay,9,1094
+1091,Montreal Royal,21,"Sat, 6/1 6:00 PM EDT Ottawa",Ottawa Outlaws,19,/league/game/2019-06-01-MTL-OTT,2019,2019-06-01,6:00 PM EDT,Ottawa,9,1092
+1092,Chicago Wildfire,26,"Sat, 6/1 6:00 PM CDT Minnesota",Minnesota Wind Chill,27,/league/game/2019-06-01-CHI-MIN,2019,2019-06-01,6:00 PM CDT,Minnesota,9,1091
+1093,New York Empire,20,"Sat, 6/1 6:00 PM EDT DC",DC Breeze,19,/league/game/2019-06-01-NY-DC,2019,2019-06-01,6:00 PM EDT,DC,9,1090
+1094,Pittsburgh Thunderbirds,17,"Sat, 6/1 5:45 PM EDT Detroit",Detroit Mechanix,12,/league/game/2019-06-01-PIT-DET,2019,2019-06-01,5:45 PM EDT,Detroit,9,1089
+1095,Indianapolis AlleyCats,18,"Sat, 6/1 2:00 PM CDT Madison",Madison Radicals,15,/league/game/2019-06-01-IND-MAD,2019,2019-06-01,2:00 PM CDT,Madison,9,1088
 1096,Austin Sol,0,"Sun, 6/2 1:00 PM EDT Atlanta",Atlanta Hustle,0,/league/game/2019-06-02-AUS-ATL,2019,2019-06-02,1:00 PM EDT,Atlanta,9,1096
 1097,Montreal Royal,0,"Sun, 6/2 2:00 PM EDT Toronto",Toronto Rush,0,/league/game/2019-06-02-MTL-TOR,2019,2019-06-02,2:00 PM EDT,Toronto,9,1097
 1098,Dallas Roughnecks,0,"Fri, 6/14 7:45 PM EDT Tampa Bay",Tampa Bay Cannons,0,/league/game/2019-06-14-DAL-TB,2019,2019-06-14,7:45 PM EDT,Tampa Bay,11,1098
