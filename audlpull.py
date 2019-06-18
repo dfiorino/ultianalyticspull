@@ -12,6 +12,8 @@ def parse_args():
     parser = argparse.ArgumentParser(description='Get all available AUDL data with minor enhancements and regularization from UltiAnalytics.')
     parser.add_argument('--years','-y', nargs='+',dest='years', default=list(range(2014,2020)),
                         help='Year(s) to pull')
+    parser.add_argument('--team_page_links','-t',default='data/page-links/audl_ultianalytics.csv',
+                       help='file of page links from analytics')
     parser.add_argument('--updatecurrent', dest='updatecurrent', action='store_true',
                         default=False,
                         help='Only get latest year.')
@@ -83,10 +85,11 @@ def time_event_sort(df_in):
     df_in = df_in.sort_values(['Date/Time','OrigIndex'])
     return df_in.drop('OrigIndex',axis=1).reset_index(drop=True)
 
-def insert_player_names(df_in):
+def insert_player_names(df_in,
+                        username_playername_relation_file = 'data/supplemental/username_playername_relation.csv'):
     """Insert player names by replacing usernames,
        given the Year and Teamname"""
-    upr = pd.read_csv('data/supplemental/username_playername_relation.csv',encoding = "ISO-8859-1")
+    upr = pd.read_csv(username_playername_relation_file,encoding = "ISO-8859-1")
     upr['PlayerName'] = upr['PlayerName'].fillna(upr.Username)
     
     numbered_player_fields = [f'Player {i}' for i in range(0,28)]
@@ -149,18 +152,15 @@ def main():
     args = parse_args()
     
     years = [2019] if args.updatecurrent else args.years 
-    
-    filestoget = sorted([f'data/page-links/ultianalytics_{year}.csv' for year in years])
-    
-    for f in filestoget:
         
-        df_filepaths = pd.read_csv(f).sort_values(['year','teams'])
+    df = pd.read_csv(args.team_page_links).sort_values(['year','team'])
+    df = df[df.year.isin(years) & df.active]
         
-        for i,row in df_filepaths.iterrows():
+    for i,row in df.iterrows():
             
-            teamno = row['teams-href'].split('/')[5]
+            teamno = row['url'].split('/')[5]
             year = row['year']
-            teamname = row['teams']
+            teamname = row['team']
           
             url = 'http://www.ultianalytics.com/rest/view/team/{}/stats/export'.format(teamno)
             
