@@ -79,7 +79,7 @@ def calculate_sum_stats(df, index_vars, entity='team'):
 
     # Combined
     df_long.loc[(offense & receiver & goal) | (defense & defender & callahan), 'Goals'] = 1
-    df_long['Turnovers'] = df_long['Drops'] + df_long['Throwaways'] + df_long['Stalls']
+    df_long['Turnovers'] = df_long['Drops'] + df_long['Throwaways'] + df_long['Stalls'] + df_long['Callahans Thrown']
 
     if entity == 'player':
         df_long['Plus/Minus'] = df_long.Goals + df_long.Assists + df_long.Blocks - df_long.Turnovers
