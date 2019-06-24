@@ -5,7 +5,7 @@ from glob import glob
 import argparse
 import os
 from lib import opponents
-from lib import audlutils
+from lib import utils
 
 def parse_args():
     """Setup command-line interface"""
@@ -195,7 +195,7 @@ def main():
             urllib.request.urlretrieve(url, outfn_raw)
             
             print(year,teamname)
-            df_teamdata = audlutils.csv2dataframe(outfn_raw)
+            df_teamdata = utils.csv2dataframe(outfn_raw)
             if len(df_teamdata)>0:
                 df_teamdata = add_extra_cols(df_teamdata, teamname, year)
                 df_teamdata = fix_game_overs(df_teamdata)
