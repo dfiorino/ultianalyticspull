@@ -2,10 +2,10 @@ import pandas as pd
 from .utils import list_players, count_points, count_possessions, count_games, subset_gameplay, initialize_stats
 
 
-PLAYER_SUM_STATS = TEAM_SUM_STATS + ['Plus/Minus']
 TEAM_SUM_STATS = ['Assists', 'Hockey Assists', 'Throws', 'Throwaways', 'Turnovers', 
                   'Completions', 'Catches', 'Goals', 'Drops', 'Blocks','Stalls', 
                   'Callahans', 'Callahans Thrown']
+PLAYER_SUM_STATS = TEAM_SUM_STATS + ['Plus/Minus', 'Net Stats']
 
 
 def make_action_booleans(df):
@@ -83,6 +83,7 @@ def calculate_sum_stats(df, index_vars, entity='team'):
 
     if entity == 'player':
         df_long['Plus/Minus'] = df_long.Goals + df_long.Assists + df_long.Blocks - df_long.Turnovers
+        df_long['Net Stats'] = df_long.Goals + df_long.Assists + df_long['Hockey Assists'] + df_long.Blocks - df_long.Turnovers
 
     return df_long.groupby(index_vars)[cols].sum().reset_index()
 
