@@ -205,8 +205,7 @@ def main():
                     print('Double GameOvers')
 
                 df_teamdata = remove_test_games(df_teamdata)
-                if args.league == 'audl':
-                    df_teamdata = opponents.standardize(df_teamdata,league='audl')
+                df_teamdata = opponents.standardize(df_teamdata,league=args.league)
                 df_teamdata = time_event_sort(df_teamdata)
                 df_teamdata = insert_player_names(df_teamdata,args.username_playername_relation_file)
                 df_teamdata = add_gameplay_ids(df_teamdata)
