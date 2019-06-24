@@ -3,7 +3,7 @@ import pandas as pd
 from pathlib import Path
 
 DATA_DIR = str(Path(__file__).parent.parent.parent/'data')
-YEARS = [2014, 2015, 2016, 2017, 2018]  # [2018] for quicker dev work
+YEARS = [2014, 2015, 2016, 2017, 2018, 2019]  # [2018] for quicker dev work
 
 
 def extract_datetime(df, colname):
@@ -13,11 +13,11 @@ def extract_datetime(df, colname):
     return df
 
 
-def load_data():
+def load_data(years=YEARS):
     all_dfs = []
-    for year in YEARS:
-        files = os.listdir(f'{DATA_DIR}/processed/{year}')
-        all_dfs += [pd.read_csv(f'{DATA_DIR}/processed/{year}/{f}', index_col=0) for f in files]
+    for year in years:
+        files = [file for file in os.listdir(f'{DATA_DIR}/processed/{year}') if file.endswith('.csv')]
+        all_dfs += [pd.read_csv(f'{DATA_DIR}/processed/{year}/{file}', index_col=0) for file in files]
     df = pd.concat(all_dfs)
 
     df = extract_datetime(df, 'Date/Time')
