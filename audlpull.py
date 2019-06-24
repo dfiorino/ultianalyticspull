@@ -13,9 +13,9 @@ def parse_args():
     parser.add_argument('--years','-y', nargs='+',dest='years', default=list(range(2014,2020)),
                         help='Year(s) to pull')
     
-    parser.add_argument('--type','-T',default='audl',
+    parser.add_argument('--league','-L',default='audl',
                        choices=['audl','custom','pul'],
-                       help='Type of Ultianalytics pull to do.' +\
+                       help='League of Ultianalytics pull to do.' +\
                             'Custom requires specifying team_page_links and username_playername_relation_file')
     
     parser.add_argument('--team_page_links','-t',default=None,
@@ -30,11 +30,11 @@ def parse_args():
     args = parser.parse_args()
     
     # Set team page links and username/playername relation file for AUDL or PUL choice
-    if args.type in ['audl','pul']:
+    if args.league.lower() in ['audl','pul']:
         if not args.team_page_links:
-            args.team_page_links = f'data/supplemental/{args.type}/{args.type}_ultianalytics.csv'
+            args.team_page_links = f'data/supplemental/{args.league}/{args.league}_ultianalytics.csv'
         if not args.username_playername_relation_file:
-            args.username_playername_relation_file = f'data/supplemental/{args.type}/{args.type}_username_playername_relation.csv'
+            args.username_playername_relation_file = f'data/supplemental/{args.league}/{args.league}_username_playername_relation.csv'
 
     return  args
 
@@ -182,11 +182,11 @@ def main():
           
             url = 'http://www.ultianalytics.com/rest/view/team/{}/stats/export'.format(teamno)
             
-            out_dir = f'data/processed/{args.type}/{year}/'
+            out_dir = f'data/processed/{args.league}/{year}/'
             if not os.path.isdir(out_dir):
                 os.mkdir(out_dir)
                 
-            out_dir_raw =  f'data/raw/{args.type}/{year}/'
+            out_dir_raw =  f'data/raw/{args.league}/{year}/'
             if not os.path.isdir(out_dir_raw):
                 os.mkdir(out_dir_raw)
                 
@@ -205,8 +205,8 @@ def main():
                     print('Double GameOvers')
 
                 df_teamdata = remove_test_games(df_teamdata)
-                if args.type == 'audl':
-                    df_teamdata = opponents.standardize(df_teamdata)
+                if args.league == 'audl':
+                    df_teamdata = opponents.standardize(df_teamdata,league='audl')
                 df_teamdata = time_event_sort(df_teamdata)
                 df_teamdata = insert_player_names(df_teamdata,args.username_playername_relation_file)
                 df_teamdata = add_gameplay_ids(df_teamdata)
