@@ -2,7 +2,8 @@
 data/.DS_Store
 **/.ipynb_checkpoints/*
 *.pyc
-data/raw/*/*csv
+data/raw/*/*/*csv
+data/processed/*/*/*csv
 
 # IDE
 *.iml
