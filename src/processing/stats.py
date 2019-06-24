@@ -121,7 +121,7 @@ def calculate_gameplay_stats_by_player(df_raw):
     """
     Wrapper for calculate_gameplay_stats that facilitates applying it to each player (ie, when they're on the field)
     """
-    plyrs = list_players(df_raw.Lineup)
+    plyrs = list_players(df_raw.Lineup.fillna(''))
     dfs = []
     for p in plyrs:
         df = df_raw[df_raw['Lineup'].str.contains(p, na=False)]
