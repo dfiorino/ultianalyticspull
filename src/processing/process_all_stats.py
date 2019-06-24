@@ -60,25 +60,25 @@ if __name__ == '__main__':
     df = load_data()
 
     print('Generating Team By Game Stats...')
-    out_file_team = f'{DATA_DIR}/final/team_stats.csv'
+    out_file_team = f'{DATA_DIR}/final/audl/team_stats.csv'
     df_team = make_team_indicators(df)
     df_team.to_csv(out_file_team, index=False)
     print(f'\twrote {out_file_team}')
 
     print('Generating Team By Year Stats...')
-    out_file_team_by_year = f'{DATA_DIR}/final/team_stats_by_year.csv'
+    out_file_team_by_year = f'{DATA_DIR}/final/audl/team_stats_by_year.csv'
     df_team_eoy = make_team_indicators(df, index_vars=TEAM_INDEX_VARS[:2])
     df_team_eoy.to_csv(out_file_team_by_year, index=False)
     print(f'\twrote {out_file_team_by_year}')
 
     print('Generating Player By Year Stats...')
-    out_file_player = f'{DATA_DIR}/final/player_stats.csv'    
+    out_file_player = f'{DATA_DIR}/final/audl/player_stats.csv'    
     df_player = make_player_indicators(df)
     df_player.to_csv(out_file_player, index=False)
     print(f'\twrote {out_file_player}')
 
     print('Generating Goals File for Sankey...')
-    out_file_goals = f'{DATA_DIR}/final/all_goals.csv'
+    out_file_goals = f'{DATA_DIR}/final/audl/all_goals.csv'
     df_goals = clean_goals_for_sanke(df)
     df_goals.to_csv(out_file_goals, index=False)
     print(f'\twrote {out_file_goals}')

@@ -2,7 +2,7 @@ import urllib.request
 import time
 import os 
 
-teaminfo=pd.read_csv('../../data/supplemental/teams.csv')
+teaminfo=pd.read_csv('../../data/supplemental/audl/audl_teams.csv')
 abbrev2full = pd.Series(teaminfo[teaminfo.Active].Teamname.values,index=teaminfo[teaminfo.Active]['Team Abv'].values).to_dict()
 
 for abbr in teaminfo[teaminfo.Active]['Team Abv']:

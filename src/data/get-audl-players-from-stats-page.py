@@ -6,8 +6,11 @@ from bs4 import BeautifulSoup
 somelist = []
 page_start=0
 page_max=116
+print(f'Getting {page_max} pages of players')
 for page_num in range(page_start,page_max+1):
     
+    if page_num % 10 == 0:
+        print(f'{page_num} of {page_max}')
     result = requests.get(f"https://theaudl.com/league/players?page={page_num:d}")
     soup = BeautifulSoup(result.text,'lxml')
     
@@ -25,7 +28,6 @@ for page_num in range(page_start,page_max+1):
             year = year_table.text.rstrip().lstrip()
             team_abbrev = team_table.text.rstrip().lstrip()
             somelist.append([player_name, year, team_abbrev])
-    print('PageNum',page_num,'of',page_max)
         
 
 
@@ -78,5 +80,7 @@ for tourney in ['2015','2016','2017','2018']:
     
 audlstats_players['Teamname'] = audlstats_players.apply(lambda x:team_abbrev_dict[(x.Tournament,x.TeamAbbrev)], 
                                                         axis=1)
-    
-audlstats_players.to_csv('../../data/supplemental/players_from_stats_page.csv')
+
+out_file = '../../data/supplemental/audl/audl_players_from_stats_page.csv'
+print('Writing to file:', outfile)
+audlstats_players.to_csv(out_file)

@@ -13,11 +13,12 @@ def extract_datetime(df, colname):
     return df
 
 
-def load_data(years=YEARS):
+def load_data(years=YEARS,league='audl'):
     all_dfs = []
+    league = league.lower()
     for year in years:
-        files = [file for file in os.listdir(f'{DATA_DIR}/processed/{year}') if file.endswith('.csv')]
-        all_dfs += [pd.read_csv(f'{DATA_DIR}/processed/{year}/{file}', index_col=0) for file in files]
+        files = [file for file in os.listdir(f'{DATA_DIR}/processed/{league}/{year}') if file.endswith('.csv')]
+        all_dfs += [pd.read_csv(f'{DATA_DIR}/processed/{league}/{year}/{file}', index_col=0) for file in files]
     df = pd.concat(all_dfs)
 
     df = extract_datetime(df, 'Date/Time')

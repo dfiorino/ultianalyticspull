@@ -17,7 +17,7 @@ def parse_args():
     
 
     parser.add_argument('-o','--output', dest='output_csv', 
-                        default='../../data/supplemental/games.csv',
+                        default='../../data/supplemental/audl/audl_games.csv',
                         help='Path and name of output CSV')
     return  parser.parse_args()
 
@@ -58,6 +58,7 @@ def main():
     
     # Iterate Over Years To Scrape
     for year_id, year in enumerate(years):
+        print(f'Getting {year}...')
                     
     # Scrape Years of Games
         for url in get_game_page_urls(year):
@@ -88,6 +89,8 @@ def main():
     games['Week'] = games['Date'].dt.strftime('%W').astype(int)
     games['Week'] = games.apply(lambda x : x.Week - games[games.Year==x.Year].Week.min() + 1,axis=1)
     games['UniversalGameID'] = games.index
+    
+    print('Writing file:',output_csv)
 
     games.sort_values('Date').reset_index(drop=True).to_csv(output_csv)
     
