@@ -1,11 +1,19 @@
 import pandas as pd
 
-def standardize(df_in : pd.DataFrame):
+def standardize(df_in : pd.DataFrame,
+               league = ''):
     """Max and standardize opponent names"""
+    # Get correct matching dictionary for league
+    if league.lower() == 'audl':
+        opp_dict = AUDL_OPP_MATCH_DICT
+    elif league.lower() == 'pul':
+        opp_dict = PUL_OPP_MATCH_DICT
+    else:
+        opp_dict = {}
     # Fix Opponent Name
     opp_list_orig = df_in.Opponent.unique()
     opp_list_found=[]
-    for opp_name, match_func, in OPP_MATCH_DICT.items():
+    for opp_name, match_func, in opp_dict.items():
         found_matches = match_func(df_in)
         opp_list_found+=list(df_in[found_matches].Opponent.unique())
         df_in.loc[found_matches,'Opponent'] = opp_name
@@ -80,7 +88,7 @@ def MatchTB(df):
 def MatchVan(df):
     return df.Opponent.str.contains('vancouver',case=False)
 
-OPP_MATCH_DICT ={
+AUDL_OPP_MATCH_DICT ={
             'Atlanta Hustle':MatchAtl,
             'Austin Sol':MatchAus,
             'Charlotte Express':MatchCha,
