@@ -12,12 +12,31 @@ def parse_args():
     parser = argparse.ArgumentParser(description='Get all available AUDL data with minor enhancements and regularization from UltiAnalytics.')
     parser.add_argument('--years','-y', nargs='+',dest='years', default=list(range(2014,2020)),
                         help='Year(s) to pull')
-    parser.add_argument('--team_page_links','-t',default='data/page-links/audl_ultianalytics.csv',
+    
+    parser.add_argument('--type','-T',default='audl',
+                       choices=['audl','custom','pul'],
+                       help='Type of Ultianalytics pull to do.' +\
+                            'Custom requires specifying team_page_links and username_playername_relation_file')
+    
+    parser.add_argument('--team_page_links','-t',default=None,
                        help='file of page links from analytics')
+    parser.add_argument('--username_playername_relation_file','-u',default=None,
+                       help='username playername relation')
+    
     parser.add_argument('--updatecurrent', dest='updatecurrent', action='store_true',
                         default=False,
                         help='Only get latest year.')
-    return  parser.parse_args()
+    
+    args = parser.parse_args()
+    
+    # Set team page links and username/playername relation file for AUDL or PUL choice
+    if args.type in ['audl','pul']:
+        if not args.team_page_links:
+            args.team_page_links = f'data/supplemental/{args.type}/{args.type}_ultianalytics.csv'
+        if not args.username_playername_relation_file:
+            args.username_playername_relation_file = f'data/supplemental/{args.type}/{args.type}_username_playername_relation.csv'
+
+    return  args
 
 def add_extra_cols(df_in, teamname, year):
     """Add extra useful columns"""
@@ -85,8 +104,7 @@ def time_event_sort(df_in):
     df_in = df_in.sort_values(['Date/Time','OrigIndex'])
     return df_in.drop('OrigIndex',axis=1).reset_index(drop=True)
 
-def insert_player_names(df_in,
-                        username_playername_relation_file = 'data/supplemental/username_playername_relation.csv'):
+def insert_player_names(df_in, username_playername_relation_file):
     """Insert player names by replacing usernames,
        given the Year and Teamname"""
     upr = pd.read_csv(username_playername_relation_file,encoding = "ISO-8859-1")
@@ -164,11 +182,11 @@ def main():
           
             url = 'http://www.ultianalytics.com/rest/view/team/{}/stats/export'.format(teamno)
             
-            out_dir = f'data/processed/{year}/'
+            out_dir = f'data/processed/{args.type}/{year}/'
             if not os.path.isdir(out_dir):
                 os.mkdir(out_dir)
                 
-            out_dir_raw =  f'data/raw/{year}/'
+            out_dir_raw =  f'data/raw/{args.type}/{year}/'
             if not os.path.isdir(out_dir_raw):
                 os.mkdir(out_dir_raw)
                 
@@ -187,9 +205,10 @@ def main():
                     print('Double GameOvers')
 
                 df_teamdata = remove_test_games(df_teamdata)
-                df_teamdata = opponents.standardize(df_teamdata)
+                if args.type == 'audl':
+                    df_teamdata = opponents.standardize(df_teamdata)
                 df_teamdata = time_event_sort(df_teamdata)
-                df_teamdata = insert_player_names(df_teamdata)
+                df_teamdata = insert_player_names(df_teamdata,args.username_playername_relation_file)
                 df_teamdata = add_gameplay_ids(df_teamdata)
 
                 df_teamdata.to_csv(outfn,sep=',')
