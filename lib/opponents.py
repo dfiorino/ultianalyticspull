@@ -26,7 +26,6 @@ def standardize(df_in : pd.DataFrame,
     
     return df_in
 
-
 def MatchAtl(df):
     return df.Opponent.str.contains('atl',case=False)
 def MatchAus(df):
@@ -119,4 +118,32 @@ AUDL_OPP_MATCH_DICT ={
             'Toronto Rush':MatchTor,
             'Tampa Bay Cannons':MatchTB,
             'Vancouver Riptide':MatchVan
+}
+
+def MatchSoul(df):
+    return df.Opponent.str.contains('atlanta',case=False)
+def MatchTorch(df):
+    return df.Opponent.str.contains('austin',case=False)
+def MatchPride(df):
+    return df.Opponent.str.contains('columbus',case=False)
+def MatchRed(df):
+    return df.Opponent.str.contains('Red',case=True)
+def MatchRevolution(df):
+    return df.Opponent.str.contains('revolution',case=False)
+def MatchGridlock(df):
+    return df.Opponent.str.contains('gridlock',case=False)
+def MatchNightshade(df):
+    return df.Opponent.str.contains('nashville',case=False)
+def MatchRadiance(df):
+    return df.Opponent.str.contains('raleigh',case=False)
+
+PUL_OPP_MATCH_DICT ={
+            'Atlanta Soul':MatchSoul,
+            'Austin Torch':MatchTorch,
+            'Columbus Pride':MatchPride,
+            'Indy Red':MatchRed,
+            'Medellin Revolution':MatchRevolution,
+            'New York Gridlock':MatchGridlock,
+            'Nashville Nightshade':MatchNightshade,
+            'Raleigh Radiance':MatchRadiance
 }
