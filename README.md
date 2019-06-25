@@ -1,8 +1,8 @@
-# AUDL Pull <img align="right" width="100" height="100" src="images/logo.png">
+# Ultianalytics Pull <img align="right" width="100" height="100" src="images/logo.png">
 
-Use *AUDL Pull* to grab, clean, and enhance all of the available UltiAnalytics data for AUDL seasons 2014 to 2019. It will produce tabulated player stats with the actual player names, so you can compare stats like goals, assists, blocks, and over 20 others! Create your own metrics or graphics based to measure player or team performance per year, per game, per point, and even per quarter or per possession. To enrich your insights, this project includes supplemental data like information on each franchise, every game result, and now weekly active rosters (as of 2019).
+Use *Ultianalytics Pull* to grab, clean, and enhance all of the available data for AUDL seasons 2014 to 2019 and PUL season 2019. It will produce tabulated player stats with the actual player names, so you can compare stats like goals, assists, blocks, and over 20 others! Create your own metrics or graphics based to measure player or team performance per year, per game, per point, and even per quarter or per possession. To enrich your insights, this project includes supplemental data like information on each franchise, every game result, and now weekly active rosters (as of 2019).
 
-This project grabs AUDL data from the UltiAnalytics website. Data for each team and year are returned separately. Enhancements and regularizations are performed on the raw CSV to make them "analysis ready." The command-line interface allows for the latest year of data to be pulled instead of all years.
+This project grabs AUDL and PUL data from the UltiAnalytics website. Data for each team and year are returned separately. Enhancements and regularizations are performed on the raw CSV to make them "analysis ready." The command-line interface allows for the latest year of data to be pulled instead of all years.
 
 ## Features
 
@@ -12,8 +12,8 @@ This project grabs AUDL data from the UltiAnalytics website. Data for each team 
 - Standardized team names!
 - Extra columns to distinguish years, games, quarters, points, and even possessions!
 - Individual player stats!
+- Info and logos for every AUDL/PUL team ever!
 - All Game Scores Ever Played!
-- Info and logos for every AUDL team ever!
 - Grab Current Rosters!
 - Weekly Active Rosters (as of 2019)!
 - Playoff/Regular season ***coming soon***
@@ -22,7 +22,8 @@ This project grabs AUDL data from the UltiAnalytics website. Data for each team 
 ## Usage
 
 ```bash
-python audlpull.py
+python ultianalytics.py -L PUL
+python ultianalytics.py -L AUDL
 ```
 
 then 
@@ -40,9 +41,9 @@ That's it!
 
 ## Citations
 
-Doing something cool with *AUDL Pull*? Let me know!
+Doing something cool with *Ultianalytics Pull*? Let me know!
 
-Here's a list of work AUDL Pull has launched so far:
+Here's a list of work Ultianalytics Pull has launched so far:
 
 - Articles in Ultiworld 
   - [Predicting Breakout Stars of 2019](https://ultiworld.com/2019/03/29/predicting-audls-breakout-stars-stats/)
