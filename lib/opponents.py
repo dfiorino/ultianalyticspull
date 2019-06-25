@@ -1,11 +1,19 @@
 import pandas as pd
 
-def standardize(df_in : pd.DataFrame):
+def standardize(df_in : pd.DataFrame,
+               league = ''):
     """Max and standardize opponent names"""
+    # Get correct matching dictionary for league
+    if league.lower() == 'audl':
+        opp_dict = AUDL_OPP_MATCH_DICT
+    elif league.lower() == 'pul':
+        opp_dict = PUL_OPP_MATCH_DICT
+    else:
+        opp_dict = {}
     # Fix Opponent Name
     opp_list_orig = df_in.Opponent.unique()
     opp_list_found=[]
-    for opp_name, match_func, in OPP_MATCH_DICT.items():
+    for opp_name, match_func, in opp_dict.items():
         found_matches = match_func(df_in)
         opp_list_found+=list(df_in[found_matches].Opponent.unique())
         df_in.loc[found_matches,'Opponent'] = opp_name
@@ -17,7 +25,6 @@ def standardize(df_in : pd.DataFrame):
         print('Matched twice:', {x:duplicates(opp_list_found, x) for x in set(opp_list_found) if opp_list_found.count(x) > 1 })
     
     return df_in
-
 
 def MatchAtl(df):
     return df.Opponent.str.contains('atl',case=False)
@@ -80,7 +87,7 @@ def MatchTB(df):
 def MatchVan(df):
     return df.Opponent.str.contains('vancouver',case=False)
 
-OPP_MATCH_DICT ={
+AUDL_OPP_MATCH_DICT ={
             'Atlanta Hustle':MatchAtl,
             'Austin Sol':MatchAus,
             'Charlotte Express':MatchCha,
@@ -111,4 +118,32 @@ OPP_MATCH_DICT ={
             'Toronto Rush':MatchTor,
             'Tampa Bay Cannons':MatchTB,
             'Vancouver Riptide':MatchVan
+}
+
+def MatchSoul(df):
+    return df.Opponent.str.contains('atlanta',case=False)
+def MatchTorch(df):
+    return df.Opponent.str.contains('austin',case=False)
+def MatchPride(df):
+    return df.Opponent.str.contains('columbus',case=False)
+def MatchRed(df):
+    return df.Opponent.str.contains('Red',case=True)
+def MatchRevolution(df):
+    return df.Opponent.str.contains('revolution',case=False)
+def MatchGridlock(df):
+    return df.Opponent.str.contains('gridlock',case=False)
+def MatchNightshade(df):
+    return df.Opponent.str.contains('nashville',case=False)
+def MatchRadiance(df):
+    return df.Opponent.str.contains('raleigh',case=False)
+
+PUL_OPP_MATCH_DICT ={
+            'Atlanta Soul':MatchSoul,
+            'Austin Torch':MatchTorch,
+            'Columbus Pride':MatchPride,
+            'Indy Red':MatchRed,
+            'Medellin Revolution':MatchRevolution,
+            'New York Gridlock':MatchGridlock,
+            'Nashville Nightshade':MatchNightshade,
+            'Raleigh Radiance':MatchRadiance
 }

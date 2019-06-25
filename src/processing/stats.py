@@ -2,9 +2,10 @@ import pandas as pd
 from .utils import list_players, count_points, count_possessions, count_games, subset_gameplay, initialize_stats
 
 
-TEAM_SUM_STATS = ['Assists', 'Hockey Assists', 'Throws', 'Throwaways', 'Turnovers', 'Completions', 'Catches', 'Goals', 'Drops', 'Blocks',
-                  'Stalls', 'Callahans', 'Callahans Thrown']
-PLAYER_SUM_STATS = TEAM_SUM_STATS + ['Plus/Minus']
+TEAM_SUM_STATS = ['Assists', 'Hockey Assists', 'Throws', 'Throwaways', 'Turnovers', 
+                  'Completions', 'Catches', 'Goals', 'Drops', 'Blocks','Stalls', 
+                  'Callahans', 'Callahans Thrown']
+PLAYER_SUM_STATS = TEAM_SUM_STATS + ['Plus/Minus', 'Net Stats']
 
 
 def make_action_booleans(df):
@@ -78,10 +79,11 @@ def calculate_sum_stats(df, index_vars, entity='team'):
 
     # Combined
     df_long.loc[(offense & receiver & goal) | (defense & defender & callahan), 'Goals'] = 1
-    df_long['Turnovers'] = df_long['Drops'] + df_long['Throwaways'] + df_long['Stalls']
+    df_long['Turnovers'] = df_long['Drops'] + df_long['Throwaways'] + df_long['Stalls'] + df_long['Callahans Thrown']
 
     if entity == 'player':
         df_long['Plus/Minus'] = df_long.Goals + df_long.Assists + df_long.Blocks - df_long.Turnovers
+        df_long['Net Stats'] = df_long.Goals + df_long.Assists + df_long['Hockey Assists'] + df_long.Blocks - df_long.Turnovers
 
     return df_long.groupby(index_vars)[cols].sum().reset_index()
 
@@ -103,8 +105,8 @@ def calculate_gameplay_stats(df):
                          'Holds': count_points(subset_gameplay(df_o, event_type='Offense', action='Goal')),
                          'Breaks': count_points(subset_gameplay(df_d, event_type='Offense', action='Goal')),
                          'Games Played': count_games(df),
-                         'Opponent Possessions Played (O-Line)': count_possessions(subset_gameplay(df_o, event_type='Defense')),
-                         'Opponent Possessions Played (D-Line)': count_possessions(subset_gameplay(df_d, event_type='Defense')),
+                         'O Opponent Possessions Played': count_possessions(subset_gameplay(df_o, event_type='Defense')),
+                         'D Opponent Possessions Played': count_possessions(subset_gameplay(df_d, event_type='Defense')),
                          # Note - you canNOT use e.g. O points - Holds because not all points end in a score
                          'O Points Lost': count_points(subset_gameplay(df_o, event_type='Defense', action='Goal')),
                          'D Points Lost': count_points(subset_gameplay(df_d, event_type='Defense', action='Goal')),
@@ -119,7 +121,7 @@ def calculate_gameplay_stats_by_player(df_raw):
     """
     Wrapper for calculate_gameplay_stats that facilitates applying it to each player (ie, when they're on the field)
     """
-    plyrs = list_players(df_raw.Lineup)
+    plyrs = list_players(df_raw.Lineup.fillna(''))
     dfs = []
     for p in plyrs:
         df = df_raw[df_raw['Lineup'].str.contains(p, na=False)]
@@ -143,9 +145,9 @@ def calculate_rates(df):
     df['Hold Rate'] = df['Holds'] / df['O Points Played']
     df['Break Rate'] = df['Breaks'] / df['D Points Played']
     df['Scoring Efficiency'] = df['Points Won'] / df['Possessions Played']
-    df['O-line Scoring Efficiency'] = df['Holds'] / df['O Possessions Played']
-    df['D-line Scoring Efficiency'] = df['Breaks'] / df['D Possessions Played']
-    df['O-line Takeaway Efficiency'] = 1 - (df['O Points Lost'] / df['Opponent Possessions Played (O-Line)'])
-    df['D-line Takeaway Efficiency'] = 1 - (df['D Points Lost'] / df['Opponent Possessions Played (D-Line)'])
+    df['O Scoring Efficiency'] = df['Holds'] / df['O Possessions Played']
+    df['D Scoring Efficiency'] = df['Breaks'] / df['D Possessions Played']
+    df['O Takeaway Efficiency'] = 1 - (df['O Points Lost'] / df['O Opponent Possessions Played'])
+    df['D Takeaway Efficiency'] = 1 - (df['D Points Lost'] / df['D Opponent Possessions Played'])
 
     return df
