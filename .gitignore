@@ -3,8 +3,8 @@ data/.DS_Store
 **/.ipynb_checkpoints/*
 **__pycache__
 **.pyc
-data/raw/*/*/*csv
-data/processed/*/*/*csv
+data/*/raw/*/*csv
+data/*/processed/*/*csv
 
 # IDE
 *.iml
