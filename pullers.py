@@ -1,7 +1,6 @@
 import urllib
 import pandas as pd
 import numpy as np
-from glob import glob
 import os
 from lib import opponents
 from lib import utils
@@ -30,23 +29,28 @@ class LeaguePuller:
 
     def pull(self):
         for i,row in self.get_team_links_dataframe.iterrows():
-            teamno = row['url'].split('/')[5]
+            team_number = row['url'].split('/')[5]
             year = row['year']
             teamname = row['team']
-            url = 'http://www.ultianalytics.com/rest/view/team/{}/stats/export'.format(teamno)
             print(year,teamname)
-            uap = UltiAnalyticsPuller(url,teamname,year,'data/',league=self.league)
+            uap = UltiAnalyticsPuller(team_number,
+                                      teamname,
+                                      year,
+                                      f'data/{self.league}',
+                                      league=self.league,
+                                      username_playername_relation_file=self.username_playername_relation_file)
             uap.pull()
 
 class UltiAnalyticsPuller:
     def __init__(self,
-                url,
+                team_number,
                 teamname,
                 year,
                 output_dir,
                 username_playername_relation_file : str = None,
                 league=None):
-        self.url=url
+        self.team_number = team_number
+        self.url = f'http://www.ultianalytics.com/rest/view/team/{team_number}/stats/export'
         self.teamname=teamname
         self.year=year
         self.output_dir=output_dir
@@ -126,21 +130,23 @@ class UltiAnalyticsPuller:
         self.enhanced_dataframe = self.enhanced_dataframe.sort_values(['Date/Time','OrigIndex'])
         self.enhanced_dataframe = self.enhanced_dataframe.drop('OrigIndex',axis=1).reset_index(drop=True)
 
-    def _insert_player_names(self, username_playername_relation_file):
-        """Insert player names by replacing usernames,
-           given the Year and Teamname"""
-        upr = pd.read_csv(username_playername_relation_file,encoding = "ISO-8859-1")
-        upr['PlayerName'] = upr['PlayerName'].fillna(upr.Username)
-
+    def _insert_player_names(self):
+        """
+        Insert player names by replacing usernames, given the Year and Teamname
+        """
         numbered_player_fields = [f'Player {i}' for i in range(0,28)]
         player_fields = ['Passer', 'Receiver', 'Defender'] + numbered_player_fields
 
-        for p_field in player_fields:
-            self.enhanced_dataframe[p_field] = pd.merge(self.enhanced_dataframe[['Year','Teamname',p_field]],upr,
-                                             left_on=['Year','Teamname',p_field],
-                                             right_on=['Year','Teamname','Username'],
-                                             how='left')['PlayerName'].fillna(self.enhanced_dataframe[p_field])
+        if self.username_playername_relation_file:
+            upr = pd.read_csv(self.username_playername_relation_file,
+                              encoding = "ISO-8859-1")
+            upr['PlayerName'] = upr['PlayerName'].fillna(upr.Username)
 
+            for p_field in player_fields:
+                self.enhanced_dataframe[p_field] = pd.merge(self.enhanced_dataframe[['Year','Teamname',p_field]],upr,
+                                                 left_on=['Year','Teamname',p_field],
+                                                 right_on=['Year','Teamname','Username'],
+                                                 how='left')['PlayerName'].fillna(self.enhanced_dataframe[p_field])
 
         self.enhanced_dataframe['Lineup'] = self.enhanced_dataframe.fillna('').apply( lambda x : ', '.join(sorted([ x[i] for i in numbered_player_fields if x[i] !=''])), axis=1).values
 
@@ -196,11 +202,15 @@ class UltiAnalyticsPuller:
         if self.league:
             self._standardize_opponents()
         self._time_event_sort()
-        if self.username_playername_relation_file:
-            self._insert_player_names(self.username_playername_relation_file)
+        self._insert_player_names()
         self._add_gameplay_ids(self.quarters)
         self._output_enhanced_data()
 
+    def get_raw_dataframe(self):
+        return pd.read_csv(self.raw_export_file)
+
+    def get_enhanced_dataframe(self):
+        return pd.read_csv(self.enhanced_export_file)
 
 def make_game_over_line(df_in):
     gameoverline = df_in.copy()
