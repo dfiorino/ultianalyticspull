@@ -1,9 +1,10 @@
 .DS_Store
 data/.DS_Store
 **/.ipynb_checkpoints/*
-*.pyc
-data/raw/*/*/*csv
-data/processed/*/*/*csv
+**__pycache__
+**.pyc
+data/*/raw/*/*csv
+data/*/processed/*/*csv
 
 # IDE
 *.iml

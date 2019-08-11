@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import glob
 import csv
 import os
@@ -18,6 +19,25 @@ def csv2dataframe(filename : str):
 
     return pd.DataFrame(teamlog,columns=header)
 
+def make_game_over_line(df_in):
+    gameoverline = df_in.copy()
+    gameoverline['Action'] = 'GameOver'
+    gameoverline['Event Type'] = 'Cessation'
+    gameoverline['Passer'] = ''
+    gameoverline['Receiver'] = ''
+    gameoverline['Defender'] = ''
+    gameoverline['Hang Time (secs)'] = np.nan
+    gameoverline['Begin Area']              =np.nan
+    gameoverline['Begin X']                 =np.nan
+    gameoverline['Begin Y']                 =np.nan
+    gameoverline['End Area']                =np.nan
+    gameoverline['End X']                   =np.nan
+    gameoverline['End Y']                   =np.nan
+    gameoverline['Distance Unit of Measure']=np.nan
+    gameoverline['Absolute Distance']       =np.nan
+    gameoverline['Lateral Distance']        =np.nan
+    gameoverline['Toward Our Goal Distance']=np.nan
+    return gameoverline.to_frame().T
 
 def audl_data(years : list = [2014,2015,2016,2017,2018,2019], processed : bool = True):
     """Get throw-by-throw data for each team. Raw data from Ultianalytics has been processed by AUDL Pull"""
