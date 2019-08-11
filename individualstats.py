@@ -2,7 +2,7 @@ import pandas as pd
 import glob
 from functools import reduce
 
-audl = pd.concat([pd.read_csv(dfteam, index_col=0) for dfteam in glob.glob('data/processed/*/*.csv')])
+audl = pd.concat([pd.read_csv(dfteam, index_col=0) for dfteam in glob.glob('data/audl/processed/*/*.csv')])
 
 
 def GetStat(df_slice, player_field,stat_name,aggfunc):
@@ -22,7 +22,7 @@ def SafeDivide(x,y):
         return x/y
     else:
         return 0
-    
+
 count_stat_list= [
                         # Catching
                         [(audl.Action=='Goal')&(audl['Event Type']=='Offense'), 'Receiver','Goals'],
@@ -69,14 +69,13 @@ count_stat_list= [
 
 
 
-
 sum_stat_list = [
                         [audl.Action.isin(['Goal','Catch'])&~pd.isnull(audl['Absolute Distance']),
                          'Passer','Throwing Yards','Absolute Distance'],
-    
+
                         [audl.Action.isin(['Goal','Catch'])&~pd.isnull(audl['Lateral Distance']),
                          'Passer','Lateral Throwing Yards','Lateral Distance'],
-    
+
                         [audl.Action.isin(['Goal','Catch'])&~pd.isnull(audl['Toward Our Goal Distance']),
                          'Passer','Forward Throwing Yards','Toward Our Goal Distance'],
 
@@ -89,10 +88,10 @@ sum_stat_list = [
 
 
 df_stat_list = [GetCountStat(i,j,k) for i,j,k in count_stat_list] + \
-                [GetSumStat(i,j,k,l) for i,j,k,l in sum_stat_list] 
+                [GetSumStat(i,j,k,l) for i,j,k,l in sum_stat_list]
 
 stats_out = reduce(lambda  left,right: pd.merge(left,right,on=['Year','Teamname','Name'],
-                                                how='outer'), 
+                                                how='outer'),
                                                 df_stat_list).fillna(0)
 
 def GetPlayers(df_in):
@@ -151,7 +150,7 @@ def GetOppDPossessionsPlayed(df_in,plyr):
 
 def PlayStatsByPlayer(df_in):
     plyrs = GetPlayers(df_in)
-    return pd.DataFrame([{'Name': p, 
+    return pd.DataFrame([{'Name': p,
                           'Games Played': GetGamesPlayed(df_in,p),
                           'Quarters Played': GetQuartersPlayed(df_in,p),
                           'Points Played': GetPointsPlayed(df_in,p),
@@ -174,21 +173,21 @@ gameplay_stats = audl.groupby(['Teamname','Year']).apply(PlayStatsByPlayer).rese
 
 stats_out = pd.merge(gameplay_stats,stats_out,on=['Teamname','Year','Name'],how='outer')
 
-secondary_stats = [ 
+secondary_stats = [
                         ['Completion Percentage', lambda x : 100*SafeDivide(x.Completions,x.Throws)],
                         ['Catches Per Goals', lambda x : SafeDivide(x.Catches,x.Goals)],
                         ['Throws Per Assist', lambda x : SafeDivide(x.Throws,x.Assists)],
                         ['Throwaway Percentage', lambda x : SafeDivide(x.Throwaways,x.Throws)],
-                        ['Drop Percentage', lambda x : SafeDivide(x.Drops,(x.Drops + x.Catches))],  
+                        ['Drop Percentage', lambda x : SafeDivide(x.Drops,(x.Drops + x.Catches))],
                         ['Yards Per Throw', lambda x : SafeDivide(x['Throwing Yards'],
-                                                                  x['Throws Recorded with Yardage'])],    
+                                                                  x['Throws Recorded with Yardage'])],
                         ['Yards Per Pull', lambda x : SafeDivide(x['Pull Yards'],
-                                                                 x['Pulls Recorded with Yardage'])],  
+                                                                 x['Pulls Recorded with Yardage'])],
                         ['Yards Per Pull (Inbounds)', lambda x : SafeDivide(x['Pull Yards (Inbounds)'],
-                                                                            x['Pulls (Inbounds) Recorded with Yardage'])],    
+                                                                            x['Pulls (Inbounds) Recorded with Yardage'])],
                      ]
 
 for sec_stat,aggfunc in secondary_stats:
     stats_out[sec_stat] = stats_out.apply(aggfunc,axis=1)
-        
-stats_out.to_csv('data/processed/IndividualStats.csv',sep=',',index=False)
+
+stats_out.to_csv('data/audl/processed/player_stats_by_year.csv',sep=',',index=False)
