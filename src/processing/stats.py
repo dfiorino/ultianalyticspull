@@ -3,8 +3,8 @@ from .utils import list_players, count_points, count_possessions, count_games, s
 # from utils import list_players, count_points, count_possessions, count_games, subset_gameplay, initialize_stats
 
 
-TEAM_SUM_STATS = ['Assists', 'Hockey Assists', 'Throws', 'Throwaways', 'Turnovers', 
-                  'Completions', 'Catches', 'Goals', 'Drops', 'Blocks','Stalls', 
+TEAM_SUM_STATS = ['Assists', 'Hockey Assists', 'Throws', 'Throwaways', 'Turnovers',
+                  'Completions', 'Catches', 'Goals', 'Drops', 'Blocks','Stalls',
                   'Callahans', 'Callahans Thrown']
 PLAYER_SUM_STATS = TEAM_SUM_STATS + ['Plus/Minus', 'Net Stats']
 
