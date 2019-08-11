@@ -1,5 +1,6 @@
 import urllib
 import pandas as pd
+import numpy as np
 import os
 from lib import opponents
 from lib import utils
@@ -163,6 +164,8 @@ class UltiAnalyticsPuller:
             ot_games = self.enhanced_dataframe[self.enhanced_dataframe.Action.isin(['EndOfFourthQuarter','EndOfOvertime'])].GameID.unique()
             self.enhanced_dataframe.loc[(self.enhanced_dataframe.Action=='GameOver')&(self.enhanced_dataframe.GameID.isin(ot_games)),'QuarterID'] = 5
             self.enhanced_dataframe['QuarterID'] = self.enhanced_dataframe.QuarterID.bfill().astype(int)
+        else:
+            self.enhanced_dataframe['QuarterID'] = np.nan
 
 
         point_groups = self.enhanced_dataframe.groupby(['GameID']).apply(lambda x : pd.factorize( x['Our Score - End of Point'].astype(str)
@@ -189,6 +192,13 @@ class UltiAnalyticsPuller:
         self.enhanced_dataframe.loc[self.enhanced_dataframe.Action.isin(poss_change_list),'PossessionID']= [j for i in poss_groups for j in i]
         self.enhanced_dataframe['PossessionID'] = self.enhanced_dataframe['PossessionID'].bfill()
 
+    def _add_hockey_assist(self):
+        hockey_assist_slice = (self.enhanced_dataframe.Action.shift(-1)=='Goal')&\
+                              (self.enhanced_dataframe['Action']=='Catch')&\
+                              (self.enhanced_dataframe['Event Type']=='Offense')&\
+                              (self.enhanced_dataframe['Event Type'].shift(-1)=='Offense')
+        self.enhanced_dataframe.loc[hockey_assist_slice,'Action']='HockeyAssist'
+
     def _output_enhanced_data(self):
         self.enhanced_dataframe.to_csv(self.enhanced_export_file,sep=',')
 
@@ -203,6 +213,7 @@ class UltiAnalyticsPuller:
         self._time_event_sort()
         self._insert_player_names()
         self._add_gameplay_ids(self.quarters)
+        self._add_hockey_assist()
         self._output_enhanced_data()
 
     def get_raw_dataframe(self):
