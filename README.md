@@ -22,7 +22,7 @@ Use *UltiAnalytics Pull* to grab, clean, and enhance ultimate frisbee data from 
 ```bash
 python ultianalyticspull.py --league PUL
 python ultianalyticspull.py --league AUDL
-python ultianalyticspull.py --team_name'USA U24 Mixed' --year 2019 --team_number 6502443586158592
+python ultianalyticspull.py --team_name 'USA U24 Mixed' --year 2019 --team_number 6502443586158592
 ```
 
 then
