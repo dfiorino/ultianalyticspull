@@ -10,7 +10,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description=description)
 
     parser.add_argument('--years','-y', nargs='+',dest='years',
-                        default=range(2014,current_year+1),
+                        default=range(2014,current_year),
                         help='Year(s) to pull')
 
     parser.add_argument('--league','-L',default=None,
@@ -45,7 +45,7 @@ def parse_args():
 def main():
 
     args = parse_args()
-    years = [current_year] if args.update_current else args.years
+    years = [current_year] if args.update_current or not years else args.years
 
     if args.league:
         league_puller = pullers.LeaguePuller(args.league)
@@ -53,8 +53,8 @@ def main():
         league_puller.pull()
     else:
         custom_puller = pullers.UltiAnalyticsPuller(args.team_number,
-                                                   args.team_name,
-                                                   years[-1],
+                                                   args.teamname,
+                                                   years[0],
                                                    output_dir = 'data/custom',
                                                    username_playername_relation_file = args.username_playername_relation_file)
         custom_puller.pull()
