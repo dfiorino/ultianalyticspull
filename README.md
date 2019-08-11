@@ -1,8 +1,6 @@
-# Ultianalytics Pull <img align="right" width="100" height="100" src="images/logo.png">
+# UltiAnalytics Pull <img align="right" width="100" height="100" src="images/logo.png">
 
-Use *Ultianalytics Pull* to grab, clean, and enhance all of the available data for AUDL seasons 2014 to 2019 and PUL season 2019. It will produce tabulated player stats with the actual player names, so you can compare stats like goals, assists, blocks, and over 20 others! Create your own metrics or graphics based to measure player or team performance per year, per game, per point, and even per quarter or per possession. To enrich your insights, this project includes supplemental data like information on each franchise, every game result, and now weekly active rosters (as of 2019).
-
-This project grabs AUDL and PUL data from the UltiAnalytics website. Data for each team and year are returned separately. Enhancements and regularizations are performed on the raw CSV to make them "analysis ready." The command-line interface allows for the latest year of data to be pulled instead of all years.
+Use *UltiAnalytics Pull* to grab, clean, and enhance ultimate frisbee data from UltiAnalytics. Run it over *your* team's data or use it to analyze the full available data sets of professional ultimate (both AUDL and PUL). It will produce tabulated player stats with the actual player names, so you can compare stats like goals, assists, blocks, and over 20 others! Create your own metrics or graphics based to measure player or team performance per year, per game, per point, and even per quarter or per possession. To enrich your insights, this project includes supplemental data like information on the professional franchises,  game results, and now weekly active rosters (as of 2019).
 
 ## Features
 
@@ -22,17 +20,18 @@ This project grabs AUDL and PUL data from the UltiAnalytics website. Data for ea
 ## Usage
 
 ```bash
-python ultianalytics.py -L PUL
-python ultianalytics.py -L AUDL
+python ultianalyticspull.py --league PUL
+python ultianalyticspull.py --league AUDL
+python ultianalyticspull.py --team_name'USA U24 Mixed' --year 2019 --team_number 6502443586158592
 ```
 
-then 
+then
 
 ```bash
 python individualstats.py
 ```
 
-That's it! 
+That's it!
 
 ## Requirements
 - Python >= 3.0
@@ -41,15 +40,15 @@ That's it!
 
 ## Citations
 
-Doing something cool with *Ultianalytics Pull*? Let me know!
+Doing something cool with *UltiAnalytics Pull*? Let me know!
 
-Here's a list of work Ultianalytics Pull has launched so far:
+Here's a list of work UltiAnalytics Pull has launched so far:
 
-- Articles in Ultiworld 
+- Articles in Ultiworld
   - [Predicting Breakout Stars of 2019](https://ultiworld.com/2019/03/29/predicting-audls-breakout-stars-stats/)
   - [Accessing MVP Candidates of 2018](https://ultiworld.com/2017/10/03/assessing-audl-mvp-candidates/)
 - SOTG Stats - [Twitter](https://twitter.com/sotgstats), [Instagram](https://instagram.com/sotgstats/), [Facebook](https://www.facebook.com/sotgstats/)
-  - Advancing Analytics in Ultimate. See, for example: 
+  - Advancing Analytics in Ultimate. See, for example:
     - Net Stats - https://twitter.com/sotgstats/status/1111381496789504002
     - Handler Number - https://twitter.com/sotgstats/status/885529847623274496
     - Individual Efficiency Boost - https://twitter.com/sotgstats/status/870357352725315584
