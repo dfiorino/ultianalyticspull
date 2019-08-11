@@ -10,7 +10,7 @@ class LeaguePuller:
         if self.league not in ['audl','pul']:
             raise ValueError("Requested league not one of ['audl','pul']."+\
                             "\nFor custom league, do not specify `league` argument")
-        league_data = f'data/supplemental/{self.league}/'
+        league_data = f'data/{self.league}/supplemental/'
         self.team_page_links = f'{league_data}/{self.league}_ultianalytics.csv'
         self.username_playername_relation_file = f'{league_data}/{self.league}_username_playername_relation.csv'
         self.update_current = None
