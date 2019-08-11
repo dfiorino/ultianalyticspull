@@ -1,6 +1,5 @@
 import urllib
 import pandas as pd
-import numpy as np
 import os
 from lib import opponents
 from lib import utils
@@ -98,7 +97,7 @@ class UltiAnalyticsPuller:
             #iterate through indicies, create gameover instance using previous row as template, append previous rows then gameover row to a list
             for i in idx:
                 dflist.append( self.enhanced_dataframe.iloc[previ:i] )
-                dflist.append( make_game_over_line(self.enhanced_dataframe.iloc[i-1]) )
+                dflist.append( utils.make_game_over_line(self.enhanced_dataframe.iloc[i-1]) )
 
                 previ=i
             dflist.append( self.enhanced_dataframe.iloc[i:] )
@@ -108,7 +107,7 @@ class UltiAnalyticsPuller:
         # Add missing GameOver to last line
         if self.enhanced_dataframe.iloc[-1].Action!='GameOver':
             self.enhanced_dataframe = pd.concat( [self.enhanced_dataframe,
-                                                  make_game_over_line(self.enhanced_dataframe.iloc[-1]) ] ).reset_index(drop=True)
+                                                  utils.make_game_over_line(self.enhanced_dataframe.iloc[-1]) ] ).reset_index(drop=True)
         self._check_game_overs()
 
     def _check_game_overs(self):
@@ -211,23 +210,3 @@ class UltiAnalyticsPuller:
 
     def get_enhanced_dataframe(self):
         return pd.read_csv(self.enhanced_export_file)
-
-def make_game_over_line(df_in):
-    gameoverline = df_in.copy()
-    gameoverline['Action'] = 'GameOver'
-    gameoverline['Event Type'] = 'Cessation'
-    gameoverline['Passer'] = ''
-    gameoverline['Receiver'] = ''
-    gameoverline['Defender'] = ''
-    gameoverline['Hang Time (secs)'] = np.nan
-    gameoverline['Begin Area']              =np.nan
-    gameoverline['Begin X']                 =np.nan
-    gameoverline['Begin Y']                 =np.nan
-    gameoverline['End Area']                =np.nan
-    gameoverline['End X']                   =np.nan
-    gameoverline['End Y']                   =np.nan
-    gameoverline['Distance Unit of Measure']=np.nan
-    gameoverline['Absolute Distance']       =np.nan
-    gameoverline['Lateral Distance']        =np.nan
-    gameoverline['Toward Our Goal Distance']=np.nan
-    return gameoverline.to_frame().T
