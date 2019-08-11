@@ -9,19 +9,20 @@ def parse_args():
                   'or the entire professional leagues (AUDL and PUL)'
     parser = argparse.ArgumentParser(description=description)
 
-    parser.add_argument('--years','-y', nargs='+',dest='years',
-                        default=range(2014,current_year+1),
-                        help='Year(s) to pull')
-
+    # Arguments for league pull
     parser.add_argument('--league','-L',default=None,
                        choices=['audl','pul'],
                        help="League of Ultianalytics pull to do." +\
                             "Custom requires specifying UltiAnalytics team " +\
                             "number and username_playername_relation_file")
+    parser.add_argument('--years','-y', nargs='+',dest='years',
+                        default=range(2014,current_year+1),
+                        help='Year(s) to pull')
     parser.add_argument('--updatecurrent', dest='update_current', action='store_true',
                         default=False,
                         help='Only get latest year.')
 
+    # Arguments for a single team pull
     parser.add_argument('--team_number','-n',default=None,
                        help='ultianalytics team number. can be found on ultianalytics page')
     parser.add_argument('--team_name','-t',default=None,
