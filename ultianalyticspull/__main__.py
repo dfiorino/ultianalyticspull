@@ -1,4 +1,4 @@
-import pullers
+from . import pullers
 import argparse
 
 current_year = 2019
