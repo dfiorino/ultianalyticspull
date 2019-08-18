@@ -176,7 +176,7 @@ class Huddler:
             [self.scoober.offense_slice(actions=['Goal']), 'Receiver','Goals'],
             [self.scoober.offense_slice(actions=['Goal'],line='O'), 'Receiver','Goals (Offense)'],
             [self.scoober.offense_slice(actions=['Goal'],line='D'), 'Receiver','Goals (Defense)'],
-            [self.scoober.offense_slice(actions=['Goal','Catch']), 'Receiver','Catches'],
+            [self.scoober.offense_slice(actions=['Goal','Catch','HockeyAssist']), 'Receiver','Catches'],
             [self.scoober.offense_slice(actions=['Drop']), 'Receiver','Drops'],
             # Throwing
             [self.scoober.offense_slice(actions=['Goal']), 'Passer','Assists'],
@@ -186,11 +186,11 @@ class Huddler:
             [self.scoober.offense_slice(actions=['HockeyAssist'],line='O'),'Passer','Hockey Assists (Offense)'],
             [self.scoober.offense_slice(actions=['HockeyAssist'],line='D'),'Passer','Hockey Assists (Defense)'],
             [self.scoober.offense_slice(), 'Passer','Throws'],
-            [self.scoober.offense_slice(actions=['Catch','Goal']), 'Passer','Completions'],
+            [self.scoober.offense_slice(actions=['Catch','Goal','HockeyAssist']), 'Passer','Completions'],
             [self.scoober.offense_slice(actions=['Throwaway','Callahan']),'Passer','Throwaways'],
             [self.scoober.offense_slice(actions=['Callahan']), 'Passer','Callahans Thrown'],
             [self.scoober.offense_slice(actions=['Drop']), 'Passer','Throws Dropped'],
-            [self.scoober.offense_slice(actions=['Catch','Goal'])&~pd.isnull(self.dataframe['Absolute Distance']), 'Passer',
+            [self.scoober.offense_slice(actions=['Catch','Goal','HockeyAssist'])&~pd.isnull(self.dataframe['Absolute Distance']), 'Passer',
                 'Throws Recorded with Yardage'],
             [self.scoober.offense_slice(actions=['MiscPenalty']),'Passer','Fouls Called'],
             [self.scoober.offense_slice(actions=['Stall']),'Passer','Stalls'],
@@ -209,13 +209,13 @@ class Huddler:
             ]
 
         summed_stats = [
-            [self.scoober.offense_slice(actions=['Catch','Goal'])&~pd.isnull(self.dataframe['Absolute Distance']),
+            [self.scoober.offense_slice(actions=['Catch','Goal','HockeyAssist'])&~pd.isnull(self.dataframe['Absolute Distance']),
              'Passer','Throwing Yards','Absolute Distance'],
 
-            [self.scoober.offense_slice(actions=['Catch','Goal'])&~pd.isnull(self.dataframe['Lateral Distance']),
+            [self.scoober.offense_slice(actions=['Catch','Goal','HockeyAssist'])&~pd.isnull(self.dataframe['Lateral Distance']),
              'Passer','Lateral Throwing Yards','Lateral Distance'],
 
-            [self.scoober.offense_slice(actions=['Catch','Goal'])&~pd.isnull(self.dataframe['Toward Our Goal Distance']),
+            [self.scoober.offense_slice(actions=['Catch','Goal','HockeyAssist'])&~pd.isnull(self.dataframe['Toward Our Goal Distance']),
              'Passer','Forward Throwing Yards','Toward Our Goal Distance'],
 
             [self.scoober.defense_slice(actions=['Pull','PullOb'])&~pd.isnull(self.dataframe['Absolute Distance']),
