@@ -2,8 +2,10 @@ import urllib
 import pandas as pd
 import numpy as np
 import os
-from lib import opponents
-from lib import utils
+import sys
+import importlib.resources as import_resources
+from . import opponents
+from . import utils
 
 class LeaguePuller:
     def __init__(self, league : str):
@@ -11,10 +13,13 @@ class LeaguePuller:
         if self.league not in ['audl','pul']:
             raise ValueError("Requested league not one of ['audl','pul']."+\
                             "\nFor custom league, do not specify `league` argument")
-        league_data = f'data/{self.league}/supplemental/'
-        self.team_page_links = f'{league_data}/{self.league}_ultianalytics.csv'
-        self.username_playername_relation_file = f'{league_data}/{self.league}_username_playername_relation.csv'
+        league_data = f'ultianalyticspull.data.{self.league}.supplemental'
+        self.team_page_links = import_resources.path(league_data, f'{self.league}_ultianalytics.csv')
+        self.username_playername_relation = import_resources.path(league_data, f'{self.league}_username_playername_relation.csv')
+        with self.username_playername_relation as username_playername_relation_file:
+            self.username_playername_relation_file = username_playername_relation_file
         self.update_current = None
+        self.team_links_dataframe = None
 
     def set_years(self,years : list):
         self.years=years
@@ -24,21 +29,23 @@ class LeaguePuller:
         self.set_years([2019])
 
     def _get_team_links_dataframe(self):
-        df = pd.read_csv(self.team_page_links)
-        self.get_team_links_dataframe = df[df.year.isin(self.years)].sort_values(['year','team'])
+        with self.team_page_links as path_team_page_links:
+            df = pd.read_csv(path_team_page_links)
+            self.team_links_dataframe = df[df.year.isin(self.years)].sort_values(['year','team'])
 
     def pull(self):
-        for i,row in self.get_team_links_dataframe.iterrows():
+        for i,row in self.team_links_dataframe.iterrows():
             team_number = row['url'].split('/')[5]
             year = row['year']
             teamname = row['team']
             print(year,teamname)
-            uap = UltiAnalyticsPuller(team_number,
-                                      teamname,
-                                      year,
-                                      f'data/{self.league}',
-                                      league=self.league,
-                                      username_playername_relation_file=self.username_playername_relation_file)
+            with import_resources.path('ultianalyticspull.data',self.league) as outdir:
+                uap = UltiAnalyticsPuller(team_number,
+                                          teamname,
+                                          year,
+                                          outdir,
+                                          league=self.league,
+                                          username_playername_relation_file=self.username_playername_relation_file)
             uap.pull()
 
 class UltiAnalyticsPuller:
