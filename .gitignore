@@ -1,8 +1,21 @@
-.DS_Store
-data/.DS_Store
+#
+**.DS_Store
+
+# Jupyter files
 **/.ipynb_checkpoints/*
 **__pycache__
+
+# Python package file
 **.pyc
+
+# Setuptools distribution folder.
+/dist/
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+/*.egg
+
+# Pulled throw by throw data 
 data/*/raw/*/*csv
 data/*/processed/*/*csv
 
