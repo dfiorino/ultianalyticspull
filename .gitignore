@@ -15,9 +15,9 @@
 /*.egg-info
 /*.egg
 
-# Pulled throw by throw data 
-data/*/raw/*/*csv
-data/*/processed/*/*csv
+# Pulled throw by throw data
+ultianalyticspull/data/*/raw/*/*csv
+ultianalyticspull/data/*/processed/*/*csv
 
 # IDE
 *.iml
