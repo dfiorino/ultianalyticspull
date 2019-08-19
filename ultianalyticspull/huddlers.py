@@ -89,15 +89,6 @@ class Scoober:
     def __init__(self, data_file : str):
         self.data_file = data_file
         self.dataframe = pd.read_csv(data_file, index_col=0)
-        self._add_hockey_assist()
-
-    def _add_hockey_assist(self):
-        hockey_assist_slice = (self.dataframe.Action.shift(-1)=='Goal')&\
-                              (self.dataframe['Action']=='Catch')&\
-                              (self.dataframe['Event Type']=='Offense')&\
-                              (self.dataframe['Event Type'].shift(-1)=='Offense')
-        self.dataframe.loc[hockey_assist_slice,'Action']='HockeyAssist'
-
 
     def slice(self, actions=None, event_type=None, line=None, quarter_id=None, player=None, team=None):
         slice = np.array([True]*len(self.dataframe))
@@ -142,14 +133,13 @@ class Beau(Scoober):
         self.data_file = data_file
         self.player=player
         self._get_dataframe()
-        self._add_hockey_assist()
 
     def _get_dataframe(self):
         scoober = Scoober(self.data_file)
         scoober_df = scoober.dataframe
         self.dataframe = scoober_df[scoober.slice(player=self.player)]
 
-class Fury:
+class Fury(Scoober):
     """
     Throw by throw data for given team
     """
@@ -157,7 +147,6 @@ class Fury:
         self.data_file = data_file
         self.team=team
         self._get_dataframe()
-        self._add_hockey_assist()
 
     def _get_dataframe(self):
         scoober = Scoober(self.data_file)
