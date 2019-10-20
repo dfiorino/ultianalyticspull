@@ -1,5 +1,6 @@
 #
 **.DS_Store
+examples/**png
 
 # Jupyter files
 **/.ipynb_checkpoints/*
