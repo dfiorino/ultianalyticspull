@@ -86,9 +86,12 @@ class Scoober:
     """
     Throw by throw data
     """
-    def __init__(self, data_file : str):
+    def __init__(self, dataframe : pd.DataFrame):
         self.data_file = data_file
         self.dataframe = pd.read_csv(data_file, index_col=0)
+
+    def __add__(self,other):
+        return Scoober(pd.concat([self.dataframe,other.dataframe]).reset_index(drop=True))
 
     def slice(self, actions=None, event_type=None, line=None, quarter_id=None, player=None, team=None):
         slice = np.array([True]*len(self.dataframe))
@@ -125,38 +128,41 @@ class Scoober:
     def get_sum_stat(self, df_slice, player_field,stat_name,sum_stat):
         return self.get_stat(df_slice, player_field,stat_name,lambda x : sum(x[sum_stat]))
 
+    def to_excel(self, filename):
+        self.dataframe.to_excel(filename,index=False)
+
+    def to_csv(self, filename):
+        self.dataframe.to_csv(filename,index=False)
+
 class Beau(Scoober):
     """
     Throw by throw data for given player
     """
-    def __init__(self, data_file : str,player):
-        self.data_file = data_file
+    def __init__(self, dataframe : pd.DataFrame,player):
         self.player=player
+        self.dataframe=dataframe
         self._get_dataframe()
 
     def _get_dataframe(self):
-        scoober = Scoober(self.data_file)
-        scoober_df = scoober.dataframe
-        self.dataframe = scoober_df[scoober.slice(player=self.player)]
+        scoober = Scoober(self.dataframe)
+        self.dataframe = scoober.dataframe[scoober.slice(player=self.player)]
 
 class Fury(Scoober):
     """
     Throw by throw data for given team
     """
-    def __init__(self, data_file : str,team):
-        self.data_file = data_file
+    def __init__(self, dataframe : pd.DataFrame,team):
         self.team=team
+        self.dataframe=dataframe
         self._get_dataframe()
 
     def _get_dataframe(self):
-        scoober = Scoober(self.data_file)
-        scoober_df = scoober.dataframe
-        self.dataframe = scoober_df[scoober.slice(team=self.team)]
+        scoober = Scoober(self.dataframe)
+        self.dataframe = scoober.dataframe[scoober.slice(team=self.team)]
 
 class Huddler:
-    def __init__(self,data_file):
-        self.data_file = data_file
-        self.scoober = Scoober(data_file)
+    def __init__(self,scoober):
+        self.scoober = scoober
         self.dataframe = self.scoober.dataframe
 
     def _add_action_stats(self):
@@ -252,6 +258,7 @@ class Huddler:
             self.player_stats_by_year[sec_stat] = self.player_stats_by_year.apply(aggfunc,axis=1)
 
     def huddle(self):
+        # Player stats by year and team
         self._add_action_stats()
         self._add_playtime_stats()
         self._add_secondary_stats()

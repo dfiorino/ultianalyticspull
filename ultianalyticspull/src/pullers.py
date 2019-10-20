@@ -7,26 +7,27 @@ import importlib.resources as import_resources
 from . import opponents
 from . import utils
 
+KNOWN_LEAGUES = ['audl','pul']
+
 class LeaguePuller:
-    def __init__(self, league : str):
+    def __init__(self, league : str, years : list):
         self.league = league.lower()
-        if self.league not in ['audl','pul']:
-            raise ValueError("Requested league not one of ['audl','pul']."+\
+        self._check_league()
+        self._get_league_data()
+        self.years=years
+        self._get_team_links_dataframe()
+
+    def _check_league(self):
+        if self.league not in KNOWN_LEAGUES:
+            raise ValueError(f"Requested league not one of {KNOWN_LEAGUES}."+\
                             "\nFor custom league, do not specify `league` argument")
+
+    def _get_league_data(self):
         league_data = f'ultianalyticspull.data.{self.league}.supplemental'
         self.team_page_links = import_resources.path(league_data, f'{self.league}_ultianalytics.csv')
         self.username_playername_relation = import_resources.path(league_data, f'{self.league}_username_playername_relation.csv')
         with self.username_playername_relation as username_playername_relation_file:
             self.username_playername_relation_file = username_playername_relation_file
-        self.update_current = None
-        self.team_links_dataframe = None
-
-    def set_years(self,years : list):
-        self.years=years
-        self._get_team_links_dataframe()
-
-    def set_current_year(self):
-        self.set_years([2019])
 
     def _get_team_links_dataframe(self):
         with self.team_page_links as path_team_page_links:
@@ -46,7 +47,7 @@ class LeaguePuller:
                                           outdir,
                                           league=self.league,
                                           username_playername_relation_file=self.username_playername_relation_file)
-            uap.pull()
+                uap.pull()
 
 class UltiAnalyticsPuller:
     def __init__(self,
@@ -63,7 +64,6 @@ class UltiAnalyticsPuller:
         self.output_dir=output_dir
         self.username_playername_relation_file=username_playername_relation_file
         self.league=league
-        self.quarters=True if self.league in ['audl','pul'] else False
         self._setup_output()
 
     def _setup_output(self):
@@ -219,7 +219,8 @@ class UltiAnalyticsPuller:
             self._standardize_opponents()
         self._time_event_sort()
         self._insert_player_names()
-        self._add_gameplay_ids(self.quarters)
+        quarters = True if self.league in ['audl','pul'] else False
+        self._add_gameplay_ids(quarters)
         self._add_hockey_assist()
         self._output_enhanced_data()
 
