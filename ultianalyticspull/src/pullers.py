@@ -4,10 +4,11 @@ import numpy as np
 import os
 import sys
 import importlib.resources as import_resources
-from . import opponents
-from . import utils
+import ultianalytics.src.opponents import opponents
+import ultianalytics.src.utils import utils
 
-KNOWN_LEAGUES = ['audl','pul']
+def get_leagues():
+    return ['audl','pul']
 
 class LeaguePuller:
     def __init__(self, league : str, years : list):
@@ -18,8 +19,9 @@ class LeaguePuller:
         self._get_team_links_dataframe()
 
     def _check_league(self):
-        if self.league not in KNOWN_LEAGUES:
-            raise ValueError(f"Requested league not one of {KNOWN_LEAGUES}."+\
+        leagues_list = get_leagues():
+        if self.league not in leagues_list:
+            raise ValueError(f"Requested league not one of {leagues_list}."+\
                             "\nFor custom league, do not specify `league` argument")
 
     def _get_league_data(self):
