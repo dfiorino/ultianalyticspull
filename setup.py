@@ -11,6 +11,6 @@ setup(
     author="Dan Fiorino <danielfiorino@gmail.com>, Zane Rankin <zwrankin@gmail.com>",
     license='GPL',
     entry_points={'console_scripts': [
-                'aggregate_stats = src.processing.process_all_stats.py:main']
+                'aggregate_stats = ultianalytics.src.processing.process_all_stats.py:main']
                 }
 )
