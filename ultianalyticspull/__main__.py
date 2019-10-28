@@ -1,5 +1,5 @@
-from . import pullers
-from . import huddlers
+from ultianalytics.src.core import pullers
+from ultianalytics.src.core import huddlers
 import argparse
 
 current_year = 2019

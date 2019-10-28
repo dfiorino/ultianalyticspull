@@ -4,8 +4,8 @@ import numpy as np
 import os
 import sys
 import importlib.resources as import_resources
-import ultianalytics.src.opponents import opponents
-import ultianalytics.src.utils import utils
+import ultianalyticspull.src.core.opponents as opponents
+import ultianalyticspull.src.core.utils as utils
 
 def get_leagues():
     return ['audl','pul']
@@ -19,7 +19,7 @@ class LeaguePuller:
         self._get_team_links_dataframe()
 
     def _check_league(self):
-        leagues_list = get_leagues():
+        leagues_list = get_leagues()
         if self.league not in leagues_list:
             raise ValueError(f"Requested league not one of {leagues_list}."+\
                             "\nFor custom league, do not specify `league` argument")

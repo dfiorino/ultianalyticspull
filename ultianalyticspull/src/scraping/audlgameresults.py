@@ -5,8 +5,10 @@ import argparse
 import importlib.resources as import_resources
 
 # CONSTANTS (No Need to Change)
-MAX_PAGES_BY_YEAR = {2018:9,2017:9,2016:10,2015:10,2014:7,2013:6,2012:4}
-CURRENT_YEAR = 2019
+def get_max_pages_by_year():
+    return {2018:9,2017:9,2016:10,2015:10,2014:7,2013:6,2012:4}
+def get_latest_year():
+    return 2019
 
 def parse_args():
     """Setup command-line interface"""
@@ -25,11 +27,11 @@ def parse_args():
 
 def get_game_page_urls(year):
     """Get URLs for all games of given year"""
-    if year == CURRENT_YEAR:
+    if year == get_latest_year():
         return [f'https://theaudl.com/league/schedule/week-{week_no}' for week_no in range(1,16)]
 
-    max_pages = MAX_PAGES_BY_YEAR.get(year)
-    year_id = CURRENT_YEAR - year
+    max_pages = get_max_pages_by_year().get(year)
+    year_id = get_latest_year() - year
     return [f'https://theaudl.com/league/game?page={page_num}&year={year_id}'
                                                                     for page_num in range(0,max_pages)]
 
@@ -63,7 +65,7 @@ def get_audl_game_results(output_csv,years):
         for url in get_game_page_urls(year):
             soup = get_soup(url)
 
-            if year == CURRENT_YEAR:
+            if year == get_latest_year():
                 matchup_links = [i.find_all('a')[0].attrs['href'] for i in soup.find_all('span',attrs={'class':'audl-schedule-gc-link'})]
                 start_times_places = [i.text for i in soup.find_all('span',attrs={'class':'audl-schedule-start-time-text'})]
             else:
@@ -93,9 +95,12 @@ def get_audl_game_results(output_csv,years):
 
     games.sort_values('Date').reset_index(drop=True).to_csv(output_csv)
 
-if __name__ == "__main__":
+def main():
     # Parse Argumnets
     args = parse_args()
     output_csv = args.output_csv
     years = args.years
     get_audl_game_results(output_csv,years)
+
+if __name__ == "__main__":
+    main()

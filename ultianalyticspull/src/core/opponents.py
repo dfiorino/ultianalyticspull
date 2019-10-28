@@ -2,7 +2,7 @@ import pandas as pd
 
 def standardize(df_in : pd.DataFrame,
                league = ''):
-    """Max and standardize opponent names"""
+    """Match and standardize opponent names"""
     # Get correct matching dictionary for league
     if league.lower() == 'audl':
         opp_dict = AUDL_OPP_MATCH_DICT
@@ -23,7 +23,7 @@ def standardize(df_in : pd.DataFrame,
         print('Search found matches for:',sorted(opp_list_found))
         print('Missing a match for:',[i for i in opp_list_orig if i not in opp_list_found])
         print('Matched twice:', {x:duplicates(opp_list_found, x) for x in set(opp_list_found) if opp_list_found.count(x) > 1 })
-    
+
     return df_in
 
 def MatchAtl(df):
