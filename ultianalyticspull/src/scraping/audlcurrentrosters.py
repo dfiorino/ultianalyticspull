@@ -6,11 +6,11 @@ import os
 import importlib.resources as import_resources
 
 def get_audl_current_rosters():
-    with import_resources.path('ultianalyticspull.data.supplemental.audl', 'audl_teams.csv') as audl_teams:
+    with import_resources.path('ultianalyticspull.data.audl.supplemental', 'audl_teams.csv') as audl_teams:
         team_info = pd.read_csv(audl_teams)
 
     somelist=[]
-    for i,row in team_info[team_info.Active].iterrows():
+    for i,row in team_info[team_info['Active']].iterrows():
         print(row['Teamname'])
         mini_nickname = row['Nickname'].lower().replace(' ','')
         url  = f'https://www.theaudl.com/{mini_nickname}/players'
@@ -22,7 +22,6 @@ def get_audl_current_rosters():
             somelist.append([row['Teamname'],player_name])
 
     audldotcom_rosters = pd.DataFrame(somelist,columns=['Teamname','Name'])
-
 
     aliases = {'Matthew Rehder':'Matt Rehder',
                 'Matthew McDonnell':'Rowan McDonnell',
@@ -39,9 +38,11 @@ def get_audl_current_rosters():
     for no,yes in aliases.items():
         audldotcom_rosters['Name'] = audldotcom_rosters['Name'].replace(no,yes)
 
-    audldotcom_rosters['FirstName'] = audldotcom_rosters.Name.apply(lambda x : x.split(' ')[0])
-    audldotcom_rosters['LastName'] = audldotcom_rosters.Name.apply(lambda x : ' '.join(x.split(' ')[1:]))
+    audldotcom_rosters['FirstName'] = audldotcom_rosters['Name'].apply(lambda x : x.split(' ')[0])
+    audldotcom_rosters['LastName'] = audldotcom_rosters['Name'].apply(lambda x : ' '.join(x.split(' ')[1:]))
 
 
-    with import_resources.path('ultianalyticspull.data.supplemental.audl', '2019_rosters.csv') as audl_rosters:
+    with import_resources.path('ultianalyticspull.data.audl.supplemental', '') as audl_rosters:
+        out_file = f"{audl_rosters}/2019_rosters.csv'"
         audldotcom_rosters.to_csv(audl_rosters)
+        print(f"Wrote {audl_rosters}")

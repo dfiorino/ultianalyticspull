@@ -1,7 +1,6 @@
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-import argparse
 import importlib.resources as import_resources
 
 # CONSTANTS (No Need to Change)
@@ -9,21 +8,9 @@ def get_max_pages_by_year():
     return {2018:9,2017:9,2016:10,2015:10,2014:7,2013:6,2012:4}
 def get_latest_year():
     return 2019
-
-def parse_args():
-    """Setup command-line interface"""
-    parser = argparse.ArgumentParser(description='Get all AUDL games.')
-
-    parser.add_argument('-y','--years',nargs='+', dest='years', type=int,
-                        default=[2012,2013,2014,2015,2016,2017,2018,2019],
-                        help='Years [list]')
-
-    with import_resources.path('ultianalyticspull.data.supplemental.audl', 'audl_games.csv') as audl_games:
-        parser.add_argument('-o','--output', dest='output_csv',
-                            default=audl_games,
-                            help='Path and name of output CSV')
-
-    return  parser.parse_args()
+def get_default_audl_games_file():
+    with import_resources.path('ultianalyticspull.data.audl.supplemental', 'audl_games.csv') as audl_games:
+        return audl_games
 
 def get_game_page_urls(year):
     """Get URLs for all games of given year"""
@@ -51,8 +38,8 @@ def format_games_dict(year, matchup_links, start_times_places, score_pairs, team
                                                     score_pairs,
                                                     team_name_pairs)]
 
-
-def get_audl_game_results(output_csv,years):
+def get_audl_game_results(output_csv=get_default_audl_games_file(),
+                          years=[2012,2013,2014,2015,2016,2017,2018,2019]):
 
     # Initialize List of Scraped Info
     game_info_dicts = []
@@ -91,16 +78,5 @@ def get_audl_game_results(output_csv,years):
     games['Week'] = games.apply(lambda x : x.Week - games[games.Year==x.Year].Week.min() + 1,axis=1)
     games['UniversalGameID'] = games.index
 
-    print('Writing file:',output_csv)
-
     games.sort_values('Date').reset_index(drop=True).to_csv(output_csv)
-
-def main():
-    # Parse Argumnets
-    args = parse_args()
-    output_csv = args.output_csv
-    years = args.years
-    get_audl_game_results(output_csv,years)
-
-if __name__ == "__main__":
-    main()
+    print(f"Wrote {output_csv}")

@@ -4,10 +4,9 @@ import requests
 from bs4 import BeautifulSoup
 import importlib.resources as import_resources
 
-def get_audl_rosters_from_stats_page():
+def get_audl_rosters_from_stats_page(page_start = 0,
+                                     page_max = 116):
     somelist = []
-    page_start=0
-    page_max=116
     print(f'Getting {page_max} pages of players')
     for page_num in range(page_start,page_max+1):
 
@@ -70,7 +69,7 @@ def get_audl_rosters_from_stats_page():
 
     audlstats_players = pd.DataFrame(somelist,columns=['PlayerName','Tournament','TeamAbbrev'])
 
-    team_abbrev_dict = { (tourney,abbrev): fullname for abbrev,fullname in team_abbrev_dict.items() for tourney in audlstats_players.Tournament.unique()}
+    team_abbrev_dict = { (tourney,abbrev): fullname for abbrev,fullname in team_abbrev_dict.items() for tourney in audlstats_players['Tournament'].unique()}
     for tourney in ['2015','2016','2017']:
         team_abbrev_dict[ (tourney,'TB') ] = 'Jacksonville Cannons'
     for tourney in ['2018']:
@@ -80,8 +79,8 @@ def get_audl_rosters_from_stats_page():
     for tourney in ['2015','2016','2017','2018']:
         team_abbrev_dict[ (tourney,'SEA') ] = 'Seattle Cascades'
 
-    audlstats_players['Teamname'] = audlstats_players.apply(lambda x:team_abbrev_dict[(x.Tournament,x.TeamAbbrev)],
+    audlstats_players['Teamname'] = audlstats_players.apply(lambda x:team_abbrev_dict[(x['Tournament'],x['TeamAbbrev'])],
                                                             axis=1)
-    with import_resources.path('ultianalyticspull.data.supplemental.audl', 'audl_players_from_stats_page.csv') as audl_rosters:
-        print('Writing to file:', audl_rosters)
+    with import_resources.path('ultianalyticspull.data.audl.supplemental', 'audl_players_from_stats_page.csv') as audl_rosters:
         audlstats_players.to_csv(audl_rosters)
+        print(f'Wrote {audl_rosters}')

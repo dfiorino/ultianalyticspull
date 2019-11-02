@@ -17,8 +17,14 @@ def get_audl_weekly_active_rosters():
 
         teams = [team.text for team in soup.find_all('h2')[:-1]]
         active_players = [players.text for players in soup.find_all('p') if len(players.text) > 250] # Hacky
-        somelist+=[{'Year':2019,'Week':week_no, 'Team':t,'Actives':aps.replace('\n','; ')} for t,aps in zip(teams, active_players)]
+        somelist+=[{'Year':2019,
+                    'Week':week_no,
+                    'Team':t,
+                    'Actives':aps.replace('\n','; ')} for t,aps in zip(teams, active_players)]
 
     audlactive = pd.DataFrame(somelist)
-    with import_resources.path('ultianalyticspull.data.supplemental.audl', 'audl_weekly_active_rosters.csv') as active_rosters:
+
+    with import_resources.path('ultianalyticspull.data.audl.supplemental',
+                                'audl_weekly_active_rosters.csv') as active_rosters:
         audlactive.to_csv(active_rosters)
+        print(f"Wrote {active_rosters}")
