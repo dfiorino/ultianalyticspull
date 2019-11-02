@@ -22,6 +22,3 @@ def get_audl_weekly_active_rosters():
     audlactive = pd.DataFrame(somelist)
     with import_resources.path('ultianalyticspull.data.supplemental.audl', 'audl_weekly_active_rosters.csv') as active_rosters:
         audlactive.to_csv(active_rosters)
-
-def __name__ == "__main__":
-    get_audl_weekly_active_rosters()

@@ -45,6 +45,3 @@ def get_audl_current_rosters():
 
     with import_resources.path('ultianalyticspull.data.supplemental.audl', '2019_rosters.csv') as audl_rosters:
         audldotcom_rosters.to_csv(audl_rosters)
-
-if __name__=="__main__":
-    get_audl_current_rosters()

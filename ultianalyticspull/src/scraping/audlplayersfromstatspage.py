@@ -85,6 +85,3 @@ def get_audl_rosters_from_stats_page():
     with import_resources.path('ultianalyticspull.data.supplemental.audl', 'audl_players_from_stats_page.csv') as audl_rosters:
         print('Writing to file:', audl_rosters)
         audlstats_players.to_csv(audl_rosters)
-
-if __name__=="__main__":
-    get_audl_rosters_from_stats_page()
