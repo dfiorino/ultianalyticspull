@@ -1,1 +1,2 @@
-graft ultianalytics/data/*/supplemental
+graft ultianalytics/data/
+graft ultianalytics/images/

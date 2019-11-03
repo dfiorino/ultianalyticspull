@@ -8,8 +8,5 @@ from ultianalyticspull.src.core.huddlers import *
 from ultianalyticspull.src.core.pullers import *
 from ultianalyticspull.src.core.utils import *
 
-from ultianalyticspull.src.scraping.audlplayersfromstatspage import *
-from ultianalyticspull.src.scraping.audlweeklyactiverosters import *
-from ultianalyticspull.src.scraping.audlcurrentrosters import *
-from ultianalyticspull.src.scraping.audlgameresults import *
-from ultianalyticspull.src.scraping.audlteamlogos import *
+from ultianalyticspull.src.scraping.scrape import *
+from ultianalyticspull.src.scraping.out import *
