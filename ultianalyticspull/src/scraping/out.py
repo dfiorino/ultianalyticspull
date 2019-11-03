@@ -1,5 +1,5 @@
-from ultianalyticspull.src.getters.datagetters as getters
-from ultianalyticspull.src.scrapers.scrape as scrape
+import ultianalyticspull.src.getters.datagetters as getters
+import ultianalyticspull.src.scrapers.scrape as scrape
 
 def output_audl_weekly_active_rosters():
     # Get Data/Paths
@@ -8,7 +8,7 @@ def output_audl_weekly_active_rosters():
     # Output
     output_csv = f'{audl_data_path}/audl_weekly_active_rosters.csv'
     audl_active.to_csv(output_csv)
-    print(f"Wrote {output_csv}")
+    print(f"\tWrote {output_csv}")
 
 def output_audl_rosters_from_stats_page():
     # Get Data/Paths
@@ -17,7 +17,7 @@ def output_audl_rosters_from_stats_page():
     # Output
     output_csv = f"{audl_data_path}/audl_players_from_stats_page.csv"
     audlstats_players.to_csv(output_csv)
-    print(f'Wrote {output_csv}')
+    print(f"\tWrote {output_csv}")
 
 def output_audl_game_results(years=[2012,2013,2014,2015,2016,2017,2018,2019]):
     # Get Data/Paths
@@ -26,7 +26,7 @@ def output_audl_game_results(years=[2012,2013,2014,2015,2016,2017,2018,2019]):
     # Output
     output_csv = f"{audl_data_path}/audl_games.csv"
     games.sort_values('Date').reset_index(drop=True).to_csv(output_csv)
-    print(f"Wrote {output_csv}")
+    print(f"\tWrote {output_csv}")
 
 def output_audl_current_rosters():
 
@@ -36,7 +36,7 @@ def output_audl_current_rosters():
     # Output
     output_csv = f"{audl_data_path}/2019_rosters.csv'"
     audldotcom_rosters.to_csv(output_csv)
-    print(f"Wrote {output_csv}")
+    print(f"\tWrote {output_csv}")
 
 def output_audl_team_logos():
     # Get Data/Paths
@@ -52,11 +52,19 @@ def output_audl_team_logos():
         url = f'https://theaudl.com/sites/default/files/logo-team-{abbr}.png'
         output_png = f'{audl_data_path}/logo-team-{abbr}.png'
         urllib.request.urlretrieve(url,output_png)
-        print(f"Wrote {output_png}")
+        print(f"\tWrote {output_png}")
 
-def output_scraped_data():
+def output_scraped_data(include_rosters_from_stats_page=False):
+    print('Getting AUDL weekly active rosters')
     output_audl_weekly_active_rosters()
-    output_audl_rosters_from_stats_page()
+    if include_rosters_from_stats_page:
+        # This takes a long time
+        print('Getting AUDL historical rosters from stats page')
+        print('May take ~30 minutes')
+        output_audl_rosters_from_stats_page()
+    print('Getting AUDL game results')
     output_audl_game_results()
+    print('Getting AUDL current rosters')
     output_audl_current_rosters()
+    print('Getting AUDL logos')
     output_audl_team_logos()
