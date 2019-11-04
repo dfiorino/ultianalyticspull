@@ -37,7 +37,7 @@ def output_audl_current_rosters():
     audl_data_path = getters.get_audl_supplemental_data_path()
     audldotcom_rosters = scrape.get_audl_current_rosters()
     # Output
-    output_csv = f"{audl_data_path}/2019_rosters.csv'"
+    output_csv = f"{audl_data_path}/2019_rosters.csv"
     audldotcom_rosters.to_csv(output_csv)
     print(f"\tWrote {output_csv}")
 

@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
+import ultianalyticspull.src.getters.datagetters as getters
 
 def get_soup(url):
     """Return BS Soup Object"""
@@ -24,11 +25,17 @@ def get_audl_weekly_active_rosters():
                     'Actives':aps.replace('\n','; ')} for t,aps in zip(teams, active_players)]
     return pd.DataFrame(somelist)
 
+
+
+
 def get_audl_rosters_from_stats_page(page_start = 0,
                                      page_max = 116):
+    # Get Data/Paths
+    team_info = getters.get_audl_teams_dataframe()
+
     # Create DataFrame
     somelist = []
-    print(f'Getting {page_max} pages of players')
+    print(f'Getting {page_max-page_start} pages of players')
     for page_num in range(page_start,page_max+1):
 
         if page_num % 10 == 0:
@@ -37,69 +44,34 @@ def get_audl_rosters_from_stats_page(page_start = 0,
         soup = get_soup(f"https://theaudl.com/league/players?page={page_num:d}")
         player_tables = soup.find_all('tbody')[0].find_all('tr')
 
-
         for plr_i, player_table in enumerate(player_tables):
             player_url = player_table.find_all('a',href=True)[0]['href']
             player_name = player_table.find_all('a',href=True)[0].text
             soup_player = get_soup(f"https://theaudl.com/{player_url}")
 
             playerstat_table = soup_player.find_all('tbody')[0]
-            for year_table,team_table in zip(playerstat_table.find_all('td',{'class':'views-field views-field-year active'}),
+            for year_table,team_table in zip(playerstat_table.find_all('td',{'class':'views-field views-field-php'}),
                                          playerstat_table.find_all('td',{'class':'views-field views-field-aw-team-id'})):
                 year = year_table.text.rstrip().lstrip()
+                if year=='Career':
+                    continue
                 team_abbrev = team_table.text.rstrip().lstrip()
                 somelist.append([player_name, year, team_abbrev])
+    audlstats_players = pd.DataFrame(somelist,columns=['PlayerName','Year','TeamAbbrev'])
+    # Fix abbreviation change from teams moving
+    jax_cannons = (audlstats_players['Year'].isin(['2015','2016','2017'])) &(audlstats_players['TeamAbbrev']=='TB')
+    audlstats_players.loc[jax_cannons,'TeamAbbrev'] = 'JAX'
+    lex_bgrass = (audlstats_players['Year'].isin(['2012'])) &(audlstats_players['TeamAbbrev']=='CIN')
+    audlstats_players.loc[lex_bgrass,'TeamAbbrev'] = 'LEX'
 
-    team_abbrev_dict = {'CIN': 'Cincinnati Revolution',
-                        'NY': 'New York Empire',
-                        'PIT': 'Pittsburgh Thunderbirds',
-                        'DET': 'Detroit Mechanix',
-                        'DC': 'DC Breeze',
-                        'SF': 'San Francisco FlameThrowers',
-                        'PHI': 'Philadelphia Phoenix',
-                        'IND': 'Indianapolis AlleyCats',
-                        'SJ':'San Jose Spiders',
-                        'LA':'Los Angeles Aviators',
-                        'DAL':'Dallas Roughnecks',
-                        'MAD':'Madison Radicals',
-                        'CHA':'Charlotte Express',
-                        # 'SEA':'Seattle Cascades',
-                        # 'SEA':'Seattle Raptors',
-                        'ATL':'Atlanta Hustle',
-                        'TB':'Tampa Bay Cannons',
-                        'RIR':'Rhone Island Rampage',
-                        'OTT':'Ottawa Outlaws',
-                        'NSH':'Nashville NightWatch',
-                        'CHI':'Chicago Wildfire',
-                        'TOR':'Toronto Rush',
-                        'SD': 'San Diego Growlers',
-                        'NJ': 'New Jersey Hammerheads',
-                        'ROC':'Rochester Dragons',
-                        'MIN':'Minnesota Wind Chill',
-                        'AUS':'Austin Sol',
-                        'VAN':'Vancouver Riptide',
-                        'PHS':'Philadelphia Spinners',
-                        'RAL':'Raleigh Flyers',
-                        'MTL':'Montreal Royal',
-                        'COL':'Columbus Cranes',
-                        'CON':'Connecticut Consitution'}
+    team_info['Year'] = team_info.apply(lambda x : range(x['Inaugurated'], x['Last Active']+1),axis=1)
+    team_abbrev_dict = team_info.explode('Year').astype(str).groupby(['Year','Team Abv']).apply(lambda x : x['Teamname'].values[0]).to_dict()
 
-    audlstats_players = pd.DataFrame(somelist,columns=['PlayerName','Tournament','TeamAbbrev'])
-
-    team_abbrev_dict = { (tourney,abbrev): fullname for abbrev,fullname in team_abbrev_dict.items() for tourney in audlstats_players['Tournament'].unique()}
-    for tourney in ['2015','2016','2017']:
-        team_abbrev_dict[ (tourney,'TB') ] = 'Jacksonville Cannons'
-    for tourney in ['2018']:
-        team_abbrev_dict[ (tourney,'TB') ] = 'Tampa Bay Cannons'
-    for tourney in ['2012','2013','2014']:
-        team_abbrev_dict[ (tourney,'SEA') ] = 'Seattle Raptors'
-    for tourney in ['2015','2016','2017','2018']:
-        team_abbrev_dict[ (tourney,'SEA') ] = 'Seattle Cascades'
-
-    audlstats_players['Teamname'] = audlstats_players.apply(lambda x:team_abbrev_dict[(x['Tournament'],x['TeamAbbrev'])],
+    audlstats_players['Teamname'] = audlstats_players.apply(lambda x:team_abbrev_dict[(x['Year'],x['TeamAbbrev'])],
                                                             axis=1)
 
     return audlstats_players
+
 
 def get_game_page_urls(year):
     """Get URLs for all games of given year"""
@@ -126,7 +98,8 @@ def format_games_dict(year, matchup_links, start_times_places, score_pairs, team
                                                     score_pairs,
                                                     team_name_pairs)]
 
-def get_audl_game_results(years=[2012,2013,2014,2015,2016,2017,2018,2019]):
+def get_audl_game_results(years=[2012,2013,2014,2015,2016,2017,2018,2019],
+                          latest_year=2019):
 
     # Initialize List of Scraped Info
     game_info_dicts = []
@@ -139,7 +112,7 @@ def get_audl_game_results(years=[2012,2013,2014,2015,2016,2017,2018,2019]):
         for url in get_game_page_urls(year):
             soup = get_soup(url)
 
-            if year == get_latest_year():
+            if year == latest_year:
                 matchup_links = [i.find_all('a')[0].attrs['href'] for i in soup.find_all('span',attrs={'class':'audl-schedule-gc-link'})]
                 start_times_places = [i.text for i in soup.find_all('span',attrs={'class':'audl-schedule-start-time-text'})]
             else:
