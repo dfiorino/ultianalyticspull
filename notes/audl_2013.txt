@@ -1,0 +1,11 @@
+ultianalytics-pull --team_name 'New Jersey Hammerheads' --year 2013 --team_number 230001
+ultianalytics-pull --team_name 'Windy City Wildfire' --year 2013 --team_number 207003
+ultianalytics-pull --team_name 'Rochester Dragons - Part I' --year 2013 --team_number 208005
+ultianalytics-pull --team_name 'Rochester Dragons - Part II' --year 2013 --team_number 312001
+ultianalytics-pull --team_name 'Cincinnati Revolution' --year 2013 --team_number 211001
+ultianalytics-pull --team_name 'DC Breeze' --year 2013 --team_number 206001, 290002, 237001, 225001
+ultianalytics-pull --team_name 'Detroit Mechanix' --year 2013 --team_number 219001
+ultianalytics-pull --team_name 'Madison Radicals' --year 2013 --team_number 224002
+ultianalytics-pull --team_name 'Minnesota Wind Chill' --year 2013 --team_number 210001
+ultianalytics-pull --team_name 'New York Empire' --year 2013 --team_number 208003, 281001
+ultianalytics-pull --team_name 'Toronto Rush' --year 2013 --team_number 195002
