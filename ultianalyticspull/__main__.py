@@ -1,8 +1,12 @@
 from ultianalytics.src.core import pullers
 from ultianalytics.src.core import huddlers
+from ultianalytics.src.processing.pull import pull
+
 import argparse
 
-current_year = 2019
+def get_current_year():
+    current_year = 2019
+    return current_year
 
 def parse_args():
     """Setup command-line interface"""
@@ -17,7 +21,7 @@ def parse_args():
                             "Custom requires specifying UltiAnalytics team " +\
                             "number and username_playername_relation_file")
     parser.add_argument('--years','-y', nargs='+',dest='years',
-                        default=range(2014,current_year+1),
+                        default=range(2014,get_current_year()+1),
                         help='Year(s) to pull')
     parser.add_argument('--updatecurrent', dest='update_current', action='store_true',
                         default=False,
@@ -44,22 +48,15 @@ def parse_args():
 
     return  args
 
-def main():
-
-    args = parse_args()
-    years = [current_year] if args.update_current else args.years
-
-    if args.league:
-        league_puller = pullers.LeaguePuller(args.league)
-        league_puller.set_years(years)
-        league_puller.pull()
-    else:
-        custom_puller = pullers.UltiAnalyticsPuller(args.team_number,
-                                                   args.team_name,
-                                                   years[-1],
-                                                   output_dir = 'data/custom',
-                                                   username_playername_relation_file = args.username_playername_relation_file)
-        custom_puller.pull()
-
 if __name__ == '__main__':
-    main()
+    args = parse_args()
+    # password=None
+    # if args.team_number:
+        # password = input('If team account is private,\nEnter password:')
+    pull(team_number = args.team_number,
+        team_name = args.team_name,
+        # team_password = args.team_password,
+        league = args.league,
+        years= args.years,
+        update_current = args.update_current,
+        username_playername_relation_file = args.username_playername_relation_file )
