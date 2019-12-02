@@ -87,8 +87,7 @@ class Scoober:
     Throw by throw data
     """
     def __init__(self, dataframe : pd.DataFrame):
-        self.data_file = data_file
-        self.dataframe = pd.read_csv(data_file, index_col=0)
+        self.dataframe = dataframe)
 
     def __add__(self,other):
         return Scoober(pd.concat([self.dataframe,other.dataframe]).reset_index(drop=True))
