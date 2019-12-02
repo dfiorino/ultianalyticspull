@@ -78,11 +78,10 @@ class UltiAnalyticsPuller:
         self._setup_output()
 
     def _setup_output(self):
-        output_dir = f'{self.output_dir}/{self.year}/'
-        if not os.path.isdir(output_dir):
-            os.makedirs(output_dir,exist_ok=True)
+        if not os.path.isdir(self.output_dir):
+            os.makedirs(self.output_dir,exist_ok=True)
 
-        self.enhanced_export_file = f"{output_dir}/{self.year}_{self.team_name}.csv".replace(' ','')
+        self.enhanced_export_file = f"{self.output_dir}/{self.year}_{self.team_name}.csv".replace(' ','')
 
     def _get_raw_team_data(self):
         self.enhanced_dataframe  = utils.team_dataframe(self.team_number,
