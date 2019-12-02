@@ -10,7 +10,9 @@ def get_leagues():
     return ['audl','pul']
 
 class LeaguePuller:
-    def __init__(self, league : str, years : list):
+    def __init__(self,
+                league : str,
+                years : list):
         self.league = league.lower()
         self._check_league()
         self._get_league_data()
@@ -36,19 +38,25 @@ class LeaguePuller:
             self.team_links_dataframe = df[df.year.isin(self.years)].sort_values(['year','team'])
 
     def pull(self):
+
         for i,row in self.team_links_dataframe.iterrows():
+
             team_number = row['url'].split('/')[5]
             year = row['year']
             team_name = row['team']
             print(year,team_name)
-            with import_resources.path('ultianalyticspull.data',self.league) as outdir:
-                uap = UltiAnalyticsPuller(team_number,
-                                          team_name,
-                                          year,
-                                          outdir,
-                                          league=self.league,
-                                          username_playername_relation_file=self.username_playername_relation_file)
-                uap.pull()
+
+            output_dir = f'{self.league}/{year}/'
+            if not os.path.isdir(output_dir):
+                os.makedirs(output_dir,exist_ok=True)
+
+            uap = UltiAnalyticsPuller(team_number=team_number,
+                                      team_name=team_name,
+                                      year=year,
+                                      output_dir=output_dir,
+                                      league=self.league,
+                                      username_playername_relation_file=self.username_playername_relation_file)
+            uap.pull()
 
 class UltiAnalyticsPuller:
     def __init__(self,
@@ -57,7 +65,8 @@ class UltiAnalyticsPuller:
                 year,
                 output_dir,
                 username_playername_relation_file : str = None,
-                league=None):
+                league=None,
+                team_password=None):
         self.team_number = team_number
         self.url = f'http://www.ultianalytics.com/rest/view/team/{team_number}/stats/export'
         self.team_name=team_name
@@ -65,25 +74,19 @@ class UltiAnalyticsPuller:
         self.output_dir=output_dir
         self.username_playername_relation_file=username_playername_relation_file
         self.league=league
+        self.team_password=team_password
         self._setup_output()
 
     def _setup_output(self):
-        output_dir_enhanced = f'{self.output_dir}/processed/{self.year}/'
-        if not os.path.isdir(output_dir_enhanced):
-            os.makedirs(output_dir_enhanced,exist_ok=True)
+        output_dir = f'{self.output_dir}/{self.year}/'
+        if not os.path.isdir(output_dir):
+            os.makedirs(output_dir,exist_ok=True)
 
-        output_dir_raw = f'{self.output_dir}/raw/{self.year}/'
-        if not os.path.isdir(output_dir_raw):
-            os.makedirs(output_dir_raw,exist_ok=True)
+        self.enhanced_export_file = f"{output_dir}/{self.year}_{self.team_name}.csv".replace(' ','')
 
-        self.raw_export_file = f"{output_dir_raw}/{self.year}_{self.team_name}.csv".replace(' ','')
-        self.enhanced_export_file = f"{output_dir_enhanced}/{self.year}_{self.team_name}.csv".replace(' ','')
-
-    def _export_raw_team_data(self):
-        urllib.request.urlretrieve(self.url, self.raw_export_file)
-
-    def _format_raw_team_data(self):
-         return utils.csv2dataframe(self.raw_export_file)
+    def _get_raw_team_data(self):
+        self.enhanced_dataframe  = utils.team_dataframe(self.team_number,
+                                                       self.team_password)
 
     def _add_extra_columns(self):
         """Add extra useful columns"""
@@ -211,8 +214,7 @@ class UltiAnalyticsPuller:
         self.enhanced_dataframe.to_csv(self.enhanced_export_file,sep=',')
 
     def pull(self):
-        self._export_raw_team_data()
-        self.enhanced_dataframe = self._format_raw_team_data()
+        self._get_raw_team_data()
         self._add_extra_columns()
         self._fix_game_overs()
         self._remove_test_games()
@@ -224,9 +226,3 @@ class UltiAnalyticsPuller:
         self._add_gameplay_ids(quarters)
         self._add_hockey_assist()
         self._output_enhanced_data()
-
-    def get_raw_dataframe(self):
-        return pd.read_csv(self.raw_export_file)
-
-    def get_enhanced_dataframe(self):
-        return pd.read_csv(self.enhanced_export_file)

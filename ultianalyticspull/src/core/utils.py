@@ -4,8 +4,8 @@ import requests
 import glob
 import csv
 
-def get_ultianalytics_export(team_number,
-                             password = None):
+def team_data(team_number,
+              password = None):
     base_url = 'http://www.ultianalytics.com/'
     team_url = f'{base_url}/rest/view/team/{team_number}/'
     teamdata_url =  f'{team_url}/stats/export'
