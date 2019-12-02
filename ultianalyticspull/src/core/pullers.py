@@ -2,7 +2,6 @@ import urllib
 import pandas as pd
 import numpy as np
 import os
-import sys
 import importlib.resources as import_resources
 import ultianalyticspull.src.core.opponents as opponents
 import ultianalyticspull.src.core.utils as utils
@@ -40,11 +39,11 @@ class LeaguePuller:
         for i,row in self.team_links_dataframe.iterrows():
             team_number = row['url'].split('/')[5]
             year = row['year']
-            teamname = row['team']
-            print(year,teamname)
+            team_name = row['team']
+            print(year,team_name)
             with import_resources.path('ultianalyticspull.data',self.league) as outdir:
                 uap = UltiAnalyticsPuller(team_number,
-                                          teamname,
+                                          team_name,
                                           year,
                                           outdir,
                                           league=self.league,
@@ -54,14 +53,14 @@ class LeaguePuller:
 class UltiAnalyticsPuller:
     def __init__(self,
                 team_number,
-                teamname,
+                team_name,
                 year,
                 output_dir,
                 username_playername_relation_file : str = None,
                 league=None):
         self.team_number = team_number
         self.url = f'http://www.ultianalytics.com/rest/view/team/{team_number}/stats/export'
-        self.teamname=teamname
+        self.team_name=team_name
         self.year=year
         self.output_dir=output_dir
         self.username_playername_relation_file=username_playername_relation_file
@@ -77,8 +76,8 @@ class UltiAnalyticsPuller:
         if not os.path.isdir(output_dir_raw):
             os.makedirs(output_dir_raw,exist_ok=True)
 
-        self.raw_export_file = f"{output_dir_raw}/{self.year}_{self.teamname}.csv".replace(' ','')
-        self.enhanced_export_file = f"{output_dir_enhanced}/{self.year}_{self.teamname}.csv".replace(' ','')
+        self.raw_export_file = f"{output_dir_raw}/{self.year}_{self.team_name}.csv".replace(' ','')
+        self.enhanced_export_file = f"{output_dir_enhanced}/{self.year}_{self.team_name}.csv".replace(' ','')
 
     def _export_raw_team_data(self):
         urllib.request.urlretrieve(self.url, self.raw_export_file)
@@ -88,7 +87,7 @@ class UltiAnalyticsPuller:
 
     def _add_extra_columns(self):
         """Add extra useful columns"""
-        self.enhanced_dataframe['Teamname'] = self.teamname
+        self.enhanced_dataframe['Teamname'] = self.team_name
         self.enhanced_dataframe['Year'] = self.year
         self.enhanced_dataframe['Tournament'] = self.enhanced_dataframe['Tournamemnt']
         self.enhanced_dataframe = self.enhanced_dataframe.drop('Tournamemnt',axis=1)
