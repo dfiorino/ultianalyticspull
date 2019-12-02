@@ -1,7 +1,38 @@
 import pandas as pd
 import numpy as np
+import requests
 import glob
 import csv
+
+def get_ultianalytics_export(team_number,
+                             password = None):
+    base_url = 'http://www.ultianalytics.com/'
+    team_url = f'{base_url}/rest/view/team/{team_number}/'
+    teamdata_url =  f'{team_url}/stats/export'
+
+    if password is not None:
+        # Grab cookies after submitting password if private account
+        teamauth_url = f'{team_url}/authenticate/{password}'
+        cookies = requests.post(teamauth_url).cookies
+    else:
+        cookies = []
+
+    response = requests.get(teamdata_url, cookies=cookies)
+    return response.content.decode("utf-8")
+
+def team_dataframe(team_number,
+                   password = None):
+
+    data = team_data(team_number=team_number, password=password )
+    arr = [row.split(',') for row in data.split('\n')]
+
+    header = arr[0]
+    teamlog = arr[1:len(arr)-1]
+
+    ncols = len(header)
+    teamlog = [row[:ncols] if len(row) > ncols else row+['']*(ncols-len(row)) for row in teamlog]
+
+    return pd.DataFrame(teamlog,columns=header)
 
 def csv2dataframe(filename : str):
     """Read CSV as Pandas DataFrame but deal with inconsistent use of commas in CSV"""
