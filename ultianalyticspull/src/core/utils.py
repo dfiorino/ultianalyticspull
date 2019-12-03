@@ -32,7 +32,7 @@ def team_dataframe(team_number,
     ncols = len(header)
     teamlog = [row[:ncols] if len(row) > ncols else row+['']*(ncols-len(row)) for row in teamlog]
 
-    return pd.DataFrame(teamlog,columns=header)
+    return pd.DataFrame(teamlog,columns=header).replace('',np.nan)
 
 def csv2dataframe(filename : str):
     """Read CSV as Pandas DataFrame but deal with inconsistent use of commas in CSV"""
