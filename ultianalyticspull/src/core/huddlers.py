@@ -125,7 +125,7 @@ class Scoober:
         return self.get_stat(df_slice, player_field,stat_name,len)
 
     def get_sum_stat(self, df_slice, player_field,stat_name,sum_stat):
-        return self.get_stat(df_slice, player_field,stat_name,lambda x : sum(x[sum_stat]))
+        return self.get_stat(df_slice, player_field,stat_name,lambda x : sum(x[sum_stat].dropna()))
 
     def to_excel(self, filename):
         self.dataframe.to_excel(filename,index=False)
@@ -233,7 +233,7 @@ class Huddler:
                                                                         how='outer'),
                                                                         action_stats).fillna(0)
         for column in missing_columns:
-            self.player_stats_by_year[column] = np.nan
+            self.player_stats_by_year[column] = 0
 
     def _add_playtime_stats(self):
         playtime_stats = self.dataframe.groupby(['Teamname','Year']).apply(play_stats_by_player).reset_index().drop('level_2',axis=1)
