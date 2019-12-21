@@ -2,9 +2,11 @@ import os
 import pandas as pd
 from pathlib import Path
 
-DATA_DIR = str(Path(__file__).parent.parent.parent/'data')
-YEARS = [2014, 2015, 2016, 2017, 2018, 2019]  # [2018] for quicker dev work
+def get_default_data_directory():
+    return str(Path(__file__).parent.parent.parent/'data')
 
+def get_default_years():
+    return [2014, 2015, 2016, 2017, 2018, 2019]
 
 def extract_datetime(df, colname):
     df['datetime'] = pd.to_datetime(df[colname])
@@ -13,16 +15,24 @@ def extract_datetime(df, colname):
     return df
 
 
-def load_data(years=YEARS,league='audl'):
-    all_dfs = []
-    league = league.lower()
-    for year in years:
-        files = [file for file in os.listdir(f'{DATA_DIR}/processed/{league}/{year}') if file.endswith('.csv')]
-        all_dfs += [pd.read_csv(f'{DATA_DIR}/processed/{league}/{year}/{file}', index_col=0) for file in files]
-    df = pd.concat(all_dfs)
+def load_data(years=get_default_years(),league='audl',filename:str=None, data_dir=get_default_data_directory()):
+
+    if filename is None:
+        all_dfs = []
+        league = league.lower()
+        for year in years:
+            files = [file for file in os.listdir(f'{data_dir}/{league}/processed/{year}') if file.endswith('.csv')]
+            all_dfs += [pd.read_csv(f'{data_dir}/{league}/processed//{year}/{file}', index_col=0) for file in files]
+        df = pd.concat(all_dfs)
+    else:
+        if filename.endswith('.csv'):
+            df = pd.read_csv(filename)
+        elif filename.endswith('.xlsx'):
+            df = pd.read_excel(filename)
+        else:
+            raise ValueError('`filename` is not CSV or XLSX')
 
     df = extract_datetime(df, 'Date/Time')
-
     df.rename(columns={'Teamname': 'team', 'Opponent': 'opponent'}, inplace=True)
     df['game'] = df.team + "_" + df.opponent + "_" + df.date.map(str)
 

@@ -6,8 +6,13 @@ def pull(team_number : int = None,
          team_password : str = None,
          league : str = None,
          years : list = range(2014,get_current_year()+1),
-         update_current : bool = False),
-         username_playername_relation_file : str = None:
+         update_current : bool = False,
+         username_playername_relation_file : str = None):
+    """
+    Single function to trigger an ultianalyticspull of a whole league
+    or single team. Single team has the option to enter a team_password
+    TODO: should this be two separate functions?
+    """
 
     years = [current_year] if update_current else years
 

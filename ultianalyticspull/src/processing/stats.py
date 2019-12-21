@@ -2,10 +2,19 @@ import pandas as pd
 from ultianalyticspull.src.processing.utils import list_players, count_points, count_possessions, count_games, subset_gameplay, initialize_stats
 
 
-TEAM_SUM_STATS = ['Assists', 'Hockey Assists', 'Throws', 'Throwaways', 'Turnovers',
-                  'Completions', 'Catches', 'Goals', 'Drops', 'Blocks','Stalls',
-                  'Callahans', 'Callahans Thrown']
-PLAYER_SUM_STATS = TEAM_SUM_STATS + ['Plus/Minus', 'Net Stats']
+def get_team_sum_stat_types():
+    """
+    Return column names for summary stats calculated for each team
+    """
+    return ['Assists', 'Hockey Assists', 'Throws', 'Throwaways', 'Turnovers',
+            'Completions', 'Catches', 'Goals', 'Drops', 'Blocks','Stalls',
+            'Callahans', 'Callahans Thrown']
+
+def get_player_sum_stat_types():
+    """
+    Return column names for summary stats calculated for each player
+    """
+    return get_team_sum_stat_types() + ['Plus/Minus', 'Net Stats']
 
 
 def make_action_booleans(df):
@@ -37,9 +46,9 @@ def calculate_sum_stats(df, index_vars, entity='team'):
     """
 
     if entity == 'team':
-        cols = TEAM_SUM_STATS
+        cols = get_team_sum_stat_types()
     elif entity == 'player':
-        cols = PLAYER_SUM_STATS
+        cols = get_player_sum_stat_types()
     initialize_stats(df, cols)
 
     # TODO - could do via a melt?
