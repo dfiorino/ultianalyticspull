@@ -6,38 +6,47 @@ import importlib.resources as import_resources
 import ultianalyticspull.src.core.opponents as opponents
 import ultianalyticspull.src.core.utils as utils
 
-def get_leagues():
-    return ['audl','pul']
-
 class LeaguePuller:
     def __init__(self,
                 league : str,
-                years : list):
+                years : list,
+                output_dir : str = './'):
         self.league = league.lower()
-        self._check_league()
-        self._get_league_data()
         self.years=years
-        self._get_team_links_dataframe()
+        self.output_dir = output_dir
+        self.pull()
 
     def _check_league(self):
-        leagues_list = get_leagues()
+        """
+        Check if input league is in list of leagues
+        """
+        leagues_list = utils.get_leagues()
         if self.league not in leagues_list:
             raise ValueError(f"Requested league not one of {leagues_list}."+\
                             "\nFor custom league, do not specify `league` argument")
 
     def _get_league_data(self):
+        """
+        Get league data files
+         -  team page links have the team numbers for getting data from ultianalytics
+         - username-player relation file converts usernames to player's names
+        """
         league_data = f'ultianalyticspull.data.{self.league}.supplemental'
-        self.team_page_links = import_resources.path(league_data, f'{self.league}_ultianalytics.csv')
-        self.username_playername_relation = import_resources.path(league_data, f'{self.league}_username_playername_relation.csv')
-        with self.username_playername_relation as username_playername_relation_file:
-            self.username_playername_relation_file = username_playername_relation_file
 
-    def _get_team_links_dataframe(self):
+        self.team_page_links = import_resources.path(league_data, f'{self.league}_ultianalytics.csv')
         with self.team_page_links as path_team_page_links:
             df = pd.read_csv(path_team_page_links)
             self.team_links_dataframe = df[df.year.isin(self.years)].sort_values(['year','team'])
 
+        self.username_playername_relation = import_resources.path(league_data, f'{self.league}_username_playername_relation.csv')
+        with self.username_playername_relation as username_playername_relation_file:
+            self.username_playername_relation_file = username_playername_relation_file
+
     def pull(self):
+        """
+        """
+        self._check_league()
+        self._get_league_data()
 
         for i,row in self.team_links_dataframe.iterrows():
 
@@ -45,15 +54,11 @@ class LeaguePuller:
             year = row['year']
             team_name = row['team']
             print(year,team_name)
-
-            output_dir = f'{self.league}/{year}/'
-            if not os.path.isdir(output_dir):
-                os.makedirs(output_dir,exist_ok=True)
-
+            full_output_dir = f"{self.output_dir}/{self.league}/{year}/"
             uap = UltiAnalyticsPuller(team_number=team_number,
                                       team_name=team_name,
                                       year=year,
-                                      output_dir=output_dir,
+                                      output_dir=full_output_dir,
                                       league=self.league,
                                       username_playername_relation_file=self.username_playername_relation_file)
             uap.pull()
@@ -63,7 +68,7 @@ class UltiAnalyticsPuller:
                 team_number,
                 team_name,
                 year,
-                output_dir,
+                output_dir : str = './',
                 username_playername_relation_file : str = None,
                 league=None,
                 team_password=None):
@@ -75,27 +80,28 @@ class UltiAnalyticsPuller:
         self.username_playername_relation_file=username_playername_relation_file
         self.league=league
         self.team_password=team_password
-        self._setup_output()
-
-    def _setup_output(self):
-        if not os.path.isdir(self.output_dir):
-            os.makedirs(self.output_dir,exist_ok=True)
-
-        self.enhanced_export_file = f"{self.output_dir}/{self.year}_{self.team_name}.csv".replace(' ','')
+        self.pull()
 
     def _get_raw_team_data(self):
+        """
+        Download/scrape the raw throw-by-throw data
+        """
         self.enhanced_dataframe  = utils.team_dataframe(self.team_number,
                                                        self.team_password)
 
     def _add_extra_columns(self):
-        """Add extra useful columns"""
+        """
+        Add extra useful columns
+        """
         self.enhanced_dataframe['Teamname'] = self.team_name
         self.enhanced_dataframe['Year'] = self.year
         self.enhanced_dataframe['Tournament'] = self.enhanced_dataframe['Tournamemnt']
         self.enhanced_dataframe = self.enhanced_dataframe.drop('Tournamemnt',axis=1)
 
     def _fix_game_overs(self):
-        """Fix missed and redundant GameOver entries"""
+        """
+        Fix missed and redundant GameOver entries
+        """
         # Remove double GameOvers: Consecutive Action's can't both be GameOver
         self.enhanced_dataframe = self.enhanced_dataframe[ (~self.enhanced_dataframe.Action.eq(self.enhanced_dataframe.Action.shift(-1))) | (self.enhanced_dataframe.Action!='GameOver') ].reset_index(drop=True)
 
@@ -122,20 +128,30 @@ class UltiAnalyticsPuller:
         self._check_game_overs()
 
     def _check_game_overs(self):
+        """
+        Check for bad data with game over actions
+        """
         if len(self.enhanced_dataframe[~(self.enhanced_dataframe['Date/Time'].eq(self.enhanced_dataframe['Date/Time'].shift(-1))) &(self.enhanced_dataframe.Action!='GameOver')]) > 0:
             print('Missing GameOvers')
         if len(self.enhanced_dataframe[ (self.enhanced_dataframe.Action.eq(self.enhanced_dataframe.Action.shift())) & (self.enhanced_dataframe.Action.shift()=='GameOver') ]) > 0:
             print('Double GameOvers')
 
     def _remove_test_games(self):
-        """Remove test games from log"""
+        """
+        Remove test games from log
+        """
         self.enhanced_dataframe = self.enhanced_dataframe[~(self.enhanced_dataframe.Opponent=='Test')]
 
     def _standardize_opponents(self):
+        """
+        Standardize opponent names based on replacement dictionary
+        """
         self.enhanced_dataframe = opponents.standardize(self.enhanced_dataframe,league=self.league)
 
     def _time_event_sort(self):
-        """Sort by Date/Time and orignal index"""
+        """
+        Sort by Date/Time and orignal index
+        """
         self.enhanced_dataframe['OrigIndex'] = self.enhanced_dataframe.index
         self.enhanced_dataframe = self.enhanced_dataframe.sort_values(['Date/Time','OrigIndex'])
         self.enhanced_dataframe = self.enhanced_dataframe.drop('OrigIndex',axis=1).reset_index(drop=True)
@@ -153,15 +169,18 @@ class UltiAnalyticsPuller:
             upr['PlayerName'] = upr['PlayerName'].fillna(upr.Username)
 
             for p_field in player_fields:
-                self.enhanced_dataframe[p_field] = pd.merge(self.enhanced_dataframe[['Year','Teamname',p_field]],upr,
-                                                 left_on=['Year','Teamname',p_field],
-                                                 right_on=['Year','Teamname','Username'],
-                                                 how='left')['PlayerName'].fillna(self.enhanced_dataframe[p_field])
+                self.enhanced_dataframe[p_field] = pd.merge(self.enhanced_dataframe[['Year','Teamname',p_field]].fillna(''),
+                                                            upr,
+                                                             left_on=['Year','Teamname',p_field],
+                                                             right_on=['Year','Teamname','Username'],
+                                                             how='left')['PlayerName'].fillna(self.enhanced_dataframe[p_field])
 
         self.enhanced_dataframe['Lineup'] = self.enhanced_dataframe.fillna('').apply( lambda x : ', '.join(sorted([ x[i] for i in numbered_player_fields if x[i] !=''])), axis=1).values
 
     def _add_gameplay_ids(self, quarters=True):
-        """Add IDs for each Game and its Points and Possessions"""
+        """
+        Add IDs for each Game and its Points and Possessions
+        """
         self.enhanced_dataframe['GameID'] = pd.factorize(self.enhanced_dataframe['Date/Time'].astype(str)
                                      +self.enhanced_dataframe['Opponent'].astype(str))[0] +1
 
@@ -203,6 +222,9 @@ class UltiAnalyticsPuller:
         self.enhanced_dataframe['PossessionID'] = self.enhanced_dataframe['PossessionID'].bfill()
 
     def _add_hockey_assist(self):
+        """
+        Add hockey assist as action type
+        """
         hockey_assist_slice = (self.enhanced_dataframe.Action.shift(-1)=='Goal')&\
                               (self.enhanced_dataframe['Action']=='Catch')&\
                               (self.enhanced_dataframe['Event Type']=='Offense')&\
@@ -210,7 +232,14 @@ class UltiAnalyticsPuller:
         self.enhanced_dataframe.loc[hockey_assist_slice,'Action']='HockeyAssist'
 
     def _output_enhanced_data(self):
-        self.enhanced_dataframe.to_csv(self.enhanced_export_file,sep=',')
+        """
+        Output file to designated output directory with pre-assigned file name
+        """
+        if not os.path.isdir(self.output_dir):
+            os.makedirs(self.output_dir,exist_ok=True)
+
+        enhanced_export_file = f"{self.output_dir}/{self.year}_{self.team_name}.csv".replace(' ','')
+        self.enhanced_dataframe.to_csv(enhanced_export_file,sep=',')
 
     def pull(self):
         self._get_raw_team_data()

@@ -4,6 +4,12 @@ import requests
 import glob
 import csv
 
+def get_leagues():
+    """
+    :return: list of leagues that are setup for ultianalyticspull
+    """
+    return ['audl','pul']
+
 def team_data(team_number,
               password = None):
     base_url = 'http://www.ultianalytics.com/'

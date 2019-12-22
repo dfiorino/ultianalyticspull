@@ -125,7 +125,7 @@ class Scoober:
         return self.get_stat(df_slice, player_field,stat_name,len)
 
     def get_sum_stat(self, df_slice, player_field,stat_name,sum_stat):
-        return self.get_stat(df_slice, player_field,stat_name,lambda x : sum(x[sum_stat].dropna()))
+        return self.get_stat(df_slice, player_field,stat_name,lambda x : sum(x[sum_stat].astype(float).dropna()))
 
     def to_excel(self, filename):
         self.dataframe.to_excel(filename,index=False)
@@ -219,10 +219,10 @@ class Huddler:
              'Defender','Pull Yards (Inbounds)','Absolute Distance']
            ]
 
-        action_stats = [self.scoober.get_count_stat(i,j,k) for i,j,k in counting_stats] +\
-                       [self.scoober.get_sum_stat(i,j,k,l) for i,j,k,l in summed_stats]
-        action_stat_names =  [k for i,j,k in counting_stats] +\
-                             [k for i,j,k,l in summed_stats]
+        action_stats = [self.scoober.get_count_stat(df_slice, player_field,stat_name) for df_slice, player_field,stat_name in counting_stats] +\
+                       [self.scoober.get_sum_stat(df_slice, player_field,stat_name,sum_stat) for df_slice, player_field,stat_name,sum_stat in summed_stats]
+        action_stat_names =  [stat_name for df_slice, player_field,stat_name in counting_stats] +\
+                             [stat_name for df_slice, player_field,stat_name,sum_stat in summed_stats]
         # Filter out stats with no results
         missing_columns =  [ stat for stat_df,stat in zip(action_stats,action_stat_names) if len(stat_df)==0 ]
         action_stats = [ stat_df for stat_df in action_stats if len(stat_df)>0 ]

@@ -52,7 +52,7 @@ if __name__ == '__main__':
     args = parse_args()
     # password=None
     # if args.team_number:
-        # password = input('If team account is private,\nEnter password:')
+        # password = input('If team account is private,\nEnter password (hit enter to continue without password):')
     pull(team_number = args.team_number,
         team_name = args.team_name,
         # team_password = args.team_password,
