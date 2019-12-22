@@ -1,6 +1,6 @@
 # UltiAnalytics Pull <img align="right" width="100" height="100" src="images/logo.png">
 
-Use *UltiAnalytics Pull* to grab, clean, and enhance ultimate frisbee data from UltiAnalytics. Run it over *your* team's data or use it to analyze the full available data sets of professional ultimate (both AUDL and PUL). It will produce tabulated player stats with the actual player names, so you can compare stats like goals, assists, blocks, and over 20 others! Create your own metrics or graphics based to measure player or team performance per year, per game, per point, and even per quarter or per possession. To enrich your insights, this project includes supplemental data like information on the professional franchises,  game results, and now weekly active rosters (as of 2019).
+Use *UltiAnalytics Pull* to grab, clean, and enhance ultimate frisbee data from UltiAnalytics. Run it over *your* team's data or use it to analyze the full available data sets of *professional ultimate* (both AUDL and PUL). It can produce tabulated player stats with the actual player names, so you can compare stats like goals, assists, blocks, and over 20 others! Use it to create your own metrics or graphics to measure player or team performance per year, per game, per point, or even per possession. To enrich your insights, this project includes supplemental data like information on the professional franchises,  game results, and now weekly active rosters.
 
 ## Features
 
@@ -17,26 +17,45 @@ Use *UltiAnalytics Pull* to grab, clean, and enhance ultimate frisbee data from 
 - Playoff/Regular season ***coming soon***
 - Merged Game Stats ***coming soon***
 
+
+## Installation
+
+### Prerequisite
+This package requires Python 3. The easiest way to get everything you need is to download and install Anaconda (https://www.anaconda.com/distribution/)
+
+### Instructions
+- Clone/download the repository from GitHub (https://github.com/dfiorino/ultianalyticspull)
+- Open a terminal and change directory to the top-level of ultianalyticspull
+- Use `pip` to install. If you are going the anaconda route, then it's best practice to start a new `conda` environment first. Then install `pip` using `conda`. And finally `pip install` ultianalyticspull. Like this:
+
+```bash
+cd /path/to/ultianalyticspull
+conda create -n new_env python=3.7
+conda activate new_env
+conda install pip
+pip install .
+```
+
 ## Usage
 
-```bash
-python ultianalyticspull.py --league PUL
-python ultianalyticspull.py --league AUDL
-python ultianalyticspull.py --team_name 'USA U24 Mixed' --year 2019 --team_number 6502443586158592
-```
-
-then
+### Get Your Team's Throw-by-Throw Data
 
 ```bash
-python individualstats.py
+ultianalytics-pull --team_name 'New Jersey Hammerheads' --year 2013 --team_number 230001
 ```
 
-That's it!
+### Get Professional Ultimate Leagues Throw-by-Throw Data (2014-2019)
 
-## Requirements
-- Python >= 3.0
-- Internet connection ;)
-- Python libraries: glob,urllib,argparse,pandas,numpy,csv (pretty standard stuff)
+```bash
+ultianalytics-pull --league PUL
+ultianalytics-pull --league AUDL
+```
+
+### Get Current AUDL Roster Data
+
+```bash
+output-scraped-data
+```
 
 ## Citations
 

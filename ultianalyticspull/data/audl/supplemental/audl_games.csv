@@ -1,0 +1,1148 @@
+,Year,Matchup Link,Date Location,Home Team,Away Team,Home Team Score,Away Team Score,Date,Time,City,Week,UniversalGameID
+0,2012,/league/game/2012-04-14-IND-CLB,"Sat, 4/14 7:00 PM CDT Columbus",Columbus Cranes,Indianapolis AlleyCats,22,21,2012-04-14,7:00 PM CDT,Columbus,1,0
+1,2012,/league/game/2012-04-14-ROC-PHS,"Sat, 4/14 7:00 PM CDT Philadelphia",Philadelphia Spinners,Rochester Dragons,26,14,2012-04-14,7:00 PM CDT,Philadelphia,1,1
+2,2012,/league/game/2012-04-14-DET-CIN,"Sat, 4/14 7:00 PM CDT Cincinnati",Cincinnati Revolution,Detroit Mechanix,19,17,2012-04-14,7:00 PM CDT,Cincinnati,1,2
+3,2012,/league/game/2012-04-14-CON-RIR,"Sat, 4/14 7:00 PM CDT Rhode Island",Rhode Island Rampage,Connecticut Constitution,23,29,2012-04-14,7:00 PM CDT,Rhode Island,1,3
+4,2012,/league/game/2012-04-21-RIR-CLB,"Sat, 4/21 7:00 PM CDT Columbus",Columbus Cranes,Rhode Island Rampage,19,22,2012-04-21,7:00 PM CDT,Columbus,2,4
+5,2012,/league/game/2012-04-21-CIN-IND,"Sat, 4/21 7:00 PM CDT Indianapolis",Indianapolis AlleyCats,Cincinnati Revolution,18,20,2012-04-21,7:00 PM CDT,Indianapolis,2,5
+6,2012,/league/game/2012-04-21-CON-PHS,"Sat, 4/21 7:00 PM CDT Philadelphia",Philadelphia Spinners,Connecticut Constitution,22,16,2012-04-21,7:00 PM CDT,Philadelphia,2,6
+7,2012,/league/game/2012-04-22-RIR-DET,"Sun, 4/22 7:00 PM CDT Detroit",Detroit Mechanix,Rhode Island Rampage,24,26,2012-04-22,7:00 PM CDT,Detroit,2,7
+8,2012,/league/game/2012-04-28-CLB-CIN,"Sat, 4/28 7:00 PM CDT Cincinnati",Cincinnati Revolution,Columbus Cranes,12,8,2012-04-28,7:00 PM CDT,Cincinnati,3,9
+9,2012,/league/game/2012-04-28-PHS-RIR,"Sat, 4/28 7:00 PM CDT Rhode Island",Rhode Island Rampage,Philadelphia Spinners,22,30,2012-04-28,7:00 PM CDT,Rhode Island,3,8
+10,2012,/league/game/2012-04-29-ROC-DET,"Sun, 4/29 7:00 PM CDT Detroit",Detroit Mechanix,Rochester Dragons,26,22,2012-04-29,7:00 PM CDT,Detroit,3,10
+11,2012,/league/game/2012-05-05-DET-IND,"Sat, 5/5 7:00 PM CDT Indianapolis",Indianapolis AlleyCats,Detroit Mechanix,22,13,2012-05-05,7:00 PM CDT,Indianapolis,4,11
+12,2012,/league/game/2012-05-05-PHS-CON,"Sat, 5/5 7:00 PM CDT Connecticut",Connecticut Constitution,Philadelphia Spinners,29,23,2012-05-05,7:00 PM CDT,Connecticut,4,12
+13,2012,/league/game/2012-05-05-ROC-RIR,"Sat, 5/5 7:00 PM CDT Rhode Island",Rhode Island Rampage,Rochester Dragons,20,19,2012-05-05,7:00 PM CDT,Rhode Island,4,13
+14,2012,/league/game/2012-05-06-DET-CLB,"Sun, 5/6 7:00 PM CDT Columbus",Columbus Cranes,Detroit Mechanix,26,20,2012-05-06,7:00 PM CDT,Columbus,4,14
+15,2012,/league/game/2012-05-12-CIN-DET,"Sat, 5/12 7:00 PM CDT Detroit",Detroit Mechanix,Cincinnati Revolution,21,19,2012-05-12,7:00 PM CDT,Detroit,5,18
+16,2012,/league/game/2012-05-12-RIR-PHS,"Sat, 5/12 7:00 PM CDT Philadelphia",Philadelphia Spinners,Rhode Island Rampage,24,18,2012-05-12,7:00 PM CDT,Philadelphia,5,17
+17,2012,/league/game/2012-05-12-IND-CLB,"Sat, 5/12 7:00 PM CDT Columbus",Columbus Cranes,Indianapolis AlleyCats,37,29,2012-05-12,7:00 PM CDT,Columbus,5,16
+18,2012,/league/game/2012-05-12-ROC-CON,"Sat, 5/12 7:00 PM CDT Connecticut",Connecticut Constitution,Rochester Dragons,30,15,2012-05-12,7:00 PM CDT,Connecticut,5,15
+19,2012,/league/game/2012-05-19-DET-IND,"Sat, 5/19 7:00 PM CDT Indianapolis",Indianapolis AlleyCats,Detroit Mechanix,20,18,2012-05-19,7:00 PM CDT,Indianapolis,6,19
+20,2012,/league/game/2012-05-19-RIR-CON,"Sat, 5/19 7:00 PM CDT Connecticut",Connecticut Constitution,Rhode Island Rampage,22,20,2012-05-19,7:00 PM CDT,Connecticut,6,20
+21,2012,/league/game/2012-05-20-RIR-ROC,"Sun, 5/20 7:00 PM CDT Rochester",Rochester Dragons,Rhode Island Rampage,21,23,2012-05-20,7:00 PM CDT,Rochester,6,21
+22,2012,/league/game/2012-05-20-IND-CIN,"Sun, 5/20 7:00 PM CDT Cincinnati",Cincinnati Revolution,Indianapolis AlleyCats,18,19,2012-05-20,7:00 PM CDT,Cincinnati,6,22
+23,2012,/league/game/2012-05-26-CLB-CON,"Sat, 5/26 7:00 PM CDT Connecticut",Connecticut Constitution,Columbus Cranes,28,21,2012-05-26,7:00 PM CDT,Connecticut,7,23
+24,2012,/league/game/2012-05-26-IND-DET,"Sat, 5/26 7:00 PM CDT Detroit",Detroit Mechanix,Indianapolis AlleyCats,21,28,2012-05-26,7:00 PM CDT,Detroit,7,24
+25,2012,/league/game/2012-05-26-CIN-RIR,"Sat, 5/26 7:00 PM CDT Rhode Island",Rhode Island Rampage,Cincinnati Revolution,21,20,2012-05-26,7:00 PM CDT,Rhode Island,7,25
+26,2012,/league/game/2012-05-27-CLB-PHS,"Sun, 5/27 7:00 PM CDT Philadelphia",Philadelphia Spinners,Columbus Cranes,23,20,2012-05-27,7:00 PM CDT,Philadelphia,7,26
+27,2012,/league/game/2012-05-27-CIN-ROC,"Sun, 5/27 7:00 PM CDT Rochester",Rochester Dragons,Cincinnati Revolution,24,25,2012-05-27,7:00 PM CDT,Rochester,7,27
+28,2012,/league/game/2012-06-02-CON-ROC,"Sat, 6/2 7:00 PM CDT Rochester",Rochester Dragons,Connecticut Constitution,13,17,2012-06-02,7:00 PM CDT,Rochester,8,28
+29,2012,/league/game/2012-06-02-CLB-DET,"Sat, 6/2 7:00 PM CDT Detroit",Detroit Mechanix,Columbus Cranes,24,21,2012-06-02,7:00 PM CDT,Detroit,8,29
+30,2012,/league/game/2012-06-02-CIN-IND,"Sat, 6/2 7:00 PM CDT Indianapolis",Indianapolis AlleyCats,Cincinnati Revolution,20,18,2012-06-02,7:00 PM CDT,Indianapolis,8,30
+31,2012,/league/game/2012-06-09-ROC-PHS,"Sat, 6/9 7:00 PM CDT Philadelphia",Philadelphia Spinners,Rochester Dragons,33,16,2012-06-09,7:00 PM CDT,Philadelphia,9,31
+32,2012,/league/game/2012-06-09-RIR-CON,"Sat, 6/9 7:00 PM CDT Connecticut",Connecticut Constitution,Rhode Island Rampage,24,18,2012-06-09,7:00 PM CDT,Connecticut,9,32
+33,2012,/league/game/2012-06-16-PHS-CON,"Sat, 6/16 7:00 PM CDT Connecticut",Connecticut Constitution,Philadelphia Spinners,19,29,2012-06-16,7:00 PM CDT,Connecticut,10,35
+34,2012,/league/game/2012-06-16-IND-ROC,"Sat, 6/16 7:00 PM CDT Rochester",Rochester Dragons,Indianapolis AlleyCats,21,26,2012-06-16,7:00 PM CDT,Rochester,10,33
+35,2012,/league/game/2012-06-16-CIN-CLB,"Sat, 6/16 7:00 PM CDT Columbus",Columbus Cranes,Cincinnati Revolution,23,20,2012-06-16,7:00 PM CDT,Columbus,10,34
+36,2012,/league/game/2012-06-17-IND-DET,"Sun, 6/17 7:00 PM CDT Detroit",Detroit Mechanix,Indianapolis AlleyCats,23,21,2012-06-17,7:00 PM CDT,Detroit,10,36
+37,2012,/league/game/2012-06-23-PHS-ROC,"Sat, 6/23 7:00 PM CDT Rochester",Rochester Dragons,Philadelphia Spinners,18,29,2012-06-23,7:00 PM CDT,Rochester,11,37
+38,2012,/league/game/2012-06-23-DET-CLB,"Sat, 6/23 7:00 PM CDT Columbus",Columbus Cranes,Detroit Mechanix,30,25,2012-06-23,7:00 PM CDT,Columbus,11,38
+39,2012,/league/game/2012-06-23-CON-RIR,"Sat, 6/23 7:00 PM CDT Rhode Island",Rhode Island Rampage,Connecticut Constitution,11,12,2012-06-23,7:00 PM CDT,Rhode Island,11,39
+40,2012,/league/game/2012-06-23-IND-CIN,"Sat, 6/23 7:00 PM CDT Cincinnati",Cincinnati Revolution,Indianapolis AlleyCats,17,13,2012-06-23,7:00 PM CDT,Cincinnati,11,40
+41,2012,/league/game/2012-06-24-CLB-IND,"Sun, 6/24 7:00 PM CDT Indianapolis",Indianapolis AlleyCats,Columbus Cranes,22,20,2012-06-24,7:00 PM CDT,Indianapolis,11,42
+42,2012,/league/game/2012-06-24-CON-PHS,"Sun, 6/24 7:00 PM CDT Philadelphia",Philadelphia Spinners,Connecticut Constitution,24,20,2012-06-24,7:00 PM CDT,Philadelphia,11,43
+43,2012,/league/game/2012-06-24-DET-CIN,"Sun, 6/24 7:00 PM CDT Cincinnati",Cincinnati Revolution,Detroit Mechanix,27,25,2012-06-24,7:00 PM CDT,Cincinnati,11,41
+44,2012,/league/game/2012-06-30-ROC-CON,"Sat, 6/30 7:00 PM CDT Connecticut",Connecticut Constitution,Rochester Dragons,19,21,2012-06-30,7:00 PM CDT,Connecticut,12,44
+45,2012,/league/game/2012-06-30-CLB-CIN,"Sat, 6/30 7:00 PM CDT Cincinnati",Cincinnati Revolution,Columbus Cranes,10,0,2012-06-30,7:00 PM CDT,Cincinnati,12,45
+46,2012,/league/game/2012-06-30-DET-PHS,"Sat, 6/30 7:00 PM CDT Philadelphia",Philadelphia Spinners,Detroit Mechanix,22,23,2012-06-30,7:00 PM CDT,Philadelphia,12,46
+47,2012,/league/game/2012-07-01-RIR-ROC,"Sun, 7/1 7:00 PM CDT Rochester",Rochester Dragons,Rhode Island Rampage,24,15,2012-07-01,7:00 PM CDT,Rochester,12,47
+48,2012,/league/game/2012-07-07-CON-CIN,"Sat, 7/7 7:00 PM CDT Cincinnati",Cincinnati Revolution,Connecticut Constitution,10,0,2012-07-07,7:00 PM CDT,Cincinnati,13,48
+49,2012,/league/game/2012-07-07-ROC-CLB,"Sat, 7/7 7:00 PM CDT Columbus",Columbus Cranes,Rochester Dragons,0,10,2012-07-07,7:00 PM CDT,Columbus,13,49
+50,2012,/league/game/2012-07-08-PHS-ROC,"Sun, 7/8 7:00 PM CDT Rochester",Rochester Dragons,Philadelphia Spinners,13,35,2012-07-08,7:00 PM CDT,Rochester,13,52
+51,2012,/league/game/2012-07-08-CON-IND,"Sun, 7/8 7:00 PM CDT Indianapolis",Indianapolis AlleyCats,Connecticut Constitution,10,0,2012-07-08,7:00 PM CDT,Indianapolis,13,51
+52,2012,/league/game/2012-07-08-CLB-DET,"Sun, 7/8 7:00 PM CDT Detroit",Detroit Mechanix,Columbus Cranes,27,26,2012-07-08,7:00 PM CDT,Detroit,13,50
+53,2012,/league/game/2012-07-14-DET-CON,"Sat, 7/14 7:00 PM CDT Connecticut",Connecticut Constitution,Detroit Mechanix,0,10,2012-07-14,7:00 PM CDT,Connecticut,14,53
+54,2012,/league/game/2012-07-14-ROC-RIR,"Sat, 7/14 7:00 PM CDT Rhode Island",Rhode Island Rampage,Rochester Dragons,27,21,2012-07-14,7:00 PM CDT,Rhode Island,14,54
+55,2012,/league/game/2012-07-14-PHS-IND,"Sat, 7/14 7:00 PM CDT Indianapolis",Indianapolis AlleyCats,Philadelphia Spinners,16,19,2012-07-14,7:00 PM CDT,Indianapolis,14,55
+56,2012,/league/game/2012-07-15-PHS-CIN,"Sun, 7/15 7:00 PM CDT Cincinnati",Cincinnati Revolution,Philadelphia Spinners,17,27,2012-07-15,7:00 PM CDT,Cincinnati,14,56
+57,2012,/league/game/2012-07-15-CLB-IND,"Sun, 7/15 7:00 PM CDT Indianapolis",Indianapolis AlleyCats,Columbus Cranes,20,25,2012-07-15,7:00 PM CDT,Indianapolis,14,57
+58,2012,/league/game/2012-07-21-CON-ROC,"Sat, 7/21 7:00 PM CDT Rochester",Rochester Dragons,Connecticut Constitution,10,0,2012-07-21,7:00 PM CDT,Rochester,15,58
+59,2012,/league/game/2012-07-21-RIR-PHS,"Sat, 7/21 7:00 PM CDT Philadelphia",Philadelphia Spinners,Rhode Island Rampage,29,20,2012-07-21,7:00 PM CDT,Philadelphia,15,59
+60,2012,/league/game/2012-07-21-CIN-DET,"Sat, 7/21 7:00 PM CDT Detroit",Detroit Mechanix,Cincinnati Revolution,20,22,2012-07-21,7:00 PM CDT,Detroit,15,60
+61,2012,/league/game/2012-07-22-CIN-CLB,"Sun, 7/22 7:00 PM CDT Columbus",Columbus Cranes,Cincinnati Revolution,19,17,2012-07-22,7:00 PM CDT,Columbus,15,61
+62,2012,/league/game/2012-07-28-CIN-IND,"Sat, 7/28 7:00 PM CDT",Indianapolis AlleyCats,Cincinnati Revolution,24,20,2012-07-28,7:00 PM CDT,,16,62
+63,2012,/league/game/2012-08-05-RIR-PHS,"Sun, 8/5 7:00 PM CDT",Philadelphia Spinners,Rhode Island Rampage,35,21,2012-08-05,7:00 PM CDT,,17,63
+64,2012,/league/game/2012-08-11-IND-PHS,"Sat, 8/11 7:00 PM CDT",Philadelphia Spinners,Indianapolis AlleyCats,29,22,2012-08-11,7:00 PM CDT,,18,64
+65,2013,/league/game/2013-04-12-CHI-CIN,"Fri, 4/12 7:30 PM CDT Cincinnati",Cincinnati Revolution,Chicago Wildfire,15,26,2013-04-12,7:30 PM CDT,Cincinnati,1,65
+66,2013,/league/game/2013-04-13-IND-DET,"Sat, 4/13 7:00 PM CDT Detroit",Detroit Mechanix,Indianapolis AlleyCats,24,30,2013-04-13,7:00 PM CDT,Detroit,1,66
+67,2013,/league/game/2013-04-20-MIN-IND,"Sat, 4/20 7:30 PM CDT Indianapolis",Indianapolis AlleyCats,Minnesota Wind Chill,25,34,2013-04-20,7:30 PM CDT,Indianapolis,2,69
+68,2013,/league/game/2013-04-20-MAD-CHI,"Sat, 4/20 8:00 PM CDT Chicago",Chicago Wildfire,Madison Radicals,21,22,2013-04-20,8:00 PM CDT,Chicago,2,70
+69,2013,/league/game/2013-04-20-TOR-DC,"Sat, 4/20 1:00 PM CDT DC",DC Breeze,Toronto Rush,13,30,2013-04-20,1:00 PM CDT,DC,2,67
+70,2013,/league/game/2013-04-20-ROC-NY,"Sat, 4/20 7:00 PM CDT New York",New York Empire,Rochester Dragons,23,14,2013-04-20,7:00 PM CDT,New York,2,68
+71,2013,/league/game/2013-04-21-TOR-PHI,"Sun, 4/21 1:00 PM CDT Philadelphia",Philadelphia Phoenix,Toronto Rush,25,26,2013-04-21,1:00 PM CDT,Philadelphia,2,71
+72,2013,/league/game/2013-04-21-MIN-CIN,"Sun, 4/21 2:30 PM CDT Cincinnati",Cincinnati Revolution,Minnesota Wind Chill,22,21,2013-04-21,2:30 PM CDT,Cincinnati,2,72
+73,2013,/league/game/2013-04-21-ROC-NJH,"Sun, 4/21 4:00 PM CDT New Jersey",New Jersey Hammerheads,Rochester Dragons,28,13,2013-04-21,4:00 PM CDT,New Jersey,2,73
+74,2013,/league/game/2013-04-21-MAD-DET,"Sun, 4/21 5:00 PM CDT Detroit",Detroit Mechanix,Madison Radicals,25,24,2013-04-21,5:00 PM CDT,Detroit,2,74
+75,2013,/league/game/2013-04-27-ROC-PHI,"Sat, 4/27 12:00 PM CDT Philadelphia",Philadelphia Phoenix,Rochester Dragons,26,14,2013-04-27,12:00 PM CDT,Philadelphia,3,75
+76,2013,/league/game/2013-04-27-TOR-NY,"Sat, 4/27 6:00 PM CDT New York",New York Empire,Toronto Rush,14,22,2013-04-27,6:00 PM CDT,New York,3,76
+77,2013,/league/game/2013-04-27-CHI-IND,"Sat, 4/27 7:30 PM CDT Indianapolis",Indianapolis AlleyCats,Chicago Wildfire,15,25,2013-04-27,7:30 PM CDT,Indianapolis,3,77
+78,2013,/league/game/2013-04-27-DET-CIN,"Sat, 4/27 7:30 PM CDT Cincinnati",Cincinnati Revolution,Detroit Mechanix,11,15,2013-04-27,7:30 PM CDT,Cincinnati,3,78
+79,2013,/league/game/2013-04-27-MAD-MIN,"Sat, 4/27 8:00 PM CDT Minnesota",Minnesota Wind Chill,Madison Radicals,20,22,2013-04-27,8:00 PM CDT,Minnesota,3,79
+80,2013,/league/game/2013-04-28-ROC-DC,"Sun, 4/28 3:00 PM CDT DC",DC Breeze,Rochester Dragons,26,25,2013-04-28,3:00 PM CDT,DC,3,80
+81,2013,/league/game/2013-04-28-TOR-NJH,"Sun, 4/28 4:00 PM CDT New Jersey",New Jersey Hammerheads,Toronto Rush,19,29,2013-04-28,4:00 PM CDT,New Jersey,3,81
+82,2013,/league/game/2013-04-28-CIN-CHI,"Sun, 4/28 4:00 PM CDT Chicago",Chicago Wildfire,Cincinnati Revolution,23,16,2013-04-28,4:00 PM CDT,Chicago,3,82
+83,2013,/league/game/2013-05-03-MIN-MAD,"Fri, 5/3 8:00 PM CDT Madison",Madison Radicals,Minnesota Wind Chill,19,15,2013-05-03,8:00 PM CDT,Madison,4,83
+84,2013,/league/game/2013-05-04-NJH-TOR,"Sat, 5/4 7:00 PM CDT Toronto",Toronto Rush,New Jersey Hammerheads,31,18,2013-05-04,7:00 PM CDT,Toronto,4,86
+85,2013,/league/game/2013-05-04-IND-CHI,"Sat, 5/4 8:00 PM CDT Chicago",Chicago Wildfire,Indianapolis AlleyCats,25,17,2013-05-04,8:00 PM CDT,Chicago,4,87
+86,2013,/league/game/2013-05-04-MIN-DET,"Sat, 5/4 3:30 PM CDT Detroit",Detroit Mechanix,Minnesota Wind Chill,22,16,2013-05-04,3:30 PM CDT,Detroit,4,84
+87,2013,/league/game/2013-05-04-DC-NY,"Sat, 5/4 5:00 PM CDT New York",New York Empire,DC Breeze,25,11,2013-05-04,5:00 PM CDT,New York,4,85
+88,2013,/league/game/2013-05-05-DC-PHI,"Sun, 5/5 1:00 PM CDT Philadelphia",Philadelphia Phoenix,DC Breeze,23,18,2013-05-05,1:00 PM CDT,Philadelphia,4,88
+89,2013,/league/game/2013-05-05-CIN-DET,"Sun, 5/5 2:00 PM CDT Detroit",Detroit Mechanix,Cincinnati Revolution,22,23,2013-05-05,2:00 PM CDT,Detroit,4,89
+90,2013,/league/game/2013-05-05-NJH-ROC,"Sun, 5/5 2:00 PM CDT Rochester",Rochester Dragons,New Jersey Hammerheads,20,15,2013-05-05,2:00 PM CDT,Rochester,4,90
+91,2013,/league/game/2013-05-11-NY-ROC,"Sat, 5/11 7:00 PM CDT Rochester",Rochester Dragons,New York Empire,21,20,2013-05-11,7:00 PM CDT,Rochester,5,91
+92,2013,/league/game/2013-05-11-CHI-MIN,"Sat, 5/11 8:00 PM CDT Minnesota",Minnesota Wind Chill,Chicago Wildfire,15,18,2013-05-11,8:00 PM CDT,Minnesota,5,92
+93,2013,/league/game/2013-05-12-NY-TOR,"Sun, 5/12 4:00 PM CDT Toronto",Toronto Rush,New York Empire,16,9,2013-05-12,4:00 PM CDT,Toronto,5,96
+94,2013,/league/game/2013-05-12-CHI-MAD,"Sun, 5/12 4:00 PM CDT Madison",Madison Radicals,Chicago Wildfire,15,16,2013-05-12,4:00 PM CDT,Madison,5,95
+95,2013,/league/game/2013-05-12-DET-CIN,"Sun, 5/12 2:30 PM CDT Cincinnati",Cincinnati Revolution,Detroit Mechanix,17,10,2013-05-12,2:30 PM CDT,Cincinnati,5,93
+96,2013,/league/game/2013-05-12-NJH-DC,"Sun, 5/12 3:00 PM CDT DC",DC Breeze,New Jersey Hammerheads,18,13,2013-05-12,3:00 PM CDT,DC,5,94
+97,2013,/league/game/2013-05-18-PHI-DC,"Sat, 5/18 1:00 PM CDT DC",DC Breeze,Philadelphia Phoenix,17,18,2013-05-18,1:00 PM CDT,DC,6,97
+98,2013,/league/game/2013-05-18-DET-MIN,"Sat, 5/18 3:00 PM CDT Minnesota",Minnesota Wind Chill,Detroit Mechanix,20,6,2013-05-18,3:00 PM CDT,Minnesota,6,98
+99,2013,/league/game/2013-05-18-NY-NJH,"Sat, 5/18 7:00 PM CDT New Jersey",New Jersey Hammerheads,New York Empire,16,24,2013-05-18,7:00 PM CDT,New Jersey,6,99
+100,2013,/league/game/2013-05-18-TOR-ROC,"Sat, 5/18 7:00 PM CDT Rochester",Rochester Dragons,Toronto Rush,21,28,2013-05-18,7:00 PM CDT,Rochester,6,100
+101,2013,/league/game/2013-05-18-CIN-IND,"Sat, 5/18 7:30 PM CDT Indianapolis",Indianapolis AlleyCats,Cincinnati Revolution,28,21,2013-05-18,7:30 PM CDT,Indianapolis,6,101
+102,2013,/league/game/2013-05-18-DET-MAD,"Sat, 5/18 8:00 PM CDT Madison",Madison Radicals,Detroit Mechanix,26,16,2013-05-18,8:00 PM CDT,Madison,6,102
+103,2013,/league/game/2013-05-24-MIN-MAD,"Fri, 5/24 8:00 PM CDT Madison",Madison Radicals,Minnesota Wind Chill,27,23,2013-05-24,8:00 PM CDT,Madison,7,103
+104,2013,/league/game/2013-05-25-IND-CIN,"Sat, 5/25 7:30 PM CDT Cincinnati",Cincinnati Revolution,Indianapolis AlleyCats,21,27,2013-05-25,7:30 PM CDT,Cincinnati,7,107
+105,2013,/league/game/2013-05-25-PHI-NJH,"Sat, 5/25 7:00 PM CDT New Jersey",New Jersey Hammerheads,Philadelphia Phoenix,15,20,2013-05-25,7:00 PM CDT,New Jersey,7,106
+106,2013,/league/game/2013-05-25-ROC-DC,"Sat, 5/25 1:00 PM CDT DC",DC Breeze,Rochester Dragons,14,16,2013-05-25,1:00 PM CDT,DC,7,104
+107,2013,/league/game/2013-05-25-CHI-DET,"Sat, 5/25 7:00 PM CDT Detroit",Detroit Mechanix,Chicago Wildfire,19,23,2013-05-25,7:00 PM CDT,Detroit,7,105
+108,2013,/league/game/2013-05-26-ROC-PHI,"Sun, 5/26 1:00 PM CDT Philadelphia",Philadelphia Phoenix,Rochester Dragons,17,16,2013-05-26,1:00 PM CDT,Philadelphia,7,108
+109,2013,/league/game/2013-05-26-IND-CIN,"Sun, 5/26 2:30 PM CDT Cincinnati",Cincinnati Revolution,Indianapolis AlleyCats,19,23,2013-05-26,2:30 PM CDT,Cincinnati,7,109
+110,2013,/league/game/2013-06-01-PHI-TOR,"Sat, 6/1 4:00 PM CDT Toronto",Toronto Rush,Philadelphia Phoenix,28,18,2013-06-01,4:00 PM CDT,Toronto,8,110
+111,2013,/league/game/2013-06-01-DC-NJH,"Sat, 6/1 7:00 PM CDT New Jersey",New Jersey Hammerheads,DC Breeze,20,22,2013-06-01,7:00 PM CDT,New Jersey,8,111
+112,2013,/league/game/2013-06-01-CIN-MIN,"Sat, 6/1 8:00 PM CDT Minnesota",Minnesota Wind Chill,Cincinnati Revolution,26,9,2013-06-01,8:00 PM CDT,Minnesota,8,112
+113,2013,/league/game/2013-06-02-PHI-ROC,"Sun, 6/2 2:00 PM CDT Rochester",Rochester Dragons,Philadelphia Phoenix,14,12,2013-06-02,2:00 PM CDT,Rochester,8,113
+114,2013,/league/game/2013-06-02-DC-NY,"Sun, 6/2 3:00 PM CDT New York",New York Empire,DC Breeze,23,13,2013-06-02,3:00 PM CDT,New York,8,114
+115,2013,/league/game/2013-06-02-CIN-MAD,"Sun, 6/2 4:00 PM CDT Madison",Madison Radicals,Cincinnati Revolution,26,20,2013-06-02,4:00 PM CDT,Madison,8,115
+116,2013,/league/game/2013-06-02-CHI-IND,"Sun, 6/2 7:30 PM CDT Indianapolis",Indianapolis AlleyCats,Chicago Wildfire,22,26,2013-06-02,7:30 PM CDT,Indianapolis,8,116
+117,2013,/league/game/2013-06-07-MAD-MIN,"Fri, 6/7 8:00 PM CDT Minnesota",Minnesota Wind Chill,Madison Radicals,24,25,2013-06-07,8:00 PM CDT,Minnesota,9,117
+118,2013,/league/game/2013-06-08-DC-PHI,"Sat, 6/8 3:30 PM CDT Philadelphia",Philadelphia Phoenix,DC Breeze,31,27,2013-06-08,3:30 PM CDT,Philadelphia,9,118
+119,2013,/league/game/2013-06-08-NJH-ROC,"Sat, 6/8 7:00 PM CDT Rochester",Rochester Dragons,New Jersey Hammerheads,26,20,2013-06-08,7:00 PM CDT,Rochester,9,119
+120,2013,/league/game/2013-06-08-DET-CHI,"Sat, 6/8 8:00 PM CDT Chicago",Chicago Wildfire,Detroit Mechanix,21,9,2013-06-08,8:00 PM CDT,Chicago,9,120
+121,2013,/league/game/2013-06-09-DET-IND,"Sun, 6/9 7:30 PM CDT Indianapolis",Indianapolis AlleyCats,Detroit Mechanix,27,23,2013-06-09,7:30 PM CDT,Indianapolis,9,123
+122,2013,/league/game/2013-06-09-PHI-NY,"Sun, 6/9 5:00 PM CDT New York",New York Empire,Philadelphia Phoenix,19,18,2013-06-09,5:00 PM CDT,New York,9,122
+123,2013,/league/game/2013-06-09-NJH-TOR,"Sun, 6/9 2:00 PM CDT Toronto",Toronto Rush,New Jersey Hammerheads,33,15,2013-06-09,2:00 PM CDT,Toronto,9,121
+124,2013,/league/game/2013-06-15-NY-PHI,"Sat, 6/15 3:30 PM CDT Philadelphia",Philadelphia Phoenix,New York Empire,17,21,2013-06-15,3:30 PM CDT,Philadelphia,10,124
+125,2013,/league/game/2013-06-15-MAD-CIN,"Sat, 6/15 7:30 PM CDT Cincinnati",Cincinnati Revolution,Madison Radicals,23,21,2013-06-15,7:30 PM CDT,Cincinnati,10,125
+126,2013,/league/game/2013-06-15-MIN-CHI,"Sat, 6/15 8:00 PM CDT Chicago",Chicago Wildfire,Minnesota Wind Chill,26,25,2013-06-15,8:00 PM CDT,Chicago,10,126
+127,2013,/league/game/2013-06-16-ROC-TOR,"Sun, 6/16 2:00 PM CDT Toronto",Toronto Rush,Rochester Dragons,25,22,2013-06-16,2:00 PM CDT,Toronto,10,127
+128,2013,/league/game/2013-06-16-NY-DC,"Sun, 6/16 3:00 PM CDT DC",DC Breeze,New York Empire,16,19,2013-06-16,3:00 PM CDT,DC,10,128
+129,2013,/league/game/2013-06-16-PHI-NJH,"Sun, 6/16 4:00 PM CDT New Jersey",New Jersey Hammerheads,Philadelphia Phoenix,17,21,2013-06-16,4:00 PM CDT,New Jersey,10,129
+130,2013,/league/game/2013-06-16-MAD-IND,"Sun, 6/16 7:30 PM CDT Indianapolis",Indianapolis AlleyCats,Madison Radicals,22,24,2013-06-16,7:30 PM CDT,Indianapolis,10,130
+131,2013,/league/game/2013-06-22-CHI-DET,"Sat, 6/22 4:00 PM CDT Detroit",Detroit Mechanix,Chicago Wildfire,26,34,2013-06-22,4:00 PM CDT,Detroit,11,131
+132,2013,/league/game/2013-06-22-DC-TOR,"Sat, 6/22 4:00 PM CDT Toronto",Toronto Rush,DC Breeze,40,16,2013-06-22,4:00 PM CDT,Toronto,11,132
+133,2013,/league/game/2013-06-22-PHI-NY,"Sat, 6/22 6:00 PM CDT New York",New York Empire,Philadelphia Phoenix,23,22,2013-06-22,6:00 PM CDT,New York,11,133
+134,2013,/league/game/2013-06-22-IND-MAD,"Sat, 6/22 8:00 PM CDT Madison",Madison Radicals,Indianapolis AlleyCats,20,16,2013-06-22,8:00 PM CDT,Madison,11,134
+135,2013,/league/game/2013-06-23-DC-ROC,"Sun, 6/23 2:00 PM CDT Rochester",Rochester Dragons,DC Breeze,24,20,2013-06-23,2:00 PM CDT,Rochester,11,135
+136,2013,/league/game/2013-06-23-CHI-CIN,"Sun, 6/23 2:30 PM CDT Cincinnati",Cincinnati Revolution,Chicago Wildfire,17,20,2013-06-23,2:30 PM CDT,Cincinnati,11,136
+137,2013,/league/game/2013-06-23-IND-MIN,"Sun, 6/23 3:00 PM CDT Minnesota",Minnesota Wind Chill,Indianapolis AlleyCats,21,29,2013-06-23,3:00 PM CDT,Minnesota,11,137
+138,2013,/league/game/2013-06-23-NY-NJH,"Sun, 6/23 4:00 PM CDT New Jersey",New Jersey Hammerheads,New York Empire,21,18,2013-06-23,4:00 PM CDT,New Jersey,11,138
+139,2013,/league/game/2013-06-29-DET-IND,"Sat, 6/29 7:30 PM CDT Indianapolis",Indianapolis AlleyCats,Detroit Mechanix,24,17,2013-06-29,7:30 PM CDT,Indianapolis,12,144
+140,2013,/league/game/2013-06-29-CIN-MIN,"Sat, 6/29 7:00 PM CDT Minnesota",Minnesota Wind Chill,Cincinnati Revolution,35,24,2013-06-29,7:00 PM CDT,Minnesota,12,142
+141,2013,/league/game/2013-06-29-MAD-CHI,"Sat, 6/29 7:00 PM CDT Chicago",Chicago Wildfire,Madison Radicals,13,15,2013-06-29,7:00 PM CDT,Chicago,12,143
+142,2013,/league/game/2013-06-29-NJH-NY,"Sat, 6/29 3:00 PM CDT New York",New York Empire,New Jersey Hammerheads,22,9,2013-06-29,3:00 PM CDT,New York,12,140
+143,2013,/league/game/2013-06-29-ROC-TOR,"Sat, 6/29 4:00 PM CDT Toronto",Toronto Rush,Rochester Dragons,28,18,2013-06-29,4:00 PM CDT,Toronto,12,141
+144,2013,/league/game/2013-06-29-PHI-DC,"Sat, 6/29 1:00 PM CDT DC",DC Breeze,Philadelphia Phoenix,21,23,2013-06-29,1:00 PM CDT,DC,12,139
+145,2013,/league/game/2013-06-30-NJH-PHI,"Sun, 6/30 1:00 PM CDT Philadelphia",Philadelphia Phoenix,New Jersey Hammerheads,20,17,2013-06-30,1:00 PM CDT,Philadelphia,12,145
+146,2013,/league/game/2013-06-30-TOR-ROC,"Sun, 6/30 2:00 PM CDT Rochester",Rochester Dragons,Toronto Rush,20,26,2013-06-30,2:00 PM CDT,Rochester,12,146
+147,2013,/league/game/2013-06-30-MAD-DET,"Sun, 6/30 4:00 PM CDT Detroit",Detroit Mechanix,Madison Radicals,22,29,2013-06-30,4:00 PM CDT,Detroit,12,147
+148,2013,/league/game/2013-07-05-MIN-CHI,"Fri, 7/5 8:00 PM CDT Chicago",Chicago Wildfire,Minnesota Wind Chill,28,13,2013-07-05,8:00 PM CDT,Chicago,13,148
+149,2013,/league/game/2013-07-06-CIN-MAD,"Sat, 7/6 8:00 PM CDT Madison",Madison Radicals,Cincinnati Revolution,28,18,2013-07-06,8:00 PM CDT,Madison,13,152
+150,2013,/league/game/2013-07-06-MIN-IND,"Sat, 7/6 7:30 PM CDT Indianapolis",Indianapolis AlleyCats,Minnesota Wind Chill,29,9,2013-07-06,7:30 PM CDT,Indianapolis,13,151
+151,2013,/league/game/2013-07-06-DC-NJH,"Sat, 7/6 7:00 PM CDT New Jersey",New Jersey Hammerheads,DC Breeze,17,24,2013-07-06,7:00 PM CDT,New Jersey,13,150
+152,2013,/league/game/2013-07-06-NY-ROC,"Sat, 7/6 7:00 PM CDT Rochester",Rochester Dragons,New York Empire,22,27,2013-07-06,7:00 PM CDT,Rochester,13,149
+153,2013,/league/game/2013-07-07-NY-TOR,"Sun, 7/7 4:00 PM CDT Toronto",Toronto Rush,New York Empire,28,16,2013-07-07,4:00 PM CDT,Toronto,13,153
+154,2013,/league/game/2013-07-07-CIN-DET,"Sun, 7/7 4:00 PM CDT Detroit",Detroit Mechanix,Cincinnati Revolution,17,16,2013-07-07,4:00 PM CDT,Detroit,13,154
+155,2013,/league/game/2013-07-12-DET-CHI,"Fri, 7/12 8:00 PM CDT Chicago",Chicago Wildfire,Detroit Mechanix,32,19,2013-07-12,8:00 PM CDT,Chicago,14,155
+156,2013,/league/game/2013-07-13-TOR-DC,"Sat, 7/13 1:00 PM CDT DC",DC Breeze,Toronto Rush,17,31,2013-07-13,1:00 PM CDT,DC,14,156
+157,2013,/league/game/2013-07-13-NJH-NY,"Sat, 7/13 5:00 PM CDT New York",New York Empire,New Jersey Hammerheads,25,16,2013-07-13,5:00 PM CDT,New York,14,157
+158,2013,/league/game/2013-07-13-IND-MIN,"Sat, 7/13 8:00 PM CDT Minnesota",Minnesota Wind Chill,Indianapolis AlleyCats,18,24,2013-07-13,8:00 PM CDT,Minnesota,14,158
+159,2013,/league/game/2013-07-14-IND-MAD,"Sun, 7/14 4:00 PM CDT Madison",Madison Radicals,Indianapolis AlleyCats,25,23,2013-07-14,4:00 PM CDT,Madison,14,160
+160,2013,/league/game/2013-07-14-TOR-PHI,"Sun, 7/14 1:00 PM CDT Philadelphia",Philadelphia Phoenix,Toronto Rush,24,35,2013-07-14,1:00 PM CDT,Philadelphia,14,159
+161,2013,/league/game/2013-07-26-PHI-NY,"Fri, 7/26 7:00 PM CDT New York",New York Empire,Philadelphia Phoenix,21,13,2013-07-26,7:00 PM CDT,New York,16,161
+162,2013,/league/game/2013-07-27-IND-MAD,"Sat, 7/27 1:00 PM CDT Madison",Madison Radicals,Indianapolis AlleyCats,18,15,2013-07-27,1:00 PM CDT,Madison,16,162
+163,2013,/league/game/2013-08-03-MAD-CHI,"Sat, 8/3 3:00 PM CDT",Chicago Wildfire,Madison Radicals,15,21,2013-08-03,3:00 PM CDT,,17,163
+164,2013,/league/game/2013-08-03-NY-TOR,"Sat, 8/3 7:00 PM CDT",Toronto Rush,New York Empire,25,18,2013-08-03,7:00 PM CDT,,17,164
+165,2013,/league/game/2013-08-04-MAD-TOR,"Sun, 8/4 2:00 PM CDT",Toronto Rush,Madison Radicals,16,14,2013-08-04,2:00 PM CDT,,17,165
+166,2014,/league/game/2014-04-12-MAD-CIN,"Sat, 4/12 7:00 PM CDT Cincinnati",Cincinnati Revolution,Madison Radicals,16,25,2014-04-12,7:00 PM CDT,Cincinnati,1,169
+167,2014,/league/game/2014-04-12-SF-SJ,"Sat, 4/12 7:00 PM CDT San Jose",San Jose Spiders,San Francisco FlameThrowers,20,16,2014-04-12,7:00 PM CDT,San Jose,1,171
+168,2014,/league/game/2014-04-12-MIN-DET,"Sat, 4/12 7:00 PM CDT Detroit",Detroit Mechanix,Minnesota Wind Chill,21,30,2014-04-12,7:00 PM CDT,Detroit,1,170
+169,2014,/league/game/2014-04-12-TOR-DC,"Sat, 4/12 7:00 PM CDT DC",DC Breeze,Toronto Rush,19,20,2014-04-12,7:00 PM CDT,DC,1,168
+170,2014,/league/game/2014-04-12-VAN-SLC,"Sat, 4/12 7:00 PM CDT Salt Lake",Salt Lake Lions,Vancouver Riptide,14,29,2014-04-12,7:00 PM CDT,Salt Lake,1,167
+171,2014,/league/game/2014-04-12-ROC-PHI,"Sat, 4/12 7:00 PM CDT Philadelphia",Philadelphia Phoenix,Rochester Dragons,10,13,2014-04-12,7:00 PM CDT,Philadelphia,1,166
+172,2014,/league/game/2014-04-13-TOR-NY,"Sun, 4/13 7:00 PM CDT New York",New York Empire,Toronto Rush,20,22,2014-04-13,7:00 PM CDT,New York,1,172
+173,2014,/league/game/2014-04-13-MAD-IND,"Sun, 4/13 7:00 PM CDT Indianapolis",Indianapolis AlleyCats,Madison Radicals,21,26,2014-04-13,7:00 PM CDT,Indianapolis,1,173
+174,2014,/league/game/2014-04-13-VAN-SLC,"Sun, 4/13 7:00 PM CDT Salt Lake",Salt Lake Lions,Vancouver Riptide,12,21,2014-04-13,7:00 PM CDT,Salt Lake,1,174
+175,2014,/league/game/2014-04-13-MIN-CHI,"Sun, 4/13 7:00 PM CDT Chicago",Chicago Wildfire,Minnesota Wind Chill,27,19,2014-04-13,7:00 PM CDT,Chicago,1,175
+176,2014,/league/game/2014-04-18-CHI-CIN,"Fri, 4/18 7:00 PM CDT Cincinnati",Cincinnati Revolution,Chicago Wildfire,23,22,2014-04-18,7:00 PM CDT,Cincinnati,2,176
+177,2014,/league/game/2014-04-19-SLC-SF,"Sat, 4/19 7:00 PM CDT San Francisco",San Francisco FlameThrowers,Salt Lake Lions,32,9,2014-04-19,7:00 PM CDT,San Francisco,2,181
+178,2014,/league/game/2014-04-19-TOR-MTL,"Sat, 4/19 7:00 PM CDT Montreal",Montreal Royal,Toronto Rush,14,22,2014-04-19,7:00 PM CDT,Montreal,2,180
+179,2014,/league/game/2014-04-19-SEA-VAN,"Sat, 4/19 7:00 PM CDT Vancouver",Vancouver Riptide,Seattle Cascades,24,19,2014-04-19,7:00 PM CDT,Vancouver,2,177
+180,2014,/league/game/2014-04-19-CHI-IND,"Sat, 4/19 7:00 PM CDT Indianapolis",Indianapolis AlleyCats,Chicago Wildfire,25,19,2014-04-19,7:00 PM CDT,Indianapolis,2,178
+181,2014,/league/game/2014-04-19-MAD-DET,"Sat, 4/19 7:00 PM CDT Detroit",Detroit Mechanix,Madison Radicals,9,34,2014-04-19,7:00 PM CDT,Detroit,2,179
+182,2014,/league/game/2014-04-20-SLC-SJ,"Sun, 4/20 7:00 PM CDT San Jose",San Jose Spiders,Salt Lake Lions,37,18,2014-04-20,7:00 PM CDT,San Jose,2,182
+183,2014,/league/game/2014-04-25-MAD-MIN,"Fri, 4/25 7:00 PM CDT Minnesota",Minnesota Wind Chill,Madison Radicals,23,20,2014-04-25,7:00 PM CDT,Minnesota,3,183
+184,2014,/league/game/2014-04-26-CIN-CHI,"Sat, 4/26 7:00 PM CDT Chicago",Chicago Wildfire,Cincinnati Revolution,27,12,2014-04-26,7:00 PM CDT,Chicago,3,184
+185,2014,/league/game/2014-04-26-IND-DET,"Sat, 4/26 7:00 PM CDT Detroit",Detroit Mechanix,Indianapolis AlleyCats,16,22,2014-04-26,7:00 PM CDT,Detroit,3,185
+186,2014,/league/game/2014-04-26-ROC-NY,"Sat, 4/26 7:00 PM CDT New York",New York Empire,Rochester Dragons,27,8,2014-04-26,7:00 PM CDT,New York,3,186
+187,2014,/league/game/2014-04-26-SJ-SLC,"Sat, 4/26 7:00 PM CDT Salt Lake",Salt Lake Lions,San Jose Spiders,20,31,2014-04-26,7:00 PM CDT,Salt Lake,3,187
+188,2014,/league/game/2014-04-26-CIN-CHI,"Sat, 4/26 7:00 PM CDT Chicago",Chicago Wildfire,Cincinnati Revolution,27,12,2014-04-26,7:00 PM CDT,Chicago,3,188
+189,2014,/league/game/2014-04-27-ROC-DC,"Sun, 4/27 7:00 PM CDT DC",DC Breeze,Rochester Dragons,30,22,2014-04-27,7:00 PM CDT,DC,3,189
+190,2014,/league/game/2014-04-27-SF-VAN,"Sun, 4/27 7:00 PM CDT Vancouver",Vancouver Riptide,San Francisco FlameThrowers,20,29,2014-04-27,7:00 PM CDT,Vancouver,3,190
+191,2014,/league/game/2014-05-02-DET-CIN,"Fri, 5/2 7:00 PM CDT Cincinnati",Cincinnati Revolution,Detroit Mechanix,25,13,2014-05-02,7:00 PM CDT,Cincinnati,4,191
+192,2014,/league/game/2014-05-03-SEA-SJ,"Sat, 5/3 7:00 PM CDT San Jose",San Jose Spiders,Seattle Cascades,25,20,2014-05-03,7:00 PM CDT,San Jose,4,197
+193,2014,/league/game/2014-05-03-NY-MTL,"Sat, 5/3 7:00 PM CDT Montreal",Montreal Royal,New York Empire,16,17,2014-05-03,7:00 PM CDT,Montreal,4,195
+194,2014,/league/game/2014-05-03-ROC-TOR,"Sat, 5/3 7:00 PM CDT Toronto",Toronto Rush,Rochester Dragons,26,11,2014-05-03,7:00 PM CDT,Toronto,4,196
+195,2014,/league/game/2014-05-03-DC-PHI,"Sat, 5/3 7:00 PM CDT Philadelphia",Philadelphia Phoenix,DC Breeze,22,30,2014-05-03,7:00 PM CDT,Philadelphia,4,193
+196,2014,/league/game/2014-05-03-IND-MAD,"Sat, 5/3 7:00 PM CDT Madison",Madison Radicals,Indianapolis AlleyCats,27,18,2014-05-03,7:00 PM CDT,Madison,4,192
+197,2014,/league/game/2014-05-03-DET-CHI,"Sat, 5/3 7:00 PM CDT Chicago",Chicago Wildfire,Detroit Mechanix,18,9,2014-05-03,7:00 PM CDT,Chicago,4,194
+198,2014,/league/game/2014-05-04-IND-MIN,"Sun, 5/4 7:00 PM CDT Minnesota",Minnesota Wind Chill,Indianapolis AlleyCats,21,22,2014-05-04,7:00 PM CDT,Minnesota,4,198
+199,2014,/league/game/2014-05-04-PHI-DC,"Sun, 5/4 7:00 PM CDT DC",DC Breeze,Philadelphia Phoenix,28,19,2014-05-04,7:00 PM CDT,DC,4,199
+200,2014,/league/game/2014-05-04-SEA-SF,"Sun, 5/4 7:00 PM CDT San Francisco",San Francisco FlameThrowers,Seattle Cascades,29,16,2014-05-04,7:00 PM CDT,San Francisco,4,200
+201,2014,/league/game/2014-05-09-IND-CHI,"Fri, 5/9 7:00 PM CDT Chicago",Chicago Wildfire,Indianapolis AlleyCats,20,19,2014-05-09,7:00 PM CDT,Chicago,5,201
+202,2014,/league/game/2014-05-09-MIN-MAD,"Fri, 5/9 7:00 PM CDT Madison",Madison Radicals,Minnesota Wind Chill,22,15,2014-05-09,7:00 PM CDT,Madison,5,202
+203,2014,/league/game/2014-05-10-CIN-DET,"Sat, 5/10 7:00 PM CDT Detroit",Detroit Mechanix,Cincinnati Revolution,15,20,2014-05-10,7:00 PM CDT,Detroit,5,208
+204,2014,/league/game/2014-05-10-MIN-IND,"Sat, 5/10 7:00 PM CDT Indianapolis",Indianapolis AlleyCats,Minnesota Wind Chill,25,24,2014-05-10,7:00 PM CDT,Indianapolis,5,207
+205,2014,/league/game/2014-05-10-PHI-NY,"Sat, 5/10 7:00 PM CDT New York",New York Empire,Philadelphia Phoenix,20,10,2014-05-10,7:00 PM CDT,New York,5,206
+206,2014,/league/game/2014-05-10-MIN-IND,"Sat, 5/10 7:00 PM CDT Indianapolis",Indianapolis AlleyCats,Minnesota Wind Chill,25,24,2014-05-10,7:00 PM CDT,Indianapolis,5,203
+207,2014,/league/game/2014-05-10-CIN-DET,"Sat, 5/10 7:00 PM CDT Detroit",Detroit Mechanix,Cincinnati Revolution,15,20,2014-05-10,7:00 PM CDT,Detroit,5,204
+208,2014,/league/game/2014-05-10-TOR-ROC,"Sat, 5/10 7:00 PM CDT Rochester",Rochester Dragons,Toronto Rush,18,30,2014-05-10,7:00 PM CDT,Rochester,5,205
+209,2014,/league/game/2014-05-11-SJ-SEA,"Sun, 5/11 7:00 PM CDT Seattle",Seattle Cascades,San Jose Spiders,14,23,2014-05-11,7:00 PM CDT,Seattle,5,209
+210,2014,/league/game/2014-05-16-IND-CIN,"Fri, 5/16 7:00 PM CDT Cincinnati",Cincinnati Revolution,Indianapolis AlleyCats,20,24,2014-05-16,7:00 PM CDT,Cincinnati,6,210
+211,2014,/league/game/2014-05-17-DET-IND,"Sat, 5/17 7:00 PM CDT Indianapolis",Indianapolis AlleyCats,Detroit Mechanix,30,22,2014-05-17,7:00 PM CDT,Indianapolis,6,215
+212,2014,/league/game/2014-05-17-SLC-VAN,"Sat, 5/17 7:00 PM CDT Vancouver",Vancouver Riptide,Salt Lake Lions,40,28,2014-05-17,7:00 PM CDT,Vancouver,6,213
+213,2014,/league/game/2014-05-17-SJ-SF,"Sat, 5/17 7:00 PM CDT San Francisco",San Francisco FlameThrowers,San Jose Spiders,22,21,2014-05-17,7:00 PM CDT,San Francisco,6,214
+214,2014,/league/game/2014-05-17-NY-ROC,"Sat, 5/17 7:00 PM CDT Rochester",Rochester Dragons,New York Empire,13,24,2014-05-17,7:00 PM CDT,Rochester,6,211
+215,2014,/league/game/2014-05-17-CHI-MIN,"Sat, 5/17 7:00 PM CDT Minnesota",Minnesota Wind Chill,Chicago Wildfire,20,31,2014-05-17,7:00 PM CDT,Minnesota,6,212
+216,2014,/league/game/2014-05-18-PHI-DC,"Sun, 5/18 7:00 PM CDT DC",DC Breeze,Philadelphia Phoenix,25,21,2014-05-18,7:00 PM CDT,DC,6,216
+217,2014,/league/game/2014-05-18-ROC-MTL,"Sun, 5/18 7:00 PM CDT Montreal",Montreal Royal,Rochester Dragons,27,14,2014-05-18,7:00 PM CDT,Montreal,6,217
+218,2014,/league/game/2014-05-18-SLC-SEA,"Sun, 5/18 7:00 PM CDT Seattle",Seattle Cascades,Salt Lake Lions,26,13,2014-05-18,7:00 PM CDT,Seattle,6,218
+219,2014,/league/game/2014-05-23-MAD-CHI,"Fri, 5/23 7:00 PM CDT Chicago",Chicago Wildfire,Madison Radicals,15,14,2014-05-23,7:00 PM CDT,Chicago,7,219
+220,2014,/league/game/2014-05-24-DC-TOR,"Sat, 5/24 7:00 PM CDT Toronto",Toronto Rush,DC Breeze,27,17,2014-05-24,7:00 PM CDT,Toronto,7,220
+221,2014,/league/game/2014-05-24-MTL-PHI,"Sat, 5/24 7:00 PM CDT Philadelphia",Philadelphia Phoenix,Montreal Royal,15,23,2014-05-24,7:00 PM CDT,Philadelphia,7,221
+222,2014,/league/game/2014-05-24-CHI-MAD,"Sat, 5/24 7:00 PM CDT Madison",Madison Radicals,Chicago Wildfire,15,12,2014-05-24,7:00 PM CDT,Madison,7,222
+223,2014,/league/game/2014-05-24-MIN-CIN,"Sat, 5/24 7:00 PM CDT Cincinnati",Cincinnati Revolution,Minnesota Wind Chill,25,26,2014-05-24,7:00 PM CDT,Cincinnati,7,223
+224,2014,/league/game/2014-05-25-DC-ROC,"Sun, 5/25 7:00 PM CDT Rochester",Rochester Dragons,DC Breeze,21,26,2014-05-25,7:00 PM CDT,Rochester,7,224
+225,2014,/league/game/2014-05-25-VAN-SEA,"Sun, 5/25 7:00 PM CDT Seattle",Seattle Cascades,Vancouver Riptide,16,21,2014-05-25,7:00 PM CDT,Seattle,7,225
+226,2014,/league/game/2014-05-25-DC-ROC,"Sun, 5/25 7:00 PM CDT Rochester",Rochester Dragons,DC Breeze,21,26,2014-05-25,7:00 PM CDT,Rochester,7,226
+227,2014,/league/game/2014-05-25-MIN-DET,"Sun, 5/25 7:00 PM CDT Detroit",Detroit Mechanix,Minnesota Wind Chill,18,29,2014-05-25,7:00 PM CDT,Detroit,7,227
+228,2014,/league/game/2014-05-31-VAN-SJ,"Sat, 5/31 7:00 PM CDT San Jose",San Jose Spiders,Vancouver Riptide,26,25,2014-05-31,7:00 PM CDT,San Jose,8,232
+229,2014,/league/game/2014-05-31-MAD-CIN,"Sat, 5/31 7:00 PM CDT Cincinnati",Cincinnati Revolution,Madison Radicals,12,29,2014-05-31,7:00 PM CDT,Cincinnati,8,231
+230,2014,/league/game/2014-05-31-SEA-SLC,"Sat, 5/31 7:00 PM CDT Salt Lake",Salt Lake Lions,Seattle Cascades,15,22,2014-05-31,7:00 PM CDT,Salt Lake,8,230
+231,2014,/league/game/2014-05-31-CHI-DET,"Sat, 5/31 7:00 PM CDT Detroit",Detroit Mechanix,Chicago Wildfire,17,31,2014-05-31,7:00 PM CDT,Detroit,8,228
+232,2014,/league/game/2014-05-31-MTL-TOR,"Sat, 5/31 7:00 PM CDT Toronto",Toronto Rush,Montreal Royal,25,20,2014-05-31,7:00 PM CDT,Toronto,8,229
+233,2014,/league/game/2014-06-01-NY-PHI,"Sun, 6/1 7:00 PM CDT Philadelphia",Philadelphia Phoenix,New York Empire,16,27,2014-06-01,7:00 PM CDT,Philadelphia,8,233
+234,2014,/league/game/2014-06-01-VAN-SF,"Sun, 6/1 7:00 PM CDT San Francisco",San Francisco FlameThrowers,Vancouver Riptide,20,16,2014-06-01,7:00 PM CDT,San Francisco,8,234
+235,2014,/league/game/2014-06-01-MTL-ROC,"Sun, 6/1 7:00 PM CDT Rochester",Rochester Dragons,Montreal Royal,19,22,2014-06-01,7:00 PM CDT,Rochester,8,235
+236,2014,/league/game/2014-06-07-SLC-VAN,"Sat, 6/7 7:00 PM CDT Vancouver",Vancouver Riptide,Salt Lake Lions,37,9,2014-06-07,7:00 PM CDT,Vancouver,9,241
+237,2014,/league/game/2014-06-07-DET-CHI,"Sat, 6/7 7:00 PM CDT Chicago",Chicago Wildfire,Detroit Mechanix,26,13,2014-06-07,7:00 PM CDT,Chicago,9,240
+238,2014,/league/game/2014-06-07-MAD-IND,"Sat, 6/7 7:00 PM CDT Indianapolis",Indianapolis AlleyCats,Madison Radicals,12,23,2014-06-07,7:00 PM CDT,Indianapolis,9,239
+239,2014,/league/game/2014-06-07-MTL-NY,"Sat, 6/7 7:00 PM CDT New York",New York Empire,Montreal Royal,24,16,2014-06-07,7:00 PM CDT,New York,9,237
+240,2014,/league/game/2014-06-07-SF-SJ,"Sat, 6/7 7:00 PM CDT San Jose",San Jose Spiders,San Francisco FlameThrowers,33,30,2014-06-07,7:00 PM CDT,San Jose,9,236
+241,2014,/league/game/2014-06-07-CIN-MIN,"Sat, 6/7 7:00 PM CDT Minnesota",Minnesota Wind Chill,Cincinnati Revolution,30,18,2014-06-07,7:00 PM CDT,Minnesota,9,238
+242,2014,/league/game/2014-06-08-SLC-SEA,"Sun, 6/8 7:00 PM CDT Seattle",Seattle Cascades,Salt Lake Lions,35,11,2014-06-08,7:00 PM CDT,Seattle,9,242
+243,2014,/league/game/2014-06-08-MTL-DC,"Sun, 6/8 7:00 PM CDT DC",DC Breeze,Montreal Royal,25,24,2014-06-08,7:00 PM CDT,DC,9,243
+244,2014,/league/game/2014-06-08-ROC-TOR,"Sun, 6/8 7:00 PM CDT Toronto",Toronto Rush,Rochester Dragons,38,18,2014-06-08,7:00 PM CDT,Toronto,9,244
+245,2014,/league/game/2014-06-08-CIN-MAD,"Sun, 6/8 7:00 PM CDT Madison",Madison Radicals,Cincinnati Revolution,28,15,2014-06-08,7:00 PM CDT,Madison,9,245
+246,2014,/league/game/2014-06-14-IND-DET,"Sat, 6/14 7:00 PM CDT Detroit",Detroit Mechanix,Indianapolis AlleyCats,19,27,2014-06-14,7:00 PM CDT,Detroit,10,251
+247,2014,/league/game/2014-06-14-TOR-MTL,"Sat, 6/14 7:00 PM CDT Montreal",Montreal Royal,Toronto Rush,18,31,2014-06-14,7:00 PM CDT,Montreal,10,249
+248,2014,/league/game/2014-06-14-PHI-ROC,"Sat, 6/14 7:00 PM CDT Rochester",Rochester Dragons,Philadelphia Phoenix,16,17,2014-06-14,7:00 PM CDT,Rochester,10,250
+249,2014,/league/game/2014-06-14-NY-DC,"Sat, 6/14 7:00 PM CDT DC",DC Breeze,New York Empire,31,26,2014-06-14,7:00 PM CDT,DC,10,247
+250,2014,/league/game/2014-06-14-SEA-SF,"Sat, 6/14 7:00 PM CDT San Francisco",San Francisco FlameThrowers,Seattle Cascades,23,17,2014-06-14,7:00 PM CDT,San Francisco,10,246
+251,2014,/league/game/2014-06-14-MIN-MAD,"Sat, 6/14 7:00 PM CDT Madison",Madison Radicals,Minnesota Wind Chill,23,15,2014-06-14,7:00 PM CDT,Madison,10,248
+252,2014,/league/game/2014-06-15-PHI-MTL,"Sun, 6/15 7:00 PM CDT Montreal",Montreal Royal,Philadelphia Phoenix,24,19,2014-06-15,7:00 PM CDT,Montreal,10,252
+253,2014,/league/game/2014-06-15-SEA-SJ,"Sun, 6/15 7:00 PM CDT San Jose",San Jose Spiders,Seattle Cascades,24,21,2014-06-15,7:00 PM CDT,San Jose,10,253
+254,2014,/league/game/2014-06-20-CHI-MAD,"Fri, 6/20 7:00 PM CDT Madison",Madison Radicals,Chicago Wildfire,24,19,2014-06-20,7:00 PM CDT,Madison,11,254
+255,2014,/league/game/2014-06-21-CIN-IND,"Sat, 6/21 7:00 PM CDT Indianapolis",Indianapolis AlleyCats,Cincinnati Revolution,23,22,2014-06-21,7:00 PM CDT,Indianapolis,11,260
+256,2014,/league/game/2014-06-21-SF-SLC,"Sat, 6/21 7:00 PM CDT Salt Lake",Salt Lake Lions,San Francisco FlameThrowers,22,31,2014-06-21,7:00 PM CDT,Salt Lake,11,258
+257,2014,/league/game/2014-06-21-NY-TOR,"Sat, 6/21 7:00 PM CDT Toronto",Toronto Rush,New York Empire,21,18,2014-06-21,7:00 PM CDT,Toronto,11,259
+258,2014,/league/game/2014-06-21-CHI-MIN,"Sat, 6/21 7:00 PM CDT Minnesota",Minnesota Wind Chill,Chicago Wildfire,22,19,2014-06-21,7:00 PM CDT,Minnesota,11,256
+259,2014,/league/game/2014-06-21-SJ-VAN,"Sat, 6/21 7:00 PM CDT Vancouver",Vancouver Riptide,San Jose Spiders,25,37,2014-06-21,7:00 PM CDT,Vancouver,11,255
+260,2014,/league/game/2014-06-21-PHI-MTL,"Sat, 6/21 7:00 PM CDT Montreal",Montreal Royal,Philadelphia Phoenix,31,19,2014-06-21,7:00 PM CDT,Montreal,11,257
+261,2014,/league/game/2014-06-22-PHI-TOR,"Sun, 6/22 7:00 PM CDT Toronto",Toronto Rush,Philadelphia Phoenix,29,15,2014-06-22,7:00 PM CDT,Toronto,11,261
+262,2014,/league/game/2014-06-22-SJ-SEA,"Sun, 6/22 7:00 PM CDT Seattle",Seattle Cascades,San Jose Spiders,14,22,2014-06-22,7:00 PM CDT,Seattle,11,262
+263,2014,/league/game/2014-06-22-SF-SLC,"Sun, 6/22 7:00 PM CDT Salt Lake",Salt Lake Lions,San Francisco FlameThrowers,25,33,2014-06-22,7:00 PM CDT,Salt Lake,11,263
+264,2014,/league/game/2014-06-22-NY-ROC,"Sun, 6/22 7:00 PM CDT Rochester",Rochester Dragons,New York Empire,9,25,2014-06-22,7:00 PM CDT,Rochester,11,264
+265,2014,/league/game/2014-06-27-DET-MIN,"Fri, 6/27 7:00 PM CDT Minnesota",Minnesota Wind Chill,Detroit Mechanix,42,16,2014-06-27,7:00 PM CDT,Minnesota,12,265
+266,2014,/league/game/2014-06-27-CIN-IND,"Fri, 6/27 7:00 PM CDT Indianapolis",Indianapolis AlleyCats,Cincinnati Revolution,29,15,2014-06-27,7:00 PM CDT,Indianapolis,12,266
+267,2014,/league/game/2014-06-28-DET-MAD,"Sat, 6/28 7:00 PM CDT Madison",Madison Radicals,Detroit Mechanix,28,9,2014-06-28,7:00 PM CDT,Madison,12,271
+268,2014,/league/game/2014-06-28-VAN-SF,"Sat, 6/28 7:00 PM CDT San Francisco",San Francisco FlameThrowers,Vancouver Riptide,23,18,2014-06-28,7:00 PM CDT,San Francisco,12,272
+269,2014,/league/game/2014-06-28-SLC-SJ,"Sat, 6/28 7:00 PM CDT San Jose",San Jose Spiders,Salt Lake Lions,37,12,2014-06-28,7:00 PM CDT,San Jose,12,270
+270,2014,/league/game/2014-06-28-TOR-ROC,"Sat, 6/28 7:00 PM CDT Rochester",Rochester Dragons,Toronto Rush,20,29,2014-06-28,7:00 PM CDT,Rochester,12,267
+271,2014,/league/game/2014-06-28-DC-MTL,"Sat, 6/28 7:00 PM CDT Montreal",Montreal Royal,DC Breeze,20,29,2014-06-28,7:00 PM CDT,Montreal,12,268
+272,2014,/league/game/2014-06-28-CIN-CHI,"Sat, 6/28 7:00 PM CDT Chicago",Chicago Wildfire,Cincinnati Revolution,21,11,2014-06-28,7:00 PM CDT,Chicago,12,269
+273,2014,/league/game/2014-06-29-DC-NY,"Sun, 6/29 7:00 PM CDT New York",New York Empire,DC Breeze,21,13,2014-06-29,7:00 PM CDT,New York,12,273
+274,2014,/league/game/2014-06-29-SEA-VAN,"Sun, 6/29 7:00 PM CDT Vancouver",Vancouver Riptide,Seattle Cascades,28,26,2014-06-29,7:00 PM CDT,Vancouver,12,274
+275,2014,/league/game/2014-07-05-NY-DC,"Sat, 7/5 7:00 PM CDT DC",DC Breeze,New York Empire,23,31,2014-07-05,7:00 PM CDT,DC,13,275
+276,2014,/league/game/2014-07-05-DET-CIN,"Sat, 7/5 7:00 PM CDT Cincinnati",Cincinnati Revolution,Detroit Mechanix,24,20,2014-07-05,7:00 PM CDT,Cincinnati,13,276
+277,2014,/league/game/2014-07-05-ROC-PHI,"Sat, 7/5 7:00 PM CDT Philadelphia",Philadelphia Phoenix,Rochester Dragons,28,23,2014-07-05,7:00 PM CDT,Philadelphia,13,277
+278,2014,/league/game/2014-07-05-MTL-TOR,"Sat, 7/5 7:00 PM CDT Toronto",Toronto Rush,Montreal Royal,19,20,2014-07-05,7:00 PM CDT,Toronto,13,278
+279,2014,/league/game/2014-07-06-DC-PHI,"Sun, 7/6 7:00 PM CDT Philadelphia",Philadelphia Phoenix,DC Breeze,20,25,2014-07-06,7:00 PM CDT,Philadelphia,13,279
+280,2014,/league/game/2014-07-12-VAN-SEA,"Sat, 7/12 7:00 PM CDT Seattle",Seattle Cascades,Vancouver Riptide,18,21,2014-07-12,7:00 PM CDT,Seattle,14,280
+281,2014,/league/game/2014-07-12-DC-NY,"Sat, 7/12 7:00 PM CDT New York",New York Empire,DC Breeze,13,14,2014-07-12,7:00 PM CDT,New York,14,281
+282,2014,/league/game/2014-07-12-TOR-PHI,"Sat, 7/12 7:00 PM CDT Philadelphia",Philadelphia Phoenix,Toronto Rush,18,24,2014-07-12,7:00 PM CDT,Philadelphia,14,282
+283,2014,/league/game/2014-07-12-SJ-SF,"Sat, 7/12 7:00 PM CDT San Francisco",San Francisco FlameThrowers,San Jose Spiders,17,23,2014-07-12,7:00 PM CDT,San Francisco,14,283
+284,2014,/league/game/2014-07-13-IND-MIN,"Sun, 7/13 7:00 PM CDT Minnesota",Minnesota Wind Chill,Indianapolis AlleyCats,25,15,2014-07-13,7:00 PM CDT,Minnesota,14,284
+285,2014,/league/game/2014-07-18-SF-SJ,"Fri, 7/18 7:00 PM CDT San Jose",San Jose Spiders,San Francisco FlameThrowers,26,16,2014-07-18,7:00 PM CDT,San Jose,15,285
+286,2014,/league/game/2014-07-19-DC-TOR,"Sat, 7/19 7:00 PM CDT Toronto",Toronto Rush,DC Breeze,37,12,2014-07-19,7:00 PM CDT,Toronto,15,288
+287,2014,/league/game/2014-07-19-IND-MAD,"Sat, 7/19 7:00 PM CDT Madison",Madison Radicals,Indianapolis AlleyCats,25,16,2014-07-19,7:00 PM CDT,Madison,15,287
+288,2014,/league/game/2014-07-19-CHI-NY,"Sat, 7/19 7:00 PM CDT New York",New York Empire,Chicago Wildfire,22,17,2014-07-19,7:00 PM CDT,New York,15,286
+289,2014,/league/game/2014-07-26-MAD-SJ,"Sat, 7/26 7:00 PM CDT",San Jose Spiders,Madison Radicals,23,20,2014-07-26,7:00 PM CDT,,16,289
+290,2014,/league/game/2014-07-26-NY-TOR,"Sat, 7/26 7:00 PM CDT",Toronto Rush,New York Empire,31,16,2014-07-26,7:00 PM CDT,,16,290
+291,2014,/league/game/2014-07-27-SJ-TOR,"Sun, 7/27 7:00 PM CDT",Toronto Rush,San Jose Spiders,18,28,2014-07-27,7:00 PM CDT,,16,291
+292,2015,/league/game/2015-04-11-SEA-LA,"Sat, 4/11 7:30 PM PDT LA",Los Angeles Aviators,Seattle Cascades,20,29,2015-04-11,7:30 PM PDT,LA,1,297
+293,2015,/league/game/2015-04-11-DET-CIN,"Sat, 4/11 7:30 PM EDT Cincinnati",Cincinnati Revolution,Detroit Mechanix,25,17,2015-04-11,7:30 PM EDT,Cincinnati,1,295
+294,2015,/league/game/2015-04-11-PIT-IND,"Sat, 4/11 7:30 PM EDT Indianapolis",Indianapolis AlleyCats,Pittsburgh Thunderbirds,20,28,2015-04-11,7:30 PM EDT,Indianapolis,1,296
+295,2015,/league/game/2015-04-11-TOR-DC,"Sat, 4/11 6:30 PM EDT DC",DC Breeze,Toronto Rush,17,37,2015-04-11,6:30 PM EDT,DC,1,293
+296,2015,/league/game/2015-04-11-VAN-SF,"Sat, 4/11 6:00 PM PDT San Francisco",San Francisco FlameThrowers,Vancouver Riptide,26,25,2015-04-11,6:00 PM PDT,San Francisco,1,292
+297,2015,/league/game/2015-04-11-ATL-RAL,"Sat, 4/11 7:00 PM EDT Raleigh",Raleigh Flyers,Atlanta Hustle,29,22,2015-04-11,7:00 PM EDT,Raleigh,1,294
+298,2015,/league/game/2015-04-12-MTL-NY,"Sun, 4/12 12:00 PM EDT New York",New York Empire,Montreal Royal,22,20,2015-04-12,12:00 PM EDT,New York,1,298
+299,2015,/league/game/2015-04-12-ATL-CHA,"Sun, 4/12 1:00 PM EDT Charlotte",Charlotte Express,Atlanta Hustle,25,27,2015-04-12,1:00 PM EDT,Charlotte,1,299
+300,2015,/league/game/2015-04-12-TOR-PHI,"Sun, 4/12 1:00 PM EDT Philadelphia",Philadelphia Phoenix,Toronto Rush,21,26,2015-04-12,1:00 PM EDT,Philadelphia,1,300
+301,2015,/league/game/2015-04-12-SEA-SD,"Sun, 4/12 1:00 PM PDT San Diego",San Diego Growlers,Seattle Cascades,22,26,2015-04-12,1:00 PM PDT,San Diego,1,301
+302,2015,/league/game/2015-04-12-VAN-SJ,"Sun, 4/12 1:00 PM PDT San Jose",San Jose Spiders,Vancouver Riptide,32,26,2015-04-12,1:00 PM PDT,San Jose,1,302
+303,2015,/league/game/2015-04-18-MAD-IND,"Sat, 4/18 7:30 PM EDT Indianapolis",Indianapolis AlleyCats,Madison Radicals,18,26,2015-04-18,7:30 PM EDT,Indianapolis,2,308
+304,2015,/league/game/2015-04-18-VAN-SEA,"Sat, 4/18 7:30 PM PDT Seattle",Seattle Cascades,Vancouver Riptide,20,21,2015-04-18,7:30 PM PDT,Seattle,2,309
+305,2015,/league/game/2015-04-18-LA-SD,"Sat, 4/18 7:00 PM PDT San Diego",San Diego Growlers,Los Angeles Aviators,23,25,2015-04-18,7:00 PM PDT,San Diego,2,307
+306,2015,/league/game/2015-04-18-OTT-DC,"Sat, 4/18 6:30 PM EDT DC",DC Breeze,Ottawa Outlaws,23,19,2015-04-18,6:30 PM EDT,DC,2,305
+307,2015,/league/game/2015-04-18-ATL-NSH,"Sat, 4/18 6:00 PM CDT Nashville",Nashville Nightwatch,Atlanta Hustle,17,23,2015-04-18,6:00 PM CDT,Nashville,2,304
+308,2015,/league/game/2015-04-18-JAX-RAL,"Sat, 4/18 3:00 PM EDT Raleigh",Raleigh Flyers,Tampa Bay Cannons,33,26,2015-04-18,3:00 PM EDT,Raleigh,2,303
+309,2015,/league/game/2015-04-18-SF-SJ,"Sat, 4/18 7:00 PM PDT San Jose",San Jose Spiders,San Francisco FlameThrowers,29,26,2015-04-18,7:00 PM PDT,San Jose,2,306
+310,2015,/league/game/2015-04-19-OTT-PHI,"Sun, 4/19 1:00 PM EDT Philadelphia",Philadelphia Phoenix,Ottawa Outlaws,15,18,2015-04-19,1:00 PM EDT,Philadelphia,2,310
+311,2015,/league/game/2015-04-19-JAX-CHA,"Sun, 4/19 1:00 PM EDT Charlotte",Charlotte Express,Tampa Bay Cannons,19,21,2015-04-19,1:00 PM EDT,Charlotte,2,311
+312,2015,/league/game/2015-04-19-MAD-CIN,"Sun, 4/19 5:00 PM EDT Cincinnati",Cincinnati Revolution,Madison Radicals,9,23,2015-04-19,5:00 PM EDT,Cincinnati,2,312
+313,2015,/league/game/2015-04-24-CIN-IND,"Fri, 4/24 7:30 PM EDT Indianapolis",Indianapolis AlleyCats,Cincinnati Revolution,25,9,2015-04-24,7:30 PM EDT,Indianapolis,3,313
+314,2015,/league/game/2015-04-25-DET-MAD,"Sat, 4/25 7:00 PM CDT Madison",Madison Radicals,Detroit Mechanix,35,12,2015-04-25,7:00 PM CDT,Madison,3,321
+315,2015,/league/game/2015-04-25-MIN-CHI,"Sat, 4/25 3:00 PM CDT Chicago",Chicago Wildfire,Minnesota Wind Chill,20,14,2015-04-25,3:00 PM CDT,Chicago,3,314
+316,2015,/league/game/2015-04-25-PHI-NY,"Sat, 4/25 5:00 PM EDT New York",New York Empire,Philadelphia Phoenix,27,17,2015-04-25,5:00 PM EDT,New York,3,315
+317,2015,/league/game/2015-04-25-TOR-OTT,"Sat, 4/25 5:00 PM EDT Ottawa",Ottawa Outlaws,Toronto Rush,19,23,2015-04-25,5:00 PM EDT,Ottawa,3,316
+318,2015,/league/game/2015-04-25-SEA-VAN,"Sat, 4/25 6:00 PM PDT Vancouver",Vancouver Riptide,Seattle Cascades,22,26,2015-04-25,6:00 PM PDT,Vancouver,3,317
+319,2015,/league/game/2015-04-25-SD-SF,"Sat, 4/25 6:00 PM PDT San Francisco",San Francisco FlameThrowers,San Diego Growlers,27,22,2015-04-25,6:00 PM PDT,San Francisco,3,318
+320,2015,/league/game/2015-04-25-JAX-NSH,"Sat, 4/25 6:00 PM CDT Nashville",Nashville Nightwatch,Tampa Bay Cannons,20,18,2015-04-25,6:00 PM CDT,Nashville,3,319
+321,2015,/league/game/2015-04-25-CIN-PIT,"Sat, 4/25 7:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Cincinnati Revolution,30,16,2015-04-25,7:00 PM EDT,Pittsburgh,3,320
+322,2015,/league/game/2015-04-26-JAX-ATL,"Sun, 4/26 5:30 PM EDT Atlanta",Atlanta Hustle,Tampa Bay Cannons,23,20,2015-04-26,5:30 PM EDT,Atlanta,3,324
+323,2015,/league/game/2015-04-26-TOR-MTL,"Sun, 4/26 4:00 PM EDT Montreal",Montreal Royal,Toronto Rush,27,26,2015-04-26,4:00 PM EDT,Montreal,3,323
+324,2015,/league/game/2015-04-26-SD-SJ,"Sun, 4/26 1:00 PM PDT San Jose",San Jose Spiders,San Diego Growlers,31,18,2015-04-26,1:00 PM PDT,San Jose,3,322
+325,2015,/league/game/2015-05-01-CHI-IND,"Fri, 5/1 7:30 PM EDT Indianapolis",Indianapolis AlleyCats,Chicago Wildfire,23,22,2015-05-01,7:30 PM EDT,Indianapolis,4,325
+326,2015,/league/game/2015-05-02-IND-DET,"Sat, 5/2 7:00 PM EDT Detroit",Detroit Mechanix,Indianapolis AlleyCats,16,30,2015-05-02,7:00 PM EDT,Detroit,4,332
+327,2015,/league/game/2015-05-02-SJ-SD,"Sat, 5/2 7:00 PM PDT San Diego",San Diego Growlers,San Jose Spiders,21,23,2015-05-02,7:00 PM PDT,San Diego,4,331
+328,2015,/league/game/2015-05-02-IND-DET,"Sat, 5/2 7:00 PM EDT Detroit",Detroit Mechanix,Indianapolis AlleyCats,16,30,2015-05-02,7:00 PM EDT,Detroit,4,330
+329,2015,/league/game/2015-05-02-CHI-CIN,"Sat, 5/2 7:30 PM EDT Cincinnati",Cincinnati Revolution,Chicago Wildfire,18,27,2015-05-02,7:30 PM EDT,Cincinnati,4,333
+330,2015,/league/game/2015-05-02-MTL-PHI,"Sat, 5/2 6:30 PM EDT Philadelphia",Philadelphia Phoenix,Montreal Royal,18,23,2015-05-02,6:30 PM EDT,Philadelphia,4,328
+331,2015,/league/game/2015-05-02-PIT-MAD,"Sat, 5/2 6:00 PM CDT Madison",Madison Radicals,Pittsburgh Thunderbirds,24,18,2015-05-02,6:00 PM CDT,Madison,4,327
+332,2015,/league/game/2015-05-02-NSH-JAX,"Sat, 5/2 6:00 PM EDT Jacksonville",Tampa Bay Cannons,Nashville Nightwatch,23,18,2015-05-02,6:00 PM EDT,Jacksonville,4,326
+333,2015,/league/game/2015-05-02-OTT-ROC,"Sat, 5/2 6:30 PM EDT Rochester",Rochester Dragons,Ottawa Outlaws,18,24,2015-05-02,6:30 PM EDT,Rochester,4,329
+334,2015,/league/game/2015-05-03-OTT-NY,"Sun, 5/3 12:00 PM EDT New York",New York Empire,Ottawa Outlaws,24,17,2015-05-03,12:00 PM EDT,New York,4,334
+335,2015,/league/game/2015-05-03-SJ-LA,"Sun, 5/3 1:30 PM PDT LA",Los Angeles Aviators,San Jose Spiders,19,20,2015-05-03,1:30 PM PDT,LA,4,335
+336,2015,/league/game/2015-05-03-PIT-MIN,"Sun, 5/3 2:00 PM CDT Minnesota",Minnesota Wind Chill,Pittsburgh Thunderbirds,17,30,2015-05-03,2:00 PM CDT,Minnesota,4,336
+337,2015,/league/game/2015-05-03-NSH-ATL,"Sun, 5/3 3:00 PM EDT Atlanta",Atlanta Hustle,Nashville Nightwatch,30,20,2015-05-03,3:00 PM EDT,Atlanta,4,337
+338,2015,/league/game/2015-05-03-MTL-DC,"Sun, 5/3 4:30 PM EDT DC",DC Breeze,Montreal Royal,20,21,2015-05-03,4:30 PM EDT,DC,4,338
+339,2015,/league/game/2015-05-08-IND-CIN,"Fri, 5/8 8:00 PM EDT Cincinnati",Cincinnati Revolution,Indianapolis AlleyCats,23,27,2015-05-08,8:00 PM EDT,Cincinnati,5,339
+340,2015,/league/game/2015-05-09-NY-TOR,"Sat, 5/9 7:00 PM EDT Toronto",Toronto Rush,New York Empire,28,25,2015-05-09,7:00 PM EDT,Toronto,5,345
+341,2015,/league/game/2015-05-09-SD-SEA,"Sat, 5/9 7:30 PM PDT Seattle",Seattle Cascades,San Diego Growlers,19,21,2015-05-09,7:30 PM PDT,Seattle,5,347
+342,2015,/league/game/2015-05-09-IND-CHI,"Sat, 5/9 7:30 PM CDT Chicago",Chicago Wildfire,Indianapolis AlleyCats,24,22,2015-05-09,7:30 PM CDT,Chicago,5,346
+343,2015,/league/game/2015-05-09-MIN-PIT,"Sat, 5/9 7:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Minnesota Wind Chill,28,22,2015-05-09,7:00 PM EDT,Pittsburgh,5,344
+344,2015,/league/game/2015-05-09-CHA-JAX,"Sat, 5/9 6:00 PM EDT Jacksonville",Tampa Bay Cannons,Charlotte Express,26,17,2015-05-09,6:00 PM EDT,Jacksonville,5,341
+345,2015,/league/game/2015-05-09-SJ-SF,"Sat, 5/9 6:00 PM PDT San Francisco",San Francisco FlameThrowers,San Jose Spiders,18,20,2015-05-09,6:00 PM PDT,San Francisco,5,342
+346,2015,/league/game/2015-05-09-RAL-ATL,"Sat, 5/9 6:00 PM EDT Atlanta",Atlanta Hustle,Raleigh Flyers,29,28,2015-05-09,6:00 PM EDT,Atlanta,5,340
+347,2015,/league/game/2015-05-09-DC-PHI,"Sat, 5/9 6:30 PM EDT Philadelphia",Philadelphia Phoenix,DC Breeze,29,30,2015-05-09,6:30 PM EDT,Philadelphia,5,343
+348,2015,/league/game/2015-05-10-SD-VAN,"Sun, 5/10 1:00 PM PDT Vancouver",Vancouver Riptide,San Diego Growlers,27,29,2015-05-10,1:00 PM PDT,Vancouver,5,348
+349,2015,/league/game/2015-05-10-SEA-LA,"Sun, 5/10 1:30 PM PDT LA",Los Angeles Aviators,Seattle Cascades,20,17,2015-05-10,1:30 PM PDT,LA,5,349
+350,2015,/league/game/2015-05-10-RAL-NSH,"Sun, 5/10 2:00 PM CDT Nashville",Nashville Nightwatch,Raleigh Flyers,21,22,2015-05-10,2:00 PM CDT,Nashville,5,350
+351,2015,/league/game/2015-05-10-MIN-DET,"Sun, 5/10 8:00 PM EDT Detroit",Detroit Mechanix,Minnesota Wind Chill,20,27,2015-05-10,8:00 PM EDT,Detroit,5,351
+352,2015,/league/game/2015-05-15-CHI-MAD,"Fri, 5/15 7:00 PM CDT Madison",Madison Radicals,Chicago Wildfire,16,13,2015-05-15,7:00 PM CDT,Madison,6,352
+353,2015,/league/game/2015-05-15-SF-SJ,"Fri, 5/15 7:30 PM PDT San Jose",San Jose Spiders,San Francisco FlameThrowers,20,15,2015-05-15,7:30 PM PDT,San Jose,6,353
+354,2015,/league/game/2015-05-15-IND-DET,"Fri, 5/15 7:30 PM EDT Detroit",Detroit Mechanix,Indianapolis AlleyCats,18,28,2015-05-15,7:30 PM EDT,Detroit,6,354
+355,2015,/league/game/2015-05-16-NSH-CHA,"Sat, 5/16 7:00 PM EDT Charlotte",Charlotte Express,Nashville Nightwatch,29,26,2015-05-16,7:00 PM EDT,Charlotte,6,361
+356,2015,/league/game/2015-05-16-CIN-IND,"Sat, 5/16 7:30 PM EDT Indianapolis",Indianapolis AlleyCats,Cincinnati Revolution,27,18,2015-05-16,7:30 PM EDT,Indianapolis,6,363
+357,2015,/league/game/2015-05-16-CHI-MIN,"Sat, 5/16 7:00 PM CDT Minnesota",Minnesota Wind Chill,Chicago Wildfire,12,12,2015-05-16,7:00 PM CDT,Minnesota,6,362
+358,2015,/league/game/2015-05-16-NY-DC,"Sat, 5/16 6:30 PM EDT DC",DC Breeze,New York Empire,18,22,2015-05-16,6:30 PM EDT,DC,6,360
+359,2015,/league/game/2015-05-16-LA-VAN,"Sat, 5/16 6:00 PM PDT Vancouver",Vancouver Riptide,Los Angeles Aviators,27,24,2015-05-16,6:00 PM PDT,Vancouver,6,358
+360,2015,/league/game/2015-05-16-TOR-ROC,"Sat, 5/16 6:30 PM EDT Rochester",Rochester Dragons,Toronto Rush,21,37,2015-05-16,6:30 PM EDT,Rochester,6,359
+361,2015,/league/game/2015-05-16-SD-SF,"Sat, 5/16 6:00 PM PDT San Francisco",San Francisco FlameThrowers,San Diego Growlers,18,21,2015-05-16,6:00 PM PDT,San Francisco,6,357
+362,2015,/league/game/2015-05-16-ATL-JAX,"Sat, 5/16 6:00 PM EDT Jacksonville",Tampa Bay Cannons,Atlanta Hustle,26,22,2015-05-16,6:00 PM EDT,Jacksonville,6,356
+363,2015,/league/game/2015-05-16-MTL-OTT,"Sat, 5/16 4:00 PM EDT Ottawa",Ottawa Outlaws,Montreal Royal,25,24,2015-05-16,4:00 PM EDT,Ottawa,6,355
+364,2015,/league/game/2015-05-17-LA-SEA,"Sun, 5/17 1:00 PM PDT Seattle",Seattle Cascades,Los Angeles Aviators,29,19,2015-05-17,1:00 PM PDT,Seattle,6,364
+365,2015,/league/game/2015-05-17-NSH-RAL,"Sun, 5/17 3:00 PM EDT Raleigh",Raleigh Flyers,Nashville Nightwatch,33,22,2015-05-17,3:00 PM EDT,Raleigh,6,365
+366,2015,/league/game/2015-05-22-MIN-MAD,"Fri, 5/22 7:00 PM CDT Madison",Madison Radicals,Minnesota Wind Chill,27,10,2015-05-22,7:00 PM CDT,Madison,7,366
+367,2015,/league/game/2015-05-23-NY-MTL,"Sat, 5/23 4:00 PM EDT Montreal",Montreal Royal,New York Empire,20,17,2015-05-23,4:00 PM EDT,Montreal,7,367
+368,2015,/league/game/2015-05-23-SF-SD,"Sat, 5/23 6:00 PM PDT San Diego",San Diego Growlers,San Francisco FlameThrowers,25,27,2015-05-23,6:00 PM PDT,San Diego,7,368
+369,2015,/league/game/2015-05-23-VAN-SEA,"Sat, 5/23 6:00 PM PDT Seattle",Seattle Cascades,Vancouver Riptide,34,27,2015-05-23,6:00 PM PDT,Seattle,7,369
+370,2015,/league/game/2015-05-23-DC-TOR,"Sat, 5/23 6:00 PM EDT Toronto",Toronto Rush,DC Breeze,33,21,2015-05-23,6:00 PM EDT,Toronto,7,370
+371,2015,/league/game/2015-05-23-RAL-CHA,"Sat, 5/23 7:00 PM EDT Charlotte",Charlotte Express,Raleigh Flyers,18,27,2015-05-23,7:00 PM EDT,Charlotte,7,371
+372,2015,/league/game/2015-05-23-RAL-CHA,"Sat, 5/23 7:00 PM EDT Charlotte",Charlotte Express,Raleigh Flyers,18,27,2015-05-23,7:00 PM EDT,Charlotte,7,372
+373,2015,/league/game/2015-05-23-MIN-CHI,"Sat, 5/23 7:00 PM CDT Chicago",Chicago Wildfire,Minnesota Wind Chill,25,15,2015-05-23,7:00 PM CDT,Chicago,7,373
+374,2015,/league/game/2015-05-24-SJ-VAN,"Sun, 5/24 4:00 PM PDT Vancouver",Vancouver Riptide,San Jose Spiders,31,24,2015-05-24,4:00 PM PDT,Vancouver,7,377
+375,2015,/league/game/2015-05-24-DC-ROC,"Sun, 5/24 3:00 PM EDT Rochester",Rochester Dragons,DC Breeze,25,26,2015-05-24,3:00 PM EDT,Rochester,7,376
+376,2015,/league/game/2015-05-24-SF-LA,"Sun, 5/24 1:30 PM PDT LA",Los Angeles Aviators,San Francisco FlameThrowers,23,22,2015-05-24,1:30 PM PDT,LA,7,374
+377,2015,/league/game/2015-05-24-NY-OTT,"Sun, 5/24 2:00 PM EDT Ottawa",Ottawa Outlaws,New York Empire,17,22,2015-05-24,2:00 PM EDT,Ottawa,7,375
+378,2015,/league/game/2015-05-29-CHA-ATL,"Fri, 5/29 8:00 PM EDT Atlanta",Atlanta Hustle,Charlotte Express,26,18,2015-05-29,8:00 PM EDT,Atlanta,8,378
+379,2015,/league/game/2015-05-30-LA-SJ,"Sat, 5/30 7:00 PM PDT San Jose",San Jose Spiders,Los Angeles Aviators,27,19,2015-05-30,7:00 PM PDT,San Jose,8,384
+380,2015,/league/game/2015-05-30-PHI-OTT,"Sat, 5/30 4:00 PM EDT Ottawa",Ottawa Outlaws,Philadelphia Phoenix,28,18,2015-05-30,4:00 PM EDT,Ottawa,8,379
+381,2015,/league/game/2015-05-30-ROC-NY,"Sat, 5/30 5:00 PM EDT New York",New York Empire,Rochester Dragons,27,16,2015-05-30,5:00 PM EDT,New York,8,380
+382,2015,/league/game/2015-05-30-RAL-JAX,"Sat, 5/30 6:00 PM EDT Jacksonville",Tampa Bay Cannons,Raleigh Flyers,27,29,2015-05-30,6:00 PM EDT,Jacksonville,8,381
+383,2015,/league/game/2015-05-30-DET-PIT,"Sat, 5/30 7:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Detroit Mechanix,44,20,2015-05-30,7:00 PM EDT,Pittsburgh,8,382
+384,2015,/league/game/2015-05-30-MAD-MIN,"Sat, 5/30 7:00 PM CDT Minnesota",Minnesota Wind Chill,Madison Radicals,18,23,2015-05-30,7:00 PM CDT,Minnesota,8,383
+385,2015,/league/game/2015-05-31-PHI-MTL,"Sun, 5/31 12:00 PM EDT Montreal",Montreal Royal,Philadelphia Phoenix,25,16,2015-05-31,12:00 PM EDT,Montreal,8,385
+386,2015,/league/game/2015-05-31-LA-SF,"Sun, 5/31 1:00 PM PDT San Francisco",San Francisco FlameThrowers,Los Angeles Aviators,24,17,2015-05-31,1:00 PM PDT,San Francisco,8,386
+387,2015,/league/game/2015-06-05-CIN-CHI,"Fri, 6/5 7:00 PM CDT Chicago",Chicago Wildfire,Cincinnati Revolution,28,10,2015-06-05,7:00 PM CDT,Chicago,9,387
+388,2015,/league/game/2015-06-05-RAL-ATL,"Fri, 6/5 8:00 PM EDT Atlanta",Atlanta Hustle,Raleigh Flyers,24,20,2015-06-05,8:00 PM EDT,Atlanta,9,388
+389,2015,/league/game/2015-06-06-MAD-PIT,"Sat, 6/6 7:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Madison Radicals,26,22,2015-06-06,7:00 PM EDT,Pittsburgh,9,396
+390,2015,/league/game/2015-06-06-CIN-MIN,"Sat, 6/6 7:00 PM CDT Minnesota",Minnesota Wind Chill,Cincinnati Revolution,25,17,2015-06-06,7:00 PM CDT,Minnesota,9,395
+391,2015,/league/game/2015-06-06-SD-LA,"Sat, 6/6 7:30 PM PDT LA",Los Angeles Aviators,San Diego Growlers,19,20,2015-06-06,7:30 PM PDT,LA,9,398
+392,2015,/league/game/2015-06-06-DET-IND,"Sat, 6/6 7:30 PM EDT Indianapolis",Indianapolis AlleyCats,Detroit Mechanix,29,21,2015-06-06,7:30 PM EDT,Indianapolis,9,397
+393,2015,/league/game/2015-06-06-SF-SJ,"Sat, 6/6 7:00 PM PDT San Jose",San Jose Spiders,San Francisco FlameThrowers,17,18,2015-06-06,7:00 PM PDT,San Jose,9,394
+394,2015,/league/game/2015-06-06-RAL-NSH,"Sat, 6/6 6:00 PM CDT Nashville",Nashville Nightwatch,Raleigh Flyers,21,27,2015-06-06,6:00 PM CDT,Nashville,9,392
+395,2015,/league/game/2015-06-06-CHA-JAX,"Sat, 6/6 6:00 PM EDT Jacksonville",Tampa Bay Cannons,Charlotte Express,26,12,2015-06-06,6:00 PM EDT,Jacksonville,9,391
+396,2015,/league/game/2015-06-06-TOR-NY,"Sat, 6/6 5:00 PM EDT New York",New York Empire,Toronto Rush,16,18,2015-06-06,5:00 PM EDT,New York,9,390
+397,2015,/league/game/2015-06-06-ROC-MTL,"Sat, 6/6 4:00 PM EDT Montreal",Montreal Royal,Rochester Dragons,21,19,2015-06-06,4:00 PM EDT,Montreal,9,389
+398,2015,/league/game/2015-06-06-DC-PHI,"Sat, 6/6 6:30 PM EDT Philadelphia",Philadelphia Phoenix,DC Breeze,20,26,2015-06-06,6:30 PM EDT,Philadelphia,9,393
+399,2015,/league/game/2015-06-07-MAD-DET,"Sun, 6/7 1:00 PM EDT Detroit",Detroit Mechanix,Madison Radicals,13,27,2015-06-07,1:00 PM EDT,Detroit,9,399
+400,2015,/league/game/2015-06-07-ROC-OTT,"Sun, 6/7 2:00 PM EDT Ottawa",Ottawa Outlaws,Rochester Dragons,27,18,2015-06-07,2:00 PM EDT,Ottawa,9,400
+401,2015,/league/game/2015-06-12-MAD-MIN,"Fri, 6/12 7:00 PM CDT Minnesota",Minnesota Wind Chill,Madison Radicals,19,31,2015-06-12,7:00 PM CDT,Minnesota,10,401
+402,2015,/league/game/2015-06-12-PIT-CHI,"Fri, 6/12 7:00 PM CDT Chicago",Chicago Wildfire,Pittsburgh Thunderbirds,19,16,2015-06-12,7:00 PM CDT,Chicago,10,402
+403,2015,/league/game/2015-06-13-PIT-DET,"Sat, 6/13 4:00 PM EDT Detroit",Detroit Mechanix,Pittsburgh Thunderbirds,21,34,2015-06-13,4:00 PM EDT,Detroit,10,403
+404,2015,/league/game/2015-06-13-PHI-TOR,"Sat, 6/13 6:00 PM EDT Toronto",Toronto Rush,Philadelphia Phoenix,37,17,2015-06-13,6:00 PM EDT,Toronto,10,404
+405,2015,/league/game/2015-06-13-SJ-VAN,"Sat, 6/13 6:00 PM PDT Vancouver",Vancouver Riptide,San Jose Spiders,23,26,2015-06-13,6:00 PM PDT,Vancouver,10,405
+406,2015,/league/game/2015-06-13-JAX-CHA,"Sat, 6/13 7:00 PM EDT Charlotte",Charlotte Express,Tampa Bay Cannons,17,18,2015-06-13,7:00 PM EDT,Charlotte,10,406
+407,2015,/league/game/2015-06-13-OTT-MTL,"Sat, 6/13 7:00 PM EDT Montreal",Montreal Royal,Ottawa Outlaws,22,33,2015-06-13,7:00 PM EDT,Montreal,10,407
+408,2015,/league/game/2015-06-14-JAX-RAL,"Sun, 6/14 3:00 PM EDT Raleigh",Raleigh Flyers,Tampa Bay Cannons,26,28,2015-06-14,3:00 PM EDT,Raleigh,10,410
+409,2015,/league/game/2015-06-14-PHI-ROC,"Sun, 6/14 3:00 PM EDT Rochester",Rochester Dragons,Philadelphia Phoenix,19,18,2015-06-14,3:00 PM EDT,Rochester,10,411
+410,2015,/league/game/2015-06-14-SJ-SEA,"Sun, 6/14 1:00 PM PDT Seattle",Seattle Cascades,San Jose Spiders,25,23,2015-06-14,1:00 PM PDT,Seattle,10,408
+411,2015,/league/game/2015-06-14-ATL-NSH,"Sun, 6/14 2:00 PM CDT Nashville",Nashville Nightwatch,Atlanta Hustle,21,25,2015-06-14,2:00 PM CDT,Nashville,10,409
+412,2015,/league/game/2015-06-19-MAD-CHI,"Fri, 6/19 7:00 PM CDT Chicago",Chicago Wildfire,Madison Radicals,22,23,2015-06-19,7:00 PM CDT,Chicago,11,412
+413,2015,/league/game/2015-06-20-PIT-CIN,"Sat, 6/20 7:30 PM EDT Cincinnati",Cincinnati Revolution,Pittsburgh Thunderbirds,19,25,2015-06-20,7:30 PM EDT,Cincinnati,11,420
+414,2015,/league/game/2015-06-20-VAN-SD,"Sat, 6/20 6:00 PM PDT San Diego",San Diego Growlers,Vancouver Riptide,32,28,2015-06-20,6:00 PM PDT,San Diego,11,413
+415,2015,/league/game/2015-06-20-MTL-TOR,"Sat, 6/20 6:00 PM EDT Toronto",Toronto Rush,Montreal Royal,24,18,2015-06-20,6:00 PM EDT,Toronto,11,414
+416,2015,/league/game/2015-06-20-ATL-JAX,"Sat, 6/20 6:00 PM EDT Jacksonville",Tampa Bay Cannons,Atlanta Hustle,29,27,2015-06-20,6:00 PM EDT,Jacksonville,11,415
+417,2015,/league/game/2015-06-20-CHI-MAD,"Sat, 6/20 6:00 PM CDT Madison",Madison Radicals,Chicago Wildfire,24,16,2015-06-20,6:00 PM CDT,Madison,11,416
+418,2015,/league/game/2015-06-20-NY-DC,"Sat, 6/20 6:30 PM EDT DC",DC Breeze,New York Empire,7,8,2015-06-20,6:30 PM EDT,DC,11,417
+419,2015,/league/game/2015-06-20-SEA-SJ,"Sat, 6/20 7:00 PM PDT San Jose",San Jose Spiders,Seattle Cascades,35,28,2015-06-20,7:00 PM PDT,San Jose,11,418
+420,2015,/league/game/2015-06-20-RAL-CHA,"Sat, 6/20 7:00 PM EDT Charlotte",Charlotte Express,Raleigh Flyers,21,24,2015-06-20,7:00 PM EDT,Charlotte,11,419
+421,2015,/league/game/2015-06-21-DC-NY,"Sun, 6/21 2:00 PM EDT New York",New York Empire,DC Breeze,21,13,2015-06-21,2:00 PM EDT,New York,11,423
+422,2015,/league/game/2015-06-21-MTL-ROC,"Sun, 6/21 3:00 PM EDT Rochester",Rochester Dragons,Montreal Royal,21,24,2015-06-21,3:00 PM EDT,Rochester,11,424
+423,2015,/league/game/2015-06-21-SEA-SF,"Sun, 6/21 1:00 PM PDT San Francisco",San Francisco FlameThrowers,Seattle Cascades,25,21,2015-06-21,1:00 PM PDT,San Francisco,11,421
+424,2015,/league/game/2015-06-21-VAN-LA,"Sun, 6/21 1:30 PM PDT LA",Los Angeles Aviators,Vancouver Riptide,27,20,2015-06-21,1:30 PM PDT,LA,11,422
+425,2015,/league/game/2015-06-22-MTL-ROC,"Mon, 6/22 6:30 PM EDT Rochester",Rochester Dragons,Montreal Royal,17,23,2015-06-22,6:30 PM EDT,Rochester,12,425
+426,2015,/league/game/2015-06-27-NSH-RAL,"Sat, 6/27 7:00 PM EDT Raleigh",Raleigh Flyers,Nashville Nightwatch,20,15,2015-06-27,7:00 PM EDT,Raleigh,12,430
+427,2015,/league/game/2015-06-27-MIN-CIN,"Sat, 6/27 7:30 PM EDT Cincinnati",Cincinnati Revolution,Minnesota Wind Chill,17,21,2015-06-27,7:30 PM EDT,Cincinnati,12,432
+428,2015,/league/game/2015-06-27-OTT-MTL,"Sat, 6/27 7:00 PM EDT Montreal",Montreal Royal,Ottawa Outlaws,25,29,2015-06-27,7:00 PM EDT,Montreal,12,429
+429,2015,/league/game/2015-06-27-ATL-CHA,"Sat, 6/27 7:00 PM EDT Charlotte",Charlotte Express,Atlanta Hustle,13,26,2015-06-27,7:00 PM EDT,Charlotte,12,431
+430,2015,/league/game/2015-06-27-SF-VAN,"Sat, 6/27 6:00 PM PDT Vancouver",Vancouver Riptide,San Francisco FlameThrowers,19,22,2015-06-27,6:00 PM PDT,Vancouver,12,427
+431,2015,/league/game/2015-06-27-CHI-DET,"Sat, 6/27 4:00 PM EDT Detroit",Detroit Mechanix,Chicago Wildfire,11,21,2015-06-27,4:00 PM EDT,Detroit,12,426
+432,2015,/league/game/2015-06-27-ROC-TOR,"Sat, 6/27 6:00 PM EDT Toronto",Toronto Rush,Rochester Dragons,27,10,2015-06-27,6:00 PM EDT,Toronto,12,428
+433,2015,/league/game/2015-06-28-PHI-NY,"Sun, 6/28 12:00 PM EDT New York",New York Empire,Philadelphia Phoenix,24,13,2015-06-28,12:00 PM EDT,New York,12,433
+434,2015,/league/game/2015-06-28-SF-SEA,"Sun, 6/28 2:00 PM PDT Seattle",Seattle Cascades,San Francisco FlameThrowers,27,17,2015-06-28,2:00 PM PDT,Seattle,12,434
+435,2015,/league/game/2015-06-28-CHI-PIT,"Sun, 6/28 2:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Chicago Wildfire,27,26,2015-06-28,2:00 PM EDT,Pittsburgh,12,435
+436,2015,/league/game/2015-06-28-MIN-IND,"Sun, 6/28 3:30 PM EDT Indianapolis",Indianapolis AlleyCats,Minnesota Wind Chill,21,25,2015-06-28,3:30 PM EDT,Indianapolis,12,436
+437,2015,/league/game/2015-07-03-NY-ROC,"Fri, 7/3 7:00 PM EDT Rochester",Rochester Dragons,New York Empire,19,25,2015-07-03,7:00 PM EDT,Rochester,13,437
+438,2015,/league/game/2015-07-04-DC-OTT,"Sat, 7/4 4:00 PM EDT Ottawa",Ottawa Outlaws,DC Breeze,25,26,2015-07-04,4:00 PM EDT,Ottawa,13,438
+439,2015,/league/game/2015-07-04-JAX-ATL,"Sat, 7/4 7:00 PM EDT Atlanta",Atlanta Hustle,Tampa Bay Cannons,21,24,2015-07-04,7:00 PM EDT,Atlanta,13,439
+440,2015,/league/game/2015-07-05-DC-MTL,"Sun, 7/5 12:00 PM EDT Montreal",Montreal Royal,DC Breeze,25,21,2015-07-05,12:00 PM EDT,Montreal,13,440
+441,2015,/league/game/2015-07-10-PHI-DC,"Fri, 7/10 6:30 PM EDT DC",DC Breeze,Philadelphia Phoenix,27,12,2015-07-10,6:30 PM EDT,DC,14,441
+442,2015,/league/game/2015-07-10-DET-PIT,"Fri, 7/10 7:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Detroit Mechanix,42,16,2015-07-10,7:00 PM EDT,Pittsburgh,14,442
+443,2015,/league/game/2015-07-11-PIT-CIN,"Sat, 7/11 7:30 PM EDT Cincinnati",Cincinnati Revolution,Pittsburgh Thunderbirds,27,33,2015-07-11,7:30 PM EDT,Cincinnati,14,448
+444,2015,/league/game/2015-07-11-CHA-RAL,"Sat, 7/11 7:00 PM EDT Raleigh",Raleigh Flyers,Charlotte Express,26,23,2015-07-11,7:00 PM EDT,Raleigh,14,447
+445,2015,/league/game/2015-07-11-IND-MIN,"Sat, 7/11 7:00 PM CDT Minnesota",Minnesota Wind Chill,Indianapolis AlleyCats,22,21,2015-07-11,7:00 PM CDT,Minnesota,14,446
+446,2015,/league/game/2015-07-11-LA-SD,"Sat, 7/11 6:00 PM PDT San Diego",San Diego Growlers,Los Angeles Aviators,23,22,2015-07-11,6:00 PM PDT,San Diego,14,444
+447,2015,/league/game/2015-07-11-NSH-JAX,"Sat, 7/11 6:00 PM EDT Jacksonville",Tampa Bay Cannons,Nashville Nightwatch,29,27,2015-07-11,6:00 PM EDT,Jacksonville,14,443
+448,2015,/league/game/2015-07-11-ROC-DC,"Sat, 7/11 6:30 PM EDT DC",DC Breeze,Rochester Dragons,27,19,2015-07-11,6:30 PM EDT,DC,14,445
+449,2015,/league/game/2015-07-12-IND-MAD,"Sun, 7/12 12:00 PM CDT Madison",Madison Radicals,Indianapolis AlleyCats,25,24,2015-07-12,12:00 PM CDT,Madison,14,449
+450,2015,/league/game/2015-07-12-ROC-PHI,"Sun, 7/12 1:00 PM EDT Philadelphia",Philadelphia Phoenix,Rochester Dragons,26,16,2015-07-12,1:00 PM EDT,Philadelphia,14,450
+451,2015,/league/game/2015-07-12-NSH-ATL,"Sun, 7/12 3:00 PM EDT Atlanta",Atlanta Hustle,Nashville Nightwatch,28,18,2015-07-12,3:00 PM EDT,Atlanta,14,451
+452,2015,/league/game/2015-07-16-ROC-TOR,"Thu, 7/16 8:00 PM EDT Toronto",Toronto Rush,Rochester Dragons,39,17,2015-07-16,8:00 PM EDT,Toronto,15,452
+453,2015,/league/game/2015-07-17-CIN-MAD,"Fri, 7/17 7:00 PM CDT Madison",Madison Radicals,Cincinnati Revolution,39,19,2015-07-17,7:00 PM CDT,Madison,15,454
+454,2015,/league/game/2015-07-17-DET-MIN,"Fri, 7/17 7:00 PM CDT Minnesota",Minnesota Wind Chill,Detroit Mechanix,45,11,2015-07-17,7:00 PM CDT,Minnesota,15,453
+455,2015,/league/game/2015-07-18-VAN-SEA,"Sat, 7/18 6:00 PM PDT Seattle",Seattle Cascades,Vancouver Riptide,30,17,2015-07-18,6:00 PM PDT,Seattle,15,455
+456,2015,/league/game/2015-07-18-SJ-SF,"Sat, 7/18 6:00 PM PDT San Francisco",San Francisco FlameThrowers,San Jose Spiders,32,18,2015-07-18,6:00 PM PDT,San Francisco,15,456
+457,2015,/league/game/2015-07-18-NY-PHI,"Sat, 7/18 6:30 PM EDT Philadelphia",Philadelphia Phoenix,New York Empire,17,20,2015-07-18,6:30 PM EDT,Philadelphia,15,457
+458,2015,/league/game/2015-07-18-CHA-NSH,"Sat, 7/18 7:00 PM CDT Nashville",Nashville Nightwatch,Charlotte Express,22,19,2015-07-18,7:00 PM CDT,Nashville,15,458
+459,2015,/league/game/2015-07-18-IND-PIT,"Sat, 7/18 7:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Indianapolis AlleyCats,29,25,2015-07-18,7:00 PM EDT,Pittsburgh,15,459
+460,2015,/league/game/2015-07-18-SD-LA,"Sat, 7/18 7:30 PM PDT LA",Los Angeles Aviators,San Diego Growlers,21,16,2015-07-18,7:30 PM PDT,LA,15,460
+461,2015,/league/game/2015-07-18-TOR-OTT,"Sat, 7/18 7:30 PM EDT Ottawa",Ottawa Outlaws,Toronto Rush,26,30,2015-07-18,7:30 PM EDT,Ottawa,15,461
+462,2015,/league/game/2015-07-19-CHA-NSH,"Sun, 7/19 7:00 PM CDT Nashville",Nashville Nightwatch,Charlotte Express,17,18,2015-07-19,7:00 PM CDT,Nashville,15,466
+463,2015,/league/game/2015-07-19-OTT-TOR,"Sun, 7/19 2:30 PM EDT Toronto",Toronto Rush,Ottawa Outlaws,25,19,2015-07-19,2:30 PM EDT,Toronto,15,464
+464,2015,/league/game/2015-07-19-LA-SD,"Sun, 7/19 6:00 PM PDT San Diego",San Diego Growlers,Los Angeles Aviators,21,15,2015-07-19,6:00 PM PDT,San Diego,15,465
+465,2015,/league/game/2015-07-19-SEA-VAN,"Sun, 7/19 1:00 PM PDT Vancouver",Vancouver Riptide,Seattle Cascades,26,24,2015-07-19,1:00 PM PDT,Vancouver,15,462
+466,2015,/league/game/2015-07-19-DET-CHI,"Sun, 7/19 1:00 PM CDT Chicago",Chicago Wildfire,Detroit Mechanix,28,12,2015-07-19,1:00 PM CDT,Chicago,15,463
+467,2015,/league/game/2015-07-24-NY-MTL,"Fri, 7/24 7:30 PM EDT Montreal",Montreal Royal,New York Empire,20,33,2015-07-24,7:30 PM EDT,Montreal,16,467
+468,2015,/league/game/2015-07-25-SEA-SF,"Sat, 7/25 6:00 PM PDT San Francisco",San Francisco FlameThrowers,Seattle Cascades,19,21,2015-07-25,6:00 PM PDT,San Francisco,16,468
+469,2015,/league/game/2015-07-25-PIT-MAD,"Sat, 7/25 7:00 PM CDT Madison",Madison Radicals,Pittsburgh Thunderbirds,24,21,2015-07-25,7:00 PM CDT,Madison,16,469
+470,2015,/league/game/2015-07-25-NY-TOR,"Sat, 7/25 7:00 PM CDT Toronto",Toronto Rush,New York Empire,25,19,2015-07-25,7:00 PM CDT,Toronto,16,470
+471,2015,/league/game/2015-07-25-JAX-RAL,"Sat, 7/25 7:00 PM EDT Raleigh",Raleigh Flyers,Tampa Bay Cannons,28,27,2015-07-25,7:00 PM EDT,Raleigh,16,471
+472,2015,/league/game/2015-07-25-CHI-PIT,"Sat, 7/25 7:00 PM CDT Pittsburgh",Pittsburgh Thunderbirds,Chicago Wildfire,24,23,2015-07-25,7:00 PM CDT,Pittsburgh,16,472
+473,2015,/league/game/2015-07-26-SEA-SJ,"Sun, 7/26 7:00 PM CDT San Jose",San Jose Spiders,Seattle Cascades,21,19,2015-07-26,7:00 PM CDT,San Jose,16,473
+474,2015,/league/game/2015-08-08-RAL-MAD,"Sat, 8/8 7:00 PM CDT",Madison Radicals,Raleigh Flyers,22,19,2015-08-08,7:00 PM CDT,,18,474
+475,2015,/league/game/2015-08-08-TOR-SJ,"Sat, 8/8 7:00 PM CDT",San Jose Spiders,Toronto Rush,25,20,2015-08-08,7:00 PM CDT,,18,475
+476,2015,/league/game/2015-08-09-MAD-SJ,"Sun, 8/9 7:00 PM CDT",San Jose Spiders,Madison Radicals,17,15,2015-08-09,7:00 PM CDT,,18,476
+477,2016,/league/game/2016-04-02-AUS-DAL,"Sat, 4/2 7:00 PM CDT Dallas",Dallas Roughnecks,Austin Sol,30,18,2016-04-02,7:00 PM CDT,Dallas,1,481
+478,2016,/league/game/2016-04-02-CHA-RAL,"Sat, 4/2 7:00 PM EDT Raleigh",Raleigh Flyers,Charlotte Express,23,18,2016-04-02,7:00 PM EDT,Raleigh,1,480
+479,2016,/league/game/2016-04-02-DET-CIN,"Sat, 4/2 7:30 PM EDT Cincinnati",Cincinnati Revolution,Detroit Mechanix,12,15,2016-04-02,7:30 PM EDT,Cincinnati,1,482
+480,2016,/league/game/2016-04-02-SF-SD,"Sat, 4/2 6:15 PM PDT San Diego",San Diego Growlers,San Francisco FlameThrowers,23,25,2016-04-02,6:15 PM PDT,San Diego,1,478
+481,2016,/league/game/2016-04-02-VAN-SEA,"Sat, 4/2 6:00 PM PDT Seattle",Seattle Cascades,Vancouver Riptide,25,21,2016-04-02,6:00 PM PDT,Seattle,1,477
+482,2016,/league/game/2016-04-02-NSH-ATL,"Sat, 4/2 7:00 PM EDT Atlanta",Atlanta Hustle,Nashville Nightwatch,26,16,2016-04-02,7:00 PM EDT,Atlanta,1,479
+483,2016,/league/game/2016-04-03-SF-LA,"Sun, 4/3 2:30 PM PDT LA",Los Angeles Aviators,San Francisco FlameThrowers,16,19,2016-04-03,2:30 PM PDT,LA,1,483
+484,2016,/league/game/2016-04-08-SEA-SJ,"Fri, 4/8 7:30 PM PDT San Jose",San Jose Spiders,Seattle Cascades,26,25,2016-04-08,7:30 PM PDT,San Jose,2,484
+485,2016,/league/game/2016-04-08-IND-CIN,"Fri, 4/8 8:00 PM EDT Cincinnati",Cincinnati Revolution,Indianapolis AlleyCats,17,22,2016-04-08,8:00 PM EDT,Cincinnati,2,485
+486,2016,/league/game/2016-04-09-SD-LA,"Sat, 4/9 7:30 PM PDT LA",Los Angeles Aviators,San Diego Growlers,21,20,2016-04-09,7:30 PM PDT,LA,2,493
+487,2016,/league/game/2016-04-09-CHA-ATL,"Sat, 4/9 7:00 PM EDT Atlanta",Atlanta Hustle,Charlotte Express,18,16,2016-04-09,7:00 PM EDT,Atlanta,2,492
+488,2016,/league/game/2016-04-09-JAX-RAL,"Sat, 4/9 7:00 PM EDT Raleigh",Raleigh Flyers,Tampa Bay Cannons,24,19,2016-04-09,7:00 PM EDT,Raleigh,2,491
+489,2016,/league/game/2016-04-09-DAL-AUS,"Sat, 4/9 6:30 PM CDT Austin",Austin Sol,Dallas Roughnecks,18,29,2016-04-09,6:30 PM CDT,Austin,2,490
+490,2016,/league/game/2016-04-09-MIN-MAD,"Sat, 4/9 6:00 PM CDT Madison",Madison Radicals,Minnesota Wind Chill,25,11,2016-04-09,6:00 PM CDT,Madison,2,488
+491,2016,/league/game/2016-04-09-PIT-DET,"Sat, 4/9 6:00 PM EDT Detroit",Detroit Mechanix,Pittsburgh Thunderbirds,16,25,2016-04-09,6:00 PM EDT,Detroit,2,487
+492,2016,/league/game/2016-04-09-OTT-NY,"Sat, 4/9 4:00 PM EDT New York",New York Empire,Ottawa Outlaws,24,19,2016-04-09,4:00 PM EDT,New York,2,486
+493,2016,/league/game/2016-04-09-SEA-SF,"Sat, 4/9 6:00 PM PDT San Francisco",San Francisco FlameThrowers,Seattle Cascades,27,18,2016-04-09,6:00 PM PDT,San Francisco,2,489
+494,2016,/league/game/2016-04-10-MIN-CHI,"Sun, 4/10 1:00 PM CDT Chicago",Chicago Wildfire,Minnesota Wind Chill,11,17,2016-04-10,1:00 PM CDT,Chicago,2,494
+495,2016,/league/game/2016-04-10-OTT-DC,"Sun, 4/10 1:30 PM EDT DC",DC Breeze,Ottawa Outlaws,28,17,2016-04-10,1:30 PM EDT,DC,2,495
+496,2016,/league/game/2016-04-15-CIN-DET,"Fri, 4/15 7:00 PM EDT Detroit",Detroit Mechanix,Cincinnati Revolution,20,19,2016-04-15,7:00 PM EDT,Detroit,3,496
+497,2016,/league/game/2016-04-16-PIT-CIN,"Sat, 4/16 7:30 PM EDT Cincinnati",Cincinnati Revolution,Pittsburgh Thunderbirds,16,25,2016-04-16,7:30 PM EDT,Cincinnati,3,505
+498,2016,/league/game/2016-04-16-MAD-IND,"Sat, 4/16 7:30 PM EDT Indianapolis",Indianapolis AlleyCats,Madison Radicals,25,32,2016-04-16,7:30 PM EDT,Indianapolis,3,504
+499,2016,/league/game/2016-04-16-SF-SJ,"Sat, 4/16 7:00 PM PDT San Jose",San Jose Spiders,San Francisco FlameThrowers,27,32,2016-04-16,7:00 PM PDT,San Jose,3,503
+500,2016,/league/game/2016-04-16-NSH-JAX,"Sat, 4/16 7:00 PM EDT Jacksonville",Tampa Bay Cannons,Nashville Nightwatch,31,22,2016-04-16,7:00 PM EDT,Jacksonville,3,501
+501,2016,/league/game/2016-04-16-AUS-CHA,"Sat, 4/16 7:00 PM EDT Charlotte",Charlotte Express,Austin Sol,21,20,2016-04-16,7:00 PM EDT,Charlotte,3,502
+502,2016,/league/game/2016-04-16-MTL-PHI,"Sat, 4/16 6:30 PM EDT Philadelphia",Philadelphia Phoenix,Montreal Royal,17,25,2016-04-16,6:30 PM EDT,Philadelphia,3,499
+503,2016,/league/game/2016-04-16-SEA-VAN,"Sat, 4/16 6:00 PM PDT Vancouver",Vancouver Riptide,Seattle Cascades,34,24,2016-04-16,6:00 PM PDT,Vancouver,3,497
+504,2016,/league/game/2016-04-16-CHI-MIN,"Sat, 4/16 7:00 PM CDT Minnesota",Minnesota Wind Chill,Chicago Wildfire,22,21,2016-04-16,7:00 PM CDT,Minnesota,3,500
+505,2016,/league/game/2016-04-16-LA-SD,"Sat, 4/16 6:15 PM PDT San Diego",San Diego Growlers,Los Angeles Aviators,19,17,2016-04-16,6:15 PM PDT,San Diego,3,498
+506,2016,/league/game/2016-04-17-AUS-RAL,"Sun, 4/17 1:00 PM EDT Raleigh",Raleigh Flyers,Austin Sol,28,27,2016-04-17,1:00 PM EDT,Raleigh,3,506
+507,2016,/league/game/2016-04-17-MTL-NY,"Sun, 4/17 1:00 PM EDT New York",New York Empire,Montreal Royal,21,19,2016-04-17,1:00 PM EDT,New York,3,507
+508,2016,/league/game/2016-04-17-NSH-ATL,"Sun, 4/17 5:00 PM EDT Atlanta",Atlanta Hustle,Nashville Nightwatch,21,22,2016-04-17,5:00 PM EDT,Atlanta,3,508
+509,2016,/league/game/2016-04-23-DET-PIT,"Sat, 4/23 7:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Detroit Mechanix,26,16,2016-04-23,7:00 PM EDT,Pittsburgh,4,513
+510,2016,/league/game/2016-04-23-RAL-NSH,"Sat, 4/23 6:00 PM CDT Nashville",Nashville Nightwatch,Raleigh Flyers,18,20,2016-04-23,6:00 PM CDT,Nashville,4,509
+511,2016,/league/game/2016-04-23-SD-SF,"Sat, 4/23 6:00 PM PDT San Francisco",San Francisco FlameThrowers,San Diego Growlers,31,14,2016-04-23,6:00 PM PDT,San Francisco,4,510
+512,2016,/league/game/2016-04-23-TOR-DC,"Sat, 4/23 6:30 PM EDT DC",DC Breeze,Toronto Rush,24,25,2016-04-23,6:30 PM EDT,DC,4,511
+513,2016,/league/game/2016-04-23-JAX-DAL,"Sat, 4/23 7:00 PM CDT Dallas",Dallas Roughnecks,Tampa Bay Cannons,32,17,2016-04-23,7:00 PM CDT,Dallas,4,512
+514,2016,/league/game/2016-04-23-CIN-CHI,"Sat, 4/23 7:00 PM CDT Chicago",Chicago Wildfire,Cincinnati Revolution,27,19,2016-04-23,7:00 PM CDT,Chicago,4,514
+515,2016,/league/game/2016-04-23-ATL-CHA,"Sat, 4/23 8:00 PM EDT Charlotte",Charlotte Express,Atlanta Hustle,19,24,2016-04-23,8:00 PM EDT,Charlotte,4,515
+516,2016,/league/game/2016-04-24-JAX-AUS,"Sun, 4/24 12:30 PM CDT Austin",Austin Sol,Tampa Bay Cannons,28,23,2016-04-24,12:30 PM CDT,Austin,4,516
+517,2016,/league/game/2016-04-24-TOR-PHI,"Sun, 4/24 1:00 PM EDT Philadelphia",Philadelphia Phoenix,Toronto Rush,16,24,2016-04-24,1:00 PM EDT,Philadelphia,4,517
+518,2016,/league/game/2016-04-24-CIN-IND,"Sun, 4/24 4:30 PM EDT Indianapolis",Indianapolis AlleyCats,Cincinnati Revolution,35,14,2016-04-24,4:30 PM EDT,Indianapolis,4,518
+519,2016,/league/game/2016-04-30-MAD-PIT,"Sat, 4/30 7:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Madison Radicals,18,22,2016-04-30,7:00 PM EDT,Pittsburgh,5,524
+520,2016,/league/game/2016-04-30-SEA-SD,"Sat, 4/30 6:15 PM PDT San Diego",San Diego Growlers,Seattle Cascades,17,25,2016-04-30,6:15 PM PDT,San Diego,5,521
+521,2016,/league/game/2016-04-30-MIN-IND,"Sat, 4/30 7:30 PM EDT Indianapolis",Indianapolis AlleyCats,Minnesota Wind Chill,20,21,2016-04-30,7:30 PM EDT,Indianapolis,5,525
+522,2016,/league/game/2016-04-30-ATL-JAX,"Sat, 4/30 7:00 PM EDT Jacksonville",Tampa Bay Cannons,Atlanta Hustle,23,18,2016-04-30,7:00 PM EDT,Jacksonville,5,523
+523,2016,/league/game/2016-04-30-DC-TOR,"Sat, 4/30 4:00 PM EDT Toronto",Toronto Rush,DC Breeze,24,23,2016-04-30,4:00 PM EDT,Toronto,5,519
+524,2016,/league/game/2016-04-30-PHI-NY,"Sat, 4/30 4:30 PM EDT New York",New York Empire,Philadelphia Phoenix,28,16,2016-04-30,4:30 PM EDT,New York,5,520
+525,2016,/league/game/2016-04-30-DAL-RAL,"Sat, 4/30 7:00 PM EDT Raleigh",Raleigh Flyers,Dallas Roughnecks,18,24,2016-04-30,7:00 PM EDT,Raleigh,5,522
+526,2016,/league/game/2016-05-01-DC-MTL,"Sun, 5/1 1:00 PM EDT Montreal",Montreal Royal,DC Breeze,18,26,2016-05-01,1:00 PM EDT,Montreal,5,526
+527,2016,/league/game/2016-05-01-DAL-CHA,"Sun, 5/1 1:00 PM EDT Charlotte",Charlotte Express,Dallas Roughnecks,18,30,2016-05-01,1:00 PM EDT,Charlotte,5,527
+528,2016,/league/game/2016-05-01-SEA-LA,"Sun, 5/1 1:30 PM PDT LA",Los Angeles Aviators,Seattle Cascades,17,27,2016-05-01,1:30 PM PDT,LA,5,528
+529,2016,/league/game/2016-05-01-OTT-TOR,"Sun, 5/1 2:00 PM EDT Toronto",Toronto Rush,Ottawa Outlaws,32,15,2016-05-01,2:00 PM EDT,Toronto,5,529
+530,2016,/league/game/2016-05-01-MIN-CIN,"Sun, 5/1 3:00 PM EDT Cincinnati",Cincinnati Revolution,Minnesota Wind Chill,26,32,2016-05-01,3:00 PM EDT,Cincinnati,5,530
+531,2016,/league/game/2016-05-06-SD-SEA,"Fri, 5/6 7:00 PM PDT Seattle",Seattle Cascades,San Diego Growlers,23,19,2016-05-06,7:00 PM PDT,Seattle,6,531
+532,2016,/league/game/2016-05-06-MTL-OTT,"Fri, 5/6 7:00 PM EDT Ottawa",Ottawa Outlaws,Montreal Royal,31,24,2016-05-06,7:00 PM EDT,Ottawa,6,532
+533,2016,/league/game/2016-05-06-SJ-SF,"Fri, 5/6 7:30 PM PDT San Francisco",San Francisco FlameThrowers,San Jose Spiders,32,25,2016-05-06,7:30 PM PDT,San Francisco,6,533
+534,2016,/league/game/2016-05-07-CIN-PIT,"Sat, 5/7 7:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Cincinnati Revolution,31,14,2016-05-07,7:00 PM EDT,Pittsburgh,6,539
+535,2016,/league/game/2016-05-07-RAL-ATL,"Sat, 5/7 7:00 PM EDT Atlanta",Atlanta Hustle,Raleigh Flyers,25,23,2016-05-07,7:00 PM EDT,Atlanta,6,541
+536,2016,/league/game/2016-05-07-IND-MIN,"Sat, 5/7 7:00 PM CDT Minnesota",Minnesota Wind Chill,Indianapolis AlleyCats,24,23,2016-05-07,7:00 PM CDT,Minnesota,6,540
+537,2016,/league/game/2016-05-07-AUS-DAL,"Sat, 5/7 7:00 PM CDT Dallas",Dallas Roughnecks,Austin Sol,24,16,2016-05-07,7:00 PM CDT,Dallas,6,542
+538,2016,/league/game/2016-05-07-NY-DC,"Sat, 5/7 6:30 PM EDT DC",DC Breeze,New York Empire,23,22,2016-05-07,6:30 PM EDT,DC,6,538
+539,2016,/league/game/2016-05-07-CHA-NSH,"Sat, 5/7 6:00 PM CDT Nashville",Nashville Nightwatch,Charlotte Express,24,26,2016-05-07,6:00 PM CDT,Nashville,6,536
+540,2016,/league/game/2016-05-07-TOR-MTL,"Sat, 5/7 6:00 PM EDT Montreal",Montreal Royal,Toronto Rush,31,27,2016-05-07,6:00 PM EDT,Montreal,6,535
+541,2016,/league/game/2016-05-07-CHI-DET,"Sat, 5/7 1:00 PM EDT Detroit",Detroit Mechanix,Chicago Wildfire,13,18,2016-05-07,1:00 PM EDT,Detroit,6,534
+542,2016,/league/game/2016-05-07-CHA-NSH,"Sat, 5/7 6:00 PM CDT Nashville",Nashville Nightwatch,Charlotte Express,24,26,2016-05-07,6:00 PM CDT,Nashville,6,537
+543,2016,/league/game/2016-05-13-CHI-MAD,"Fri, 5/13 7:00 PM CDT Madison",Madison Radicals,Chicago Wildfire,18,11,2016-05-13,7:00 PM CDT,Madison,7,543
+544,2016,/league/game/2016-05-14-PIT-IND,"Sat, 5/14 7:30 PM EDT Indianapolis",Indianapolis AlleyCats,Pittsburgh Thunderbirds,31,23,2016-05-14,7:30 PM EDT,Indianapolis,7,552
+545,2016,/league/game/2016-05-14-SEA-SJ,"Sat, 5/14 7:00 PM PDT San Jose",San Jose Spiders,Seattle Cascades,26,27,2016-05-14,7:00 PM PDT,San Jose,7,551
+546,2016,/league/game/2016-05-14-NY-TOR,"Sat, 5/14 7:00 PM EDT Toronto",Toronto Rush,New York Empire,22,14,2016-05-14,7:00 PM EDT,Toronto,7,550
+547,2016,/league/game/2016-05-14-RAL-JAX,"Sat, 5/14 7:00 PM EDT Jacksonville",Tampa Bay Cannons,Raleigh Flyers,25,24,2016-05-14,7:00 PM EDT,Jacksonville,7,548
+548,2016,/league/game/2016-05-14-CHI-MIN,"Sat, 5/14 7:00 PM CDT Minnesota",Minnesota Wind Chill,Chicago Wildfire,26,23,2016-05-14,7:00 PM CDT,Minnesota,7,549
+549,2016,/league/game/2016-05-14-SF-VAN,"Sat, 5/14 6:00 PM PDT Vancouver",Vancouver Riptide,San Francisco FlameThrowers,18,22,2016-05-14,6:00 PM PDT,Vancouver,7,546
+550,2016,/league/game/2016-05-14-MAD-DET,"Sat, 5/14 6:00 PM EDT Detroit",Detroit Mechanix,Madison Radicals,13,26,2016-05-14,6:00 PM EDT,Detroit,7,545
+551,2016,/league/game/2016-05-14-AUS-NSH,"Sat, 5/14 6:00 PM CDT Nashville",Nashville Nightwatch,Austin Sol,22,29,2016-05-14,6:00 PM CDT,Nashville,7,544
+552,2016,/league/game/2016-05-14-DC-PHI,"Sat, 5/14 6:30 PM EDT Philadelphia",Philadelphia Phoenix,DC Breeze,15,24,2016-05-14,6:30 PM EDT,Philadelphia,7,547
+553,2016,/league/game/2016-05-15-NY-MTL,"Sun, 5/15 12:00 PM EDT Montreal",Montreal Royal,New York Empire,12,17,2016-05-15,12:00 PM EDT,Montreal,7,553
+554,2016,/league/game/2016-05-15-AUS-ATL,"Sun, 5/15 2:30 PM EDT Atlanta",Atlanta Hustle,Austin Sol,22,23,2016-05-15,2:30 PM EDT,Atlanta,7,554
+555,2016,/league/game/2016-05-20-SJ-SEA,"Fri, 5/20 7:00 PM PDT Seattle",Seattle Cascades,San Jose Spiders,27,17,2016-05-20,7:00 PM PDT,Seattle,8,555
+556,2016,/league/game/2016-05-21-PIT-CHI,"Sat, 5/21 7:00 PM CDT Chicago",Chicago Wildfire,Pittsburgh Thunderbirds,23,24,2016-05-21,7:00 PM CDT,Chicago,8,563
+557,2016,/league/game/2016-05-21-ATL-JAX,"Sat, 5/21 7:00 PM EDT Jacksonville",Tampa Bay Cannons,Atlanta Hustle,29,24,2016-05-21,7:00 PM EDT,Jacksonville,8,565
+558,2016,/league/game/2016-05-21-MTL-PHI,"Sat, 5/21 7:30 PM EDT Philadelphia",Philadelphia Phoenix,Montreal Royal,18,21,2016-05-21,7:30 PM EDT,Philadelphia,8,566
+559,2016,/league/game/2016-05-21-RAL-CHA,"Sat, 5/21 7:00 PM EDT Charlotte",Charlotte Express,Raleigh Flyers,14,23,2016-05-21,7:00 PM EDT,Charlotte,8,564
+560,2016,/league/game/2016-05-21-NSH-AUS,"Sat, 5/21 6:30 PM CDT Austin",Austin Sol,Nashville Nightwatch,37,25,2016-05-21,6:30 PM CDT,Austin,8,562
+561,2016,/league/game/2016-05-21-OTT-TOR,"Sat, 5/21 4:00 PM EDT Toronto",Toronto Rush,Ottawa Outlaws,30,24,2016-05-21,4:00 PM EDT,Toronto,8,557
+562,2016,/league/game/2016-05-21-SJ-VAN,"Sat, 5/21 6:00 PM PDT Vancouver",Vancouver Riptide,San Jose Spiders,22,20,2016-05-21,6:00 PM PDT,Vancouver,8,560
+563,2016,/league/game/2016-05-21-CIN-MAD,"Sat, 5/21 6:00 PM CDT Madison",Madison Radicals,Cincinnati Revolution,36,23,2016-05-21,6:00 PM CDT,Madison,8,559
+564,2016,/league/game/2016-05-21-DC-NY,"Sat, 5/21 4:00 PM EDT New York",New York Empire,DC Breeze,14,15,2016-05-21,4:00 PM EDT,New York,8,558
+565,2016,/league/game/2016-05-21-DET-IND,"Sat, 5/21 3:45 PM EDT Indianapolis",Indianapolis AlleyCats,Detroit Mechanix,29,24,2016-05-21,3:45 PM EDT,Indianapolis,8,556
+566,2016,/league/game/2016-05-21-LA-SD,"Sat, 5/21 6:15 PM PDT San Diego",San Diego Growlers,Los Angeles Aviators,18,26,2016-05-21,6:15 PM PDT,San Diego,8,561
+567,2016,/league/game/2016-05-22-NSH-DAL,"Sun, 5/22 1:00 PM CDT Dallas",Dallas Roughnecks,Nashville Nightwatch,33,15,2016-05-22,1:00 PM CDT,Dallas,8,567
+568,2016,/league/game/2016-05-22-PIT-MIN,"Sun, 5/22 1:00 PM CDT Minnesota",Minnesota Wind Chill,Pittsburgh Thunderbirds,24,27,2016-05-22,1:00 PM CDT,Minnesota,8,568
+569,2016,/league/game/2016-05-22-MTL-DC,"Sun, 5/22 1:30 PM EDT DC",DC Breeze,Montreal Royal,28,14,2016-05-22,1:30 PM EDT,DC,8,569
+570,2016,/league/game/2016-05-27-MIN-MAD,"Fri, 5/27 7:00 PM CDT Madison",Madison Radicals,Minnesota Wind Chill,36,15,2016-05-27,7:00 PM CDT,Madison,9,570
+571,2016,/league/game/2016-05-27-IND-CIN,"Fri, 5/27 8:00 PM EDT Cincinnati",Cincinnati Revolution,Indianapolis AlleyCats,24,28,2016-05-27,8:00 PM EDT,Cincinnati,9,571
+572,2016,/league/game/2016-05-28-IND-CHI,"Sat, 5/28 7:00 PM CDT Chicago",Chicago Wildfire,Indianapolis AlleyCats,19,17,2016-05-28,7:00 PM CDT,Chicago,9,577
+573,2016,/league/game/2016-05-28-JAX-RAL,"Sat, 5/28 8:00 PM EDT Raleigh",Raleigh Flyers,Tampa Bay Cannons,25,24,2016-05-28,8:00 PM EDT,Raleigh,9,579
+574,2016,/league/game/2016-05-28-DAL-ATL,"Sat, 5/28 7:00 PM EDT Atlanta",Atlanta Hustle,Dallas Roughnecks,20,26,2016-05-28,7:00 PM EDT,Atlanta,9,578
+575,2016,/league/game/2016-05-28-CIN-DET,"Sat, 5/28 6:00 PM EDT Detroit",Detroit Mechanix,Cincinnati Revolution,23,19,2016-05-28,6:00 PM EDT,Detroit,9,576
+576,2016,/league/game/2016-05-28-TOR-OTT,"Sat, 5/28 4:00 PM EDT Ottawa",Ottawa Outlaws,Toronto Rush,20,35,2016-05-28,4:00 PM EDT,Ottawa,9,573
+577,2016,/league/game/2016-05-28-VAN-SF,"Sat, 5/28 6:00 PM PDT San Francisco",San Francisco FlameThrowers,Vancouver Riptide,30,27,2016-05-28,6:00 PM PDT,San Francisco,9,574
+578,2016,/league/game/2016-05-28-DC-MTL,"Sat, 5/28 4:00 PM EDT Montreal",Montreal Royal,DC Breeze,27,22,2016-05-28,4:00 PM EDT,Montreal,9,572
+579,2016,/league/game/2016-05-28-LA-SEA,"Sat, 5/28 6:00 PM PDT Seattle",Seattle Cascades,Los Angeles Aviators,27,26,2016-05-28,6:00 PM PDT,Seattle,9,575
+580,2016,/league/game/2016-05-29-JAX-CHA,"Sun, 5/29 1:00 PM EDT Charlotte",Charlotte Express,Tampa Bay Cannons,26,23,2016-05-29,1:00 PM EDT,Charlotte,9,580
+581,2016,/league/game/2016-05-29-VAN-SJ,"Sun, 5/29 1:00 PM PDT San Jose",San Jose Spiders,Vancouver Riptide,27,17,2016-05-29,1:00 PM PDT,San Jose,9,581
+582,2016,/league/game/2016-05-29-DAL-NSH,"Sun, 5/29 2:00 PM CDT Nashville",Nashville Nightwatch,Dallas Roughnecks,23,34,2016-05-29,2:00 PM CDT,Nashville,9,582
+583,2016,/league/game/2016-05-29-MTL-TOR,"Sun, 5/29 2:00 PM EDT Toronto",Toronto Rush,Montreal Royal,26,14,2016-05-29,2:00 PM EDT,Toronto,9,583
+584,2016,/league/game/2016-05-29-DC-OTT,"Sun, 5/29 2:00 PM EDT Ottawa",Ottawa Outlaws,DC Breeze,27,22,2016-05-29,2:00 PM EDT,Ottawa,9,584
+585,2016,/league/game/2016-06-04-PIT-MAD,"Sat, 6/4 6:00 PM CDT Madison",Madison Radicals,Pittsburgh Thunderbirds,23,16,2016-06-04,6:00 PM CDT,Madison,10,585
+586,2016,/league/game/2016-06-04-SF-VAN,"Sat, 6/4 6:00 PM PDT Vancouver",Vancouver Riptide,San Francisco FlameThrowers,29,27,2016-06-04,6:00 PM PDT,Vancouver,10,586
+587,2016,/league/game/2016-06-04-TOR-DC,"Sat, 6/4 6:30 PM EDT DC",DC Breeze,Toronto Rush,28,23,2016-06-04,6:30 PM EDT,DC,10,587
+588,2016,/league/game/2016-06-04-NY-PHI,"Sat, 6/4 6:30 PM EDT Philadelphia",Philadelphia Phoenix,New York Empire,17,32,2016-06-04,6:30 PM EDT,Philadelphia,10,588
+589,2016,/league/game/2016-06-04-CHA-DAL,"Sat, 6/4 7:00 PM CDT Dallas",Dallas Roughnecks,Charlotte Express,28,18,2016-06-04,7:00 PM CDT,Dallas,10,589
+590,2016,/league/game/2016-06-04-MTL-OTT,"Sat, 6/4 7:00 PM EDT Ottawa",Ottawa Outlaws,Montreal Royal,30,27,2016-06-04,7:00 PM EDT,Ottawa,10,590
+591,2016,/league/game/2016-06-04-SJ-LA,"Sat, 6/4 7:30 PM PDT LA",Los Angeles Aviators,San Jose Spiders,27,24,2016-06-04,7:30 PM PDT,LA,10,591
+592,2016,/league/game/2016-06-05-TOR-NY,"Sun, 6/5 3:00 PM EDT New York",New York Empire,Toronto Rush,21,27,2016-06-05,3:00 PM EDT,New York,10,595
+593,2016,/league/game/2016-06-05-DET-CHI,"Sun, 6/5 1:00 PM CDT Chicago",Chicago Wildfire,Detroit Mechanix,15,17,2016-06-05,1:00 PM CDT,Chicago,10,594
+594,2016,/league/game/2016-06-05-SF-SEA,"Sun, 6/5 3:00 PM PDT Seattle",Seattle Cascades,San Francisco FlameThrowers,28,25,2016-06-05,3:00 PM PDT,Seattle,10,596
+595,2016,/league/game/2016-06-05-CHA-AUS,"Sun, 6/5 12:30 PM CDT Austin",Austin Sol,Charlotte Express,31,14,2016-06-05,12:30 PM CDT,Austin,10,592
+596,2016,/league/game/2016-06-05-SJ-SD,"Sun, 6/5 1:00 PM PDT San Diego",San Diego Growlers,San Jose Spiders,22,26,2016-06-05,1:00 PM PDT,San Diego,10,593
+597,2016,/league/game/2016-06-10-DET-MIN,"Fri, 6/10 7:00 PM CDT Minnesota",Minnesota Wind Chill,Detroit Mechanix,31,28,2016-06-10,7:00 PM CDT,Minnesota,11,597
+598,2016,/league/game/2016-06-11-RAL-CHA,"Sat, 6/11 7:00 PM EDT Charlotte",Charlotte Express,Raleigh Flyers,21,29,2016-06-11,7:00 PM EDT,Charlotte,11,607
+599,2016,/league/game/2016-06-11-CHI-PIT,"Sat, 6/11 7:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Chicago Wildfire,26,22,2016-06-11,7:00 PM EDT,Pittsburgh,11,606
+600,2016,/league/game/2016-06-11-LA-SJ,"Sat, 6/11 7:00 PM PDT San Jose",San Jose Spiders,Los Angeles Aviators,27,25,2016-06-11,7:00 PM PDT,San Jose,11,605
+601,2016,/league/game/2016-06-11-DAL-JAX,"Sat, 6/11 7:00 PM EDT Jacksonville",Tampa Bay Cannons,Dallas Roughnecks,21,27,2016-06-11,7:00 PM EDT,Jacksonville,11,604
+602,2016,/league/game/2016-06-11-PHI-TOR,"Sat, 6/11 7:00 PM EDT Toronto",Toronto Rush,Philadelphia Phoenix,28,6,2016-06-11,7:00 PM EDT,Toronto,11,603
+603,2016,/league/game/2016-06-11-NY-DC,"Sat, 6/11 6:30 PM EDT DC",DC Breeze,New York Empire,27,26,2016-06-11,6:30 PM EDT,DC,11,601
+604,2016,/league/game/2016-06-11-DET-MAD,"Sat, 6/11 6:00 PM CDT Madison",Madison Radicals,Detroit Mechanix,37,19,2016-06-11,6:00 PM CDT,Madison,11,600
+605,2016,/league/game/2016-06-11-ATL-NSH,"Sat, 6/11 6:00 PM CDT Nashville",Nashville Nightwatch,Atlanta Hustle,24,34,2016-06-11,6:00 PM CDT,Nashville,11,599
+606,2016,/league/game/2016-06-11-SEA-VAN,"Sat, 6/11 6:00 PM PDT Vancouver",Vancouver Riptide,Seattle Cascades,27,24,2016-06-11,6:00 PM PDT,Vancouver,11,598
+607,2016,/league/game/2016-06-11-OTT-MTL,"Sat, 6/11 7:00 PM EDT Montreal",Montreal Royal,Ottawa Outlaws,21,20,2016-06-11,7:00 PM EDT,Montreal,11,602
+608,2016,/league/game/2016-06-12-LA-SF,"Sun, 6/12 1:00 PM PDT San Francisco",San Francisco FlameThrowers,Los Angeles Aviators,22,27,2016-06-12,1:00 PM PDT,San Francisco,11,608
+609,2016,/league/game/2016-06-12-PHI-OTT,"Sun, 6/12 2:00 PM EDT Ottawa",Ottawa Outlaws,Philadelphia Phoenix,25,13,2016-06-12,2:00 PM EDT,Ottawa,11,609
+610,2016,/league/game/2016-06-17-MAD-MIN,"Fri, 6/17 7:00 PM CDT Minnesota",Minnesota Wind Chill,Madison Radicals,16,25,2016-06-17,7:00 PM CDT,Minnesota,12,610
+611,2016,/league/game/2016-06-18-VAN-LA,"Sat, 6/18 7:30 PM PDT LA",Los Angeles Aviators,Vancouver Riptide,31,24,2016-06-18,7:30 PM PDT,LA,12,616
+612,2016,/league/game/2016-06-18-CHI-CIN,"Sat, 6/18 7:30 PM EDT Cincinnati",Cincinnati Revolution,Chicago Wildfire,27,28,2016-06-18,7:30 PM EDT,Cincinnati,12,615
+613,2016,/league/game/2016-06-18-CHA-JAX,"Sat, 6/18 7:00 PM EDT Jacksonville",Tampa Bay Cannons,Charlotte Express,21,19,2016-06-18,7:00 PM EDT,Jacksonville,12,614
+614,2016,/league/game/2016-06-18-SF-SJ,"Sat, 6/18 7:00 PM PDT San Jose",San Jose Spiders,San Francisco FlameThrowers,24,25,2016-06-18,7:00 PM PDT,San Jose,12,613
+615,2016,/league/game/2016-06-18-ATL-AUS,"Sat, 6/18 7:00 PM CDT Austin",Austin Sol,Atlanta Hustle,29,31,2016-06-18,7:00 PM CDT,Austin,12,612
+616,2016,/league/game/2016-06-18-DC-PHI,"Sat, 6/18 6:30 PM EDT Philadelphia",Philadelphia Phoenix,DC Breeze,18,34,2016-06-18,6:30 PM EDT,Philadelphia,12,611
+617,2016,/league/game/2016-06-19-ATL-DAL,"Sun, 6/19 1:00 PM CDT Dallas",Dallas Roughnecks,Atlanta Hustle,31,21,2016-06-19,1:00 PM CDT,Dallas,12,617
+618,2016,/league/game/2016-06-19-VAN-SD,"Sun, 6/19 1:00 PM PDT San Diego",San Diego Growlers,Vancouver Riptide,23,25,2016-06-19,1:00 PM PDT,San Diego,12,618
+619,2016,/league/game/2016-06-19-CHI-IND,"Sun, 6/19 4:30 PM EDT Indianapolis",Indianapolis AlleyCats,Chicago Wildfire,29,17,2016-06-19,4:30 PM EDT,Indianapolis,12,619
+620,2016,/league/game/2016-06-19-PHI-NY,"Sun, 6/19 6:30 PM EDT New York",New York Empire,Philadelphia Phoenix,28,13,2016-06-19,6:30 PM EDT,New York,12,620
+621,2016,/league/game/2016-06-25-AUS-JAX,"Sat, 6/25 7:00 PM EDT Jacksonville",Tampa Bay Cannons,Austin Sol,24,26,2016-06-25,7:00 PM EDT,Jacksonville,13,628
+622,2016,/league/game/2016-06-25-MAD-CHI,"Sat, 6/25 7:00 PM CDT Chicago",Chicago Wildfire,Madison Radicals,10,21,2016-06-25,7:00 PM CDT,Chicago,13,627
+623,2016,/league/game/2016-06-25-NSH-CHA,"Sat, 6/25 7:00 PM EDT Charlotte",Charlotte Express,Nashville Nightwatch,28,19,2016-06-25,7:00 PM EDT,Charlotte,13,626
+624,2016,/league/game/2016-06-25-SD-SJ,"Sat, 6/25 7:00 PM PDT San Jose",San Jose Spiders,San Diego Growlers,24,21,2016-06-25,7:00 PM PDT,San Jose,13,625
+625,2016,/league/game/2016-06-25-LA-VAN,"Sat, 6/25 6:00 PM PDT Vancouver",Vancouver Riptide,Los Angeles Aviators,20,21,2016-06-25,6:00 PM PDT,Vancouver,13,622
+626,2016,/league/game/2016-06-25-IND-DET,"Sat, 6/25 6:00 PM EDT Detroit",Detroit Mechanix,Indianapolis AlleyCats,22,29,2016-06-25,6:00 PM EDT,Detroit,13,623
+627,2016,/league/game/2016-06-25-OTT-NY,"Sat, 6/25 4:30 PM EDT New York",New York Empire,Ottawa Outlaws,23,21,2016-06-25,4:30 PM EDT,New York,13,621
+628,2016,/league/game/2016-06-25-PHI-DC,"Sat, 6/25 6:30 PM EDT DC",DC Breeze,Philadelphia Phoenix,27,16,2016-06-25,6:30 PM EDT,DC,13,624
+629,2016,/league/game/2016-06-26-NSH-RAL,"Sun, 6/26 3:00 PM EDT Raleigh",Raleigh Flyers,Nashville Nightwatch,28,19,2016-06-26,3:00 PM EDT,Raleigh,13,633
+630,2016,/league/game/2016-06-26-LA-SEA,"Sun, 6/26 3:00 PM PDT Seattle",Seattle Cascades,Los Angeles Aviators,16,22,2016-06-26,3:00 PM PDT,Seattle,13,634
+631,2016,/league/game/2016-06-26-IND-PIT,"Sun, 6/26 2:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Indianapolis AlleyCats,25,29,2016-06-26,2:00 PM EDT,Pittsburgh,13,631
+632,2016,/league/game/2016-06-26-SD-SF,"Sun, 6/26 1:00 PM PDT San Francisco",San Francisco FlameThrowers,San Diego Growlers,29,25,2016-06-26,1:00 PM PDT,San Francisco,13,630
+633,2016,/league/game/2016-06-26-OTT-PHI,"Sun, 6/26 1:00 PM EDT Philadelphia",Philadelphia Phoenix,Ottawa Outlaws,22,30,2016-06-26,1:00 PM EDT,Philadelphia,13,629
+634,2016,/league/game/2016-06-26-MAD-CIN,"Sun, 6/26 3:00 PM EDT Cincinnati",Cincinnati Revolution,Madison Radicals,22,25,2016-06-26,3:00 PM EDT,Cincinnati,13,632
+635,2016,/league/game/2016-07-01-DET-PIT,"Fri, 7/1 7:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Detroit Mechanix,31,13,2016-07-01,7:00 PM EDT,Pittsburgh,14,635
+636,2016,/league/game/2016-07-01-ATL-RAL,"Fri, 7/1 8:00 PM EDT Raleigh",Raleigh Flyers,Atlanta Hustle,28,22,2016-07-01,8:00 PM EDT,Raleigh,14,636
+637,2016,/league/game/2016-07-02-NY-OTT,"Sat, 7/2 4:30 PM EDT Ottawa",Ottawa Outlaws,New York Empire,24,19,2016-07-02,4:30 PM EDT,Ottawa,14,637
+638,2016,/league/game/2016-07-02-CHA-NSH,"Sat, 7/2 6:00 PM CDT Nashville",Nashville Nightwatch,Charlotte Express,19,15,2016-07-02,6:00 PM CDT,Nashville,14,638
+639,2016,/league/game/2016-07-02-SJ-SD,"Sat, 7/2 6:15 PM PDT San Diego",San Diego Growlers,San Jose Spiders,32,21,2016-07-02,6:15 PM PDT,San Diego,14,639
+640,2016,/league/game/2016-07-02-DAL-AUS,"Sat, 7/2 6:30 PM CDT Austin",Austin Sol,Dallas Roughnecks,22,26,2016-07-02,6:30 PM CDT,Austin,14,640
+641,2016,/league/game/2016-07-02-TOR-MTL,"Sat, 7/2 7:00 PM EDT Montreal",Montreal Royal,Toronto Rush,18,29,2016-07-02,7:00 PM EDT,Montreal,14,641
+642,2016,/league/game/2016-07-02-CIN-MIN,"Sat, 7/2 7:00 PM CDT Minnesota",Minnesota Wind Chill,Cincinnati Revolution,28,21,2016-07-02,7:00 PM CDT,Minnesota,14,642
+643,2016,/league/game/2016-07-02-VAN-LA,"Sat, 7/2 7:30 PM PDT LA",Los Angeles Aviators,Vancouver Riptide,28,26,2016-07-02,7:30 PM PDT,LA,14,643
+644,2016,/league/game/2016-07-02-PIT-IND,"Sat, 7/2 7:30 PM EDT Indianapolis",Indianapolis AlleyCats,Pittsburgh Thunderbirds,26,31,2016-07-02,7:30 PM EDT,Indianapolis,14,644
+645,2016,/league/game/2016-07-03-NY-TOR,"Sun, 7/3 2:00 PM EDT Toronto",Toronto Rush,New York Empire,22,20,2016-07-03,2:00 PM EDT,Toronto,14,645
+646,2016,/league/game/2016-07-08-MAD-CHI,"Fri, 7/8 7:00 PM CDT Chicago",Chicago Wildfire,Madison Radicals,16,19,2016-07-08,7:00 PM CDT,Chicago,15,646
+647,2016,/league/game/2016-07-09-RAL-DAL,"Sat, 7/9 7:00 PM CDT Dallas",Dallas Roughnecks,Raleigh Flyers,27,22,2016-07-09,7:00 PM CDT,Dallas,15,652
+648,2016,/league/game/2016-07-09-SD-LA,"Sat, 7/9 7:30 PM PDT LA",Los Angeles Aviators,San Diego Growlers,30,24,2016-07-09,7:30 PM PDT,LA,15,653
+649,2016,/league/game/2016-07-09-MIN-PIT,"Sat, 7/9 7:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Minnesota Wind Chill,29,21,2016-07-09,7:00 PM EDT,Pittsburgh,15,651
+650,2016,/league/game/2016-07-09-PHI-OTT,"Sat, 7/9 6:00 PM EDT Ottawa",Ottawa Outlaws,Philadelphia Phoenix,37,16,2016-07-09,6:00 PM EDT,Ottawa,15,649
+651,2016,/league/game/2016-07-09-JAX-NSH,"Sat, 7/9 6:00 PM CDT Nashville",Nashville Nightwatch,Tampa Bay Cannons,30,26,2016-07-09,6:00 PM CDT,Nashville,15,648
+652,2016,/league/game/2016-07-09-VAN-SEA,"Sat, 7/9 6:30 PM PDT Seattle",Seattle Cascades,Vancouver Riptide,31,27,2016-07-09,6:30 PM PDT,Seattle,15,650
+653,2016,/league/game/2016-07-09-SJ-SF,"Sat, 7/9 6:00 PM PDT San Francisco",San Francisco FlameThrowers,San Jose Spiders,27,20,2016-07-09,6:00 PM PDT,San Francisco,15,647
+654,2016,/league/game/2016-07-10-IND-MAD,"Sun, 7/10 12:00 PM CDT Madison",Madison Radicals,Indianapolis AlleyCats,23,17,2016-07-10,12:00 PM CDT,Madison,15,654
+655,2016,/league/game/2016-07-10-RAL-AUS,"Sun, 7/10 12:30 PM CDT Austin",Austin Sol,Raleigh Flyers,33,12,2016-07-10,12:30 PM CDT,Austin,15,655
+656,2016,/league/game/2016-07-10-PHI-MTL,"Sun, 7/10 1:00 PM EDT Montreal",Montreal Royal,Philadelphia Phoenix,27,19,2016-07-10,1:00 PM EDT,Montreal,15,656
+657,2016,/league/game/2016-07-10-MIN-DET,"Sun, 7/10 3:00 PM EDT Detroit",Detroit Mechanix,Minnesota Wind Chill,19,20,2016-07-10,3:00 PM EDT,Detroit,15,657
+658,2016,/league/game/2016-07-10-JAX-ATL,"Sun, 7/10 5:00 PM EDT Atlanta",Atlanta Hustle,Tampa Bay Cannons,27,26,2016-07-10,5:00 PM EDT,Atlanta,15,658
+659,2016,/league/game/2016-07-16-MIN-PIT,"Sat, 7/16 7:00 PM CDT Pittsburgh",Pittsburgh Thunderbirds,Minnesota Wind Chill,20,18,2016-07-16,7:00 PM CDT,Pittsburgh,16,661
+660,2016,/league/game/2016-07-16-SEA-LA,"Sat, 7/16 7:00 PM PDT LA",Los Angeles Aviators,Seattle Cascades,23,31,2016-07-16,7:00 PM PDT,LA,16,659
+661,2016,/league/game/2016-07-16-NY-DC,"Sat, 7/16 7:00 PM EDT DC",DC Breeze,New York Empire,24,20,2016-07-16,7:00 PM EDT,DC,16,660
+662,2016,/league/game/2016-07-17-SEA-SF,"Sun, 7/17 7:00 PM PDT San Francisco",San Francisco FlameThrowers,Seattle Cascades,17,23,2016-07-17,7:00 PM PDT,San Francisco,16,662
+663,2016,/league/game/2016-07-17-ATL-RAL,"Sun, 7/17 7:00 PM CDT Raleigh",Raleigh Flyers,Atlanta Hustle,23,25,2016-07-17,7:00 PM CDT,Raleigh,16,663
+664,2016,/league/game/2016-07-23-ATL-DAL,"Sat, 7/23 7:00 PM CDT Dallas",Dallas Roughnecks,Atlanta Hustle,28,21,2016-07-23,7:00 PM CDT,Dallas,17,666
+665,2016,/league/game/2016-07-23-DC-TOR,"Sat, 7/23 5:00 PM EDT Toronto",Toronto Rush,DC Breeze,23,21,2016-07-23,5:00 PM EDT,Toronto,17,664
+666,2016,/league/game/2016-07-23-PIT-MAD,"Sat, 7/23 6:00 PM CDT Madison",Madison Radicals,Pittsburgh Thunderbirds,20,16,2016-07-23,6:00 PM CDT,Madison,17,665
+667,2016,/league/game/2016-08-06-SEA-MAD,"Sat, 8/6 7:00 PM CDT",Madison Radicals,Seattle Cascades,25,26,2016-08-06,7:00 PM CDT,,19,668
+668,2016,/league/game/2016-08-06-TOR-DAL,"Sat, 8/6 4:00 PM CDT",Dallas Roughnecks,Toronto Rush,27,20,2016-08-06,4:00 PM CDT,,19,667
+669,2016,/league/game/2016-08-07-SEA-DAL,"Sun, 8/7 12:00 PM CDT",Dallas Roughnecks,Seattle Cascades,33,27,2016-08-07,12:00 PM CDT,,19,669
+670,2017,/league/game/2017-04-01-SJ-SF,"Sat, 4/1 6:00 PM PDT San Francisco",San Francisco FlameThrowers,San Jose Spiders,34,29,2017-04-01,6:00 PM PDT,San Francisco,1,670
+671,2017,/league/game/2017-04-01-LA-SD,"Sat, 4/1 6:30 PM PDT San Diego",San Diego Growlers,Los Angeles Aviators,26,31,2017-04-01,6:30 PM PDT,San Diego,1,671
+672,2017,/league/game/2017-04-01-ATL-RAL,"Sat, 4/1 6:30 PM EDT Raleigh",Raleigh Flyers,Atlanta Hustle,27,19,2017-04-01,6:30 PM EDT,Raleigh,1,672
+673,2017,/league/game/2017-04-01-AUS-DAL,"Sat, 4/1 7:00 PM CDT Dallas",Dallas Roughnecks,Austin Sol,21,17,2017-04-01,7:00 PM CDT,Dallas,1,673
+674,2017,/league/game/2017-04-01-NSH-JAX,"Sat, 4/1 7:00 PM EDT Jacksonville",Tampa Bay Cannons,Nashville Nightwatch,40,23,2017-04-01,7:00 PM EDT,Jacksonville,1,674
+675,2017,/league/game/2017-04-01-VAN-SEA,"Sat, 4/1 7:00 PM PDT Seattle",Seattle Cascades,Vancouver Riptide,29,18,2017-04-01,7:00 PM PDT,Seattle,1,675
+676,2017,/league/game/2017-04-02-MAD-IND,"Sun, 4/2 4:30 PM EDT Indianapolis",Indianapolis AlleyCats,Madison Radicals,19,24,2017-04-02,4:30 PM EDT,Indianapolis,1,676
+677,2017,/league/game/2017-04-08-TOR-NY,"Sat, 4/8 4:30 PM EDT New York",New York Empire,Toronto Rush,17,22,2017-04-08,4:30 PM EDT,New York,2,677
+678,2017,/league/game/2017-04-08-SF-SJ,"Sat, 4/8 7:00 PM PDT San Jose",San Jose Spiders,San Francisco FlameThrowers,24,22,2017-04-08,7:00 PM PDT,San Jose,2,678
+679,2017,/league/game/2017-04-08-RAL-AUS,"Sat, 4/8 7:00 PM CDT Austin",Austin Sol,Raleigh Flyers,19,26,2017-04-08,7:00 PM CDT,Austin,2,679
+680,2017,/league/game/2017-04-08-DET-IND,"Sat, 4/8 7:30 PM EDT Indianapolis",Indianapolis AlleyCats,Detroit Mechanix,25,15,2017-04-08,7:30 PM EDT,Indianapolis,2,680
+681,2017,/league/game/2017-04-09-RAL-DAL,"Sun, 4/9 1:00 PM CDT Dallas",Dallas Roughnecks,Raleigh Flyers,33,18,2017-04-09,1:00 PM CDT,Dallas,2,681
+682,2017,/league/game/2017-04-09-VAN-LA,"Sun, 4/9 1:30 PM PDT LA",Los Angeles Aviators,Vancouver Riptide,21,18,2017-04-09,1:30 PM PDT,LA,2,682
+683,2017,/league/game/2017-04-09-TOR-DC,"Sun, 4/9 2:00 PM EDT DC",DC Breeze,Toronto Rush,32,21,2017-04-09,2:00 PM EDT,DC,2,683
+684,2017,/league/game/2017-04-15-RAL-JAX,"Sat, 4/15 7:00 PM EDT Jacksonville",Tampa Bay Cannons,Raleigh Flyers,18,25,2017-04-15,7:00 PM EDT,Jacksonville,3,685
+685,2017,/league/game/2017-04-15-ATL-NSH,"Sat, 4/15 6:00 PM CDT Nashville",Nashville Nightwatch,Atlanta Hustle,27,37,2017-04-15,6:00 PM CDT,Nashville,3,684
+686,2017,/league/game/2017-04-21-SD-SJ,"Fri, 4/21 7:30 PM PDT San Jose",San Jose Spiders,San Diego Growlers,30,25,2017-04-21,7:30 PM PDT,San Jose,4,686
+687,2017,/league/game/2017-04-22-JAX-ATL,"Sat, 4/22 7:00 PM EDT Atlanta",Atlanta Hustle,Tampa Bay Cannons,25,27,2017-04-22,7:00 PM EDT,Atlanta,4,694
+688,2017,/league/game/2017-04-22-DC-RAL,"Sat, 4/22 7:00 PM EDT Raleigh",Raleigh Flyers,DC Breeze,23,21,2017-04-22,7:00 PM EDT,Raleigh,4,692
+689,2017,/league/game/2017-04-22-DAL-AUS,"Sat, 4/22 7:00 PM CDT Austin",Austin Sol,Dallas Roughnecks,24,30,2017-04-22,7:00 PM CDT,Austin,4,691
+690,2017,/league/game/2017-04-22-CHI-PIT,"Sat, 4/22 7:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Chicago Wildfire,30,22,2017-04-22,7:00 PM EDT,Pittsburgh,4,693
+691,2017,/league/game/2017-04-22-SD-SF,"Sat, 4/22 6:00 PM PDT San Francisco",San Francisco FlameThrowers,San Diego Growlers,28,19,2017-04-22,6:00 PM PDT,San Francisco,4,689
+692,2017,/league/game/2017-04-22-SEA-VAN,"Sat, 4/22 6:00 PM PDT Vancouver",Vancouver Riptide,Seattle Cascades,24,27,2017-04-22,6:00 PM PDT,Vancouver,4,688
+693,2017,/league/game/2017-04-22-IND-MIN,"Sat, 4/22 6:00 PM CDT Minnesota",Minnesota Wind Chill,Indianapolis AlleyCats,26,16,2017-04-22,6:00 PM CDT,Minnesota,4,687
+694,2017,/league/game/2017-04-22-MTL-PHI,"Sat, 4/22 6:30 PM EDT Philadelphia",Philadelphia Phoenix,Montreal Royal,23,24,2017-04-22,6:30 PM EDT,Philadelphia,4,690
+695,2017,/league/game/2017-04-23-JAX-NSH,"Sun, 4/23 12:00 PM CDT Nashville",Nashville Nightwatch,Tampa Bay Cannons,11,14,2017-04-23,12:00 PM CDT,Nashville,4,695
+696,2017,/league/game/2017-04-23-MTL-NY,"Sun, 4/23 1:00 PM EDT New York",New York Empire,Montreal Royal,21,8,2017-04-23,1:00 PM EDT,New York,4,696
+697,2017,/league/game/2017-04-28-SJ-SEA,"Fri, 4/28 7:00 PM PDT Seattle",Seattle Cascades,San Jose Spiders,26,27,2017-04-28,7:00 PM PDT,Seattle,5,697
+698,2017,/league/game/2017-04-29-OTT-DC,"Sat, 4/29 6:30 PM EDT DC",DC Breeze,Ottawa Outlaws,29,24,2017-04-29,6:30 PM EDT,DC,5,704
+699,2017,/league/game/2017-04-29-AUS-RAL,"Sat, 4/29 7:00 PM EDT Raleigh",Raleigh Flyers,Austin Sol,28,23,2017-04-29,7:00 PM EDT,Raleigh,5,707
+700,2017,/league/game/2017-04-29-SF-LA,"Sat, 4/29 7:00 PM PDT LA",Los Angeles Aviators,San Francisco FlameThrowers,22,26,2017-04-29,7:00 PM PDT,LA,5,706
+701,2017,/league/game/2017-04-29-IND-PIT,"Sat, 4/29 7:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Indianapolis AlleyCats,26,25,2017-04-29,7:00 PM EDT,Pittsburgh,5,705
+702,2017,/league/game/2017-04-29-DAL-NSH,"Sat, 4/29 6:00 PM CDT Nashville",Nashville Nightwatch,Dallas Roughnecks,8,27,2017-04-29,6:00 PM CDT,Nashville,5,702
+703,2017,/league/game/2017-04-29-MTL-TOR,"Sat, 4/29 4:00 PM EDT Toronto",Toronto Rush,Montreal Royal,19,22,2017-04-29,4:00 PM EDT,Toronto,5,699
+704,2017,/league/game/2017-04-29-MAD-MIN,"Sat, 4/29 6:00 PM CDT Minnesota",Minnesota Wind Chill,Madison Radicals,22,20,2017-04-29,6:00 PM CDT,Minnesota,5,701
+705,2017,/league/game/2017-04-29-PHI-NY,"Sat, 4/29 4:30 PM EDT New York",New York Empire,Philadelphia Phoenix,18,13,2017-04-29,4:30 PM EDT,New York,5,700
+706,2017,/league/game/2017-04-29-CHI-DET,"Sat, 4/29 4:00 PM EDT Detroit",Detroit Mechanix,Chicago Wildfire,23,14,2017-04-29,4:00 PM EDT,Detroit,5,698
+707,2017,/league/game/2017-04-29-SJ-VAN,"Sat, 4/29 6:00 PM PDT Vancouver",Vancouver Riptide,San Jose Spiders,22,28,2017-04-29,6:00 PM PDT,Vancouver,5,703
+708,2017,/league/game/2017-04-30-AUS-JAX,"Sun, 4/30 1:00 PM EDT Jacksonville",Tampa Bay Cannons,Austin Sol,30,22,2017-04-30,1:00 PM EDT,Jacksonville,5,708
+709,2017,/league/game/2017-04-30-SF-SD,"Sun, 4/30 1:00 PM PDT San Diego",San Diego Growlers,San Francisco FlameThrowers,20,21,2017-04-30,1:00 PM PDT,San Diego,5,709
+710,2017,/league/game/2017-04-30-DAL-ATL,"Sun, 4/30 4:00 PM EDT Atlanta",Atlanta Hustle,Dallas Roughnecks,24,29,2017-04-30,4:00 PM EDT,Atlanta,5,710
+711,2017,/league/game/2017-04-30-OTT-PHI,"Sun, 4/30 7:00 PM EDT Philadelphia",Philadelphia Phoenix,Ottawa Outlaws,26,29,2017-04-30,7:00 PM EDT,Philadelphia,5,711
+712,2017,/league/game/2017-05-06-VAN-SD,"Sat, 5/6 6:30 PM PDT San Diego",San Diego Growlers,Vancouver Riptide,22,14,2017-05-06,6:30 PM PDT,San Diego,6,716
+713,2017,/league/game/2017-05-06-NY-DC,"Sat, 5/6 6:30 PM EDT DC",DC Breeze,New York Empire,22,21,2017-05-06,6:30 PM EDT,DC,6,717
+714,2017,/league/game/2017-05-06-PIT-SEA,"Sat, 5/6 6:00 PM PDT Seattle",Seattle Cascades,Pittsburgh Thunderbirds,26,24,2017-05-06,6:00 PM PDT,Seattle,6,715
+715,2017,/league/game/2017-05-06-NSH-DAL,"Sat, 5/6 7:00 PM CDT Dallas",Dallas Roughnecks,Nashville Nightwatch,32,23,2017-05-06,7:00 PM CDT,Dallas,6,718
+716,2017,/league/game/2017-05-06-IND-MIN,"Sat, 5/6 5:30 PM CDT Minnesota",Minnesota Wind Chill,Indianapolis AlleyCats,28,25,2017-05-06,5:30 PM CDT,Minnesota,6,713
+717,2017,/league/game/2017-05-06-TOR-OTT,"Sat, 5/6 4:00 PM EDT Ottawa",Ottawa Outlaws,Toronto Rush,21,24,2017-05-06,4:00 PM EDT,Ottawa,6,712
+718,2017,/league/game/2017-05-06-CHI-MAD,"Sat, 5/6 6:00 PM CDT Madison",Madison Radicals,Chicago Wildfire,18,16,2017-05-06,6:00 PM CDT,Madison,6,714
+719,2017,/league/game/2017-05-07-VAN-LA,"Sun, 5/7 1:30 PM PDT LA",Los Angeles Aviators,Vancouver Riptide,23,18,2017-05-07,1:30 PM PDT,LA,6,721
+720,2017,/league/game/2017-05-07-NSH-AUS,"Sun, 5/7 12:00 PM CDT Austin",Austin Sol,Nashville Nightwatch,31,11,2017-05-07,12:00 PM CDT,Austin,6,719
+721,2017,/league/game/2017-05-07-TOR-MTL,"Sun, 5/7 1:00 PM EDT Montreal",Montreal Royal,Toronto Rush,17,24,2017-05-07,1:00 PM EDT,Montreal,6,720
+722,2017,/league/game/2017-05-12-DAL-JAX,"Fri, 5/12 7:30 PM EDT Jacksonville",Tampa Bay Cannons,Dallas Roughnecks,24,22,2017-05-12,7:30 PM EDT,Jacksonville,7,722
+723,2017,/league/game/2017-05-13-DC-TOR,"Sat, 5/13 5:00 PM EDT Toronto",Toronto Rush,DC Breeze,26,20,2017-05-13,5:00 PM EDT,Toronto,7,723
+724,2017,/league/game/2017-05-13-SEA-SF,"Sat, 5/13 6:00 PM PDT San Francisco",San Francisco FlameThrowers,Seattle Cascades,27,28,2017-05-13,6:00 PM PDT,San Francisco,7,724
+725,2017,/league/game/2017-05-13-SD-VAN,"Sat, 5/13 6:00 PM PDT Vancouver",Vancouver Riptide,San Diego Growlers,27,26,2017-05-13,6:00 PM PDT,Vancouver,7,725
+726,2017,/league/game/2017-05-13-PHI-OTT,"Sat, 5/13 6:00 PM EDT Ottawa",Ottawa Outlaws,Philadelphia Phoenix,25,21,2017-05-13,6:00 PM EDT,Ottawa,7,726
+727,2017,/league/game/2017-05-13-DAL-RAL,"Sat, 5/13 7:00 PM EDT Raleigh",Raleigh Flyers,Dallas Roughnecks,32,25,2017-05-13,7:00 PM EDT,Raleigh,7,727
+728,2017,/league/game/2017-05-13-LA-SJ,"Sat, 5/13 7:00 PM PDT San Jose",San Jose Spiders,Los Angeles Aviators,28,22,2017-05-13,7:00 PM PDT,San Jose,7,728
+729,2017,/league/game/2017-05-13-MIN-CHI,"Sat, 5/13 7:00 PM EDT Chicago",Chicago Wildfire,Minnesota Wind Chill,17,20,2017-05-13,7:00 PM EDT,Chicago,7,729
+730,2017,/league/game/2017-05-13-LA-SJ,"Sat, 5/13 7:00 PM PDT San Jose",San Jose Spiders,Los Angeles Aviators,28,22,2017-05-13,7:00 PM PDT,San Jose,7,730
+731,2017,/league/game/2017-05-13-MAD-IND,"Sat, 5/13 7:30 PM EDT Indianapolis",Indianapolis AlleyCats,Madison Radicals,20,23,2017-05-13,7:30 PM EDT,Indianapolis,7,731
+732,2017,/league/game/2017-05-14-MIN-DET,"Sun, 5/14 1:00 PM EDT Detroit",Detroit Mechanix,Minnesota Wind Chill,19,22,2017-05-14,1:00 PM EDT,Detroit,7,732
+733,2017,/league/game/2017-05-14-PHI-MTL,"Sun, 5/14 1:00 PM EDT Montreal",Montreal Royal,Philadelphia Phoenix,25,26,2017-05-14,1:00 PM EDT,Montreal,7,733
+734,2017,/league/game/2017-05-20-VAN-SJ,"Sat, 5/20 7:00 PM PDT San Jose",San Jose Spiders,Vancouver Riptide,19,18,2017-05-20,7:00 PM PDT,San Jose,8,739
+735,2017,/league/game/2017-05-20-MTL-DC,"Sat, 5/20 6:30 PM EDT DC",DC Breeze,Montreal Royal,23,20,2017-05-20,6:30 PM EDT,DC,8,737
+736,2017,/league/game/2017-05-20-RAL-JAX,"Sat, 5/20 7:00 PM EDT Jacksonville",Tampa Bay Cannons,Raleigh Flyers,20,21,2017-05-20,7:00 PM EDT,Jacksonville,8,738
+737,2017,/league/game/2017-05-20-PIT-MAD,"Sat, 5/20 6:00 PM CDT Madison",Madison Radicals,Pittsburgh Thunderbirds,31,25,2017-05-20,6:00 PM CDT,Madison,8,735
+738,2017,/league/game/2017-05-20-DET-MIN,"Sat, 5/20 5:30 PM CDT Minnesota",Minnesota Wind Chill,Detroit Mechanix,26,17,2017-05-20,5:30 PM CDT,Minnesota,8,734
+739,2017,/league/game/2017-05-20-ATL-AUS,"Sat, 5/20 6:00 PM CDT Austin",Austin Sol,Atlanta Hustle,27,28,2017-05-20,6:00 PM CDT,Austin,8,736
+740,2017,/league/game/2017-05-21-VAN-SF,"Sun, 5/21 1:00 PM PDT San Francisco",San Francisco FlameThrowers,Vancouver Riptide,33,20,2017-05-21,1:00 PM PDT,San Francisco,8,740
+741,2017,/league/game/2017-05-21-ATL-DAL,"Sun, 5/21 1:00 PM CDT Dallas",Dallas Roughnecks,Atlanta Hustle,26,18,2017-05-21,1:00 PM CDT,Dallas,8,741
+742,2017,/league/game/2017-05-21-MTL-NY,"Sun, 5/21 4:00 PM EDT New York",New York Empire,Montreal Royal,16,19,2017-05-21,4:00 PM EDT,New York,8,742
+743,2017,/league/game/2017-05-21-DET-CHI,"Sun, 5/21 7:00 PM EDT Chicago",Chicago Wildfire,Detroit Mechanix,22,12,2017-05-21,7:00 PM EDT,Chicago,8,743
+744,2017,/league/game/2017-05-27-SD-LA,"Sat, 5/27 7:00 PM PDT LA",Los Angeles Aviators,San Diego Growlers,23,24,2017-05-27,7:00 PM PDT,LA,9,749
+745,2017,/league/game/2017-05-27-JAX-ATL,"Sat, 5/27 7:00 PM EDT Atlanta",Atlanta Hustle,Tampa Bay Cannons,20,23,2017-05-27,7:00 PM EDT,Atlanta,9,748
+746,2017,/league/game/2017-05-27-CHI-MAD,"Sat, 5/27 6:00 PM CDT Madison",Madison Radicals,Chicago Wildfire,21,20,2017-05-27,6:00 PM CDT,Madison,9,747
+747,2017,/league/game/2017-05-27-PHI-TOR,"Sat, 5/27 5:00 PM EDT Toronto",Toronto Rush,Philadelphia Phoenix,31,18,2017-05-27,5:00 PM EDT,Toronto,9,746
+748,2017,/league/game/2017-05-27-DC-NY,"Sat, 5/27 1:00 PM EDT New York",New York Empire,DC Breeze,25,28,2017-05-27,1:00 PM EDT,New York,9,744
+749,2017,/league/game/2017-05-27-PIT-DET,"Sat, 5/27 4:00 PM EDT Detroit",Detroit Mechanix,Pittsburgh Thunderbirds,21,23,2017-05-27,4:00 PM EDT,Detroit,9,745
+750,2017,/league/game/2017-05-28-CHI-MIN,"Sun, 5/28 2:00 PM CDT Minnesota",Minnesota Wind Chill,Chicago Wildfire,23,20,2017-05-28,2:00 PM CDT,Minnesota,9,750
+751,2017,/league/game/2017-05-28-PHI-MTL,"Sun, 5/28 3:00 PM EDT Montreal",Montreal Royal,Philadelphia Phoenix,23,21,2017-05-28,3:00 PM EDT,Montreal,9,751
+752,2017,/league/game/2017-06-02-MTL-OTT,"Fri, 6/2 7:00 PM EDT Ottawa",Ottawa Outlaws,Montreal Royal,22,31,2017-06-02,7:00 PM EDT,Ottawa,10,752
+753,2017,/league/game/2017-06-03-LA-SJ,"Sat, 6/3 7:00 PM PDT San Jose",San Jose Spiders,Los Angeles Aviators,23,28,2017-06-03,7:00 PM PDT,San Jose,10,759
+754,2017,/league/game/2017-06-03-PIT-CHI,"Sat, 6/3 8:00 PM EDT Chicago",Chicago Wildfire,Pittsburgh Thunderbirds,22,21,2017-06-03,8:00 PM EDT,Chicago,10,761
+755,2017,/league/game/2017-06-03-JAX-RAL,"Sat, 6/3 7:00 PM EDT Raleigh",Raleigh Flyers,Tampa Bay Cannons,27,26,2017-06-03,7:00 PM EDT,Raleigh,10,760
+756,2017,/league/game/2017-06-03-DC-PHI,"Sat, 6/3 6:30 PM EDT Philadelphia",Philadelphia Phoenix,DC Breeze,22,21,2017-06-03,6:30 PM EDT,Philadelphia,10,758
+757,2017,/league/game/2017-06-03-SD-VAN,"Sat, 6/3 6:00 PM PDT Vancouver",Vancouver Riptide,San Diego Growlers,23,25,2017-06-03,6:00 PM PDT,Vancouver,10,756
+758,2017,/league/game/2017-06-03-DAL-MAD,"Sat, 6/3 6:00 PM CDT Madison",Madison Radicals,Dallas Roughnecks,17,23,2017-06-03,6:00 PM CDT,Madison,10,755
+759,2017,/league/game/2017-06-03-OTT-TOR,"Sat, 6/3 5:00 PM EDT Toronto",Toronto Rush,Ottawa Outlaws,33,23,2017-06-03,5:00 PM EDT,Toronto,10,754
+760,2017,/league/game/2017-06-03-IND-DET,"Sat, 6/3 4:00 PM EDT Detroit",Detroit Mechanix,Indianapolis AlleyCats,23,32,2017-06-03,4:00 PM EDT,Detroit,10,753
+761,2017,/league/game/2017-06-03-AUS-NSH,"Sat, 6/3 6:00 PM CDT Nashville",Nashville Nightwatch,Austin Sol,24,28,2017-06-03,6:00 PM CDT,Nashville,10,757
+762,2017,/league/game/2017-06-04-SD-SEA,"Sun, 6/4 1:00 PM PDT Seattle",Seattle Cascades,San Diego Growlers,19,22,2017-06-04,1:00 PM PDT,Seattle,10,762
+763,2017,/league/game/2017-06-04-LA-SF,"Sun, 6/4 1:30 PM PDT San Francisco",San Francisco FlameThrowers,Los Angeles Aviators,30,24,2017-06-04,1:30 PM PDT,San Francisco,10,763
+764,2017,/league/game/2017-06-04-PIT-IND,"Sun, 6/4 4:30 PM EDT Indianapolis",Indianapolis AlleyCats,Pittsburgh Thunderbirds,26,28,2017-06-04,4:30 PM EDT,Indianapolis,10,764
+765,2017,/league/game/2017-06-04-AUS-ATL,"Sun, 6/4 5:00 PM EDT Atlanta",Atlanta Hustle,Austin Sol,27,24,2017-06-04,5:00 PM EDT,Atlanta,10,765
+766,2017,/league/game/2017-06-04-NY-DC,"Sun, 6/4 5:30 PM EDT DC",DC Breeze,New York Empire,18,17,2017-06-04,5:30 PM EDT,DC,10,766
+767,2017,/league/game/2017-06-09-SEA-SD,"Fri, 6/9 7:00 PM PDT San Diego",San Diego Growlers,Seattle Cascades,21,20,2017-06-09,7:00 PM PDT,San Diego,11,767
+768,2017,/league/game/2017-06-10-TOR-PHI,"Sat, 6/10 7:00 PM EDT Philadelphia",Philadelphia Phoenix,Toronto Rush,28,35,2017-06-10,7:00 PM EDT,Philadelphia,11,774
+769,2017,/league/game/2017-06-10-OTT-MTL,"Sat, 6/10 7:00 PM EDT Montreal",Montreal Royal,Ottawa Outlaws,16,13,2017-06-10,7:00 PM EDT,Montreal,11,772
+770,2017,/league/game/2017-06-10-MAD-MIN,"Sat, 6/10 7:00 PM CDT Minnesota",Minnesota Wind Chill,Madison Radicals,22,23,2017-06-10,7:00 PM CDT,Minnesota,11,771
+771,2017,/league/game/2017-06-10-SEA-LA,"Sat, 6/10 7:00 PM PDT LA",Los Angeles Aviators,Seattle Cascades,25,20,2017-06-10,7:00 PM PDT,LA,11,773
+772,2017,/league/game/2017-06-10-ATL-JAX,"Sat, 6/10 7:00 PM EDT Jacksonville",Tampa Bay Cannons,Atlanta Hustle,27,23,2017-06-10,7:00 PM EDT,Jacksonville,11,769
+773,2017,/league/game/2017-06-10-SJ-SF,"Sat, 6/10 6:00 PM PDT San Francisco",San Francisco FlameThrowers,San Jose Spiders,27,19,2017-06-10,6:00 PM PDT,San Francisco,11,768
+774,2017,/league/game/2017-06-10-NSH-RAL,"Sat, 6/10 7:00 PM EDT Raleigh",Raleigh Flyers,Nashville Nightwatch,32,20,2017-06-10,7:00 PM EDT,Raleigh,11,770
+775,2017,/league/game/2017-06-11-TOR-DC,"Sun, 6/11 2:00 PM EDT DC",DC Breeze,Toronto Rush,25,17,2017-06-11,2:00 PM EDT,DC,11,775
+776,2017,/league/game/2017-06-17-DET-IND,"Sat, 6/17 7:00 PM EDT Indianapolis",Indianapolis AlleyCats,Detroit Mechanix,23,21,2017-06-17,7:00 PM EDT,Indianapolis,12,784
+777,2017,/league/game/2017-06-17-RAL-ATL,"Sat, 6/17 7:00 PM EDT Atlanta",Atlanta Hustle,Raleigh Flyers,21,24,2017-06-17,7:00 PM EDT,Atlanta,12,783
+778,2017,/league/game/2017-06-17-MAD-PIT,"Sat, 6/17 7:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Madison Radicals,21,22,2017-06-17,7:00 PM EDT,Pittsburgh,12,782
+779,2017,/league/game/2017-06-17-MIN-CHI,"Sat, 6/17 7:00 PM CDT Chicago",Chicago Wildfire,Minnesota Wind Chill,12,23,2017-06-17,7:00 PM CDT,Chicago,12,781
+780,2017,/league/game/2017-06-17-AUS-DAL,"Sat, 6/17 7:00 PM CDT Dallas",Dallas Roughnecks,Austin Sol,27,25,2017-06-17,7:00 PM CDT,Dallas,12,780
+781,2017,/league/game/2017-06-17-SEA-VAN,"Sat, 6/17 6:00 PM PDT Vancouver",Vancouver Riptide,Seattle Cascades,19,24,2017-06-17,6:00 PM PDT,Vancouver,12,778
+782,2017,/league/game/2017-06-17-DC-MTL,"Sat, 6/17 6:00 PM EDT Montreal",Montreal Royal,DC Breeze,27,23,2017-06-17,6:00 PM EDT,Montreal,12,777
+783,2017,/league/game/2017-06-17-SF-TOR,"Sat, 6/17 5:00 PM EDT Toronto",Toronto Rush,San Francisco FlameThrowers,33,27,2017-06-17,5:00 PM EDT,Toronto,12,776
+784,2017,/league/game/2017-06-17-SJ-SD,"Sat, 6/17 6:30 PM PDT San Diego",San Diego Growlers,San Jose Spiders,24,28,2017-06-17,6:30 PM PDT,San Diego,12,779
+785,2017,/league/game/2017-06-18-MAD-DET,"Sun, 6/18 4:00 PM EDT Detroit",Detroit Mechanix,Madison Radicals,11,21,2017-06-18,4:00 PM EDT,Detroit,12,787
+786,2017,/league/game/2017-06-18-DC-OTT,"Sun, 6/18 2:00 PM EDT Ottawa",Ottawa Outlaws,DC Breeze,13,28,2017-06-18,2:00 PM EDT,Ottawa,12,785
+787,2017,/league/game/2017-06-18-PHI-NY,"Sun, 6/18 4:00 PM EDT New York",New York Empire,Philadelphia Phoenix,27,14,2017-06-18,4:00 PM EDT,New York,12,786
+788,2017,/league/game/2017-06-24-ATL-DAL,"Sat, 6/24 7:00 PM CDT Dallas",Dallas Roughnecks,Atlanta Hustle,21,19,2017-06-24,7:00 PM CDT,Dallas,13,793
+789,2017,/league/game/2017-06-24-JAX-RAL,"Sat, 6/24 7:00 PM EDT Raleigh",Raleigh Flyers,Tampa Bay Cannons,27,13,2017-06-24,7:00 PM EDT,Raleigh,13,792
+790,2017,/league/game/2017-06-24-SF-SJ,"Sat, 6/24 7:00 PM PDT San Jose",San Jose Spiders,San Francisco FlameThrowers,29,26,2017-06-24,7:00 PM PDT,San Jose,13,794
+791,2017,/league/game/2017-06-24-PHI-DC,"Sat, 6/24 6:30 PM EDT DC",DC Breeze,Philadelphia Phoenix,25,17,2017-06-24,6:30 PM EDT,DC,13,791
+792,2017,/league/game/2017-06-24-LA-VAN,"Sat, 6/24 6:00 PM PDT Vancouver",Vancouver Riptide,Los Angeles Aviators,20,21,2017-06-24,6:00 PM PDT,Vancouver,13,790
+793,2017,/league/game/2017-06-24-DET-MAD,"Sat, 6/24 6:00 PM CDT Madison",Madison Radicals,Detroit Mechanix,21,9,2017-06-24,6:00 PM CDT,Madison,13,789
+794,2017,/league/game/2017-06-24-OTT-NY,"Sat, 6/24 5:00 PM EDT New York",New York Empire,Ottawa Outlaws,23,22,2017-06-24,5:00 PM EDT,New York,13,788
+795,2017,/league/game/2017-06-25-ATL-AUS,"Sun, 6/25 12:00 PM CDT Austin",Austin Sol,Atlanta Hustle,26,25,2017-06-25,12:00 PM CDT,Austin,13,795
+796,2017,/league/game/2017-06-25-LA-SEA,"Sun, 6/25 1:00 PM PDT Seattle",Seattle Cascades,Los Angeles Aviators,26,29,2017-06-25,1:00 PM PDT,Seattle,13,796
+797,2017,/league/game/2017-06-25-DET-CHI,"Sun, 6/25 2:00 PM EDT Chicago",Chicago Wildfire,Detroit Mechanix,23,16,2017-06-25,2:00 PM EDT,Chicago,13,797
+798,2017,/league/game/2017-06-25-IND-PIT,"Sun, 6/25 2:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Indianapolis AlleyCats,18,16,2017-06-25,2:00 PM EDT,Pittsburgh,13,798
+799,2017,/league/game/2017-06-25-OTT-PHI,"Sun, 6/25 2:00 PM EDT Philadelphia",Philadelphia Phoenix,Ottawa Outlaws,22,14,2017-06-25,2:00 PM EDT,Philadelphia,13,799
+800,2017,/league/game/2017-06-30-VAN-SEA,"Fri, 6/30 7:00 PM PDT Seattle",Seattle Cascades,Vancouver Riptide,31,10,2017-06-30,7:00 PM PDT,Seattle,14,800
+801,2017,/league/game/2017-07-01-CHI-IND,"Sat, 7/1 7:30 PM EDT Indianapolis",Indianapolis AlleyCats,Chicago Wildfire,30,24,2017-07-01,7:30 PM EDT,Indianapolis,14,805
+802,2017,/league/game/2017-07-01-NY-MTL,"Sat, 7/1 7:00 PM EDT Montreal",Montreal Royal,New York Empire,29,20,2017-07-01,7:00 PM EDT,Montreal,14,804
+803,2017,/league/game/2017-07-01-PIT-DET,"Sat, 7/1 4:00 PM EDT Detroit",Detroit Mechanix,Pittsburgh Thunderbirds,14,22,2017-07-01,4:00 PM EDT,Detroit,14,801
+804,2017,/league/game/2017-07-01-MIN-MAD,"Sat, 7/1 6:00 PM CDT Madison",Madison Radicals,Minnesota Wind Chill,21,13,2017-07-01,6:00 PM CDT,Madison,14,802
+805,2017,/league/game/2017-07-01-AUS-NSH,"Sat, 7/1 6:00 PM CDT Nashville",Nashville Nightwatch,Austin Sol,21,27,2017-07-01,6:00 PM CDT,Nashville,14,803
+806,2017,/league/game/2017-07-02-NY-OTT,"Sun, 7/2 2:00 PM EDT Ottawa",Ottawa Outlaws,New York Empire,20,21,2017-07-02,2:00 PM EDT,Ottawa,14,806
+807,2017,/league/game/2017-07-02-CHI-PIT,"Sun, 7/2 2:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Chicago Wildfire,21,20,2017-07-02,2:00 PM EDT,Pittsburgh,14,807
+808,2017,/league/game/2017-07-07-JAX-DAL,"Fri, 7/7 7:30 PM CDT Dallas",Dallas Roughnecks,Tampa Bay Cannons,27,28,2017-07-07,7:30 PM CDT,Dallas,15,808
+809,2017,/league/game/2017-07-08-JAX-AUS,"Sat, 7/8 7:00 PM CDT Austin",Austin Sol,Tampa Bay Cannons,27,31,2017-07-08,7:00 PM CDT,Austin,15,813
+810,2017,/league/game/2017-07-08-LA-SD,"Sat, 7/8 6:30 PM PDT San Diego",San Diego Growlers,Los Angeles Aviators,19,26,2017-07-08,6:30 PM PDT,San Diego,15,812
+811,2017,/league/game/2017-07-08-MIN-DET,"Sat, 7/8 4:00 PM EDT Detroit",Detroit Mechanix,Minnesota Wind Chill,17,31,2017-07-08,4:00 PM EDT,Detroit,15,809
+812,2017,/league/game/2017-07-08-MTL-TOR,"Sat, 7/8 5:00 PM EDT Toronto",Toronto Rush,Montreal Royal,28,20,2017-07-08,5:00 PM EDT,Toronto,15,810
+813,2017,/league/game/2017-07-08-RAL-NSH,"Sat, 7/8 6:00 PM CDT Nashville",Nashville Nightwatch,Raleigh Flyers,14,24,2017-07-08,6:00 PM CDT,Nashville,15,811
+814,2017,/league/game/2017-07-09-MIN-PIT,"Sun, 7/9 2:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Minnesota Wind Chill,26,22,2017-07-09,2:00 PM EDT,Pittsburgh,15,814
+815,2017,/league/game/2017-07-09-RAL-NSH,"Sun, 7/9 6:00 PM CDT Nashville",Nashville Nightwatch,Raleigh Flyers,26,31,2017-07-09,6:00 PM CDT,Nashville,15,815
+816,2017,/league/game/2017-07-14-MAD-CHI,"Fri, 7/14 7:00 PM EDT Chicago",Chicago Wildfire,Madison Radicals,17,26,2017-07-14,7:00 PM EDT,Chicago,16,816
+817,2017,/league/game/2017-07-14-MIN-IND,"Fri, 7/14 7:30 PM EDT Indianapolis",Indianapolis AlleyCats,Minnesota Wind Chill,25,26,2017-07-14,7:30 PM EDT,Indianapolis,16,817
+818,2017,/league/game/2017-07-14-SEA-SJ,"Fri, 7/14 7:30 PM PDT San Jose",San Jose Spiders,Seattle Cascades,17,21,2017-07-14,7:30 PM PDT,San Jose,16,818
+819,2017,/league/game/2017-07-14-NSH-ATL,"Fri, 7/14 8:00 PM EDT Atlanta",Atlanta Hustle,Nashville Nightwatch,27,22,2017-07-14,8:00 PM EDT,Atlanta,16,819
+820,2017,/league/game/2017-07-15-NY-PHI,"Sat, 7/15 7:00 PM EDT Philadelphia",Philadelphia Phoenix,New York Empire,30,23,2017-07-15,7:00 PM EDT,Philadelphia,16,824
+821,2017,/league/game/2017-07-15-SEA-SF,"Sat, 7/15 6:00 PM PDT San Francisco",San Francisco FlameThrowers,Seattle Cascades,31,26,2017-07-15,6:00 PM PDT,San Francisco,16,820
+822,2017,/league/game/2017-07-15-NSH-JAX,"Sat, 7/15 7:00 PM EDT Jacksonville",Tampa Bay Cannons,Nashville Nightwatch,33,24,2017-07-15,7:00 PM EDT,Jacksonville,16,821
+823,2017,/league/game/2017-07-15-DAL-AUS,"Sat, 7/15 7:00 PM CDT Austin",Austin Sol,Dallas Roughnecks,23,27,2017-07-15,7:00 PM CDT,Austin,16,822
+824,2017,/league/game/2017-07-15-SD-LA,"Sat, 7/15 7:00 PM PDT LA",Los Angeles Aviators,San Diego Growlers,18,22,2017-07-15,7:00 PM PDT,LA,16,823
+825,2017,/league/game/2017-07-15-DET-PIT,"Sat, 7/15 7:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Detroit Mechanix,28,24,2017-07-15,7:00 PM EDT,Pittsburgh,16,825
+826,2017,/league/game/2017-07-16-TOR-OTT,"Sun, 7/16 2:00 PM EDT Ottawa",Ottawa Outlaws,Toronto Rush,25,30,2017-07-16,2:00 PM EDT,Ottawa,16,826
+827,2017,/league/game/2017-07-21-SJ-SD,"Fri, 7/21 7:00 PM PDT San Diego",San Diego Growlers,San Jose Spiders,23,22,2017-07-21,7:00 PM PDT,San Diego,17,827
+828,2017,/league/game/2017-07-22-SF-SEA,"Sat, 7/22 6:00 PM PDT Seattle",Seattle Cascades,San Francisco FlameThrowers,24,30,2017-07-22,6:00 PM PDT,Seattle,17,828
+829,2017,/league/game/2017-07-22-NY-OTT,"Sat, 7/22 6:00 PM EDT Ottawa",Ottawa Outlaws,New York Empire,25,29,2017-07-22,6:00 PM EDT,Ottawa,17,829
+830,2017,/league/game/2017-07-22-DC-PHI,"Sat, 7/22 7:00 PM EDT Philadelphia",Philadelphia Phoenix,DC Breeze,20,23,2017-07-22,7:00 PM EDT,Philadelphia,17,830
+831,2017,/league/game/2017-07-22-IND-CHI,"Sat, 7/22 7:00 PM EDT Chicago",Chicago Wildfire,Indianapolis AlleyCats,19,26,2017-07-22,7:00 PM EDT,Chicago,17,831
+832,2017,/league/game/2017-07-22-SJ-LA,"Sat, 7/22 7:00 PM PDT LA",Los Angeles Aviators,San Jose Spiders,24,23,2017-07-22,7:00 PM PDT,LA,17,832
+833,2017,/league/game/2017-07-22-PIT-MIN,"Sat, 7/22 7:00 PM CDT Minnesota",Minnesota Wind Chill,Pittsburgh Thunderbirds,19,13,2017-07-22,7:00 PM CDT,Minnesota,17,833
+834,2017,/league/game/2017-07-23-IND-MAD,"Sun, 7/23 12:00 PM CDT Madison",Madison Radicals,Indianapolis AlleyCats,22,21,2017-07-23,12:00 PM CDT,Madison,17,834
+835,2017,/league/game/2017-07-23-OTT-MTL,"Sun, 7/23 1:00 PM EDT Montreal",Montreal Royal,Ottawa Outlaws,31,22,2017-07-23,1:00 PM EDT,Montreal,17,835
+836,2017,/league/game/2017-07-23-NY-TOR,"Sun, 7/23 2:00 PM EDT Toronto",Toronto Rush,New York Empire,20,14,2017-07-23,2:00 PM EDT,Toronto,17,836
+837,2017,/league/game/2017-07-23-SF-VAN,"Sun, 7/23 6:00 PM PDT Vancouver",Vancouver Riptide,San Francisco FlameThrowers,18,26,2017-07-23,6:00 PM PDT,Vancouver,17,837
+838,2017,/league/game/2017-07-29-JAX-DAL,"Sat, 7/29 7:00 PM CDT Dallas",Dallas Roughnecks,Tampa Bay Cannons,22,12,2017-07-29,7:00 PM CDT,Dallas,18,838
+839,2017,/league/game/2017-08-04-PIT-MIN,"Fri, 8/4 7:30 PM CDT Minnesota",Minnesota Wind Chill,Pittsburgh Thunderbirds,25,26,2017-08-04,7:30 PM CDT,Minnesota,19,839
+840,2017,/league/game/2017-08-11-MTL-DC,"Fri, 8/11 7:00 PM EDT DC",DC Breeze,Montreal Royal,28,16,2017-08-11,7:00 PM EDT,DC,20,840
+841,2017,/league/game/2017-08-12-SJ-LA,"Sat, 8/12 7:00 PM PDT LA",Los Angeles Aviators,San Jose Spiders,33,24,2017-08-12,7:00 PM PDT,LA,20,844
+842,2017,/league/game/2017-08-12-LA-SJ,"Sat, 8/12 7:00 PM CDT San Jose",San Jose Spiders,Los Angeles Aviators,24,33,2017-08-12,7:00 PM CDT,San Jose,20,843
+843,2017,/league/game/2017-08-12-DAL-RAL,"Sat, 8/12 1:00 PM EDT Raleigh",Raleigh Flyers,Dallas Roughnecks,24,27,2017-08-12,1:00 PM EDT,Raleigh,20,841
+844,2017,/league/game/2017-08-12-PIT-MAD,"Sat, 8/12 6:00 PM CDT Madison",Madison Radicals,Pittsburgh Thunderbirds,27,22,2017-08-12,6:00 PM CDT,Madison,20,842
+845,2017,/league/game/2017-08-13-DC-TOR,"Sun, 8/13 1:00 PM EDT Toronto",Toronto Rush,DC Breeze,29,26,2017-08-13,1:00 PM EDT,Toronto,20,845
+846,2017,/league/game/2017-08-13-LA-SF,"Sun, 8/13 2:00 PM PDT San Francisco",San Francisco FlameThrowers,Los Angeles Aviators,33,22,2017-08-13,2:00 PM PDT,San Francisco,20,846
+847,2017,/league/game/2017-08-26-SF-MAD,"Sat, 8/26 4:00 PM EDT",Madison Radicals,San Francisco FlameThrowers,19,23,2017-08-26,4:00 PM EDT,,22,847
+848,2017,/league/game/2017-08-26-TOR-DAL,"Sat, 8/26 7:00 PM EDT",Dallas Roughnecks,Toronto Rush,21,24,2017-08-26,7:00 PM EDT,,22,848
+849,2017,/league/game/2017-08-27-SF-TOR,"Sun, 8/27 1:00 PM EDT",Toronto Rush,San Francisco FlameThrowers,29,30,2017-08-27,1:00 PM EDT,,22,849
+850,2018,/league/game/2018-03-31-TB-RAL,"Sat, 3/31 7:00 PM EDT Raleigh",Raleigh Flyers,Tampa Bay Cannons,27,22,2018-03-31,7:00 PM EDT,Raleigh,1,851
+851,2018,/league/game/2018-03-31-IND-DET,"Sat, 3/31 4:00 PM EDT Detroit",Detroit Mechanix,Indianapolis AlleyCats,12,24,2018-03-31,4:00 PM EDT,Detroit,1,850
+852,2018,/league/game/2018-04-07-ATL-TB,"Sat, 4/7 7:00 PM EDT Tampa Bay",Tampa Bay Cannons,Atlanta Hustle,15,17,2018-04-07,7:00 PM EDT,Tampa Bay,2,857
+853,2018,/league/game/2018-04-07-SJ-SF,"Sat, 4/7 6:30 PM PDT San Francisco",San Francisco FlameThrowers,San Jose Spiders,20,21,2018-04-07,6:30 PM PDT,San Francisco,2,856
+854,2018,/league/game/2018-04-07-MTL-DC,"Sat, 4/7 6:30 PM EDT DC",DC Breeze,Montreal Royal,22,24,2018-04-07,6:30 PM EDT,DC,2,855
+855,2018,/league/game/2018-04-07-DAL-RAL,"Sat, 4/7 7:00 PM EDT Raleigh",Raleigh Flyers,Dallas Roughnecks,14,17,2018-04-07,7:00 PM EDT,Raleigh,2,858
+856,2018,/league/game/2018-04-07-SD-LA,"Sat, 4/7 6:00 PM PDT LA",Los Angeles Aviators,San Diego Growlers,30,17,2018-04-07,6:00 PM PDT,LA,2,853
+857,2018,/league/game/2018-04-07-MIN-SEA,"Sat, 4/7 6:00 PM PDT Seattle",Seattle Cascades,Minnesota Wind Chill,29,28,2018-04-07,6:00 PM PDT,Seattle,2,852
+858,2018,/league/game/2018-04-07-DET-PIT,"Sat, 4/7 6:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Detroit Mechanix,17,16,2018-04-07,6:00 PM EDT,Pittsburgh,2,854
+859,2018,/league/game/2018-04-07-MAD-IND,"Sat, 4/7 7:30 PM EDT Indianapolis",Indianapolis AlleyCats,Madison Radicals,13,20,2018-04-07,7:30 PM EDT,Indianapolis,2,859
+860,2018,/league/game/2018-04-14-LA-AUS,"Sat, 4/14 7:00 PM CDT Austin",Austin Sol,Los Angeles Aviators,23,22,2018-04-14,7:00 PM CDT,Austin,3,865
+861,2018,/league/game/2018-04-14-SF-SJ,"Sat, 4/14 7:00 PM PDT San Jose",San Jose Spiders,San Francisco FlameThrowers,27,28,2018-04-14,7:00 PM PDT,San Jose,3,864
+862,2018,/league/game/2018-04-14-RAL-TB,"Sat, 4/14 7:00 PM EDT Tampa Bay",Tampa Bay Cannons,Raleigh Flyers,17,20,2018-04-14,7:00 PM EDT,Tampa Bay,3,863
+863,2018,/league/game/2018-04-14-SD-SEA,"Sat, 4/14 7:00 PM PDT Seattle",Seattle Cascades,San Diego Growlers,16,22,2018-04-14,7:00 PM PDT,Seattle,3,861
+864,2018,/league/game/2018-04-14-CHI-PIT,"Sat, 4/14 6:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Chicago Wildfire,15,20,2018-04-14,6:00 PM EDT,Pittsburgh,3,860
+865,2018,/league/game/2018-04-14-TOR-NY,"Sat, 4/14 7:00 PM EDT New York",New York Empire,Toronto Rush,14,18,2018-04-14,7:00 PM EDT,New York,3,862
+866,2018,/league/game/2018-04-15-LA-DAL,"Sun, 4/15 1:00 PM CDT Dallas",Dallas Roughnecks,Los Angeles Aviators,20,17,2018-04-15,1:00 PM CDT,Dallas,3,866
+867,2018,/league/game/2018-04-15-TOR-PHI,"Sun, 4/15 1:00 PM EDT Philadelphia",Philadelphia Phoenix,Toronto Rush,18,19,2018-04-15,1:00 PM EDT,Philadelphia,3,867
+868,2018,/league/game/2018-04-15-ATL-NSH,"Sun, 4/15 1:00 PM CDT Nashville",Nashville Nightwatch,Atlanta Hustle,17,18,2018-04-15,1:00 PM CDT,Nashville,3,868
+869,2018,/league/game/2018-04-21-PIT-IND,"Sat, 4/21 7:30 PM EDT Indianapolis",Indianapolis AlleyCats,Pittsburgh Thunderbirds,27,18,2018-04-21,7:30 PM EDT,Indianapolis,4,877
+870,2018,/league/game/2018-04-21-RAL-NSH,"Sat, 4/21 7:00 PM CDT Nashville",Nashville Nightwatch,Raleigh Flyers,26,31,2018-04-21,7:00 PM CDT,Nashville,4,876
+871,2018,/league/game/2018-04-21-SEA-SD,"Sat, 4/21 7:00 PM PDT San Diego",San Diego Growlers,Seattle Cascades,26,25,2018-04-21,7:00 PM PDT,San Diego,4,875
+872,2018,/league/game/2018-04-21-OTT-NY,"Sat, 4/21 7:00 PM EDT New York",New York Empire,Ottawa Outlaws,28,16,2018-04-21,7:00 PM EDT,New York,4,874
+873,2018,/league/game/2018-04-21-TB-ATL,"Sat, 4/21 6:30 PM EDT Atlanta",Atlanta Hustle,Tampa Bay Cannons,19,18,2018-04-21,6:30 PM EDT,Atlanta,4,872
+874,2018,/league/game/2018-04-21-MTL-PHI,"Sat, 4/21 6:30 PM EDT Philadelphia",Philadelphia Phoenix,Montreal Royal,26,21,2018-04-21,6:30 PM EDT,Philadelphia,4,871
+875,2018,/league/game/2018-04-21-CHI-MIN,"Sat, 4/21 6:00 PM CDT Minnesota",Minnesota Wind Chill,Chicago Wildfire,24,23,2018-04-21,6:00 PM CDT,Minnesota,4,870
+876,2018,/league/game/2018-04-21-MAD-DET,"Sat, 4/21 5:00 PM EDT Detroit",Detroit Mechanix,Madison Radicals,12,27,2018-04-21,5:00 PM EDT,Detroit,4,869
+877,2018,/league/game/2018-04-21-TOR-SF,"Sat, 4/21 6:30 PM PDT San Francisco",San Francisco FlameThrowers,Toronto Rush,18,28,2018-04-21,6:30 PM PDT,San Francisco,4,873
+878,2018,/league/game/2018-04-22-SJ-LA,"Sun, 4/22 1:30 PM PDT LA",Los Angeles Aviators,San Jose Spiders,25,16,2018-04-22,1:30 PM PDT,LA,4,880
+879,2018,/league/game/2018-04-22-AUS-DAL,"Sun, 4/22 1:00 PM CDT Dallas",Dallas Roughnecks,Austin Sol,23,21,2018-04-22,1:00 PM CDT,Dallas,4,878
+880,2018,/league/game/2018-04-22-OTT-DC,"Sun, 4/22 1:00 PM EDT DC",DC Breeze,Ottawa Outlaws,26,19,2018-04-22,1:00 PM EDT,DC,4,879
+881,2018,/league/game/2018-04-27-SD-SJ,"Fri, 4/27 7:30 PM PDT San Jose",San Jose Spiders,San Diego Growlers,18,17,2018-04-27,7:30 PM PDT,San Jose,5,882
+882,2018,/league/game/2018-04-27-RAL-AUS,"Fri, 4/27 7:00 PM CDT Austin",Austin Sol,Raleigh Flyers,25,23,2018-04-27,7:00 PM CDT,Austin,5,881
+883,2018,/league/game/2018-04-28-MTL-OTT,"Sat, 4/28 2:30 PM EDT Ottawa",Ottawa Outlaws,Montreal Royal,33,35,2018-04-28,2:30 PM EDT,Ottawa,5,883
+884,2018,/league/game/2018-04-28-PIT-MAD,"Sat, 4/28 6:00 PM CDT Madison",Madison Radicals,Pittsburgh Thunderbirds,29,13,2018-04-28,6:00 PM CDT,Madison,5,884
+885,2018,/league/game/2018-04-28-SD-SF,"Sat, 4/28 6:30 PM PDT San Francisco",San Francisco FlameThrowers,San Diego Growlers,21,25,2018-04-28,6:30 PM PDT,San Francisco,5,885
+886,2018,/league/game/2018-04-28-DC-PHI,"Sat, 4/28 6:30 PM EDT Philadelphia",Philadelphia Phoenix,DC Breeze,18,18,2018-04-28,6:30 PM EDT,Philadelphia,5,886
+887,2018,/league/game/2018-04-28-RAL-DAL,"Sat, 4/28 7:00 PM CDT Dallas",Dallas Roughnecks,Raleigh Flyers,20,24,2018-04-28,7:00 PM CDT,Dallas,5,887
+888,2018,/league/game/2018-04-28-NSH-TB,"Sat, 4/28 7:00 PM EDT Tampa Bay",Tampa Bay Cannons,Nashville Nightwatch,25,13,2018-04-28,7:00 PM EDT,Tampa Bay,5,888
+889,2018,/league/game/2018-04-28-IND-CHI,"Sat, 4/28 7:30 PM CDT Chicago",Chicago Wildfire,Indianapolis AlleyCats,21,25,2018-04-28,7:30 PM CDT,Chicago,5,889
+890,2018,/league/game/2018-05-04-SJ-SD,"Fri, 5/4 7:00 PM PDT San Diego",San Diego Growlers,San Jose Spiders,31,28,2018-05-04,7:00 PM PDT,San Diego,6,890
+891,2018,/league/game/2018-05-05-TB-RAL,"Sat, 5/5 7:00 PM EDT Raleigh",Raleigh Flyers,Tampa Bay Cannons,23,20,2018-05-05,7:00 PM EDT,Raleigh,6,897
+892,2018,/league/game/2018-05-05-SF-SEA,"Sat, 5/5 7:00 PM PDT Seattle",Seattle Cascades,San Francisco FlameThrowers,27,25,2018-05-05,7:00 PM PDT,Seattle,6,896
+893,2018,/league/game/2018-05-05-DC-NY,"Sat, 5/5 7:00 PM EDT New York",New York Empire,DC Breeze,19,18,2018-05-05,7:00 PM EDT,New York,6,895
+894,2018,/league/game/2018-05-05-PHI-MTL,"Sat, 5/5 1:00 PM EDT Montreal",Montreal Royal,Philadelphia Phoenix,14,17,2018-05-05,1:00 PM EDT,Montreal,6,891
+895,2018,/league/game/2018-05-05-IND-DET,"Sat, 5/5 4:00 PM EDT Detroit",Detroit Mechanix,Indianapolis AlleyCats,22,31,2018-05-05,4:00 PM EDT,Detroit,6,893
+896,2018,/league/game/2018-05-05-MAD-MIN,"Sat, 5/5 3:00 PM CDT Minnesota",Minnesota Wind Chill,Madison Radicals,19,20,2018-05-05,3:00 PM CDT,Minnesota,6,892
+897,2018,/league/game/2018-05-05-SJ-LA,"Sat, 5/5 7:00 PM PDT LA",Los Angeles Aviators,San Jose Spiders,33,31,2018-05-05,7:00 PM PDT,LA,6,898
+898,2018,/league/game/2018-05-05-AUS-ATL,"Sat, 5/5 6:30 PM EDT Atlanta",Atlanta Hustle,Austin Sol,22,23,2018-05-05,6:30 PM EDT,Atlanta,6,894
+899,2018,/league/game/2018-05-06-IND-PIT,"Sun, 5/6 4:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Indianapolis AlleyCats,18,27,2018-05-06,4:00 PM EDT,Pittsburgh,6,901
+900,2018,/league/game/2018-05-06-AUS-NSH,"Sun, 5/6 2:00 PM CDT Nashville",Nashville Nightwatch,Austin Sol,22,20,2018-05-06,2:00 PM CDT,Nashville,6,900
+901,2018,/league/game/2018-05-06-PHI-OTT,"Sun, 5/6 2:00 PM EDT Ottawa",Ottawa Outlaws,Philadelphia Phoenix,22,19,2018-05-06,2:00 PM EDT,Ottawa,6,899
+902,2018,/league/game/2018-05-12-DET-MIN,"Sat, 5/12 5:00 PM CDT Minnesota",Minnesota Wind Chill,Detroit Mechanix,34,17,2018-05-12,5:00 PM CDT,Minnesota,7,902
+903,2018,/league/game/2018-05-12-PIT-CHI,"Sat, 5/12 6:00 PM CDT Chicago",Chicago Wildfire,Pittsburgh Thunderbirds,21,16,2018-05-12,6:00 PM CDT,Chicago,7,903
+904,2018,/league/game/2018-05-12-TB-ATL,"Sat, 5/12 6:30 PM EDT Atlanta",Atlanta Hustle,Tampa Bay Cannons,27,26,2018-05-12,6:30 PM EDT,Atlanta,7,904
+905,2018,/league/game/2018-05-12-RAL-DC,"Sat, 5/12 6:30 PM EDT DC",DC Breeze,Raleigh Flyers,25,24,2018-05-12,6:30 PM EDT,DC,7,905
+906,2018,/league/game/2018-05-12-DAL-AUS,"Sat, 5/12 7:00 PM CDT Austin",Austin Sol,Dallas Roughnecks,23,27,2018-05-12,7:00 PM CDT,Austin,7,906
+907,2018,/league/game/2018-05-12-SF-SJ,"Sat, 5/12 7:00 PM PDT San Jose",San Jose Spiders,San Francisco FlameThrowers,23,26,2018-05-12,7:00 PM PDT,San Jose,7,907
+908,2018,/league/game/2018-05-13-DET-MAD,"Sun, 5/13 12:00 PM CDT Madison",Madison Radicals,Detroit Mechanix,37,8,2018-05-13,12:00 PM CDT,Madison,7,908
+909,2018,/league/game/2018-05-13-TOR-MTL,"Sun, 5/13 1:30 PM EDT Montreal",Montreal Royal,Toronto Rush,18,21,2018-05-13,1:30 PM EDT,Montreal,7,909
+910,2018,/league/game/2018-05-13-LA-SEA,"Sun, 5/13 1:30 PM PDT Seattle",Seattle Cascades,Los Angeles Aviators,26,30,2018-05-13,1:30 PM PDT,Seattle,7,910
+911,2018,/league/game/2018-05-13-PIT-IND,"Sun, 5/13 5:00 PM EDT Indianapolis",Indianapolis AlleyCats,Pittsburgh Thunderbirds,27,24,2018-05-13,5:00 PM EDT,Indianapolis,7,911
+912,2018,/league/game/2018-05-18-SEA-SF,"Fri, 5/18 7:00 PM PDT San Francisco",San Francisco FlameThrowers,Seattle Cascades,32,29,2018-05-18,7:00 PM PDT,San Francisco,8,912
+913,2018,/league/game/2018-05-19-ATL-AUS,"Sat, 5/19 7:00 PM CDT Austin",Austin Sol,Atlanta Hustle,28,19,2018-05-19,7:00 PM CDT,Austin,8,920
+914,2018,/league/game/2018-05-19-TB-NSH,"Sat, 5/19 7:00 PM CDT Nashville",Nashville Nightwatch,Tampa Bay Cannons,32,30,2018-05-19,7:00 PM CDT,Nashville,8,919
+915,2018,/league/game/2018-05-19-SEA-SJ,"Sat, 5/19 7:00 PM PDT San Jose",San Jose Spiders,Seattle Cascades,24,14,2018-05-19,7:00 PM PDT,San Jose,8,917
+916,2018,/league/game/2018-05-19-PHI-NY,"Sat, 5/19 7:00 PM EDT New York",New York Empire,Philadelphia Phoenix,23,15,2018-05-19,7:00 PM EDT,New York,8,918
+917,2018,/league/game/2018-05-19-DC-TOR,"Sat, 5/19 6:30 PM EDT Toronto",Toronto Rush,DC Breeze,33,20,2018-05-19,6:30 PM EDT,Toronto,8,915
+918,2018,/league/game/2018-05-19-MIN-PIT,"Sat, 5/19 6:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Minnesota Wind Chill,21,33,2018-05-19,6:00 PM EDT,Pittsburgh,8,914
+919,2018,/league/game/2018-05-19-MAD-CHI,"Sat, 5/19 6:00 PM CDT Chicago",Chicago Wildfire,Madison Radicals,16,24,2018-05-19,6:00 PM CDT,Chicago,8,913
+920,2018,/league/game/2018-05-19-LA-SD,"Sat, 5/19 6:30 PM PDT San Diego",San Diego Growlers,Los Angeles Aviators,20,25,2018-05-19,6:30 PM PDT,San Diego,8,916
+921,2018,/league/game/2018-05-20-MIN-DET,"Sun, 5/20 TBD Detroit",Detroit Mechanix,Minnesota Wind Chill,24,34,2018-05-20,TBD Detroit,,8,921
+922,2018,/league/game/2018-05-20-ATL-DAL,"Sun, 5/20 1:00 PM CDT Dallas",Dallas Roughnecks,Atlanta Hustle,26,21,2018-05-20,1:00 PM CDT,Dallas,8,922
+923,2018,/league/game/2018-05-20-DC-MTL,"Sun, 5/20 1:00 PM EDT Montreal",Montreal Royal,DC Breeze,21,20,2018-05-20,1:00 PM EDT,Montreal,8,923
+924,2018,/league/game/2018-05-20-OTT-TOR,"Sun, 5/20 1:00 PM EDT Toronto",Toronto Rush,Ottawa Outlaws,21,19,2018-05-20,1:00 PM EDT,Toronto,8,924
+925,2018,/league/game/2018-05-26-RAL-MAD,"Sat, 5/26 7:00 PM CDT Madison",Madison Radicals,Raleigh Flyers,16,24,2018-05-26,7:00 PM CDT,Madison,9,930
+926,2018,/league/game/2018-05-26-AUS-NSH,"Sat, 5/26 7:00 PM CDT Nashville",Nashville Nightwatch,Austin Sol,27,21,2018-05-26,7:00 PM CDT,Nashville,9,929
+927,2018,/league/game/2018-05-26-RAL-MAD,"Sat, 5/26 7:00 PM CDT Madison",Madison Radicals,Raleigh Flyers,16,24,2018-05-26,7:00 PM CDT,Madison,9,928
+928,2018,/league/game/2018-05-26-SD-LA,"Sat, 5/26 6:00 PM PDT LA",Los Angeles Aviators,San Diego Growlers,25,23,2018-05-26,6:00 PM PDT,LA,9,926
+929,2018,/league/game/2018-05-26-PHI-TOR,"Sat, 5/26 4:30 PM EDT Toronto",Toronto Rush,Philadelphia Phoenix,28,23,2018-05-26,4:30 PM EDT,Toronto,9,925
+930,2018,/league/game/2018-05-26-NY-DC,"Sat, 5/26 6:30 PM EDT DC",DC Breeze,New York Empire,29,21,2018-05-26,6:30 PM EDT,DC,9,927
+931,2018,/league/game/2018-05-27-PHI-OTT,"Sun, 5/27 2:00 PM EDT Ottawa",Ottawa Outlaws,Philadelphia Phoenix,30,18,2018-05-27,2:00 PM EDT,Ottawa,9,931
+932,2018,/league/game/2018-06-01-AUS-RAL,"Fri, 6/1 7:00 PM EDT Raleigh",Raleigh Flyers,Austin Sol,32,14,2018-06-01,7:00 PM EDT,Raleigh,10,932
+933,2018,/league/game/2018-06-02-OTT-NY,"Sat, 6/2 7:00 PM EDT New York",New York Empire,Ottawa Outlaws,24,21,2018-06-02,7:00 PM EDT,New York,10,939
+934,2018,/league/game/2018-06-02-AUS-TB,"Sat, 6/2 7:00 PM EDT Tampa Bay",Tampa Bay Cannons,Austin Sol,26,27,2018-06-02,7:00 PM EDT,Tampa Bay,10,941
+935,2018,/league/game/2018-06-02-DAL-NSH,"Sat, 6/2 7:00 PM CDT Nashville",Nashville Nightwatch,Dallas Roughnecks,21,31,2018-06-02,7:00 PM CDT,Nashville,10,940
+936,2018,/league/game/2018-06-02-SF-SD,"Sat, 6/2 6:30 PM PDT San Diego",San Diego Growlers,San Francisco FlameThrowers,24,25,2018-06-02,6:30 PM PDT,San Diego,10,938
+937,2018,/league/game/2018-06-02-CHI-DET,"Sat, 6/2 TBD Detroit",Detroit Mechanix,Chicago Wildfire,18,25,2018-06-02,TBD Detroit,,10,933
+938,2018,/league/game/2018-06-02-SJ-SEA,"Sat, 6/2 6:00 PM PDT Seattle",Seattle Cascades,San Jose Spiders,25,29,2018-06-02,6:00 PM PDT,Seattle,10,936
+939,2018,/league/game/2018-06-02-IND-MIN,"Sat, 6/2 5:00 PM CDT Minnesota",Minnesota Wind Chill,Indianapolis AlleyCats,22,18,2018-06-02,5:00 PM CDT,Minnesota,10,934
+940,2018,/league/game/2018-06-02-DC-PIT,"Sat, 6/2 6:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,DC Breeze,11,20,2018-06-02,6:00 PM EDT,Pittsburgh,10,937
+941,2018,/league/game/2018-06-02-TOR-MTL,"Sat, 6/2 5:00 PM EDT Montreal",Montreal Royal,Toronto Rush,20,24,2018-06-02,5:00 PM EDT,Montreal,10,935
+942,2018,/league/game/2018-06-03-OTT-PHI,"Sun, 6/3 1:00 PM EDT Philadelphia",Philadelphia Phoenix,Ottawa Outlaws,22,21,2018-06-03,1:00 PM EDT,Philadelphia,10,942
+943,2018,/league/game/2018-06-03-DAL-ATL,"Sun, 6/3 1:00 PM EDT Atlanta",Atlanta Hustle,Dallas Roughnecks,28,29,2018-06-03,1:00 PM EDT,Atlanta,10,943
+944,2018,/league/game/2018-06-03-SF-LA,"Sun, 6/3 1:30 PM PDT LA",Los Angeles Aviators,San Francisco FlameThrowers,23,19,2018-06-03,1:30 PM PDT,LA,10,944
+945,2018,/league/game/2018-06-08-MIN-MAD,"Fri, 6/8 7:00 PM CDT Madison",Madison Radicals,Minnesota Wind Chill,20,17,2018-06-08,7:00 PM CDT,Madison,11,945
+946,2018,/league/game/2018-06-08-MTL-OTT,"Fri, 6/8 7:30 PM EDT Ottawa",Ottawa Outlaws,Montreal Royal,26,27,2018-06-08,7:30 PM EDT,Ottawa,11,946
+947,2018,/league/game/2018-06-09-TOR-DC,"Sat, 6/9 6:30 PM EDT DC",DC Breeze,Toronto Rush,25,24,2018-06-09,6:30 PM EDT,DC,11,947
+948,2018,/league/game/2018-06-09-PIT-PHI,"Sat, 6/9 6:30 PM EDT Philadelphia",Philadelphia Phoenix,Pittsburgh Thunderbirds,30,21,2018-06-09,6:30 PM EDT,Philadelphia,11,948
+949,2018,/league/game/2018-06-09-ATL-NSH,"Sat, 6/9 7:00 PM CDT Nashville",Nashville Nightwatch,Atlanta Hustle,21,24,2018-06-09,7:00 PM CDT,Nashville,11,949
+950,2018,/league/game/2018-06-09-MAD-CHI,"Sat, 6/9 7:00 PM CDT Chicago",Chicago Wildfire,Madison Radicals,21,22,2018-06-09,7:00 PM CDT,Chicago,11,950
+951,2018,/league/game/2018-06-09-SD-SJ,"Sat, 6/9 7:00 PM PDT San Jose",San Jose Spiders,San Diego Growlers,21,20,2018-06-09,7:00 PM PDT,San Jose,11,951
+952,2018,/league/game/2018-06-09-DAL-AUS,"Sat, 6/9 7:00 PM CDT Austin",Austin Sol,Dallas Roughnecks,17,19,2018-06-09,7:00 PM CDT,Austin,11,952
+953,2018,/league/game/2018-06-16-DET-MIN,"Sat, 6/16 6:00 PM CDT Minnesota",Minnesota Wind Chill,Detroit Mechanix,37,18,2018-06-16,6:00 PM CDT,Minnesota,12,954
+954,2018,/league/game/2018-06-16-NSH-RAL,"Sat, 6/16 7:00 PM EDT Raleigh",Raleigh Flyers,Nashville Nightwatch,27,15,2018-06-16,7:00 PM EDT,Raleigh,12,960
+955,2018,/league/game/2018-06-16-OTT-TOR,"Sat, 6/16 6:30 PM EDT Toronto",Toronto Rush,Ottawa Outlaws,27,17,2018-06-16,6:30 PM EDT,Toronto,12,959
+956,2018,/league/game/2018-06-16-SJ-SF,"Sat, 6/16 6:30 PM PDT San Francisco",San Francisco FlameThrowers,San Jose Spiders,21,17,2018-06-16,6:30 PM PDT,San Francisco,12,958
+957,2018,/league/game/2018-06-16-NY-MTL,"Sat, 6/16 6:00 PM EDT Montreal",Montreal Royal,New York Empire,26,22,2018-06-16,6:00 PM EDT,Montreal,12,953
+958,2018,/league/game/2018-06-16-SEA-LA,"Sat, 6/16 6:00 PM PDT LA",Los Angeles Aviators,Seattle Cascades,26,17,2018-06-16,6:00 PM PDT,LA,12,956
+959,2018,/league/game/2018-06-16-MAD-PIT,"Sat, 6/16 6:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Madison Radicals,21,25,2018-06-16,6:00 PM EDT,Pittsburgh,12,955
+960,2018,/league/game/2018-06-16-DAL-ATL,"Sat, 6/16 6:30 PM EDT Atlanta",Atlanta Hustle,Dallas Roughnecks,20,24,2018-06-16,6:30 PM EDT,Atlanta,12,957
+961,2018,/league/game/2018-06-17-DAL-TB,"Sun, 6/17 1:00 PM EDT Tampa Bay",Tampa Bay Cannons,Dallas Roughnecks,25,28,2018-06-17,1:00 PM EDT,Tampa Bay,12,961
+962,2018,/league/game/2018-06-17-SEA-SD,"Sun, 6/17 1:00 PM PDT San Diego",San Diego Growlers,Seattle Cascades,25,27,2018-06-17,1:00 PM PDT,San Diego,12,962
+963,2018,/league/game/2018-06-17-NY-TOR,"Sun, 6/17 1:00 PM EDT Toronto",Toronto Rush,New York Empire,25,18,2018-06-17,1:00 PM EDT,Toronto,12,963
+964,2018,/league/game/2018-06-17-DET-CHI,"Sun, 6/17 1:00 PM CDT Chicago",Chicago Wildfire,Detroit Mechanix,34,12,2018-06-17,1:00 PM CDT,Chicago,12,964
+965,2018,/league/game/2018-06-17-MAD-IND,"Sun, 6/17 5:00 PM EDT Indianapolis",Indianapolis AlleyCats,Madison Radicals,21,20,2018-06-17,5:00 PM EDT,Indianapolis,12,965
+966,2018,/league/game/2018-06-23-SD-SEA,"Sat, 6/23 7:00 PM PDT Seattle",Seattle Cascades,San Diego Growlers,22,23,2018-06-23,7:00 PM PDT,Seattle,13,971
+967,2018,/league/game/2018-06-23-LA-SJ,"Sat, 6/23 7:00 PM PDT San Jose",San Jose Spiders,Los Angeles Aviators,18,27,2018-06-23,7:00 PM PDT,San Jose,13,972
+968,2018,/league/game/2018-06-23-DET-IND,"Sat, 6/23 7:00 PM EDT Indianapolis",Indianapolis AlleyCats,Detroit Mechanix,40,20,2018-06-23,7:00 PM EDT,Indianapolis,13,973
+969,2018,/league/game/2018-06-23-MTL-NY,"Sat, 6/23 7:00 PM EDT New York",New York Empire,Montreal Royal,22,23,2018-06-23,7:00 PM EDT,New York,13,970
+970,2018,/league/game/2018-06-23-DC-TOR,"Sat, 6/23 6:30 PM EDT Toronto",Toronto Rush,DC Breeze,28,21,2018-06-23,6:30 PM EDT,Toronto,13,968
+971,2018,/league/game/2018-06-23-RAL-ATL,"Sat, 6/23 6:30 PM EDT Atlanta",Atlanta Hustle,Raleigh Flyers,30,20,2018-06-23,6:30 PM EDT,Atlanta,13,967
+972,2018,/league/game/2018-06-23-PIT-MIN,"Sat, 6/23 6:00 PM CDT Minnesota",Minnesota Wind Chill,Pittsburgh Thunderbirds,28,29,2018-06-23,6:00 PM CDT,Minnesota,13,966
+973,2018,/league/game/2018-06-23-NSH-AUS,"Sat, 6/23 7:00 PM CDT Austin",Austin Sol,Nashville Nightwatch,24,23,2018-06-23,7:00 PM CDT,Austin,13,969
+974,2018,/league/game/2018-06-24-CHI-DET,"Sun, 6/24 TBD Detroit",Detroit Mechanix,Chicago Wildfire,27,31,2018-06-24,TBD Detroit,,13,974
+975,2018,/league/game/2018-06-24-LA-SF,"Sun, 6/24 1:00 PM PDT San Francisco",San Francisco FlameThrowers,Los Angeles Aviators,24,25,2018-06-24,1:00 PM PDT,San Francisco,13,975
+976,2018,/league/game/2018-06-24-NSH-DAL,"Sun, 6/24 1:00 PM CDT Dallas",Dallas Roughnecks,Nashville Nightwatch,28,16,2018-06-24,1:00 PM CDT,Dallas,13,976
+977,2018,/league/game/2018-06-24-MTL-PHI,"Sun, 6/24 1:00 PM EDT Philadelphia",Philadelphia Phoenix,Montreal Royal,27,19,2018-06-24,1:00 PM EDT,Philadelphia,13,977
+978,2018,/league/game/2018-06-24-DC-OTT,"Sun, 6/24 2:00 PM EDT Ottawa",Ottawa Outlaws,DC Breeze,29,30,2018-06-24,2:00 PM EDT,Ottawa,13,978
+979,2018,/league/game/2018-06-30-AUS-DAL,"Sat, 6/30 7:00 PM CDT Dallas",Dallas Roughnecks,Austin Sol,29,25,2018-06-30,7:00 PM CDT,Dallas,14,987
+980,2018,/league/game/2018-06-30-ATL-TB,"Sat, 6/30 7:00 PM EDT Tampa Bay",Tampa Bay Cannons,Atlanta Hustle,19,16,2018-06-30,7:00 PM EDT,Tampa Bay,14,985
+981,2018,/league/game/2018-06-30-PHI-DC,"Sat, 6/30 6:30 PM EDT DC",DC Breeze,Philadelphia Phoenix,25,15,2018-06-30,6:30 PM EDT,DC,14,984
+982,2018,/league/game/2018-06-30-SF-SD,"Sat, 6/30 6:30 PM PDT San Diego",San Diego Growlers,San Francisco FlameThrowers,27,22,2018-06-30,6:30 PM PDT,San Diego,14,983
+983,2018,/league/game/2018-06-30-NSH-RAL,"Sat, 6/30 7:00 PM EDT Raleigh",Raleigh Flyers,Nashville Nightwatch,33,20,2018-06-30,7:00 PM EDT,Raleigh,14,986
+984,2018,/league/game/2018-06-30-IND-MAD,"Sat, 6/30 6:00 PM CDT Madison",Madison Radicals,Indianapolis AlleyCats,26,17,2018-06-30,6:00 PM CDT,Madison,14,981
+985,2018,/league/game/2018-06-30-CHI-MIN,"Sat, 6/30 6:00 PM CDT Minnesota",Minnesota Wind Chill,Chicago Wildfire,25,23,2018-06-30,6:00 PM CDT,Minnesota,14,980
+986,2018,/league/game/2018-06-30-PIT-DET,"Sat, 6/30 TBD Detroit",Detroit Mechanix,Pittsburgh Thunderbirds,19,20,2018-06-30,TBD Detroit,,14,979
+987,2018,/league/game/2018-06-30-NY-OTT,"Sat, 6/30 6:00 PM EDT Ottawa",Ottawa Outlaws,New York Empire,23,29,2018-06-30,6:00 PM EDT,Ottawa,14,982
+988,2018,/league/game/2018-07-01-NY-MTL,"Sun, 7/1 1:00 PM EDT Montreal",Montreal Royal,New York Empire,18,26,2018-07-01,1:00 PM EDT,Montreal,14,988
+989,2018,/league/game/2018-07-01-SF-LA,"Sun, 7/1 1:30 PM PDT LA",Los Angeles Aviators,San Francisco FlameThrowers,28,21,2018-07-01,1:30 PM PDT,LA,14,989
+990,2018,/league/game/2018-07-01-SJ-SEA,"Sun, 7/1 1:30 PM PDT Seattle",Seattle Cascades,San Jose Spiders,25,24,2018-07-01,1:30 PM PDT,Seattle,14,990
+991,2018,/league/game/2018-07-03-MIN-MAD,"Tue, 7/3 7:00 PM CDT Madison",Madison Radicals,Minnesota Wind Chill,35,24,2018-07-03,7:00 PM CDT,Madison,15,991
+992,2018,/league/game/2018-07-07-TB-DAL,"Sat, 7/7 7:00 PM CDT Dallas",Dallas Roughnecks,Tampa Bay Cannons,21,16,2018-07-07,7:00 PM CDT,Dallas,15,996
+993,2018,/league/game/2018-07-07-PHI-NY,"Sat, 7/7 7:00 PM EDT New York",New York Empire,Philadelphia Phoenix,27,23,2018-07-07,7:00 PM EDT,New York,15,995
+994,2018,/league/game/2018-07-07-MTL-TOR,"Sat, 7/7 6:30 PM EDT Toronto",Toronto Rush,Montreal Royal,28,24,2018-07-07,6:30 PM EDT,Toronto,15,993
+995,2018,/league/game/2018-07-07-IND-CHI,"Sat, 7/7 6:00 PM CDT Chicago",Chicago Wildfire,Indianapolis AlleyCats,18,25,2018-07-07,6:00 PM CDT,Chicago,15,992
+996,2018,/league/game/2018-07-07-ATL-RAL,"Sat, 7/7 7:00 PM EDT Raleigh",Raleigh Flyers,Atlanta Hustle,26,25,2018-07-07,7:00 PM EDT,Raleigh,15,994
+997,2018,/league/game/2018-07-08-TB-AUS,"Sun, 7/8 1:00 PM CDT Austin",Austin Sol,Tampa Bay Cannons,6,7,2018-07-08,1:00 PM CDT,Austin,15,997
+998,2018,/league/game/2018-07-08-TOR-OTT,"Sun, 7/8 2:00 PM EDT Ottawa",Ottawa Outlaws,Toronto Rush,13,26,2018-07-08,2:00 PM EDT,Ottawa,15,998
+999,2018,/league/game/2018-07-13-SEA-SJ,"Fri, 7/13 7:30 PM PDT San Jose",San Jose Spiders,Seattle Cascades,27,24,2018-07-13,7:30 PM PDT,San Jose,16,999
+1000,2018,/league/game/2018-07-14-NSH-TB,"Sat, 7/14 7:00 PM EDT Tampa Bay",Tampa Bay Cannons,Nashville Nightwatch,24,23,2018-07-14,7:00 PM EDT,Tampa Bay,16,1004
+1001,2018,/league/game/2018-07-14-LA-SD,"Sat, 7/14 7:15 PM PDT San Diego",San Diego Growlers,Los Angeles Aviators,34,21,2018-07-14,7:15 PM PDT,San Diego,16,1006
+1002,2018,/league/game/2018-07-14-NY-DC,"Sat, 7/14 6:30 PM EDT DC",DC Breeze,New York Empire,29,19,2018-07-14,6:30 PM EDT,DC,16,1003
+1003,2018,/league/game/2018-07-14-MIN-IND,"Sat, 7/14 7:00 PM EDT Indianapolis",Indianapolis AlleyCats,Minnesota Wind Chill,26,16,2018-07-14,7:00 PM EDT,Indianapolis,16,1005
+1004,2018,/league/game/2018-07-14-DET-PIT,"Sat, 7/14 6:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Detroit Mechanix,32,10,2018-07-14,6:00 PM EDT,Pittsburgh,16,1001
+1005,2018,/league/game/2018-07-14-CHI-MAD,"Sat, 7/14 6:00 PM CDT Madison",Madison Radicals,Chicago Wildfire,27,24,2018-07-14,6:00 PM CDT,Madison,16,1000
+1006,2018,/league/game/2018-07-14-SEA-SF,"Sat, 7/14 6:30 PM PDT San Francisco",San Francisco FlameThrowers,Seattle Cascades,20,31,2018-07-14,6:30 PM PDT,San Francisco,16,1002
+1007,2018,/league/game/2018-07-15-OTT-MTL,"Sun, 7/15 1:00 PM EDT Montreal",Montreal Royal,Ottawa Outlaws,25,32,2018-07-15,1:00 PM EDT,Montreal,16,1007
+1008,2018,/league/game/2018-07-15-MIN-CHI,"Sun, 7/15 1:00 PM CDT Chicago",Chicago Wildfire,Minnesota Wind Chill,20,23,2018-07-15,1:00 PM CDT,Chicago,16,1008
+1009,2018,/league/game/2018-07-15-NY-PHI,"Sun, 7/15 2:00 PM EDT Philadelphia",Philadelphia Phoenix,New York Empire,22,30,2018-07-15,2:00 PM EDT,Philadelphia,16,1009
+1010,2018,/league/game/2018-07-15-NSH-ATL,"Sun, 7/15 5:00 PM EDT Atlanta",Atlanta Hustle,Nashville Nightwatch,30,26,2018-07-15,5:00 PM EDT,Atlanta,16,1010
+1011,2018,/league/game/2018-07-21-SD-LA,"Sat, 7/21 7:00 PM PDT LA",Los Angeles Aviators,San Diego Growlers,26,22,2018-07-21,7:00 PM PDT,LA,17,1011
+1012,2018,/league/game/2018-07-21-NY-DC,"Sat, 7/21 7:00 PM EDT DC",DC Breeze,New York Empire,15,19,2018-07-21,7:00 PM EDT,DC,17,1012
+1013,2018,/league/game/2018-07-21-MIN-IND,"Sat, 7/21 7:00 PM EDT Indianapolis",Indianapolis AlleyCats,Minnesota Wind Chill,20,19,2018-07-21,7:00 PM EDT,Indianapolis,17,1013
+1014,2018,/league/game/2018-07-27-RAL-AUS,"Fri, 7/27 7:00 PM CDT Austin",Austin Sol,Raleigh Flyers,23,26,2018-07-27,7:00 PM CDT,Austin,18,1014
+1015,2018,/league/game/2018-07-28-IND-MAD,"Sat, 7/28 6:00 PM CDT Madison",Madison Radicals,Indianapolis AlleyCats,27,18,2018-07-28,6:00 PM CDT,Madison,18,1015
+1016,2018,/league/game/2018-07-28-NY-TOR,"Sat, 7/28 6:30 PM EDT Toronto",Toronto Rush,New York Empire,17,18,2018-07-28,6:30 PM EDT,Toronto,18,1016
+1017,2018,/league/game/2018-07-28-RAL-DAL,"Sat, 7/28 7:00 PM CDT Dallas",Dallas Roughnecks,Raleigh Flyers,20,19,2018-07-28,7:00 PM CDT,Dallas,18,1017
+1018,2018,/league/game/2018-08-11-LA-MAD,"Sat, 8/11 7:00 PM CDT",Madison Radicals,Los Angeles Aviators,24,19,2018-08-11,7:00 PM CDT,,20,1019
+1019,2018,/league/game/2018-08-11-NY-DAL,"Sat, 8/11 4:00 PM CDT",Dallas Roughnecks,New York Empire,32,30,2018-08-11,4:00 PM CDT,,20,1018
+1020,2018,/league/game/2018-08-12-DAL-MAD,"Sun, 8/12 12:00 AM CDT",Madison Radicals,Dallas Roughnecks,20,16,2018-08-12,12:00 AM CDT,,20,1020
+1021,2019,/league/game/2019-04-05-RAL-DAL,"Fri, 4/5 7:30 PM CDT Dallas",Dallas Roughnecks,Raleigh Flyers,19,17,2019-04-05,7:30 PM CDT,Dallas,1,1021
+1022,2019,/league/game/2019-04-06-RAL-AUS,"Sat, 4/6 6:00 PM CDT Austin",Austin Sol,Raleigh Flyers,18,22,2019-04-06,6:00 PM CDT,Austin,1,1022
+1023,2019,/league/game/2019-04-06-SJ-SEA,"Sat, 4/6 6:30 PM PDT Seattle",Seattle Cascades,San Jose Spiders,27,28,2019-04-06,6:30 PM PDT,Seattle,1,1023
+1024,2019,/league/game/2019-04-06-LA-SD,"Sat, 4/6 6:45 PM PDT San Diego",San Diego Growlers,Los Angeles Aviators,20,18,2019-04-06,6:45 PM PDT,San Diego,1,1024
+1025,2019,/league/game/2019-04-06-ATL-TB,"Sat, 4/6 7:05 PM EDT Tampa Bay",Tampa Bay Cannons,Atlanta Hustle,18,17,2019-04-06,7:05 PM EDT,Tampa Bay,1,1025
+1026,2019,/league/game/2019-04-12-SJ-LA,"Fri, 4/12 7:30 PM PDT LA",Los Angeles Aviators,San Jose Spiders,22,18,2019-04-12,7:30 PM PDT,LA,2,1026
+1027,2019,/league/game/2019-04-13-DC-NY,"Sat, 4/13 6:00 PM EDT New York",New York Empire,DC Breeze,21,18,2019-04-13,6:00 PM EDT,New York,2,1027
+1028,2019,/league/game/2019-04-13-DAL-AUS,"Sat, 4/13 6:00 PM CDT Austin",Austin Sol,Dallas Roughnecks,19,17,2019-04-13,6:00 PM CDT,Austin,2,1028
+1029,2019,/league/game/2019-04-13-SJ-SD,"Sat, 4/13 6:45 PM PDT San Diego",San Diego Growlers,San Jose Spiders,25,24,2019-04-13,6:45 PM PDT,San Diego,2,1029
+1030,2019,/league/game/2019-04-13-RAL-ATL,"Sat, 4/13 7:00 PM EDT Atlanta",Atlanta Hustle,Raleigh Flyers,21,24,2019-04-13,7:00 PM EDT,Atlanta,2,1030
+1031,2019,/league/game/2019-04-14-MAD-IND,"Sun, 4/14 6:00 PM EDT Indianapolis",Indianapolis AlleyCats,Madison Radicals,20,22,2019-04-14,6:00 PM EDT,Indianapolis,2,1031
+1032,2019,/league/game/2019-04-20-SD-SJ,"Sat, 4/20 7:00 PM PDT San Jose",San Jose Spiders,San Diego Growlers,16,21,2019-04-20,7:00 PM PDT,San Jose,3,1038
+1033,2019,/league/game/2019-04-20-ATL-TB,"Sat, 4/20 7:05 PM EDT Tampa Bay",Tampa Bay Cannons,Atlanta Hustle,17,14,2019-04-20,7:05 PM EDT,Tampa Bay,3,1039
+1034,2019,/league/game/2019-04-20-AUS-DAL,"Sat, 4/20 7:00 PM CDT Dallas",Dallas Roughnecks,Austin Sol,21,17,2019-04-20,7:00 PM CDT,Dallas,3,1036
+1035,2019,/league/game/2019-04-20-DET-IND,"Sat, 4/20 7:00 PM EDT Indianapolis",Indianapolis AlleyCats,Detroit Mechanix,26,22,2019-04-20,7:00 PM EDT,Indianapolis,3,1037
+1036,2019,/league/game/2019-04-20-PIT-MAD,"Sat, 4/20 6:00 PM CDT Madison",Madison Radicals,Pittsburgh Thunderbirds,26,17,2019-04-20,6:00 PM CDT,Madison,3,1034
+1037,2019,/league/game/2019-04-20-LA-SEA,"Sat, 4/20 6:00 PM PDT Seattle",Seattle Cascades,Los Angeles Aviators,20,24,2019-04-20,6:00 PM PDT,Seattle,3,1033
+1038,2019,/league/game/2019-04-20-PHI-DC,"Sat, 4/20 4:00 PM EDT DC",DC Breeze,Philadelphia Phoenix,20,18,2019-04-20,4:00 PM EDT,DC,3,1032
+1039,2019,/league/game/2019-04-20-CHI-MIN,"Sat, 4/20 6:00 PM CDT Minnesota",Minnesota Wind Chill,Chicago Wildfire,25,26,2019-04-20,6:00 PM CDT,Minnesota,3,1035
+1040,2019,/league/game/2019-04-26-SEA-SD,"Fri, 4/26 7:00 PM PDT San Diego",San Diego Growlers,Seattle Cascades,20,18,2019-04-26,7:00 PM PDT,San Diego,4,1040
+1041,2019,/league/game/2019-04-27-TOR-OTT,"Sat, 4/27 2:00 PM EDT Ottawa",Ottawa Outlaws,Toronto Rush,13,19,2019-04-27,2:00 PM EDT,Ottawa,4,1041
+1042,2019,/league/game/2019-04-27-IND-DET,"Sat, 4/27 5:45 PM EDT Detroit",Detroit Mechanix,Indianapolis AlleyCats,16,19,2019-04-27,5:45 PM EDT,Detroit,4,1042
+1043,2019,/league/game/2019-04-27-PIT-MIN,"Sat, 4/27 6:00 PM CDT Minnesota",Minnesota Wind Chill,Pittsburgh Thunderbirds,25,22,2019-04-27,6:00 PM CDT,Minnesota,4,1043
+1044,2019,/league/game/2019-04-27-NY-PHI,"Sat, 4/27 6:00 PM EDT Philadelphia",Philadelphia Phoenix,New York Empire,16,25,2019-04-27,6:00 PM EDT,Philadelphia,4,1044
+1045,2019,/league/game/2019-04-27-RAL-ATL,"Sat, 4/27 7:00 PM EDT Atlanta",Atlanta Hustle,Raleigh Flyers,15,21,2019-04-27,7:00 PM EDT,Atlanta,4,1045
+1046,2019,/league/game/2019-04-27-SEA-LA,"Sat, 4/27 7:30 PM PDT LA",Los Angeles Aviators,Seattle Cascades,25,19,2019-04-27,7:30 PM PDT,LA,4,1046
+1047,2019,/league/game/2019-04-28-MTL-NY,"Sun, 4/28 2:00 PM EDT New York",New York Empire,Montreal Royal,23,19,2019-04-28,2:00 PM EDT,New York,4,1047
+1048,2019,/league/game/2019-05-04-LA-SJ,"Sat, 5/4 7:00 PM PDT San Jose",San Jose Spiders,Los Angeles Aviators,16,25,2019-05-04,7:00 PM PDT,San Jose,5,1054
+1049,2019,/league/game/2019-05-04-IND-PIT,"Sat, 5/4 6:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Indianapolis AlleyCats,16,19,2019-05-04,6:00 PM EDT,Pittsburgh,5,1052
+1050,2019,/league/game/2019-05-04-OTT-DC,"Sat, 5/4 6:00 PM EDT DC",DC Breeze,Ottawa Outlaws,24,15,2019-05-04,6:00 PM EDT,DC,5,1051
+1051,2019,/league/game/2019-05-04-SD-SEA,"Sat, 5/4 6:30 PM PDT Seattle",Seattle Cascades,San Diego Growlers,25,21,2019-05-04,6:30 PM PDT,Seattle,5,1053
+1052,2019,/league/game/2019-05-04-AUS-ATL,"Sat, 5/4 5:00 PM EDT Atlanta",Atlanta Hustle,Austin Sol,23,19,2019-05-04,5:00 PM EDT,Atlanta,5,1049
+1053,2019,/league/game/2019-05-04-MTL-TOR,"Sat, 5/4 4:00 PM EDT Toronto",Toronto Rush,Montreal Royal,21,16,2019-05-04,4:00 PM EDT,Toronto,5,1048
+1054,2019,/league/game/2019-05-04-MIN-CHI,"Sat, 5/4 6:00 PM CDT Chicago",Chicago Wildfire,Minnesota Wind Chill,23,17,2019-05-04,6:00 PM CDT,Chicago,5,1050
+1055,2019,/league/game/2019-05-05-MIN-DET,"Sun, 5/5 1:00 PM EDT Detroit",Detroit Mechanix,Minnesota Wind Chill,22,31,2019-05-05,1:00 PM EDT,Detroit,5,1055
+1056,2019,/league/game/2019-05-05-AUS-RAL,"Sun, 5/5 1:00 PM EDT Raleigh",Raleigh Flyers,Austin Sol,23,18,2019-05-05,1:00 PM EDT,Raleigh,5,1056
+1057,2019,/league/game/2019-05-05-OTT-PHI,"Sun, 5/5 2:00 PM EDT Philadelphia",Philadelphia Phoenix,Ottawa Outlaws,21,16,2019-05-05,2:00 PM EDT,Philadelphia,5,1057
+1058,2019,/league/game/2019-05-11-RAL-TB,"Sat, 5/11 7:05 PM EDT Tampa Bay",Tampa Bay Cannons,Raleigh Flyers,19,24,2019-05-11,7:05 PM EDT,Tampa Bay,6,1066
+1059,2019,/league/game/2019-05-11-DAL-AUS,"Sat, 5/11 7:00 PM CDT Austin",Austin Sol,Dallas Roughnecks,21,25,2019-05-11,7:00 PM CDT,Austin,6,1065
+1060,2019,/league/game/2019-05-11-ATL-IND,"Sat, 5/11 7:00 PM EDT Indianapolis",Indianapolis AlleyCats,Atlanta Hustle,22,27,2019-05-11,7:00 PM EDT,Indianapolis,6,1064
+1061,2019,/league/game/2019-05-11-SEA-SJ,"Sat, 5/11 7:00 PM PDT San Jose",San Jose Spiders,Seattle Cascades,24,19,2019-05-11,7:00 PM PDT,San Jose,6,1063
+1062,2019,/league/game/2019-05-11-CHI-PIT,"Sat, 5/11 6:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Chicago Wildfire,21,18,2019-05-11,6:00 PM EDT,Pittsburgh,6,1061
+1063,2019,/league/game/2019-05-11-DC-NY,"Sat, 5/11 6:00 PM EDT New York",New York Empire,DC Breeze,26,25,2019-05-11,6:00 PM EDT,New York,6,1060
+1064,2019,/league/game/2019-05-11-SD-LA,"Sat, 5/11 5:30 PM PDT LA",Los Angeles Aviators,San Diego Growlers,21,27,2019-05-11,5:30 PM PDT,LA,6,1059
+1065,2019,/league/game/2019-05-11-OTT-TOR,"Sat, 5/11 4:00 PM EDT Toronto",Toronto Rush,Ottawa Outlaws,25,24,2019-05-11,4:00 PM EDT,Toronto,6,1058
+1066,2019,/league/game/2019-05-11-MIN-MAD,"Sat, 5/11 6:00 PM CDT Madison",Madison Radicals,Minnesota Wind Chill,19,20,2019-05-11,6:00 PM CDT,Madison,6,1062
+1067,2019,/league/game/2019-05-17-SJ-SD,"Fri, 5/17 6:45 PM PDT San Diego",San Diego Growlers,San Jose Spiders,32,20,2019-05-17,6:45 PM PDT,San Diego,7,1067
+1068,2019,/league/game/2019-05-18-ATL-RAL,"Sat, 5/18 7:00 PM EDT Raleigh",Raleigh Flyers,Atlanta Hustle,25,22,2019-05-18,7:00 PM EDT,Raleigh,7,1073
+1069,2019,/league/game/2019-05-18-DC-OTT,"Sat, 5/18 7:00 PM EDT Ottawa",Ottawa Outlaws,DC Breeze,22,21,2019-05-18,7:00 PM EDT,Ottawa,7,1074
+1070,2019,/league/game/2019-05-18-TB-AUS,"Sat, 5/18 7:00 PM CDT Austin",Austin Sol,Tampa Bay Cannons,17,19,2019-05-18,7:00 PM CDT,Austin,7,1072
+1071,2019,/league/game/2019-05-18-TOR-NY,"Sat, 5/18 7:00 PM EDT New York",New York Empire,Toronto Rush,22,17,2019-05-18,7:00 PM EDT,New York,7,1075
+1072,2019,/league/game/2019-05-18-DET-PIT,"Sat, 5/18 6:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Detroit Mechanix,24,11,2019-05-18,6:00 PM EDT,Pittsburgh,7,1070
+1073,2019,/league/game/2019-05-18-MAD-CHI,"Sat, 5/18 6:00 PM CDT Chicago",Chicago Wildfire,Madison Radicals,22,25,2019-05-18,6:00 PM CDT,Chicago,7,1069
+1074,2019,/league/game/2019-05-18-SJ-LA,"Sat, 5/18 5:30 PM PDT LA",Los Angeles Aviators,San Jose Spiders,25,21,2019-05-18,5:30 PM PDT,LA,7,1068
+1075,2019,/league/game/2019-05-18-IND-MIN,"Sat, 5/18 6:00 PM CDT Minnesota",Minnesota Wind Chill,Indianapolis AlleyCats,11,13,2019-05-18,6:00 PM CDT,Minnesota,7,1071
+1076,2019,/league/game/2019-05-19-DC-MTL,"Sun, 5/19 1:00 PM EDT Montreal",Montreal Royal,DC Breeze,19,20,2019-05-19,1:00 PM EDT,Montreal,7,1076
+1077,2019,/league/game/2019-05-19-TB-DAL,"Sun, 5/19 1:00 PM CDT Dallas",Dallas Roughnecks,Tampa Bay Cannons,28,21,2019-05-19,1:00 PM CDT,Dallas,7,1077
+1078,2019,/league/game/2019-05-19-TOR-PHI,"Sun, 5/19 2:00 PM EDT Philadelphia",Philadelphia Phoenix,Toronto Rush,18,16,2019-05-19,2:00 PM EDT,Philadelphia,7,1078
+1079,2019,/league/game/2019-05-25-AUS-DAL,"Sat, 5/25 7:00 PM CDT Dallas",Dallas Roughnecks,Austin Sol,20,15,2019-05-25,7:00 PM CDT,Dallas,8,1085
+1080,2019,/league/game/2019-05-25-TB-ATL,"Sat, 5/25 7:00 PM EDT Atlanta",Atlanta Hustle,Tampa Bay Cannons,23,14,2019-05-25,7:00 PM EDT,Atlanta,8,1084
+1081,2019,/league/game/2019-05-25-MIN-PIT,"Sat, 5/25 6:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Minnesota Wind Chill,24,17,2019-05-25,6:00 PM EDT,Pittsburgh,8,1083
+1082,2019,/league/game/2019-05-25-MTL-PHI,"Sat, 5/25 6:00 PM EDT Philadelphia",Philadelphia Phoenix,Montreal Royal,15,25,2019-05-25,6:00 PM EDT,Philadelphia,8,1081
+1083,2019,/league/game/2019-05-25-MAD-TOR,"Sat, 5/25 6:00 PM EDT Toronto",Toronto Rush,Madison Radicals,22,15,2019-05-25,6:00 PM EDT,Toronto,8,1080
+1084,2019,/league/game/2019-05-25-OTT-NY,"Sat, 5/25 4:00 PM EDT New York",New York Empire,Ottawa Outlaws,20,15,2019-05-25,4:00 PM EDT,New York,8,1079
+1085,2019,/league/game/2019-05-25-IND-CHI,"Sat, 5/25 6:00 PM CDT Chicago",Chicago Wildfire,Indianapolis AlleyCats,18,17,2019-05-25,6:00 PM CDT,Chicago,8,1082
+1086,2019,/league/game/2019-05-26-MTL-DC,"Sun, 5/26 1:00 PM EDT DC",DC Breeze,Montreal Royal,27,17,2019-05-26,1:00 PM EDT,DC,8,1086
+1087,2019,/league/game/2019-05-26-MAD-DET,"Sun, 5/26 1:00 PM EDT Detroit",Detroit Mechanix,Madison Radicals,14,16,2019-05-26,1:00 PM EDT,Detroit,8,1087
+1088,2019,/league/game/2019-06-01-SJ-SEA,"Sat, 6/1 6:30 PM PDT Seattle",Seattle Cascades,San Jose Spiders,22,25,2019-06-01,6:30 PM PDT,Seattle,9,1093
+1089,2019,/league/game/2019-06-01-SD-LA,"Sat, 6/1 7:30 PM PDT LA",Los Angeles Aviators,San Diego Growlers,18,20,2019-06-01,7:30 PM PDT,LA,9,1095
+1090,2019,/league/game/2019-06-01-AUS-TB,"Sat, 6/1 7:05 PM EDT Tampa Bay",Tampa Bay Cannons,Austin Sol,24,16,2019-06-01,7:05 PM EDT,Tampa Bay,9,1094
+1091,2019,/league/game/2019-06-01-CHI-MIN,"Sat, 6/1 6:00 PM CDT Minnesota",Minnesota Wind Chill,Chicago Wildfire,27,26,2019-06-01,6:00 PM CDT,Minnesota,9,1092
+1092,2019,/league/game/2019-06-01-MTL-OTT,"Sat, 6/1 6:00 PM EDT Ottawa",Ottawa Outlaws,Montreal Royal,19,21,2019-06-01,6:00 PM EDT,Ottawa,9,1091
+1093,2019,/league/game/2019-06-01-NY-DC,"Sat, 6/1 6:00 PM EDT DC",DC Breeze,New York Empire,19,20,2019-06-01,6:00 PM EDT,DC,9,1090
+1094,2019,/league/game/2019-06-01-PIT-DET,"Sat, 6/1 5:45 PM EDT Detroit",Detroit Mechanix,Pittsburgh Thunderbirds,12,17,2019-06-01,5:45 PM EDT,Detroit,9,1089
+1095,2019,/league/game/2019-06-01-IND-MAD,"Sat, 6/1 2:00 PM CDT Madison",Madison Radicals,Indianapolis AlleyCats,15,18,2019-06-01,2:00 PM CDT,Madison,9,1088
+1096,2019,/league/game/2019-06-02-AUS-ATL,"Sun, 6/2 1:00 PM EDT Atlanta",Atlanta Hustle,Austin Sol,24,25,2019-06-02,1:00 PM EDT,Atlanta,9,1096
+1097,2019,/league/game/2019-06-02-MTL-TOR,"Sun, 6/2 2:00 PM EDT Toronto",Toronto Rush,Montreal Royal,19,13,2019-06-02,2:00 PM EDT,Toronto,9,1097
+1098,2019,/league/game/2019-06-14-DAL-TB,"Fri, 6/14 7:45 PM EDT Tampa Bay",Tampa Bay Cannons,Dallas Roughnecks,20,25,2019-06-14,7:45 PM EDT,Tampa Bay,11,1098
+1099,2019,/league/game/2019-06-15-SEA-SJ,"Sat, 6/15 7:00 PM PDT San Jose",San Jose Spiders,Seattle Cascades,25,26,2019-06-15,7:00 PM PDT,San Jose,11,1105
+1100,2019,/league/game/2019-06-15-DAL-RAL,"Sat, 6/15 7:00 PM EDT Raleigh",Raleigh Flyers,Dallas Roughnecks,27,18,2019-06-15,7:00 PM EDT,Raleigh,11,1104
+1101,2019,/league/game/2019-06-15-LA-SD,"Sat, 6/15 6:45 PM PDT San Diego",San Diego Growlers,Los Angeles Aviators,17,18,2019-06-15,6:45 PM PDT,San Diego,11,1103
+1102,2019,/league/game/2019-06-15-MAD-MIN,"Sat, 6/15 6:00 PM CDT Minnesota",Minnesota Wind Chill,Madison Radicals,21,19,2019-06-15,6:00 PM CDT,Minnesota,11,1102
+1103,2019,/league/game/2019-06-15-TOR-DC,"Sat, 6/15 6:00 PM EDT DC",DC Breeze,Toronto Rush,23,22,2019-06-15,6:00 PM EDT,DC,11,1101
+1104,2019,/league/game/2019-06-15-OTT-MTL,"Sat, 6/15 6:00 PM EDT Montreal",Montreal Royal,Ottawa Outlaws,21,22,2019-06-15,6:00 PM EDT,Montreal,11,1100
+1105,2019,/league/game/2019-06-15-PHI-NY,"Sat, 6/15 6:00 PM EDT New York",New York Empire,Philadelphia Phoenix,19,14,2019-06-15,6:00 PM EDT,New York,11,1099
+1106,2019,/league/game/2019-06-16-DET-CHI,"Sun, 6/16 1:00 PM CDT Chicago",Chicago Wildfire,Detroit Mechanix,24,16,2019-06-16,1:00 PM CDT,Chicago,11,1106
+1107,2019,/league/game/2019-06-16-DC-PHI,"Sun, 6/16 2:00 PM EDT Philadelphia",Philadelphia Phoenix,DC Breeze,16,21,2019-06-16,2:00 PM EDT,Philadelphia,11,1107
+1108,2019,/league/game/2019-06-22-NY-RAL,"Sat, 6/22 7:00 PM EDT Raleigh",Raleigh Flyers,New York Empire,24,25,2019-06-22,7:00 PM EDT,Raleigh,12,1115
+1109,2019,/league/game/2019-06-22-TB-DAL,"Sat, 6/22 7:00 PM CDT Dallas",Dallas Roughnecks,Tampa Bay Cannons,29,22,2019-06-22,7:00 PM CDT,Dallas,12,1116
+1110,2019,/league/game/2019-06-22-MIN-IND,"Sat, 6/22 7:00 PM EDT Indianapolis",Indianapolis AlleyCats,Minnesota Wind Chill,24,23,2019-06-22,7:00 PM EDT,Indianapolis,12,1114
+1111,2019,/league/game/2019-06-22-LA-SJ,"Sat, 6/22 7:00 PM PDT San Jose",San Jose Spiders,Los Angeles Aviators,27,31,2019-06-22,7:00 PM PDT,San Jose,12,1113
+1112,2019,/league/game/2019-06-22-CHI-DET,"Sat, 6/22 5:45 PM EDT Detroit",Detroit Mechanix,Chicago Wildfire,11,24,2019-06-22,5:45 PM EDT,Detroit,12,1109
+1113,2019,/league/game/2019-06-22-SD-SEA,"Sat, 6/22 6:00 PM PDT Seattle",Seattle Cascades,San Diego Growlers,25,30,2019-06-22,6:00 PM PDT,Seattle,12,1111
+1114,2019,/league/game/2019-06-22-MAD-PIT,"Sat, 6/22 6:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Madison Radicals,21,20,2019-06-22,6:00 PM EDT,Pittsburgh,12,1110
+1115,2019,/league/game/2019-06-22-PHI-DC,"Sat, 6/22 4:00 PM EDT DC",DC Breeze,Philadelphia Phoenix,21,18,2019-06-22,4:00 PM EDT,DC,12,1108
+1116,2019,/league/game/2019-06-22-TOR-MTL,"Sat, 6/22 6:00 PM EDT Montreal",Montreal Royal,Toronto Rush,23,22,2019-06-22,6:00 PM EDT,Montreal,12,1112
+1117,2019,/league/game/2019-06-23-TB-AUS,"Sun, 6/23 1:00 PM CDT Austin",Austin Sol,Tampa Bay Cannons,23,14,2019-06-23,1:00 PM CDT,Austin,12,1117
+1118,2019,/league/game/2019-06-23-TOR-OTT,"Sun, 6/23 2:00 PM EDT Ottawa",Ottawa Outlaws,Toronto Rush,17,22,2019-06-23,2:00 PM EDT,Ottawa,12,1118
+1119,2019,/league/game/2019-06-28-CHI-MAD,"Fri, 6/28 7:00 PM CDT Madison",Madison Radicals,Chicago Wildfire,18,21,2019-06-28,7:00 PM CDT,Madison,13,1119
+1120,2019,/league/game/2019-06-29-PHI-TOR,"Sat, 6/29 4:00 PM EDT Toronto",Toronto Rush,Philadelphia Phoenix,24,26,2019-06-29,4:00 PM EDT,Toronto,13,1120
+1121,2019,/league/game/2019-06-29-NY-MTL,"Sat, 6/29 6:00 PM EDT Montreal",Montreal Royal,New York Empire,19,22,2019-06-29,6:00 PM EDT,Montreal,13,1121
+1122,2019,/league/game/2019-06-29-IND-PIT,"Sat, 6/29 6:00 PM EDT Pittsburgh",Pittsburgh Thunderbirds,Indianapolis AlleyCats,20,23,2019-06-29,6:00 PM EDT,Pittsburgh,13,1122
+1123,2019,/league/game/2019-06-29-DET-MIN,"Sat, 6/29 6:00 PM CDT Minnesota",Minnesota Wind Chill,Detroit Mechanix,27,12,2019-06-29,6:00 PM CDT,Minnesota,13,1123
+1124,2019,/league/game/2019-06-29-SEA-SD,"Sat, 6/29 6:30 PM PDT San Diego",San Diego Growlers,Seattle Cascades,26,25,2019-06-29,6:30 PM PDT,San Diego,13,1124
+1125,2019,/league/game/2019-06-29-ATL-DAL,"Sat, 6/29 7:00 PM CDT Dallas",Dallas Roughnecks,Atlanta Hustle,18,15,2019-06-29,7:00 PM CDT,Dallas,13,1125
+1126,2019,/league/game/2019-06-29-RAL-TB,"Sat, 6/29 7:30 PM EDT Tampa Bay",Tampa Bay Cannons,Raleigh Flyers,20,22,2019-06-29,7:30 PM EDT,Tampa Bay,13,1126
+1127,2019,/league/game/2019-06-30-NY-OTT,"Sun, 6/30 2:00 PM EDT Ottawa",Ottawa Outlaws,New York Empire,23,27,2019-06-30,2:00 PM EDT,Ottawa,13,1130
+1128,2019,/league/game/2019-06-30-SEA-LA,"Sun, 6/30 1:30 PM PDT LA",Los Angeles Aviators,Seattle Cascades,27,14,2019-06-30,1:30 PM PDT,LA,13,1129
+1129,2019,/league/game/2019-06-30-ATL-AUS,"Sun, 6/30 1:00 PM CDT Austin",Austin Sol,Atlanta Hustle,21,22,2019-06-30,1:00 PM CDT,Austin,13,1127
+1130,2019,/league/game/2019-06-30-DET-CHI,"Sun, 6/30 1:00 PM CDT Chicago",Chicago Wildfire,Detroit Mechanix,12,6,2019-06-30,1:00 PM CDT,Chicago,13,1128
+1131,2019,/league/game/2019-07-04-OTT-MTL,"Thu, 7/4 7:00 PM EDT Montreal",Montreal Royal,Ottawa Outlaws,25,22,2019-07-04,7:00 PM EDT,Montreal,14,1131
+1132,2019,/league/game/2019-07-05-DAL-RAL,"Fri, 7/5 7:00 PM EDT Raleigh",Raleigh Flyers,Dallas Roughnecks,22,15,2019-07-05,7:00 PM EDT,Raleigh,14,1132
+1133,2019,/league/game/2019-07-06-SD-SJ,"Sat, 7/6 7:00 PM PDT San Jose",San Jose Spiders,San Diego Growlers,20,26,2019-07-06,7:00 PM PDT,San Jose,14,1140
+1134,2019,/league/game/2019-07-06-DAL-ATL,"Sat, 7/6 7:00 PM EDT Atlanta",Atlanta Hustle,Dallas Roughnecks,23,19,2019-07-06,7:00 PM EDT,Atlanta,14,1139
+1135,2019,/league/game/2019-07-06-CHI-IND,"Sat, 7/6 7:00 PM EDT Indianapolis",Indianapolis AlleyCats,Chicago Wildfire,24,21,2019-07-06,7:00 PM EDT,Indianapolis,14,1138
+1136,2019,/league/game/2019-07-06-LA-SEA,"Sat, 7/6 6:00 PM PDT Seattle",Seattle Cascades,Los Angeles Aviators,23,31,2019-07-06,6:00 PM PDT,Seattle,14,1137
+1137,2019,/league/game/2019-07-06-NY-PHI,"Sat, 7/6 6:00 PM EDT Philadelphia",Philadelphia Phoenix,New York Empire,20,22,2019-07-06,6:00 PM EDT,Philadelphia,14,1135
+1138,2019,/league/game/2019-07-06-DC-TOR,"Sat, 7/6 4:00 PM EDT Toronto",Toronto Rush,DC Breeze,26,21,2019-07-06,4:00 PM EDT,Toronto,14,1134
+1139,2019,/league/game/2019-07-06-PIT-DET,"Sat, 7/6 4:00 PM EDT Detroit",Detroit Mechanix,Pittsburgh Thunderbirds,23,24,2019-07-06,4:00 PM EDT,Detroit,14,1133
+1140,2019,/league/game/2019-07-06-MIN-MAD,"Sat, 7/6 6:00 PM CDT Madison",Madison Radicals,Minnesota Wind Chill,22,17,2019-07-06,6:00 PM CDT,Madison,14,1136
+1141,2019,/league/game/2019-07-13-PIT-CHI,"Sat, 7/13 6:00 PM CDT Chicago",Chicago Wildfire,Pittsburgh Thunderbirds,16,29,2019-07-13,6:00 PM CDT,Chicago,15,1141
+1142,2019,/league/game/2019-07-13-PHI-OTT,"Sat, 7/13 6:00 PM EDT Ottawa",Ottawa Outlaws,Philadelphia Phoenix,20,19,2019-07-13,6:00 PM EDT,Ottawa,15,1142
+1143,2019,/league/game/2019-07-13-TB-RAL,"Sat, 7/13 7:00 PM EDT Raleigh",Raleigh Flyers,Tampa Bay Cannons,25,24,2019-07-13,7:00 PM EDT,Raleigh,15,1143
+1144,2019,/league/game/2019-07-14-PHI-MTL,"Sun, 7/14 3:00 PM EDT Montreal",Montreal Royal,Philadelphia Phoenix,20,21,2019-07-14,3:00 PM EDT,Montreal,15,1145
+1145,2019,/league/game/2019-07-14-DET-MAD,"Sun, 7/14 12:00 PM CDT Madison",Madison Radicals,Detroit Mechanix,33,9,2019-07-14,12:00 PM CDT,Madison,15,1144
+1146,2019,/league/game/2019-07-14-PIT-IND,"Sun, 7/14 4:00 PM EDT Indianapolis",Indianapolis AlleyCats,Pittsburgh Thunderbirds,17,25,2019-07-14,4:00 PM EDT,Indianapolis,15,1146
