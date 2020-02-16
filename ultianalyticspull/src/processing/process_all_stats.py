@@ -80,8 +80,9 @@ def clean_goals_for_sanke(df):
     df = df.loc[(df.Action == "Goal") & (df['Event Type'] == 'Offense')][cols].dropna(how='any')
     return df
 
-def main(data_dir = get_default_data_directory()):
-        df = load_league_data()
+def main(data_dir):
+        
+        df = load_league_data(data_dir)
 
         print('Generating Team By Game Stats...')
         out_file_team = f'{data_dir}/final/audl/team_stats.csv'
