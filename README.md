@@ -1,4 +1,4 @@
-# UltiAnalytics Pull <img align="right" width="100" height="100" src="images/logo.png">
+# UltiAnalytics Pull <img align="right" width="100" height="100" src="ultianalyticspull/images/logo.png">
 
 Use *UltiAnalytics Pull* to grab, clean, and enhance ultimate frisbee data from UltiAnalytics. Run it over *your* team's data or use it to analyze the full available data sets of *professional ultimate* (both AUDL and PUL). It can produce tabulated player stats with the actual player names, so you can compare stats like goals, assists, blocks, and over 20 others! Use it to create your own metrics or graphics to measure player or team performance per year, per game, per point, or even per possession. To enrich your insights, this project includes supplemental data like information on the professional franchises,  game results, and now weekly active rosters.
 

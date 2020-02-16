@@ -8,5 +8,7 @@ from ultianalyticspull.src.core.huddlers import *
 from ultianalyticspull.src.core.pullers import *
 from ultianalyticspull.src.core.utils import *
 
+from ultianalyticspull.src.getters.datagetters import *
+
 from ultianalyticspull.src.scraping.scrape import *
 from ultianalyticspull.src.scraping.out import *

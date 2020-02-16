@@ -98,6 +98,25 @@ def format_games_dict(year, matchup_links, start_times_places, score_pairs, team
                                                     score_pairs,
                                                     team_name_pairs)]
 
+
+def pm_am(string):
+    val = 0
+    if string.lower()=='am':
+        val = 0
+    if string.lower()=='pm':
+        val = 12
+    return(val)
+
+def time_to_float(string):
+    try:
+        hour = float(string.split(':')[0])
+        minutes = float(string.split(':')[1])/60
+    except:
+        hour=19
+        minutes=0
+        print(string,'set to 7p')
+    return hour+minutes
+
 def get_audl_game_results(years=[2012,2013,2014,2015,2016,2017,2018,2019],
                           latest_year=2019):
 
@@ -126,16 +145,26 @@ def get_audl_game_results(years=[2012,2013,2014,2015,2016,2017,2018,2019],
 
             game_info_dicts +=format_games_dict(year, matchup_links, start_times_places,
                                               score_pairs, team_name_pairs)
-    games = pd.DataFrame(game_info_dicts)
+    games = pd.DataFrame(game_info_dicts).drop_duplicates()
 
     # Enhance
-    games['Date'] = games['Matchup Link'].apply(lambda x : '/'.join(x.split('/')[3].split('-')[:3]) )
+    games['Matchup Link'] = games['Matchup Link'].str.split('/').apply(lambda x : x[-1])
+    games['Date'] = games['Matchup Link'].apply(lambda x : '/'.join(x.split('-')[:3]) )
     games['Date'] = pd.to_datetime(games['Date'],format='%Y/%m/%d')
+    games['date_iso'] = pd.to_datetime(games['Date']).apply(lambda x : x.isoformat())
     games['Time'] = games['Date Location'].apply(lambda x : ' '.join(x.split(' ')[2:5]) )
-    games['City'] = games['Date Location'].apply(lambda x : ' '.join(x.split(' ')[5:]) )
+    games['Hour'] = games['Time'].apply(lambda x : time_to_float(x.split(' ')[0]) + pm_am(x.split(' ')[1]))
+    games['Location'] = games['Date Location'].apply(lambda x : ' '.join(x.split(' ')[5:]) )
     games['Week'] = games['Date'].dt.strftime('%W').astype(int)
     games['Week'] = games.apply(lambda x : x.Week - games[games.Year==x.Year].Week.min() + 1,axis=1)
     games['UniversalGameID'] = games.index
+
+    # Correct
+    nsh_wrong = 'Nashville Nightwatch'
+    nsh_correct = 'Nashville NightWatch'
+    games = games.replace(nsh_wrong, nsh_correct)
+    games.loc[games['Location']=='Jacksonville', 'Home Team'] = 'Jacksonville Cannons'
+    games = games.replace('LA','Los Angeles').replace('Salt Lake','Salt Lake City')
 
     return games
 
