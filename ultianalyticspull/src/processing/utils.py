@@ -1,4 +1,4 @@
-import os
+import pathlib
 import pandas as pd
 import importlib.resources as import_resources
 
@@ -17,13 +17,12 @@ def extract_datetime(df, colname):
     return df
 
 
-def load_league_data(years=get_default_years(),league='audl',data_dir=get_default_data_directory()):
+def load_league_data(data_dir : str):
 
-    all_dfs = []
-    league = league.lower()
-    for year in years:
-        files = [file for file in os.listdir(f'{data_dir}/{league}/{year}') if file.endswith('.csv')]
-        all_dfs += [pd.read_csv(f'{data_dir}/{league}/{year}/{file}', index_col=0) for file in files]
+    data_path = pathlib.Path(data_dir)
+
+    all_dfs = [pd.read_csv(str(file_path), index_col=0) for file_path in list(data_path.rglob('*csv'))]
+
     df = pd.concat(all_dfs,sort=False)
 
     df = extract_datetime(df, 'Date/Time')

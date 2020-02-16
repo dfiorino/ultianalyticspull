@@ -9,10 +9,14 @@ import ultianalyticspull.src.core.utils as utils
 class LeaguePuller:
     def __init__(self,
                 league : str,
-                years : list,
+                year : list = None,
                 output_dir : str = './'):
+        """
+        LeaguePuller will download all league teams raw data by year.
+        Specifying the year will limit to a single year of the league.
+        """
         self.league = league.lower()
-        self.years=years
+        self.year=year
         self.output_dir = output_dir
         self.pull()
 
@@ -36,7 +40,10 @@ class LeaguePuller:
         self.team_page_links = import_resources.path(league_data, f'{self.league}_ultianalytics.csv')
         with self.team_page_links as path_team_page_links:
             df = pd.read_csv(path_team_page_links)
-            self.team_links_dataframe = df[df.year.isin(self.years)].sort_values(['year','team'])
+            if self.year is None:
+                self.team_links_dataframe = df.sort_values(['year','team'])
+            else:
+                self.team_links_dataframe = df[df['year']==self.year].sort_values(['year','team'])
 
         self.username_playername_relation = import_resources.path(league_data, f'{self.league}_username_playername_relation.csv')
         with self.username_playername_relation as username_playername_relation_file:
