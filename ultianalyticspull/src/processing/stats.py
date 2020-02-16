@@ -8,7 +8,7 @@ def get_team_sum_stat_types():
     """
     return ['Assists', 'Hockey Assists', 'Throws', 'Throwaways', 'Turnovers',
             'Completions', 'Catches', 'Goals', 'Drops', 'Blocks','Stalls',
-            'Callahans', 'Callahans Thrown']
+            'Callahans', 'Callahans Thrown', 'Throwing Yards','Receiving Yards']
 
 def get_player_sum_stat_types():
     """
@@ -71,6 +71,7 @@ def calculate_sum_stats(df, index_vars, entity='team'):
     # Thrower
     df_long.loc[offense & passer & goal, 'Assists'] = 1
     df_long.loc[offense & passer & (catch | goal), 'Completions'] = 1
+    df_long.loc[offense & passer & (catch | goal), 'Throwing Yards'] = df_long.loc[offense & passer & (catch | goal), 'Absolute Distance']
     df_long.loc[offense & passer & (df_long.Action.shift(-1) == 'Goal') & (
                 df_long['Event Type'].shift(-1) == 'Offense'), 'Hockey Assists'] = 1
     df_long.loc[offense & passer & (throwaway | callahan), 'Throwaways'] = 1
@@ -80,6 +81,7 @@ def calculate_sum_stats(df, index_vars, entity='team'):
 
     # Receiver
     df_long.loc[offense & receiver & (catch | goal), 'Catches'] = 1
+    df_long.loc[offense & receiver & (catch | goal), 'Receiving Yards'] = df_long.loc[offense & passer & (catch | goal), 'Absolute Distance']
     df_long.loc[offense & receiver & drop, 'Drops'] = 1
 
     # Defender
