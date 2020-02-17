@@ -35,7 +35,7 @@ class LeaguePuller:
          -  team page links have the team numbers for getting data from ultianalytics
          - username-player relation file converts usernames to player's names
         """
-        league_data = f'ultianalyticspull.data.{self.league}.supplemental'
+        league_data = f'ultianalyticspull.data.{self.league}'
 
         self.team_page_links = import_resources.path(league_data, f'{self.league}_ultianalytics.csv')
         with self.team_page_links as path_team_page_links:

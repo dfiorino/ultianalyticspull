@@ -14,7 +14,7 @@ def output_audl_weekly_active_rosters():
 def output_audl_rosters_from_stats_page(page_start = 0,
                                         page_max = 116):
     # Get Data/Paths
-    audl_data_path = getters.get_audl_supplemental_data_path()
+    audl_data_path = getters.get_audl_data_path()
     audlstats_players = scrape.get_audl_rosters_from_stats_page(page_start = page_start,
                                                                 page_max = page_max)
     # Output
@@ -24,7 +24,7 @@ def output_audl_rosters_from_stats_page(page_start = 0,
 
 def output_audl_game_results(years=[2012,2013,2014,2015,2016,2017,2018,2019]):
     # Get Data/Paths
-    audl_data_path = getters.get_audl_supplemental_data_path()
+    audl_data_path = getters.get_audl_data_path()
     games = scrape.get_audl_game_results(years=years)
     # Output
     output_csv = f"{audl_data_path}/audl_games.csv"
@@ -34,7 +34,7 @@ def output_audl_game_results(years=[2012,2013,2014,2015,2016,2017,2018,2019]):
 def output_audl_current_rosters():
 
     # Get Data/Paths
-    audl_data_path = getters.get_audl_supplemental_data_path()
+    audl_data_path = getters.get_audl_data_path()
     audldotcom_rosters = scrape.get_audl_current_rosters()
     # Output
     output_csv = f"{audl_data_path}/2019_rosters.csv"
