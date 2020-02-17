@@ -38,7 +38,9 @@ pip install .
 
 ## Usage
 
-See the notebook in examples/Example.ipynb to get your team's throw-by-throw data and aggregated stats or those of the professional leagues (AUDL and PUL)
+See the notebooks in the examples folder 
+
+- **1 - Get Your Data**:  get your team's throw-by-throw data and aggregated stats or those of the professional leagues (AUDL and PUL)
 
 
 ## Citations
