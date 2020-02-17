@@ -1,5 +1,5 @@
 import pandas as pd
-from ultianalyticspull.src.processing.utils import load_league_data, get_default_data_directory
+from ultianalyticspull.src.processing.utils import load_league_data
 from ultianalyticspull.src.processing.stats import calculate_rates, calculate_sum_stats
 from ultianalyticspull.src.processing.stats import calculate_gameplay_stats, calculate_gameplay_stats_by_player
 
@@ -81,7 +81,7 @@ def clean_goals_for_sanke(df):
     return df
 
 def main(data_dir):
-        
+
         df = load_league_data(data_dir)
 
         print('Generating Team By Game Stats...')
