@@ -38,24 +38,8 @@ pip install .
 
 ## Usage
 
-### Get Your Team's Throw-by-Throw Data
+See the notebook in examples/Example.ipynb to get your team's throw-by-throw data and aggregated stats or those of the professional leagues (AUDL and PUL)
 
-```bash
-ultianalytics-pull --team_name 'New Jersey Hammerheads' --year 2013 --team_number 230001
-```
-
-### Get Professional Ultimate Leagues Throw-by-Throw Data (2014-2019)
-
-```bash
-ultianalytics-pull --league PUL
-ultianalytics-pull --league AUDL
-```
-
-### Get Current AUDL Roster Data
-
-```bash
-output-scraped-data
-```
 
 ## Citations
 
