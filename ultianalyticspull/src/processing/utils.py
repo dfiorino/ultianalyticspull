@@ -1,14 +1,5 @@
 import pathlib
 import pandas as pd
-import importlib.resources as import_resources
-
-
-def get_default_data_directory():
-    with import_resources.path('ultianalyticspull.data','') as data_dir:
-        return data_dir
-
-def get_default_years():
-    return [2014, 2015, 2016, 2017, 2018, 2019]
 
 def extract_datetime(df, colname):
     df['datetime'] = pd.to_datetime(df[colname])
